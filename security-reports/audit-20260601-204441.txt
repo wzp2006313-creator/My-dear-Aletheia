@@ -1,0 +1,196 @@
+==========================================
+ Hermes Agent 夜间安全审计报告
+ 时间: 2026-06-01 20:44:41
+==========================================
+
+=== [1] Hermes 平台审计 ===
+Hermes CLI: Hermes Agent v0.15.1 (2026.5.29)
+Project: /Users/eason/.hermes/hermes-agent
+Python: 3.11.15
+OpenAI SDK: 2.24.0
+Up to date
+Status: 
+┌─────────────────────────────────────────────────────────┐
+│                 ⚕ Hermes Agent Status                  │
+└─────────────────────────────────────────────────────────┘
+
+unknown
+✅ Hermes 平台状态正常
+
+=== [2] 进程与网络审计 ===
+--- 监听端口 (TCP+UDP) ---
+COMMAND    PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+ControlCe 3956 eason    9u  IPv4 0xdd8806f162ee00ef      0t0  TCP *:7000 (LISTEN)
+ControlCe 3956 eason   10u  IPv6 0xa414f9a5d1d11a04      0t0  TCP *:7000 (LISTEN)
+ControlCe 3956 eason   11u  IPv4 0xc993ef92a23ec4cd      0t0  TCP *:5000 (LISTEN)
+ControlCe 3956 eason   12u  IPv6 0xabf85cdab5b5406d      0t0  TCP *:5000 (LISTEN)
+rapportd  3984 eason    8u  IPv4 0x9fc19e611f79748f      0t0  TCP *:61947 (LISTEN)
+rapportd  3984 eason   19u  IPv6 0xc9a75468480e9645      0t0  TCP *:61947 (LISTEN)
+MacPacket 5118 eason   11u  IPv4 0xcbd9832c2352890f      0t0  TCP 192.168.110.241:1082 (LISTEN)
+MacPacket 5118 eason   12u  IPv4 0x8a84abf836989afd      0t0  TCP 127.0.0.1:1082 (LISTEN)
+MacPacket 5118 eason   13u  IPv6 0xd4d30b83ad93b059      0t0  TCP [::1]:1082 (LISTEN)
+COMMAND    PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+rapportd  3984 eason   24u  IPv6 0x2f3ab80cfe7aa08b      0t0  UDP *:3722
+identitys 4017 eason    6u  IPv4 0x8a2a08e309e8ee33      0t0  UDP *:*
+identitys 4017 eason   15u  IPv4 0xf52b208b876e5597      0t0  UDP *:*
+identitys 4017 eason   20u  IPv4 0x81ace146274d0e4d      0t0  UDP *:*
+identitys 4017 eason   34u  IPv4 0xf23e0e7bec90a6f2      0t0  UDP *:*
+identitys 4017 eason   40u  IPv4 0x838c29e7798a3f70      0t0  UDP *:*
+identitys 4017 eason   52u  IPv4 0x43bd0aa967d6d925      0t0  UDP *:*
+identitys 4017 eason   56u  IPv4 0xf6911a1d4a7db067      0t0  UDP *:*
+sharingd  4035 eason    4u  IPv4 0xc1afc17652cdee72      0t0  UDP *:*
+
+--- Top 15 高资源消耗进程 ---
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+eason             9434   8.3  1.5 442946176 383616   ??  S     7:16下午   1:51.07 /Users/eason/.hermes/hermes-agent/venv/bin/python3 /Users/eason/.hermes/hermes-agent/venv/bin/hermes gateway run
+_driverkit         559   2.4  0.2 445521680  48928   ??  Ss    4:11下午   4:49.70 /System/Library/DriverExtensions/AppleCentauriAlpha.dext/AppleCentauriAlpha com.apple.driver.AppleCentauriAlpha 0x1000014eb com.apple.driver.AppleCentauriAlpha
+eason             5118   1.8  0.2 442355088  42976   ??  Ss    6:29下午   3:15.86 /Applications/Shadowrocket.app/Contents/PlugIns/MacPacketTunnel.appex/Contents/MacOS/MacPacketTunnel -AppleLanguages ("zh-Hans-CN")
+eason             3962   1.8  0.1 442874464  17120   ??  S     5:59下午   1:10.74 /usr/libexec/ContinuityCaptureAgent server
+_windowserver     3921   1.6  0.8 9105665968 189872   ??  Ss    5:59下午  43:06.00 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+eason             5129   1.0  0.7 579950032 170256   ??  S     6:29下午  17:54.62 /Applications/Codex.app/Contents/Frameworks/Codex Framework.framework/Versions/148.0.7778.179/Helpers/Codex (Service).app/Contents/MacOS/Codex (Service) --type=gpu-process --user-data-dir=/Users/eason/Library/Application Support/Codex --start-stack-profiler --gpu-preferences=SAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAAwAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --metrics-shmem-handle=1752395122,r,4562239903127892009,16947719972733282749,262144 --field-trial-handle=1718379636,r,7516936027870132883,6238975116036441163,262144 --disable-features=DropInputEventsWhilePaintHolding --variations-seed-version --pseudonymization-salt-handle=1935764596,r,3418345257825226562,787626496668610144,4 --trace-process-track-uuid=3190708988185955192 --seatbelt-client=41
+root               759   0.7  0.1 442059600  28304   ??  Ss    4:36下午   0:38.80 /usr/sbin/bluetoothd
+eason             3992   0.6  0.1 443191984  26272   ??  S     5:59下午   0:26.65 /System/Library/PrivateFrameworks/TCC.framework/Support/tccd
+eason             9663   0.4  0.1 442315904  31840   ??  S     7:27下午   0:38.21 ./Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient mcp
+eason             5166   0.4  2.5 1962579856 626352   ??  S     6:29下午   6:44.88 /Applications/Codex.app/Contents/Frameworks/Codex Framework.framework/Versions/148.0.7778.179/Helpers/Codex (Renderer).app/Contents/MacOS/Codex (Renderer) --type=renderer --user-data-dir=/Users/eason/Library/Application Support/Codex --standard-schemes=app --secure-schemes=app,sentry-ipc --bypasscsp-schemes=sentry-ipc --fetch-schemes=app,sentry-ipc --cors-schemes=sentry-ipc --streaming-schemes=app --lang=zh-CN --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1780303783383097 --launch-time-ticks=5981466004 --shared-files --metrics-shmem-handle=1752395122,r,667037741914899671,17482237896170077232,2097152 --field-trial-handle=1718379636,r,7516936027870132883,6238975116036441163,262144 --disable-features=DropInputEventsWhilePaintHolding --variations-seed-version --pseudonymization-salt-handle=1935764596,r,3418345257825226562,787626496668610144,4 --trace-process-track-uuid=3190708990997080739 --seatbelt-client=137
+eason             5454   0.3  0.9 444586256 225952   ??  S     6:30下午   0:23.18 /System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+eason            15890   0.3  0.0 442198864   2160   ??  Ss    8:44下午   0:00.00 /bin/bash -c source /var/folders/2_/pq7ynd8d10dg90p49yfps2h00000gn/T/hermes-snap-83acdd027622.sh >/dev/null 2>&1 || true\012builtin cd -- /Users/eason/.hermes/skills/follow-builders/scripts || exit 126\012eval 'bash /Users/eason/.hermes/scripts/nightly-security-audit.sh 2>&1'\012__hermes_ec=$?\012export -p > /var/folders/2_/pq7ynd8d10dg90p49yfps2h00000gn/T/hermes-snap-83acdd027622.sh 2>/dev/null || true\012pwd -P > /var/folders/2_/pq7ynd8d10dg90p49yfps2h00000gn/T/hermes-cwd-83acdd027622.txt 2>/dev/null || true\012printf '\n__HERMES_CWD_83acdd027622__%s__HERMES_CWD_83acdd027622__\n' "$(pwd -P)"\012exit $__hermes_ec
+eason             3984   0.3  0.1 442007536  36496   ??  S     5:59下午   0:11.02 /usr/libexec/rapportd
+root               418   0.3  0.1 442291568  25328   ??  Ss    4:11下午   0:59.96 /usr/libexec/airportd
+eason             1381   0.3  0.1 442001552  21200   ??  S     4:39下午   1:00.82 /usr/libexec/trustd --agent
+
+--- 出站连接 ---
+COMMAND    PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+rapportd  3984 eason   23u  IPv6 0x6e328efb23af9570      0t0  TCP [fe80:f::847:5f4d:1bf0:357c]:61947->[fe80:f::1c41:2f08:d16a:3f19]:63470 (ESTABLISHED)
+rapportd  3984 eason   25u  IPv6 0xa5dfa4a8644aba38      0t0  TCP [fe80:f::847:5f4d:1bf0:357c]:61947->[fe80:f::8ad:659:4ab1:bfbe]:55795 (ESTABLISHED)
+identitys 4017 eason   29u  IPv6 0x332047976173f129      0t0  TCP [fe80:16::fae2:cc02:115c:a693]:1024->[fe80:16::7d2:411f:54c0:17f0]:1024 (ESTABLISHED)
+identitys 4017 eason   47u  IPv6 0x109c0165020a8fb1      0t0  TCP [fe80:16::fae2:cc02:115c:a693]:1026->[fe80:16::7d2:411f:54c0:17f0]:1025 (ESTABLISHED)
+identitys 4017 eason   48u  IPv6 0x109c0165020a8fb1      0t0  TCP [fe80:16::fae2:cc02:115c:a693]:1026->[fe80:16::7d2:411f:54c0:17f0]:1025 (ESTABLISHED)
+identitys 4017 eason   53u  IPv6 0xfd5b71be5ce872de      0t0  TCP [fe80:17::7b95:45d9:641:635e]:1024->[fe80:17::1152:f01e:2936:2ee5]:1024 (ESTABLISHED)
+identitys 4017 eason   57u  IPv6 0xbcd9b66d3f18cf67      0t0  TCP [fe80:17::7b95:45d9:641:635e]:1025->[fe80:17::1152:f01e:2936:2ee5]:1026 (ESTABLISHED)
+identitys 4017 eason   58u  IPv6 0xbcd9b66d3f18cf67      0t0  TCP [fe80:17::7b95:45d9:641:635e]:1025->[fe80:17::1152:f01e:2936:2ee5]:1026 (ESTABLISHED)
+MacPacket 5118 eason   10u  IPv4 0xb356655888085de8      0t0  TCP 192.168.110.241:52734->182.247.248.128:443 (ESTABLISHED)
+MacPacket 5118 eason   15u  IPv4 0x9cfbe5ae32948472      0t0  TCP 192.168.110.241:51929->3.101.63.44:443 (ESTABLISHED)
+MacPacket 5118 eason   18u  IPv4 0x5d2be74784429bea      0t0  TCP 127.0.0.1:1082->127.0.0.1:52621 (ESTABLISHED)
+MacPacket 5118 eason   19u  IPv4 0xf597d5544f09d1f2      0t0  TCP 192.168.110.241:52255->17.57.145.55:5223 (ESTABLISHED)
+MacPacket 5118 eason   20u  IPv4 0xaa34a63ba7d07a36      0t0  TCP 127.0.0.1:1082->127.0.0.1:59688 (ESTABLISHED)
+MacPacket 5118 eason   21u  IPv4 0x8f443e8054da660a      0t0  TCP 192.168.110.241:59689->219.153.157.101:443 (ESTABLISHED)
+MacPacket 5118 eason   23u  IPv4 0x9f480fc139dfabe9      0t0  TCP 192.168.110.241:52622->17.248.216.20:443 (ESTABLISHED)
+MacPacket 5118 eason   24u  IPv4 0xdffcc142da3224cd      0t0  TCP 127.0.0.1:1082->127.0.0.1:52623 (ESTABLISHED)
+MacPacket 5118 eason   25u  IPv4 0x289ee42c37124247      0t0  TCP 192.168.110.241:52624->17.248.216.42:443 (ESTABLISHED)
+MacPacket 5118 eason   26u  IPv4 0xbeb1c3cbdb96c690      0t0  TCP 192.168.110.241:52746->182.247.248.128:443 (ESTABLISHED)
+MacPacket 5118 eason   27u  IPv4 0xc8d145c478b3f972      0t0  TCP 127.0.0.1:1082->127.0.0.1:52601 (ESTABLISHED)
+✅ 进程与网络审计完成
+
+=== [3] 敏感目录变更 ===
+--- ~/.hermes/ 24h 内修改 ---
+/Users/eason/.hermes
+/Users/eason/.hermes/pastes
+/Users/eason/.hermes/pastes/paste_1_191507.txt
+/Users/eason/.hermes/pairing
+/Users/eason/.hermes/sandboxes
+/Users/eason/.hermes/sandboxes/singularity
+/Users/eason/.hermes/config.yaml.bak.20260601_185332
+/Users/eason/.hermes/.install_method
+/Users/eason/.hermes/gateway.pid
+/Users/eason/.hermes/cache
+/Users/eason/.hermes/kanban.db.init.lock
+/Users/eason/.hermes/auth.lock
+/Users/eason/.hermes/bin
+/Users/eason/.hermes/bin/tirith
+/Users/eason/.hermes/image_cache
+/Users/eason/.hermes/image_cache/img_0dbdaa97313e.jpg
+/Users/eason/.hermes/gateway.lock
+/Users/eason/.hermes/.update_check
+/Users/eason/.hermes/state.db
+/Users/eason/.hermes/gateway_state.json
+/Users/eason/.hermes/config.yaml
+/Users/eason/.hermes/.config-baseline.sha256
+/Users/eason/.hermes/kanban.db
+/Users/eason/.hermes/shared
+/Users/eason/.hermes/shared/nous_auth.json
+/Users/eason/.hermes/shared/nous_auth.lock
+/Users/eason/.hermes/models_dev_cache.json
+/Users/eason/.hermes/config.yaml.bak.20260601_184916
+/Users/eason/.hermes/.skills_prompt_snapshot.json
+/Users/eason/.hermes/processes.json
+/Users/eason/.hermes/.hermes_history
+/Users/eason/.hermes/channel_directory.json
+/Users/eason/.hermes/sessions
+/Users/eason/.hermes/sessions/sessions.json
+/Users/eason/.hermes/logs
+/Users/eason/.hermes/logs/gateway.log
+/Users/eason/.hermes/logs/curator
+/Users/eason/.hermes/logs/gateway-exit-diag.log
+/Users/eason/.hermes/logs/errors.log
+/Users/eason/.hermes/logs/agent.log
+/Users/eason/.hermes/feishu_seen_message_ids.json
+/Users/eason/.hermes/.env
+/Users/eason/.hermes/hooks
+/Users/eason/.hermes/.skill-baseline.sha256
+/Users/eason/.hermes/scripts
+/Users/eason/.hermes/scripts/nightly-security-audit.sh
+/Users/eason/.hermes/hermes-agent
+/Users/eason/.hermes/hermes-agent/batch_runner.py
+/Users/eason/.hermes/hermes-agent/packaging
+/Users/eason/.hermes/hermes-agent/packaging/homebrew
+
+--- ~/.ssh/ 24h 内修改 ---
+无可疑变更
+✅ 敏感目录变更检查完成
+
+=== [4] 系统定时任务 ===
+--- 用户 crontab ---
+无用户 crontab
+
+--- launchd agents ---
+✅ 系统定时任务检查完成
+
+=== [5] Hermes Cron 任务 ===
+Hermes cron 任务列表需要手动检查: 'cronjob list'
+⚠️ 请在 Hermes 会话中手动运行 cronjob 检查
+✅ Hermes Cron 任务检查完成
+
+=== [6] 登录与 SSH ===
+--- 最近登录 ---
+eason      ttys000                         一  6月  1 19:06   still logged in
+eason      ttys000                         一  6月  1 19:06 - 19:06  (00:00)
+eason      ttys001                         一  6月  1 18:49 - 18:49  (00:00)
+eason      ttys001                         一  6月  1 18:40 - 18:40  (00:00)
+eason      ttys000                         一  6月  1 18:31 - 18:31  (00:00)
+eason      ttys000                         一  6月  1 18:30 - 18:30  (00:00)
+eason      console                         一  6月  1 17:59   still logged in
+_mbsetupuser console                         一  6月  1 16:36 - 17:59  (01:23)
+root       console                         一  6月  1 16:11 - 16:36  (00:25)
+reboot time                                一  6月  1 16:35
+
+--- SSH 失败尝试 ---
+无 SSH 失败记录或无系统日志访问权限
+✅ 登录审计完成
+
+=== [7] 核心文件完整性 ===
+/Users/eason/.hermes/.env: OK
+/Users/eason/.hermes/config.yaml: OK
+
+--- 权限检查 ---
+/Users/eason/.hermes/.env → 权限 600
+/Users/eason/.hermes/config.yaml → 权限 600
+✅ 核心文件完整性检查完成
+
+=== [8] 黄线操作交叉验证 ===
+--- sudo 记录 (24h) ---
+2026-06-01 20:31:09.952759+0800 0x48154    Activity    0x1d5095             14209  0    sudo: (CFOpenDirectory) Copy nodenames that are currently unreachable
+2026-06-01 20:31:09.953092+0800 0x48154    Activity    0x1d5096             14209  0    sudo: (CFOpenDirectory) Retrieve record from node
+2026-06-01 20:31:09.953097+0800 0x48154    Activity    0x1d5097             14209  0    sudo: (CFOpenDirectory) Querying records from directories
+2026-06-01 20:31:09.960221+0800 0x48154    Activity    0x1d5098             14209  0    sudo: (CFOpenDirectory) Open a given node
+2026-06-01 20:31:09.960246+0800 0x48154    Activity    0x1d5099             14209  0    sudo: (CFOpenDirectory) Querying records from directories
+2026-06-01 20:31:09.963351+0800 0x48154    Default     0x0                  14209  0    sudo: (libxpc.dylib) [com.apple.xpc:connection] [0x10164dfb0] activating connection: mach=true listener=false peer=false name=com.apple.CryptoTokenKit.AuthenticationHintsProvider.daemon.libxpc
+2026-06-01 20:31:09.965643+0800 0x48154    Default     0x0                  14209  0    sudo: (libxpc.dylib) [com.apple.xpc:connection] [0x10164dfb0] invalidated after the last release of the connection object
+2026-06-01 20:31:09.965654+0800 0x48154    Default     0x0                  14209  0    sudo: (libpam.2.dylib) in pam_sm_authenticate(): SmartCard - User eason is not paired with any smartcard.
+2026-06-01 20:31:09.965659+0800 0x48154    Activity    0x1d509a             14209  0    sudo: (CFOpenDirectory) Closing a node reference
+2026-06-01 20:31:09.965941+0800 0x48154    Default     0x0                  14209  0    sudo: (libpam.2.dylib) in pam_sm_authenticate(): OpenDirectory - Error obtaining the authtok.
+✅ 黄线操作交叉验证完成
+
+=== [9] 磁盘使用率 ===
+根磁盘使用率: 3%
+
+--- 24h 内大文件 (>100MB) ---
