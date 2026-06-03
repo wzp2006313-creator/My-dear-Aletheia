@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T11:39:00.269170",
+  "updated_at": "2026-06-04T03:58:53.824897",
   "platforms": {
     "telegram": [],
     "discord": [],
@@ -18,6 +18,18 @@
         "id": "oc_9e19fd780d3617c2c6fbac770909d0f7",
         "name": "oc_9e19fd780d3617c2c6fbac770909d0f7",
         "type": "dm",
+        "thread_id": null
+      },
+      {
+        "id": "oc_9e19fd780d3617c2c6fbac770909d0f7:om_x100b6ece50f440b4c36954e1384e33a",
+        "name": "oc_9e19fd780d3617c2c6fbac770909d0f7 / topic om_x100b6ece50f440b4c36954e1384e33a",
+        "type": "dm",
+        "thread_id": "om_x100b6ece50f440b4c36954e1384e33a"
+      },
+      {
+        "id": "oc_24831701fee07397e9a010a30dff5202",
+        "name": "猫鹰家族",
+        "type": "group",
         "thread_id": null
       }
     ],

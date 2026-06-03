@@ -135,4 +135,8 @@ curl -s "http://localhost:3456/close?target=ID"
 
 ## 站点经验
 
-操作中积累的特定网站经验，按域名存储在 `references/site-patterns/` 下。
+操作中积累的特定网站经验，按域名存储在 `references/site-patterns/` 下：
+
+| 域名 | 文件 | 要点 |
+|------|------|------|
+| kdocs.cn | `references/site-patterns/kdocs.cn.md` | Canvas 渲染，翻页/抓取均无效，请用户导出 docx |
