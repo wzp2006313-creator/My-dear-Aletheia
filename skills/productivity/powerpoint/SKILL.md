@@ -11,6 +11,8 @@ platforms: [linux, macos, windows]
 
 Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions "deck," "slides," "presentation," or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.
 
+For consulting/internship PPT patterns (common slide structures, color palettes, frameworks), see `references/consulting-research-patterns.md`.
+
 ## Quick Reference
 
 | Task | Guide |
@@ -52,6 +54,19 @@ python scripts/office/unpack.py presentation.pptx unpacked/
 Use when no template or reference presentation is available.
 
 ---
+
+## User Preferences
+
+**Style level: "Intern-grade" (简洁干净).** This user is a consulting/research intern candidate. They explicitly prefer simple, clean PPTs — NOT dark-theme consulting firm decks. Key rules:
+- White/off-white background (#FAFBFC), not dark navy
+- Simple color accents (muted blue #1A5276, subtle gold)
+- Clean borders, modest typography
+- Every slide must have source citations at the bottom
+- Style should look like an intern made it — competent but not flashy
+
+**Tool selection: Prefer python-pptx over pptxgenjs.** pptxgenjs (Node.js) can hang indefinitely on slides with Chinese text + 30+ shapes (tested: timed out at 120s). python-pptx is more reliable but still slow with 40+ shapes (60-120s). For complex decks, run as background process with `terminal(background=true, notify_on_complete=true, timeout=600)`.
+
+**Fallback: HTML slide.** When both pptxgenjs and python-pptx timeout, generate an HTML page styled as a 960×540px slide, serve via local HTTP, and screenshot via browser. See `references/consulting-research-patterns.md` for the pattern. This renders in milliseconds vs minutes for shape-heavy PPTs.
 
 ## Design Ideas
 

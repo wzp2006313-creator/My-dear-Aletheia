@@ -76,6 +76,8 @@ Mark clearly what is fact (from the JSON) vs what is analysis/synthesis.
 - stdout: Output directly with the 4-chapter structure
 - **Notion (manual post-processing)**: If delivery config says `notion`, the agent writes the digest to a Notion page. The Notion page MUST be pre-shared with the Hermes integration (`...` → `Connect to` → Hermes) — otherwise the API returns 404 or the misleading ntn error "API token is invalid".
 
+  **CRITICAL PITFALL**: Hermes' shell evaluator pre-processes `$()` subshell syntax before passing to bash, so you CANNOT use `$(grep ... | cut ...)` inline to extract the Notion API key from `.env`. Instead, use a Python subprocess script to extract the key and call the Notion API via curl. See `references/notion-delivery-pattern.md` for the complete working pattern.
+
 ## Configuration Handling
 
 Settings changes (schedule, language, delivery, prompts) are handled via conversation.
@@ -95,3 +97,4 @@ When user invokes `/ai` or asks for their digest: run the workflow immediately.
 - `prompts/summarize-podcast.md` — podcast remix rules
 - `prompts/summarize-tweets.md` — tweet remix rules
 - `prompts/translate.md` — translation rules
+- `references/notion-delivery-pattern.md` — working Python/curl pattern for Notion delivery (avoids shell `$()` pitfall)
