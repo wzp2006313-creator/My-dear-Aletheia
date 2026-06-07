@@ -1,0 +1,176 @@
+==========================================
+ Hermes Agent 夜间安全审计报告
+ 时间: 2026-06-08 03:00:35
+==========================================
+
+=== [1] Hermes 平台审计 ===
+Hermes CLI: Hermes Agent v0.15.1 (2026.5.29)
+Project: /Users/eason/.hermes/hermes-agent
+Python: 3.11.15
+OpenAI SDK: 2.24.0
+Update available: 704 commits behind — run 'hermes update'
+Status: 
+┌─────────────────────────────────────────────────────────┐
+│                 ⚕ Hermes Agent Status                  │
+└─────────────────────────────────────────────────────────┘
+✅ Hermes 平台状态正常
+
+=== [2] 进程与网络审计 ===
+--- 监听端口 (TCP+UDP) ---
+COMMAND     PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+rapportd    636 eason   13u  IPv4 0x1c42ed8439b805ca      0t0  TCP *:49152 (LISTEN)
+rapportd    636 eason   14u  IPv6 0xf66473863cf5e1e4      0t0  TCP *:49152 (LISTEN)
+ControlCe   701 eason    9u  IPv4 0xe928d13e2105faa1      0t0  TCP *:7000 (LISTEN)
+ControlCe   701 eason   10u  IPv6 0x733831dcfb006226      0t0  TCP *:7000 (LISTEN)
+ControlCe   701 eason   11u  IPv4 0xd0c2419459e28c5c      0t0  TCP *:5000 (LISTEN)
+ControlCe   701 eason   12u  IPv6 0x667e7092cceed2ce      0t0  TCP *:5000 (LISTEN)
+MacPacket  1307 eason   11u  IPv4  0x2824571a0fa9b1f      0t0  TCP 172.20.10.104:1082 (LISTEN)
+MacPacket  1307 eason   13u  IPv4 0x3ab2c39cee92b8a0      0t0  TCP 127.0.0.1:1082 (LISTEN)
+MacPacket  1307 eason   14u  IPv6 0x9c9f794e6e12ad44      0t0  TCP [::1]:1082 (LISTEN)
+WeChat     1788 eason  156u  IPv4 0x81e4108ab82779f5      0t0  TCP 127.0.0.1:14013 (LISTEN)
+WeChat     1788 eason  161u  IPv4 0x5879416324b76835      0t0  TCP 127.0.0.1:14016 (LISTEN)
+WeChat     1788 eason  166u  IPv4 0x58c3cd01ee9b5aa6      0t0  TCP 127.0.0.1:14019 (LISTEN)
+WeChat     1788 eason  171u  IPv4 0x897b297de1b23853      0t0  TCP 127.0.0.1:14022 (LISTEN)
+WeChat     1788 eason  177u  IPv4 0xbd646e885430da0c      0t0  TCP 127.0.0.1:14023 (LISTEN)
+wpsclouds 23876 eason   27u  IPv4  0x4e11499cb1bbbe8      0t0  TCP 127.0.0.1:4709 (LISTEN)
+wpsclouds 23876 eason   31u  IPv6 0x975a45a92ad5e26c      0t0  TCP *:51814 (LISTEN)
+Eudic     27883 eason   13u  IPv4 0x1c3ecf5df6b0b244      0t0  TCP 127.0.0.1:32094 (LISTEN)
+Eudic     27883 eason   36u  IPv4 0x1c3ecf5df6b0b244      0t0  TCP 127.0.0.1:32094 (LISTEN)
+COMMAND    PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+rapportd   636 eason   23u  IPv4 0xb70303c3c78418d3      0t0  UDP *:3722
+homed      658 eason   45u  IPv6 0xc59f6d32eeed0a3f      0t0  UDP *:62467
+homed      658 eason   46u  IPv4 0x286869b87edf4f51      0t0  UDP *:49599
+sharingd   660 eason    4u  IPv4 0xcb2445b235357d03      0t0  UDP *:*
+identitys  664 eason   13u  IPv4 0xbcb1b905628b952a      0t0  UDP *:*
+identitys  664 eason   15u  IPv4 0x24be973fa3fbe973      0t0  UDP *:*
+identitys  664 eason   20u  IPv4 0x86e6c21c24a0abaf      0t0  UDP *:*
+identitys  664 eason   44u  IPv4 0xb0ac8aa76cfd089a      0t0  UDP *:*
+identitys  664 eason   47u  IPv4 0x3c56babe70bc67d0      0t0  UDP *:*
+
+--- Top 15 高资源消耗进程 ---
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+eason             1001   2.8  0.4 3014538976  98640   ??  Ss   Thu01PM 147:26.39 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+eason              996   1.9  0.2 2834036592  59888   ??  S    Thu01PM 105:22.46 /Applications/Wallspace.app/Contents/MacOS/Wallspace
+eason              671   1.5  0.9 444555424 219088   ??  S    Thu01PM 102:10.58 /Applications/wpsoffice.app/Contents/MacOS/wpsoffice
+root               604   1.0  0.2 442130096  51536   ??  Ss   Thu01PM  18:58.85 /usr/libexec/searchpartyd
+eason            23876   0.9  0.8 443183904 204944   ??  S     3:06AM  17:43.16 /Applications/wpsoffice.app/Contents/SharedSupport/wpscloudsvr.app/Contents/MacOS/wpscloudsvr Run /InstanceId:WpsCloudSvr wpscloudsvrimpunix.dll /qingbangong /run_plugin /plugin_name=qing /plugin_entry=qingbangong.dll /start_from=qingipc autologin
+eason              699   0.6  2.5 570242784 640128   ??  S    Thu01PM 101:00.29 /Applications/TencentMeeting.app/Contents/MacOS/TencentMeeting
+eason              704   0.6  0.6 443749200 144720   ??  S    Thu01PM  18:46.01 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+root               324   0.4  0.3 448669184  73024   ??  Ss   Thu01PM   6:32.63 /usr/libexec/logd
+root               328   0.3  0.0 441966800  10880   ??  Ss   Thu01PM   3:49.05 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+_coreaudiod        406   0.3  0.3 442321632  75024   ??  Ss   Thu01PM  31:07.61 /usr/sbin/coreaudiod
+root               365   0.3  0.1 442008000  23760   ??  Ss   Thu01PM   1:26.55 /usr/libexec/opendirectoryd
+root               390   0.3  0.0 441853088   4624   ??  Ss   Thu01PM   1:30.30 /usr/sbin/notifyd
+root                 1   0.3  0.1 441977248  25856   ??  Ss   Thu01PM  26:11.36 /sbin/launchd
+_driverkit         623   0.2  0.2 477391248  49408   ??  Ss   Thu01PM  15:06.88 /System/Library/DriverExtensions/AppleCentauriAlpha.dext/AppleCentauriAlpha com.apple.driver.AppleCentauriAlpha 0x100001597 com.apple.driver.AppleCentauriAlpha
+root               404   0.2  0.1 442222320  25248   ??  Ss   Thu01PM  19:42.64 /usr/libexec/runningboardd
+
+--- 出站连接 ---
+COMMAND     PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+rapportd    636 eason   22u  IPv4 0xcb950b78c56ef1fc      0t0  TCP 172.20.10.104:49152->172.20.7.84:59371 (ESTABLISHED)
+identitys   664 eason   48u  IPv6 0x9fe6d3182e9e7e14      0t0  TCP [fe80:16::9a6e:a86b:58a2:7a08]:1024->[fe80:16::d85a:4142:9415:9384]:1024 (ESTABLISHED)
+identitys   664 eason   57u  IPv6 0xc959d295686ede0d      0t0  TCP [fe80:16::9a6e:a86b:58a2:7a08]:1027->[fe80:16::d85a:4142:9415:9384]:1025 (ESTABLISHED)
+identitys   664 eason   58u  IPv6 0xc959d295686ede0d      0t0  TCP [fe80:16::9a6e:a86b:58a2:7a08]:1027->[fe80:16::d85a:4142:9415:9384]:1025 (ESTABLISHED)
+wpsoffice   671 eason   31u  IPv4 0x6f4103099367820a      0t0  TCP 127.0.0.1:49571->127.0.0.1:1082 (ESTABLISHED)
+ChatGPT     684 eason   10u  IPv4 0xe32c104916304aa4      0t0  TCP 127.0.0.1:65163->127.0.0.1:1082 (ESTABLISHED)
+ChatGPT     684 eason   16u  IPv4 0xb147662024dc112e      0t0  TCP 127.0.0.1:49567->127.0.0.1:1082 (ESTABLISHED)
+TencentMe   699 eason  121u  IPv4 0x521879185924261e      0t0  TCP 198.18.0.1:55871->42.81.250.65:443 (ESTABLISHED)
+TencentMe   699 eason  122u  IPv4 0xcdc0387694226cc9      0t0  TCP 198.18.0.1:56356->42.194.253.39:443 (ESTABLISHED)
+Google      894 eason   24u  IPv4 0x407c5b4e9bb15053      0t0  TCP 127.0.0.1:61929->127.0.0.1:1082 (ESTABLISHED)
+Google      894 eason   28u  IPv4 0xae1bcd19232fb7e0      0t0  TCP 127.0.0.1:49540->127.0.0.1:1082 (ESTABLISHED)
+Google      894 eason   34u  IPv4 0xd9db3fed759c370f      0t0  TCP 127.0.0.1:59231->127.0.0.1:1082 (ESTABLISHED)
+Notion      904 eason   28u  IPv4 0x2c99db0d2cfceb48      0t0  TCP 127.0.0.1:65092->127.0.0.1:1082 (ESTABLISHED)
+Notion      904 eason   29u  IPv4 0xd90ef343e79e1b5e      0t0  TCP 127.0.0.1:65267->127.0.0.1:1082 (ESTABLISHED)
+MacPacket  1307 eason   15u  IPv4 0x471a222da539983d      0t0  TCP 172.20.10.104:49457->17.57.145.152:5223 (ESTABLISHED)
+MacPacket  1307 eason   19u  IPv4 0xb062e1302f4f2f2d      0t0  TCP 172.20.10.104:55704->114.80.179.167:443 (ESTABLISHED)
+MacPacket  1307 eason   20u  IPv4 0x6253f838994464e5      0t0  TCP 127.0.0.1:1082->127.0.0.1:65267 (ESTABLISHED)
+MacPacket  1307 eason   21u  IPv4 0xf5ca9553d4c9842b      0t0  TCP 127.0.0.1:1082->127.0.0.1:61929 (ESTABLISHED)
+MacPacket  1307 eason   22u  IPv4 0x8564fced86d64cc8      0t0  TCP 172.20.10.104:65268->13.213.14.11:443 (ESTABLISHED)
+✅ 进程与网络审计完成
+
+=== [3] 敏感目录变更 ===
+--- ~/.hermes/ 24h 内修改 ---
+/Users/eason/.hermes
+/Users/eason/.hermes/.update_check
+/Users/eason/.hermes/state.db
+/Users/eason/.hermes/shared
+/Users/eason/.hermes/shared/nous_auth.json
+/Users/eason/.hermes/models_dev_cache.json
+/Users/eason/.hermes/.hermes_history
+/Users/eason/.hermes/channel_directory.json
+/Users/eason/.hermes/sessions
+/Users/eason/.hermes/sessions/request_dump_cron_302a8db2bf0d_20260607_040005_20260607_040113_361920.json
+/Users/eason/.hermes/sessions/sessions.json
+/Users/eason/.hermes/sessions/request_dump_cron_c8e25d6e74a3_20260607_090052_20260607_090159_656080.json
+/Users/eason/.hermes/sessions/request_dump_cron_7f2b940e2ec7_20260607_030042_20260607_030151_514782.json
+/Users/eason/.hermes/logs/gateway.log
+/Users/eason/.hermes/logs/gateway.error.log
+/Users/eason/.hermes/logs/errors.log
+/Users/eason/.hermes/logs/agent.log
+/Users/eason/.hermes/feishu_seen_message_ids.json
+/Users/eason/.hermes/auth.json
+/Users/eason/.hermes/skills
+/Users/eason/.hermes/skills/.usage.json
+/Users/eason/.hermes/security-reports
+/Users/eason/.hermes/state.db-wal
+/Users/eason/.hermes/cron
+/Users/eason/.hermes/cron/.tick.lock
+/Users/eason/.hermes/cron/output/7f2b940e2ec7
+/Users/eason/.hermes/cron/output/c8e25d6e74a3
+/Users/eason/.hermes/cron/output/302a8db2bf0d
+/Users/eason/.hermes/cron/jobs.json
+
+--- ~/.ssh/ 24h 内修改 ---
+✅ 敏感目录变更检查完成
+
+=== [4] 系统定时任务 ===
+--- 用户 crontab ---
+无用户 crontab
+
+--- launchd agents ---
+ai.hermes.gateway.plist
+com.macpaw.zh.CleanMyMac4.Updater.plist
+✅ 系统定时任务检查完成
+
+=== [5] Hermes Cron 任务 ===
+Hermes cron 任务列表需要手动检查: 'cronjob list'
+⚠️ 请在 Hermes 会话中手动运行 cronjob 检查
+✅ Hermes Cron 任务检查完成
+
+=== [6] 登录与 SSH ===
+--- 最近登录 ---
+eason      ttys000                         Thu Jun  4 13:23   still logged in
+eason      console                         Thu Jun  4 13:23   still logged in
+reboot time                                Thu Jun  4 13:22
+eason      ttys000                         Mon Jun  1 19:06 - crash (2+18:16)
+eason      ttys000                         Mon Jun  1 19:06 - 19:06  (00:00)
+eason      ttys001                         Mon Jun  1 18:49 - 18:49  (00:00)
+eason      ttys001                         Mon Jun  1 18:40 - 18:40  (00:00)
+eason      ttys000                         Mon Jun  1 18:31 - 18:31  (00:00)
+eason      ttys000                         Mon Jun  1 18:30 - 18:30  (00:00)
+eason      console                         Mon Jun  1 17:59 - crash (2+19:23)
+
+--- SSH 失败尝试 ---
+无 SSH 失败记录或无系统日志访问权限
+✅ 登录审计完成
+
+=== [7] 核心文件完整性 ===
+sha256sum: WARNING: 1 computed checksum did NOT match
+/Users/eason/.hermes/.env: OK
+/Users/eason/.hermes/config.yaml: FAILED
+⚠️ 文件完整性检查发现不匹配！
+
+--- 权限检查 ---
+/Users/eason/.hermes/.env → 权限 600
+/Users/eason/.hermes/config.yaml → 权限 600
+✅ 核心文件完整性检查完成
+
+=== [8] 黄线操作交叉验证 ===
+--- sudo 记录 (24h) ---
+Timestamp                       Thread     Type        Activity             PID    TTL  
+✅ 黄线操作交叉验证完成
+
+=== [9] 磁盘使用率 ===
+根磁盘使用率: 2%
+
+--- 24h 内大文件 (>100MB) ---
