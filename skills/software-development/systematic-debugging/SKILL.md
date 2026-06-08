@@ -1,6 +1,6 @@
 ---
 name: systematic-debugging
-description: "4-phase root cause debugging: understand bugs before fixing."
+description: "4-phase root cause debugging: understand bugs before fixing. Covers general debugging methodology plus Hermes-specific guides for TUI slash commands and Python/Node.js debugging. Use for any technical issue — test failures, production bugs, behavior problems, build failures."
 version: 1.1.0
 author: Hermes Agent (adapted from obra/superpowers)
 license: MIT
@@ -365,3 +365,11 @@ From debugging sessions:
 - New bugs introduced: Near zero vs common
 
 **No shortcuts. No guessing. Systematic always wins.**
+
+## Hermes-Specific Debugging Guides
+
+For Hermes Agent internals, specialized debugging guides complement the general 4-phase methodology:
+
+- **TUI Slash Commands** — when Hermes slash commands break (missing from autocomplete, TUI/CLI inconsistency, config persists but UI doesn't update). Covers the three-layer architecture (Python registry → JSON-RPC bridge → Ink/TypeScript frontend), investigation steps, and common fix patterns. Full guide: [references/hermes-tui-commands.md](references/hermes-tui-commands.md)
+- **Python debugging** — use `python-debugpy` skill for `remote-pdb` and DAP-based debugging
+- **Node.js debugging** — use `node-inspect-debugger` skill for Chrome DevTools Protocol inspection

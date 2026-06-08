@@ -1,12 +1,12 @@
 ---
 name: kanban-orchestrator
-description: Decomposition playbook + anti-temptation rules for an orchestrator profile routing work through Kanban. The "don't do the work yourself" rule and the basic lifecycle are auto-injected into every kanban worker's system prompt; this skill is the deeper playbook when you're specifically playing the orchestrator role.
+description: "Hermes Kanban multi-agent system: orchestration playbook, worker lifecycle pitfalls, Codex integration lane, and board recovery. Use for any Kanban-related work — decomposition, routing, worker patterns, goal-mode cards, recovering stuck tasks, and integrating external coding agents as implementation lanes."
 version: 3.0.0
 platforms: [linux, macos, windows]
 metadata:
   hermes:
-    tags: [kanban, multi-agent, orchestration, routing]
-    related_skills: [kanban-worker]
+    tags: [kanban, multi-agent, orchestration, routing, worker, codex, pitfalls]
+    related_skills: [hermes-agent, codex]
 ---
 
 # Kanban Orchestrator — Decomposition Playbook
@@ -211,3 +211,31 @@ When a worker profile keeps crashing, hallucinating, or getting blocked by its o
 3. **Change profile model** — the dashboard prints a copy-paste hint for `hermes -p <profile> model` since profile config lives on disk; edit it in a terminal, then Reclaim to retry with the new model.
 
 Hallucination warnings appear on tasks where a worker's `kanban_complete(created_cards=[...])` claim included card ids that don't exist or weren't created by the worker's profile (the gate blocks the completion), or where the free-form summary references `t_<hex>` ids that don't resolve (advisory prose scan, non-blocking). Both produce audit events that persist even after recovery actions — the trail stays for debugging.
+
+## Worker Lifecycle & Pitfalls
+
+> The worker lifecycle is auto-injected via `KANBAN_GUIDANCE` in the system prompt. The full worker pitfalls reference is at [references/worker-pitfalls.md](references/worker-pitfalls.md).
+
+**Key worker patterns:**
+
+- **Good handoff shapes** — `kanban_complete(summary=..., metadata=...)` should carry structured data (changed files, test counts, decisions) so downstream workers/reviewers can use it without re-reading prose.
+- **Block for human review** — for code-changing tasks, use `kanban_block(reason="review-required: ...")` instead of `kanban_complete`. Drop structured metadata in a comment first.
+- **Don't call clarify** — workers run headless; `clarify` will time out. Use `kanban_comment` + `kanban_block` for decisions.
+- **Claim only cards you created** — `kanban_complete(created_cards=[...])` must contain only IDs captured from successful `kanban_create` return values. Phantom IDs are rejected.
+- **Retry diagnostics** — if `kanban_show` shows prior runs, read their outcomes to avoid repeating the same path.
+- **Workspace handling** — `scratch` (tmp dir), `dir:` (shared persistent), `worktree` (git worktree). Know which you're in.
+
+## Codex Lane Integration
+
+> Use when a Kanban worker wants to run Codex CLI as an isolated implementation lane. Hermes keeps ownership of task lifecycle, reconciliation, testing, and handoff. Full guide: [references/codex-lane.md](references/codex-lane.md) | Template: [templates/pmb-codex-lane-prompt.md](templates/pmb-codex-lane-prompt.md)
+
+**When to use:** coding/refactor tasks with clear acceptance criteria where a bounded diff can be evaluated in one run. **Do not use** for: research-only tasks, secrets/credential handling, or when a direct edit is faster.
+
+**Key rules:**
+1. Hermes owns Kanban lifecycle — Codex is an input lane only, never calls kanban tools
+2. Always run Codex in an isolated git worktree
+3. Hermes reviews diff, runs tests, and decides accept/reject
+4. Every Codex prompt must include task scope, ownership rules, safety constraints, and verification commands
+5. Record `codex_lane` metadata in `kanban_complete` — always, even when Codex was skipped
+
+**Reconciliation checklist:** review git diff → verify no secrets/credentials → re-run tests from Hermes → accept, partial-accept, or reject with concrete reason.

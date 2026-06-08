@@ -1,9 +1,9 @@
 {
-  "last_report_path": null,
-  "last_run_at": "2026-06-01T11:06:39.483272+00:00",
-  "last_run_duration_seconds": null,
-  "last_run_summary": "deferred first run — curator seeded, will run after one interval; use `hermes curator run --dry-run` to preview now",
+  "last_report_path": "/Users/eason/.hermes/logs/curator/20260608-113928",
+  "last_run_at": "2026-06-08T11:39:28.271069+00:00",
+  "last_run_duration_seconds": 566.424733,
+  "last_run_summary": "auto: no changes; llm: ## Consolidation Summary\n\n**20 skills archived into 7 umbrellas.** Net reduction: **15 names removed from the skill namespace** (93 → 78 active skills after consolidation + new umbrellas). Every archived skill's content was preserved — full…\narchived 20 skill(s):\n  • debugging-hermes-tui-commands → systematic-debugging\n  • feishu-gateway-setup → feishu-gateway\n  • kanban-codex-lane → kanban-orchestrator\n  • kanban-worker → kanban-orchestrator\n  • plan → writing-plans\n  • sketch → claude-design\n  • apple-notes — pruned (stale)\n  • apple-reminders — pruned (stale)\n  • claude-code — pruned (stale)\n  • codebase-inspection — pruned (stale)\n  … and 10 more\nfull report: hermes curator status\nkeep an umbrella stable: hermes curator pin claude-design",
   "last_run_summary_shown_at": null,
   "paused": false,
-  "run_count": 0
+  "run_count": 1
 }

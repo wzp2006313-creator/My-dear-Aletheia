@@ -23,18 +23,18 @@
       "schedule_display": "0 9 * * *",
       "repeat": {
         "times": null,
-        "completed": 8
+        "completed": 10
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-01T20:23:47.163344+08:00",
-      "next_run_at": "2026-06-08T09:00:00+08:00",
-      "last_run_at": "2026-06-07T09:02:05.763080+08:00",
-      "last_status": "error",
-      "last_error": "RuntimeError: Connection error.",
-      "last_delivery_error": "delivery error: Feishu send failed: HTTPSConnectionPool(host='open.feishu.cn', port=443): Max retries exceeded with url: /open-apis/auth/v3/tenant_access_token/internal (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Service Unavailable')))",
+      "next_run_at": "2026-06-09T09:00:00+08:00",
+      "last_run_at": "2026-06-08T14:00:11.732943+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
       "deliver": "origin",
       "origin": {
         "platform": "feishu",
@@ -68,15 +68,15 @@
       "schedule_display": "0 3 * * *",
       "repeat": {
         "times": null,
-        "completed": 8
+        "completed": 9
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-01T20:44:35.495762+08:00",
-      "next_run_at": "2026-06-09T03:00:00+08:00",
-      "last_run_at": "2026-06-08T03:08:12.063508+08:00",
+      "next_run_at": "2026-06-10T03:00:00+08:00",
+      "last_run_at": "2026-06-09T03:07:59.722692+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -111,17 +111,17 @@
       "schedule_display": "0 4 * * *",
       "repeat": {
         "times": null,
-        "completed": 4
+        "completed": 5
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-03T11:39:46.582888+08:00",
-      "next_run_at": "2026-06-09T04:00:00+08:00",
-      "last_run_at": "2026-06-07T04:01:13.371711+08:00",
-      "last_status": "error",
-      "last_error": "RuntimeError: Connection error.",
+      "next_run_at": "2026-06-10T04:00:00+08:00",
+      "last_run_at": "2026-06-08T04:03:43.726500+08:00",
+      "last_status": "ok",
+      "last_error": null,
       "last_delivery_error": "no delivery target resolved for deliver=origin",
       "deliver": "origin",
       "origin": null,
@@ -151,18 +151,18 @@
       "schedule_display": "30 14 * * 1-5",
       "repeat": {
         "times": null,
-        "completed": 3
+        "completed": 4
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-03T11:43:05.342845+08:00",
-      "next_run_at": "2026-06-08T14:30:00+08:00",
-      "last_run_at": "2026-06-05T14:32:10.566115+08:00",
-      "last_status": "error",
-      "last_error": "RuntimeError: Connection error.",
-      "last_delivery_error": "delivery error: Feishu send failed: HTTPSConnectionPool(host='open.feishu.cn', port=443): Max retries exceeded with url: /open-apis/auth/v3/tenant_access_token/internal (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Service Unavailable')))",
+      "next_run_at": "2026-06-09T14:30:00+08:00",
+      "last_run_at": "2026-06-08T14:33:47.357637+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
       "deliver": "origin",
       "origin": {
         "platform": "feishu",
@@ -175,5 +175,5 @@
       "profile": null
     }
   ],
-  "updated_at": "2026-06-08T04:00:19.104558+08:00"
+  "updated_at": "2026-06-09T04:00:06.495402+08:00"
 }

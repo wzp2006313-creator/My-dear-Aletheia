@@ -1,0 +1,192 @@
+==========================================
+ Hermes Agent 夜间安全审计报告
+ 时间: 2026-06-09 03:03:42
+==========================================
+
+=== [1] Hermes 平台审计 ===
+Hermes CLI: Hermes Agent v0.15.1 (2026.5.29)
+Project: /Users/eason/.hermes/hermes-agent
+Python: 3.11.15
+OpenAI SDK: 2.24.0
+Update available: 872 commits behind — run 'hermes update'
+Status: 
+┌─────────────────────────────────────────────────────────┐
+│                 ⚕ Hermes Agent Status                  │
+└─────────────────────────────────────────────────────────┘
+✅ Hermes 平台状态正常
+
+=== [2] 进程与网络审计 ===
+--- 监听端口 (TCP+UDP) ---
+COMMAND     PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+rapportd    636 eason   13u  IPv4 0x1c42ed8439b805ca      0t0  TCP *:49152 (LISTEN)
+rapportd    636 eason   14u  IPv6 0xf66473863cf5e1e4      0t0  TCP *:49152 (LISTEN)
+ControlCe   701 eason    9u  IPv4 0xe928d13e2105faa1      0t0  TCP *:7000 (LISTEN)
+ControlCe   701 eason   10u  IPv6 0x733831dcfb006226      0t0  TCP *:7000 (LISTEN)
+ControlCe   701 eason   11u  IPv4 0xd0c2419459e28c5c      0t0  TCP *:5000 (LISTEN)
+ControlCe   701 eason   12u  IPv6 0x667e7092cceed2ce      0t0  TCP *:5000 (LISTEN)
+MacPacket  1307 eason   11u  IPv4  0x2824571a0fa9b1f      0t0  TCP 172.20.10.104:1082 (LISTEN)
+MacPacket  1307 eason   13u  IPv4 0x3ab2c39cee92b8a0      0t0  TCP 127.0.0.1:1082 (LISTEN)
+MacPacket  1307 eason   14u  IPv6 0x9c9f794e6e12ad44      0t0  TCP [::1]:1082 (LISTEN)
+Eudic     27883 eason   13u  IPv4 0x1c3ecf5df6b0b244      0t0  TCP 127.0.0.1:32094 (LISTEN)
+Eudic     27883 eason   36u  IPv4 0x1c3ecf5df6b0b244      0t0  TCP 127.0.0.1:32094 (LISTEN)
+wpsclouds 42002 eason  147u  IPv6 0xfa02832ccace16ea      0t0  TCP *:51814 (LISTEN)
+wpsclouds 42002 eason  234u  IPv4 0x9f0631329c71bc06      0t0  TCP 127.0.0.1:4709 (LISTEN)
+COMMAND    PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+rapportd   636 eason   23u  IPv4 0xcceda4d369735626      0t0  UDP *:3722
+homed      658 eason   45u  IPv6 0xc59f6d32eeed0a3f      0t0  UDP *:62467
+homed      658 eason   46u  IPv4 0x286869b87edf4f51      0t0  UDP *:49599
+sharingd   660 eason    4u  IPv4 0xcb2445b235357d03      0t0  UDP *:*
+identitys  664 eason   13u  IPv4 0xbcb1b905628b952a      0t0  UDP *:*
+identitys  664 eason   15u  IPv4 0x24be973fa3fbe973      0t0  UDP *:*
+identitys  664 eason   20u  IPv4 0x86e6c21c24a0abaf      0t0  UDP *:*
+identitys  664 eason   44u  IPv4 0xb0ac8aa76cfd089a      0t0  UDP *:*
+identitys  664 eason   47u  IPv4 0x3c56babe70bc67d0      0t0  UDP *:*
+
+--- Top 15 高资源消耗进程 ---
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+eason            41993   1.6  1.3 443784560 315072   ??  S    10:43PM   4:50.84 /Applications/wpsoffice.app/Contents/MacOS/wpsoffice
+eason             1001   1.4  0.4 3735374720  99920   ??  Ss   Thu01PM 188:00.87 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+eason              996   1.0  0.2 3503606864  56848   ??  S    Thu01PM 134:17.23 /Applications/Wallspace.app/Contents/MacOS/Wallspace
+eason             1307   0.9  0.2 442364496  38208   ??  Ss   Thu01PM  15:29.46 /Applications/Shadowrocket.app/Contents/PlugIns/MacPacketTunnel.appex/Contents/MacOS/MacPacketTunnel -AppleLanguages ("zh-Hans-CN")
+eason            42002   0.9  0.8 443181696 190864   ??  S    10:43PM   3:02.25 /Applications/wpsoffice.app/Contents/SharedSupport/wpscloudsvr.app/Contents/MacOS/wpscloudsvr Run /InstanceId:WpsCloudSvr wpscloudsvrimpunix.dll /qingbangong /run_plugin /plugin_name=qing /plugin_entry=qingbangong.dll /start_from=qingipc /qingbangong /start_from=kstartpage silentautologin
+eason              699   0.6  1.5 570497104 386912   ??  S    Thu01PM 114:24.57 /Applications/TencentMeeting.app/Contents/MacOS/TencentMeeting
+_driverkit         623   0.6  0.2 482042976  48384   ??  Ss   Thu01PM  20:31.65 /System/Library/DriverExtensions/AppleCentauriAlpha.dext/AppleCentauriAlpha com.apple.driver.AppleCentauriAlpha 0x100001597 com.apple.driver.AppleCentauriAlpha
+_coreaudiod        406   0.5  0.3 442322960  65616   ??  Ss   Thu01PM  38:28.67 /usr/sbin/coreaudiod
+eason              921   0.3  2.7 1970551712 669344   ??  S    Thu01PM  22:29.31 /Applications/Notion.app/Contents/Frameworks/Notion Helper (Renderer).app/Contents/MacOS/Notion Helper (Renderer) --type=renderer --user-data-dir=/Users/eason/Library/Application Support/Notion --app-path=/Applications/Notion.app/Contents/Resources/app.asar --enable-sandbox --lang=zh-CN --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=9 --time-ticks-at-unix-epoch=-1780550565052551 --launch-time-ticks=34656868 --shared-files --field-trial-handle=1718379636,r,11690452374271913679,2750719257329284124,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,MacCatapLoopbackAudioForScreenShare,PdfUseShowSaveFilePicker,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=1935764596,r,427863565753721607,17103819840252203939,4 --trace-process-track-uuid=3190708994745248135 --seatbelt-client=81
+root               324   0.2  0.3 450844448  71792   ??  Ss   Thu01PM   8:25.39 /usr/libexec/logd
+eason             2223   0.2  1.1 443469984 271696   ??  S    Thu01PM  30:52.83 com.macpaw.zh.CleanMyMac4.HealthMonitor
+root               390   0.2  0.0 441856624   4912   ??  Ss   Thu01PM   2:00.29 /usr/sbin/notifyd
+root                 1   0.1  0.1 442002288  25968   ??  Ss   Thu01PM  34:25.92 /sbin/launchd
+root               328   0.1  0.0 441968240  11328   ??  Ss   Thu01PM   5:03.05 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+eason              607   0.1  0.0 442036336   8240   ??  S    Thu01PM   5:04.61 /usr/sbin/cfprefsd agent
+
+--- 出站连接 ---
+COMMAND     PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+rapportd    636 eason   22u  IPv4 0xb1914f304edaa705      0t0  TCP 172.20.10.104:49152->172.20.11.66:50587 (ESTABLISHED)
+identitys   664 eason   48u  IPv6 0x9fe6d3182e9e7e14      0t0  TCP [fe80:16::9a6e:a86b:58a2:7a08]:1024->[fe80:16::d85a:4142:9415:9384]:1024 (ESTABLISHED)
+identitys   664 eason   57u  IPv6 0xc959d295686ede0d      0t0  TCP [fe80:16::9a6e:a86b:58a2:7a08]:1027->[fe80:16::d85a:4142:9415:9384]:1025 (ESTABLISHED)
+identitys   664 eason   58u  IPv6 0xc959d295686ede0d      0t0  TCP [fe80:16::9a6e:a86b:58a2:7a08]:1027->[fe80:16::d85a:4142:9415:9384]:1025 (ESTABLISHED)
+ChatGPT     684 eason   10u  IPv4 0x5b54b974056c329e      0t0  TCP 127.0.0.1:55648->127.0.0.1:1082 (ESTABLISHED)
+TencentMe   699 eason  121u  IPv4 0x521879185924261e      0t0  TCP 198.18.0.1:55871->42.81.250.65:443 (ESTABLISHED)
+TencentMe   699 eason  122u  IPv4 0xcdc0387694226cc9      0t0  TCP 198.18.0.1:56356->42.194.253.39:443 (ESTABLISHED)
+ChatGPTHe   892 eason    9u  IPv4 0xd0bb1a453dedf00b      0t0  TCP 127.0.0.1:62611->127.0.0.1:1082 (ESTABLISHED)
+Google      894 eason   24u  IPv4 0xae1bcd19232fb7e0      0t0  TCP 127.0.0.1:57324->127.0.0.1:1082 (ESTABLISHED)
+Google      894 eason   25u  IPv4 0xb56c391d6bcfbd24      0t0  TCP 127.0.0.1:62585->127.0.0.1:1082 (ESTABLISHED)
+Google      894 eason   28u  IPv4 0xbaa6ff2f2d79b5a4      0t0  TCP 127.0.0.1:62522->127.0.0.1:1082 (ESTABLISHED)
+Google      894 eason   29u  IPv4 0x51b65a88cdd98c03      0t0  TCP 127.0.0.1:62591->127.0.0.1:1082 (ESTABLISHED)
+Google      894 eason   31u  IPv4 0x6253f838994464e5      0t0  TCP 127.0.0.1:62592->127.0.0.1:1082 (ESTABLISHED)
+Google      894 eason   32u  IPv4 0x7578e1df09a87c5c      0t0  TCP 127.0.0.1:62595->127.0.0.1:1082 (ESTABLISHED)
+Google      894 eason   33u  IPv4  0x837582f227be803      0t0  TCP 127.0.0.1:62609->127.0.0.1:1082 (ESTABLISHED)
+Google      894 eason   34u  IPv4 0xd9db3fed759c370f      0t0  TCP 127.0.0.1:59231->127.0.0.1:1082 (ESTABLISHED)
+Google      894 eason   35u  IPv4 0x26a58fc69d791d68      0t0  TCP 127.0.0.1:62597->127.0.0.1:1082 (ESTABLISHED)
+Notion      904 eason   32u  IPv4 0x9936a5d52aee3761      0t0  TCP 127.0.0.1:60280->127.0.0.1:1082 (ESTABLISHED)
+Notion      904 eason   33u  IPv4 0xf97055a4c1052bfc      0t0  TCP 127.0.0.1:60466->127.0.0.1:1082 (ESTABLISHED)
+✅ 进程与网络审计完成
+
+=== [3] 敏感目录变更 ===
+--- ~/.hermes/ 24h 内修改 ---
+/Users/eason/.hermes
+/Users/eason/.hermes/image_cache
+/Users/eason/.hermes/image_cache/img_c890f79f19eb.jpg
+/Users/eason/.hermes/.update_check
+/Users/eason/.hermes/state.db
+/Users/eason/.hermes/shared
+/Users/eason/.hermes/shared/nous_auth.json
+/Users/eason/.hermes/models_dev_cache.json
+/Users/eason/.hermes/.skills_prompt_snapshot.json
+/Users/eason/.hermes/channel_directory.json
+/Users/eason/.hermes/sessions
+/Users/eason/.hermes/sessions/request_dump_cron_c8e25d6e74a3_20260608_090024_20260608_090935_164270.json
+/Users/eason/.hermes/sessions/sessions.json
+/Users/eason/.hermes/logs/gateway.log
+/Users/eason/.hermes/logs/curator
+/Users/eason/.hermes/logs/curator/20260608-113928
+/Users/eason/.hermes/logs/gateway.error.log
+/Users/eason/.hermes/logs/errors.log
+/Users/eason/.hermes/logs/agent.log
+/Users/eason/.hermes/feishu_seen_message_ids.json
+/Users/eason/.hermes/hermes-agent/agent/__pycache__
+/Users/eason/.hermes/auth.json
+/Users/eason/.hermes/skills
+/Users/eason/.hermes/skills/apple
+/Users/eason/.hermes/skills/apple/apple
+/Users/eason/.hermes/skills/equity-research
+/Users/eason/.hermes/skills/equity-research/fund-portfolio-monitor
+/Users/eason/.hermes/skills/devops
+/Users/eason/.hermes/skills/devops/kanban-orchestrator
+/Users/eason/.hermes/skills/.curator_state
+/Users/eason/.hermes/skills/software-development
+/Users/eason/.hermes/skills/software-development/systematic-debugging
+/Users/eason/.hermes/skills/software-development/writing-plans
+/Users/eason/.hermes/skills/follow-builders/references
+/Users/eason/.hermes/skills/.curator_backups
+/Users/eason/.hermes/skills/.curator_backups/2026-06-08T11-39-28Z
+/Users/eason/.hermes/skills/github
+/Users/eason/.hermes/skills/github/github-workflows
+/Users/eason/.hermes/skills/.usage.json
+/Users/eason/.hermes/skills/creative
+/Users/eason/.hermes/skills/creative/claude-design
+/Users/eason/.hermes/skills/career-ops
+/Users/eason/.hermes/skills/career-ops/CODE_OF_CONDUCT.md
+/Users/eason/.hermes/skills/career-ops/.qwen
+/Users/eason/.hermes/skills/career-ops/LEGAL_DISCLAIMER.md
+/Users/eason/.hermes/skills/career-ops/.envrc
+/Users/eason/.hermes/skills/career-ops/liveness-core.mjs
+/Users/eason/.hermes/skills/career-ops/flake.lock
+/Users/eason/.hermes/skills/career-ops/analyze-patterns.mjs
+/Users/eason/.hermes/skills/career-ops/README.es.md
+
+--- ~/.ssh/ 24h 内修改 ---
+✅ 敏感目录变更检查完成
+
+=== [4] 系统定时任务 ===
+--- 用户 crontab ---
+无用户 crontab
+
+--- launchd agents ---
+ai.hermes.gateway.plist
+com.macpaw.zh.CleanMyMac4.Updater.plist
+✅ 系统定时任务检查完成
+
+=== [5] Hermes Cron 任务 ===
+Hermes cron 任务列表需要手动检查: 'cronjob list'
+⚠️ 请在 Hermes 会话中手动运行 cronjob 检查
+✅ Hermes Cron 任务检查完成
+
+=== [6] 登录与 SSH ===
+--- 最近登录 ---
+eason      ttys000                         Thu Jun  4 13:23   still logged in
+eason      console                         Thu Jun  4 13:23   still logged in
+reboot time                                Thu Jun  4 13:22
+eason      ttys000                         Mon Jun  1 19:06 - crash (2+18:16)
+eason      ttys000                         Mon Jun  1 19:06 - 19:06  (00:00)
+eason      ttys001                         Mon Jun  1 18:49 - 18:49  (00:00)
+eason      ttys001                         Mon Jun  1 18:40 - 18:40  (00:00)
+eason      ttys000                         Mon Jun  1 18:31 - 18:31  (00:00)
+eason      ttys000                         Mon Jun  1 18:30 - 18:30  (00:00)
+eason      console                         Mon Jun  1 17:59 - crash (2+19:23)
+
+--- SSH 失败尝试 ---
+无 SSH 失败记录或无系统日志访问权限
+✅ 登录审计完成
+
+=== [7] 核心文件完整性 ===
+sha256sum: WARNING: 1 computed checksum did NOT match
+/Users/eason/.hermes/.env: OK
+/Users/eason/.hermes/config.yaml: FAILED
+⚠️ 文件完整性检查发现不匹配！
+
+--- 权限检查 ---
+/Users/eason/.hermes/.env → 权限 600
+/Users/eason/.hermes/config.yaml → 权限 600
+✅ 核心文件完整性检查完成
+
+=== [8] 黄线操作交叉验证 ===
+--- sudo 记录 (24h) ---
+Timestamp                       Thread     Type        Activity             PID    TTL  
+✅ 黄线操作交叉验证完成
+
+=== [9] 磁盘使用率 ===
+根磁盘使用率: 2%
+
+--- 24h 内大文件 (>100MB) ---

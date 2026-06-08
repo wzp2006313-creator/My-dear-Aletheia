@@ -1,6 +1,6 @@
 ---
 name: writing-plans
-description: "Write implementation plans: bite-sized tasks, paths, code."
+description: "Write implementation plans and use plan mode: bite-sized tasks, paths, code. Covers both detailed plan authoring (for delegation/subagent handoff) and lightweight plan-only mode (save to .hermes/plans/, no execution). Use when planning features, delegating to subagents, or when the user says 'plan this out'."
 version: 1.1.0
 author: Hermes Agent (adapted from obra/superpowers)
 license: MIT
@@ -295,3 +295,21 @@ Frequent commits
 ```
 
 **A good plan makes implementation obvious.**
+
+## Plan Mode (Lightweight)
+
+When the user triggers plan mode (`/plan` or \"plan this out without building\"), the deliverable is a plan file — no code execution, no mutating commands, no commits. Use this lightweight variant:
+
+**Core behavior:**
+- Do not implement code, edit project files (except the plan), run mutating commands, commit, or push.
+- Read-only inspection of the repo is allowed for context gathering.
+- Your deliverable is a markdown plan saved to `.hermes/plans/YYYY-MM-DD_HHMMSS-<slug>.md`.
+
+**Output requirements:**
+Include goal, current context/assumptions, proposed approach, step-by-step plan, files likely to change, tests/validation, and risks/tradeoffs/open questions.
+
+**Interaction style:**
+- If the request is clear, write the plan directly.
+- If no explicit `/plan` was used but the context suggests planning, infer the task from conversation.
+- If genuinely underspecified, ask a brief clarifying question.
+- After saving the plan, reply briefly with what you planned and the saved path.

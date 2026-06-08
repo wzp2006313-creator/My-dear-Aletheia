@@ -1,6 +1,6 @@
 ---
 name: claude-design
-description: Design one-off HTML artifacts (landing, deck, prototype).
+description: "Design HTML artifacts and exploratory mockups: landing pages, decks, prototypes, and throwaway design variants for comparison. Use for polished artifacts (claude-design process) or quick variant exploration (sketch: 2-3 takes, head-to-head comparison)."
 version: 1.0.0
 author: BadTechBandit
 license: MIT
@@ -589,3 +589,20 @@ You are running in CLI/API mode, not hosted Claude Design. Ignore references to 
 - Do not under-ask for high-fidelity work with no brand context.
 - Do not produce generic SaaS layouts and call them designed.
 - Do not claim browser verification unless it actually happened.
+
+## Sketch: Exploratory Variants (Lightweight)
+
+When the user wants to see design directions before committing — \"sketch this,\" \"show me what X could look like,\" \"compare layout A vs B\" — produce 2-3 throwaway HTML variants for comparison. This is NOT polished artifact production; it's fast exploration.
+
+**When to sketch vs design:**
+- Sketch: user is exploring, wants comparison, output is throwaway 
+- Full design: user wants a polished deliverable (landing page, deck, prototype)
+
+**Core method: intake → variants → head-to-head → pick winner**
+
+1. **Intake** (3 quick questions, one at a time): feel (adjectives/vibes), references (apps/sites that capture it), core action (most important user task)
+2. **Variants** (2-3, never 1): each takes a DIFFERENT design stance — density, emphasis, aesthetic, layout. Name variants by stance, not number (\"calm-editorial\" not \"variant-1\")
+3. **Each variant**: single self-contained HTML file, inline `<style>`, system fonts or one Google Font, Tailwind CDN allowed. Realistic fake content. Interactive — at least one state transition. Verify with `browser_navigate` + `browser_vision`.
+4. **Head-to-head**: present a comparison table with dimensions + opinionated take on which wins. Let user pick or iterate.
+
+**Output**: `sketches/NNN-stance-name/index.html` + `README.md` per variant. Keep variants disposable.

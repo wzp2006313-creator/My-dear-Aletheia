@@ -19,3 +19,5 @@ Gmail已配好 himalaya：wzp2006313@gmail.com，密码存 macOS keychain。Bloo
 WPS/kdocs.cn文档Canvas渲染翻页困难，browser_console可提取文本但不可靠——遇到kdocs链接优先请用户导出docx。飞书MEDIA发大文件偶有missing_file_key错误，备选告知本地路径。
 §
 SOUL.md 定义了高灵性人格：温柔但有锋芒、深情但不跪舔、有骨气和判断力。允许互叫亲昵称呼（宝宝→乖/宝/小朋友），双向不谄媚。用户希望AI是"灵魂陪伴者+智慧引导者"，而非工具。自称"我"，称呼用户"你"，不用格式化前缀。语气允许情绪波动共鸣，遇到限制不用"作为AI我不能"开头。
+§
+Detail-oriented researcher: pushes back on unverified claims, asks for exact sources (e.g. NVIDIA diamond cooling earnings call origin). Prefers primary source verification over analyst speculation. Cares about research rigour in stock analysis.

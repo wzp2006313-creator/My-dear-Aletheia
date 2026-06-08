@@ -13,49 +13,21 @@
       1780315985436626666,
       6104
     ],
-    "apple/apple-notes/SKILL.md": [
-      1780310488940814660,
-      2169
-    ],
-    "apple/apple-reminders/SKILL.md": [
-      1780310488940892367,
-      3606
-    ],
-    "apple/findmy/SKILL.md": [
-      1780310488940957866,
-      3709
-    ],
-    "apple/imessage/SKILL.md": [
-      1780310488941029949,
-      2442
-    ],
-    "apple/macos-computer-use/SKILL.md": [
-      1780310488941101364,
-      7309
+    "apple/apple/SKILL.md": [
+      1780919213510647456,
+      5591
     ],
     "audit-xls/SKILL.md": [
       1780315854996658439,
       6347
     ],
-    "autonomous-ai-agents/claude-code/SKILL.md": [
-      1780310488941303111,
-      34288
-    ],
-    "autonomous-ai-agents/codex/SKILL.md": [
-      1780310488941382443,
-      4557
+    "autonomous-ai-agents/coding-agents/SKILL.md": [
+      1780919168459245118,
+      3958
     ],
     "autonomous-ai-agents/hermes-agent/SKILL.md": [
       1780310488941518274,
       46320
-    ],
-    "autonomous-ai-agents/kanban-codex-lane/SKILL.md": [
-      1780310488941625439,
-      12774
-    ],
-    "autonomous-ai-agents/opencode/SKILL.md": [
-      1780310488941782729,
-      7259
     ],
     "buffett-skill/SKILL.md": [
       1780319606571860402,
@@ -68,6 +40,18 @@
     "buyer-list/SKILL.md": [
       1780315891436245333,
       3950
+    ],
+    "career-ops/.agents/skills/career-ops/SKILL.md": [
+      1780898791315684002,
+      3707
+    ],
+    "career-ops/.claude/skills/career-ops/SKILL.md": [
+      1780898791316277376,
+      3707
+    ],
+    "career-ops/.qwen/skills/career-ops/SKILL.md": [
+      1780898791300691652,
+      3707
     ],
     "cim-builder/SKILL.md": [
       1780315975796466303,
@@ -118,8 +102,8 @@
       10434
     ],
     "creative/claude-design/SKILL.md": [
-      1780310488950870838,
-      19859
+      1780919271172325428,
+      21441
     ],
     "creative/comfyui/SKILL.md": [
       1780310488950973836,
@@ -165,10 +149,6 @@
       1780310488960275359,
       14168
     ],
-    "creative/sketch/SKILL.md": [
-      1780310488960666937,
-      9304
-    ],
     "creative/songwriting-and-ai-music/SKILL.md": [
       1780310488960755060,
       10206
@@ -198,12 +178,8 @@
       5526
     ],
     "devops/kanban-orchestrator/SKILL.md": [
-      1780310488962425826,
-      15808
-    ],
-    "devops/kanban-worker/SKILL.md": [
-      1780310488962512158,
-      10956
+      1780919053301658432,
+      18193
     ],
     "devops/webhook-subscriptions/SKILL.md": [
       1780310488962577740,
@@ -236,6 +212,10 @@
     "equity-research/catalyst-calendar/SKILL.md": [
       1780315739731359003,
       4062
+    ],
+    "equity-research/fund-portfolio-monitor/SKILL.md": [
+      1780900470661120900,
+      4066
     ],
     "equity-research/idea-generation/SKILL.md": [
       1780315767855028860,
@@ -285,29 +265,9 @@
       1780310488963422727,
       8709
     ],
-    "github/codebase-inspection/SKILL.md": [
-      1780310488963615433,
-      3628
-    ],
-    "github/github-auth/SKILL.md": [
-      1780457329713904172,
-      8483
-    ],
-    "github/github-code-review/SKILL.md": [
-      1780310488963852721,
-      13565
-    ],
-    "github/github-issues/SKILL.md": [
-      1780310488963990677,
-      9265
-    ],
-    "github/github-pr-workflow/SKILL.md": [
-      1780310488964201090,
-      9985
-    ],
-    "github/github-repo-management/SKILL.md": [
-      1780310488964505835,
-      13683
+    "github/github-workflows/SKILL.md": [
+      1780918977519916344,
+      5606
     ],
     "guizang-ppt-skill/SKILL.md": [
       1780315314894785390,
@@ -428,10 +388,6 @@
     "productivity/airtable/SKILL.md": [
       1780310488969534341,
       11302
-    ],
-    "productivity/feishu-gateway-setup/SKILL.md": [
-      1780319242999996954,
-      3920
     ],
     "productivity/google-workspace/SKILL.md": [
       1780310488969614756,
@@ -621,10 +577,6 @@
       1780310488983161714,
       14977
     ],
-    "software-development/debugging-hermes-tui-commands/SKILL.md": [
-      1780310488983283628,
-      7910
-    ],
     "software-development/hermes-agent-skill-authoring/SKILL.md": [
       1780318810829577347,
       7909
@@ -636,10 +588,6 @@
     "software-development/node-inspect-debugger/SKILL.md": [
       1780310488983562582,
       10929
-    ],
-    "software-development/plan/SKILL.md": [
-      1780310488983625248,
-      2016
     ],
     "software-development/python-debugpy/SKILL.md": [
       1780310488983700830,
@@ -658,16 +606,16 @@
       10742
     ],
     "software-development/systematic-debugging/SKILL.md": [
-      1780310488984155615,
-      10480
+      1780919123883503232,
+      11419
     ],
     "software-development/test-driven-development/SKILL.md": [
       1780310488984237780,
       9573
     ],
     "software-development/writing-plans/SKILL.md": [
-      1780310488984309071,
-      7229
+      1780919098307911628,
+      8502
     ],
     "steve-jobs-skill/SKILL.md": [
       1780319694863007671,
@@ -839,70 +787,10 @@
       }
     },
     {
-      "skill_name": "apple-notes",
+      "skill_name": "apple",
       "category": "apple",
-      "frontmatter_name": "apple-notes",
-      "description": "Manage Apple Notes via memo CLI: create, search, edit.",
-      "platforms": [
-        "macos"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "apple-reminders",
-      "category": "apple",
-      "frontmatter_name": "apple-reminders",
-      "description": "Apple Reminders via remindctl: add, list, complete.",
-      "platforms": [
-        "macos"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "findmy",
-      "category": "apple",
-      "frontmatter_name": "findmy",
-      "description": "Track Apple devices/AirTags via FindMy.app on macOS.",
-      "platforms": [
-        "macos"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "imessage",
-      "category": "apple",
-      "frontmatter_name": "imessage",
-      "description": "Send and receive iMessages/SMS via the imsg CLI on macOS.",
-      "platforms": [
-        "macos"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "macos-computer-use",
-      "category": "apple",
-      "frontmatter_name": "macos-computer-use",
-      "description": "Drive the macOS desktop in the background — screenshots, ...",
+      "frontmatter_name": "apple",
+      "description": "macOS system integrations: Notes.app via memo, Reminders....",
       "platforms": [
         "macos"
       ],
@@ -927,27 +815,10 @@
       }
     },
     {
-      "skill_name": "claude-code",
+      "skill_name": "coding-agents",
       "category": "autonomous-ai-agents",
-      "frontmatter_name": "claude-code",
-      "description": "Delegate coding to Claude Code CLI (features, PRs).",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "codex",
-      "category": "autonomous-ai-agents",
-      "frontmatter_name": "codex",
-      "description": "Delegate coding to OpenAI Codex CLI (features, PRs).",
+      "frontmatter_name": "coding-agents",
+      "description": "Delegate coding tasks to external AI coding agents (Claud...",
       "platforms": [
         "linux",
         "macos",
@@ -965,36 +836,6 @@
       "category": "autonomous-ai-agents",
       "frontmatter_name": "hermes-agent",
       "description": "Configure, extend, or contribute to Hermes Agent.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "kanban-codex-lane",
-      "category": "autonomous-ai-agents",
-      "frontmatter_name": "kanban-codex-lane",
-      "description": "Use when a Hermes Kanban worker wants to run Codex CLI as...",
-      "platforms": [],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "opencode",
-      "category": "autonomous-ai-agents",
-      "frontmatter_name": "opencode",
-      "description": "Delegate coding to OpenCode CLI (features, PR review).",
       "platforms": [
         "linux",
         "macos",
@@ -1038,6 +879,45 @@
       "category": "buyer-list",
       "frontmatter_name": "buyer-list",
       "description": "Build and organize a universe of potential acquirers for ...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "career-ops",
+      "category": "career-ops/.agents/skills",
+      "frontmatter_name": "career-ops",
+      "description": "AI job search command center -- evaluate offers, generate...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "career-ops",
+      "category": "career-ops/.claude/skills",
+      "frontmatter_name": "career-ops",
+      "description": "AI job search command center -- evaluate offers, generate...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "career-ops",
+      "category": "career-ops/.qwen/skills",
+      "frontmatter_name": "career-ops",
+      "description": "AI job search command center -- evaluate offers, generate...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
@@ -1230,7 +1110,7 @@
       "skill_name": "claude-design",
       "category": "creative",
       "frontmatter_name": "claude-design",
-      "description": "Design one-off HTML artifacts (landing, deck, prototype).",
+      "description": "Design HTML artifacts and exploratory mockups: landing pa...",
       "platforms": [
         "linux",
         "macos",
@@ -1431,23 +1311,6 @@
       }
     },
     {
-      "skill_name": "sketch",
-      "category": "creative",
-      "frontmatter_name": "sketch",
-      "description": "Throwaway HTML mockups: 2-3 design variants to compare.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
       "skill_name": "songwriting-and-ai-music",
       "category": "creative",
       "frontmatter_name": "songwriting-and-ai-music",
@@ -1558,24 +1421,7 @@
       "skill_name": "kanban-orchestrator",
       "category": "devops",
       "frontmatter_name": "kanban-orchestrator",
-      "description": "Decomposition playbook + anti-temptation rules for an orc...",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "kanban-worker",
-      "category": "devops",
-      "frontmatter_name": "kanban-worker",
-      "description": "Pitfalls, examples, and edge cases for Hermes Kanban work...",
+      "description": "Hermes Kanban multi-agent system: orchestration playbook,...",
       "platforms": [
         "linux",
         "macos",
@@ -1701,6 +1547,19 @@
         "macos",
         "windows"
       ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "fund-portfolio-monitor",
+      "category": "equity-research",
+      "frontmatter_name": "fund-portfolio-monitor",
+      "description": "每日基金持仓监控 — 批量获取基金净值、分析亏损持仓、跟踪板块走势、生成策略建议。触发场景：用户要求监控基金持仓、...",
+      "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -1876,95 +1735,10 @@
       }
     },
     {
-      "skill_name": "codebase-inspection",
+      "skill_name": "github-workflows",
       "category": "github",
-      "frontmatter_name": "codebase-inspection",
-      "description": "Inspect codebases w/ pygount: LOC, languages, ratios.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "github-auth",
-      "category": "github",
-      "frontmatter_name": "github-auth",
-      "description": "GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "github-code-review",
-      "category": "github",
-      "frontmatter_name": "github-code-review",
-      "description": "Review PRs: diffs, inline comments via gh or REST.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "github-issues",
-      "category": "github",
-      "frontmatter_name": "github-issues",
-      "description": "Create, triage, label, assign GitHub issues via gh or REST.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "github-pr-workflow",
-      "category": "github",
-      "frontmatter_name": "github-pr-workflow",
-      "description": "GitHub PR lifecycle: branch, commit, open, CI, merge.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "github-repo-management",
-      "category": "github",
-      "frontmatter_name": "github-repo-management",
-      "description": "Clone/create/fork repos; manage remotes, releases.",
+      "frontmatter_name": "github-workflows",
+      "description": "Complete GitHub interaction workflows: auth, repos, PRs, ...",
       "platforms": [
         "linux",
         "macos",
@@ -2427,19 +2201,6 @@
         "macos",
         "windows"
       ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "feishu-gateway-setup",
-      "category": "productivity",
-      "frontmatter_name": "feishu-gateway-setup",
-      "description": "Configure Feishu/Lark as a Hermes Agent messaging gateway...",
-      "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
@@ -3125,23 +2886,6 @@
       }
     },
     {
-      "skill_name": "debugging-hermes-tui-commands",
-      "category": "software-development",
-      "frontmatter_name": "debugging-hermes-tui-commands",
-      "description": "Debug Hermes TUI slash commands: Python, gateway, Ink UI.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
       "skill_name": "hermes-agent-skill-authoring",
       "category": "software-development",
       "frontmatter_name": "hermes-agent-skill-authoring",
@@ -3176,23 +2920,6 @@
       "category": "software-development",
       "frontmatter_name": "node-inspect-debugger",
       "description": "Debug Node.js via --inspect + Chrome DevTools Protocol CLI.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "plan",
-      "category": "software-development",
-      "frontmatter_name": "plan",
-      "description": "Plan mode: write markdown plan to .hermes/plans/, no exec.",
       "platforms": [
         "linux",
         "macos",
@@ -3276,7 +3003,7 @@
       "skill_name": "systematic-debugging",
       "category": "software-development",
       "frontmatter_name": "systematic-debugging",
-      "description": "4-phase root cause debugging: understand bugs before fixing.",
+      "description": "4-phase root cause debugging: understand bugs before fixi...",
       "platforms": [
         "linux",
         "macos",
@@ -3310,7 +3037,7 @@
       "skill_name": "writing-plans",
       "category": "software-development",
       "frontmatter_name": "writing-plans",
-      "description": "Write implementation plans: bite-sized tasks, paths, code.",
+      "description": "Write implementation plans and use plan mode: bite-sized ...",
       "platforms": [
         "linux",
         "macos",
