@@ -709,6 +709,7 @@ Detailed instructions for each task are in separate reference files to keep this
 - **references/task5-report-assembly.md** - Report writing workflow
   - Also see: assets/report-template.md for report structure
   - Also see: assets/quality-checklist.md for quality checks
+- **references/cn-company-profile-template.md** - Lightweight A-share company profile format (concise, data-dense, modeled on 四方达 template). Use for quick company overviews rather than full initiation reports.
 
 **When to load reference files**: Load ONLY the reference file associated with the specific task being performed. These files are very large - do not load multiple reference files at once. Read the appropriate task reference file at the start of the task for detailed step-by-step instructions.
 

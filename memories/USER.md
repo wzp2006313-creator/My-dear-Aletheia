@@ -8,6 +8,6 @@ Prefers minimal approval prompts when using Hermes via Feishu gateway — wants 
 §
 调研纪要偏好 Q&A 格式（问题编号+加粗+回答段落），输出为 Word (.docx) 文件。调研对象以 A 股公司为主（如四方达、山高环能），内容覆盖经营数据、产能、价格、财务、估值等。
 §
-展鹏正在准备咨询/行研实习面试，有多份笔试在进行：卓韬咨询（美妆/床垫行业研究笔试）和六度智囊（专家网络岗位面试）。偏好简洁的PPT风格（白底、干净排版），不喜欢过于华丽的深色咨询风——因为自己是实习生，PPT不宜做得太完美。要求所有数据标注信源。沟通语言为中文。
+求职场景用名"张筱婷"，日常用"展鹏"。正在密集投递咨询/行研/战略方向实习：已面六度智囊（专家网络·海外专家招聘方向）、已通过复星医疗科技（Fosun MedTech，出海业务实习生，医美 Alma/Sisram + 呼吸 Breas，明日入职 mentor 初聊）、卓韬咨询笔试（彩妆/床垫行研题）。偏好简洁 PPT 风格（白底干净排版），要求所有数据标注信源。需要面试准备（公司拆解、问题清单、行业黑话/缩写词典）。
 §
 UK background: uses 1pMobile (UK carrier, doesn't work for calls in China), Lloyds Bank, and has/had a tenancy at Flat 1, 6 Charlotte Place, Fitzrovia, London, W1. Flatmate: Xiaoting. Tenancy deposit held by LDG.

@@ -47,7 +47,11 @@
 ## 净值数据来源排名
 
 按可靠性从高到低：
-1. 基金公司官网（如 chinaamc.com, efunds.com, qhkyfund.com, jsfund.cn）— web_extract 可能被拦
+1. 基金公司官网 — web_extract 被拦，用 **browser_navigate** 访问（已验证）：
+   - `https://www.chinaamc.com/fund/{代码}/index.shtml` — 华夏系（016708、018301）
+   - `https://www.efunds.com.cn/fund/{代码}.shtml` — 易方达系（012734、020671）
+   - `https://www.qhkyfund.com/osoa/qhkyfund/fund/info/{代码}.html` — 前海开源（002207）
+   - `https://www.jsfund.cn/main/fund/{代码}/fundManager.shtml` — 嘉实（014855）
 2. 天天基金 (fundf10.eastmoney.com / 1234567.com.cn) — web_search description 可用
 3. 新浪财经 (stock.finance.sina.com.cn) — 稳定
 4. 雪球基金/蛋卷 (danjuanfunds.com) — 页面可访问

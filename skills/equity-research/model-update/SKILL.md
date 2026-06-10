@@ -87,6 +87,10 @@ Recalculate valuation with updated estimates:
 - Estimate change summary (markdown or Word)
 - Updated price target derivation
 
+## Data Sources
+
+For Chinese A-share companies, financial data extraction requires special handling — many Chinese sites block `web_extract`. See `references/a-share-data-extraction.md` for browser-based extraction techniques from 10jqka, Sina, and Eastmoney.
+
 ## Important Notes
 
 - Always reconcile your estimates to the company's reported figures before projecting forward
