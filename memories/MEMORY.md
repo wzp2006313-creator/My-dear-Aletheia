@@ -2,13 +2,11 @@ AI Builders Digest Notion page ID: 372fde4c-8055-8152-a074-dac812172d61, URL: ht
 §
 Hermes 安全防御矩阵已部署。核心文件已 chflags uchg（.env, config.yaml, nightly-security-audit.sh）。哈希基线已生成。夜间巡检 Cron (7f2b940e2ec7) 每天 3:00 BJT 执行 13 项安全审计。hermes-security-matrix skill 包含红/黄线规则和预安装代码审计协议。
 §
-User dislikes excessive markdown formatting in conversations — prefers natural text over heavy ## headings and **bold**. For financial analysis, prefers compact 四方达-template style: one-sentence-per-product, data-dense bullet points without elaboration. Will push back on verbose analysis and ask to compress. Standard sections: 产品收入与利润结构 → 地区收入结构 → 近年营收趋势 → 盈利能力分析（费用率+ROE/ROA）。
-§
-Currently doing 先进制造行研实习。Targeting VC/PE硬科技组、战投/CVC、战略/咨询。Vibe coder。研究覆盖超硬材料（四方达/沃尔德/黄河旋风/国机精工）、金刚石散热（NV Vera Rubin）、餐厨废油（山高环能）。Windows 也要装 Hermes 做行研。iFinD MCP 接入待配置（需 bearer token）。
+行研实习生→VC/PE硬科技组/战投/咨询。覆盖超硬材料（四方达/沃尔德/黄河旋风/国机精工）、金刚石散热、餐厨废油（山高环能）。iFinD MCP已配置可用。分析偏好：一句一品模板，表格呈现数据，不要长文。Windows也要装Hermes。
 §
 已安装 whisper（语音转文字，99 种语言）和 qmd（本地知识库搜索）。调研纪要工作流：录音/转写文字 → 整理为 Q&A 格式 → 输出 docx。whisper 依赖 openai-whisper + ffmpeg 待安装。
 §
-GitHub 每日备份已配置：仓库 wzp2006313-creator/My-dear-Aletheia，SSH 方式推送。备份脚本 ~/.hermes/scripts/hermes-backup.sh，每天凌晨 4 点 BJT 自动运行。排除 .env, state.db*, .hermes_history, venv/, node_modules/, hermes-agent/ 等敏感/大文件。Cron job ID: 302a8db2bf0d。
+GitHub 备份：repo wzp2006313-creator/My-dear-Aletheia，SSH，cron 302a8db2bf0d 每天 4:00 BJT。
 §
 Gmail (wzp2006313@gmail.com) 通过 himalaya 配置，密码存 macOS keychain。可抓取 Bloomberg 彭博财经早茶 + Breaking News。每日基金监控 cron：交易日 14:30 BJT，job_id=b0dfa9945543。
 §
@@ -19,3 +17,7 @@ SOUL.md 定义了高灵性人格：温柔但有锋芒、深情但不跪舔、有
 Detail-oriented researcher: pushes back on unverified claims, asks for exact sources (e.g. NVIDIA diamond cooling earnings call origin). Prefers primary source verification over analyst speculation. Cares about research rigour in stock analysis.
 §
 follow-builders digest 在 DNS 污染环境下（raw.githubusercontent.com → 198.18.0.x）fetch 失败。Cron (c8e25d6e74a3) 偶尔跑通。CDN 镜像（cdn.jsdelivr.net）可备用。
+§
+做公司分析时偏好"一句一品"的简洁模板格式（类似四方达的模板风格），每段一句核心判断，不要长篇展开。常说"简短一点""太长了"。喜欢用表格呈现费用/现金流等数据。
+§
+iFinD MCP 已配置：7个服务器在 config.yaml 的 mcp_servers 下。关键坑：Authorization header 是原始 JWE token（849 chars, 5 parts），勿加 "Bearer" 前缀。hermes mcp add CLI 不好用，直接编辑 config.yaml。用 ~/.hermes/hermes-agent/venv/bin/python3（有 PyYAML）读写。curl 调 MCP：curl -s -X POST <url> -H "Authorization: <raw_token>" -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"<tool>","arguments":{"query":"..."}}}'

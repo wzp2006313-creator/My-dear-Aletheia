@@ -521,6 +521,39 @@ Headings 5/6 collapse to H4. Multiple `>` lines render as separate quote blocks 
 | One-off API exploration | `ntn api ...` | curl |
 | Build a sync / webhook / agent tool hosted by Notion | `ntn workers ...` | WSL2 + `ntn workers ...` |
 
+## Page Reorganization Workflow (full rewrite + image preservation)
+
+When asked to reorganize/restructure an existing Notion page while keeping its images:
+
+1. **Search** for the page: `POST /v1/search`
+2. **Read markdown**: `GET /v1/pages/{id}/markdown` — this gives you the full text AND image URLs
+3. **Download images locally** (regex `!\[.*?\]\((https://[^)]+)\)` from markdown, then `urllib.request.urlretrieve`) — the S3 signed URLs may expire, so download immediately
+4. **Analyze images**: use `vision_analyze` on the local copies to understand framework diagrams etc.
+5. **Compose new markdown**: merge user notes with reference content, use Notion-flavored markdown (columns, callouts, TOC, etc.)
+6. **Replace page content**: `PATCH /v1/pages/{id}/markdown` with `replace_content`
+7. **Re-add images**: because `replace_content` strips external image URLs (see pitfall below), use `PATCH /v1/blocks/{id}/children` to append image blocks at the page bottom
+8. **Tell user to drag images** to correct positions — the blocks API cannot insert at arbitrary positions, only append
+
+### ⚠️ Critical Pitfall: `replace_content` strips external image URLs
+
+When you `PATCH /v1/pages/{id}/markdown` with `replace_content`, any `![alt](url)` markdown image syntax referencing external URLs is SILENTLY REMOVED from the rendered page. Notion only preserves images that were proper file blocks (uploaded via Notion, not externally referenced). **Always re-insert images as blocks after a `replace_content`.**
+
+### ⚠️ Image blocks can only be APPENDED, not positioned
+
+`PATCH /v1/blocks/{id}/children` always adds blocks at the END of the page. There is no `after` or `before` parameter for positioning. The user must manually drag blocks to the correct location in the Notion UI. Add a paragraph hint below each image block indicating where it belongs.
+
+### ⚠️ API key escaping in shell/Python heredocs
+
+When `NOTION_API_KEY` contains characters that break shell/Python parsing (quotes, backticks, etc.), inline `python3 << 'PYEOF'` heredocs fail with syntax errors because the literal key value appears inside the script. **Workaround**: extract the key to a temp file first, then read from Python:
+
+```bash
+source ~/.hermes/.env 2>/dev/null && echo "*** > /tmp/nk.txt
+```
+
+Then in Python: `api_key = open("/tmp/nk.txt").read().strip()`
+
+Never embed the raw `$NOTION_API_KEY` value inside a Python script body or heredoc.
+
 ## Notes
 
 - Page/database IDs are UUIDs (with or without dashes — both accepted).

@@ -221,6 +221,10 @@
       1780315767855028860,
       4073
     ],
+    "equity-research/ifind-integration/SKILL.md": [
+      1781169081584590830,
+      7172
+    ],
     "equity-research/mece-tree/SKILL.md": [
       1780459504169605958,
       2368
@@ -406,8 +410,8 @@
       1414
     ],
     "productivity/notion/SKILL.md": [
-      1780362681554814567,
-      18475
+      1781160581160346331,
+      20915
     ],
     "productivity/ocr-and-documents/SKILL.md": [
       1780310488970619574,
@@ -1577,6 +1581,19 @@
         "macos",
         "windows"
       ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "ifind-integration",
+      "category": "equity-research",
+      "frontmatter_name": "ifind-integration",
+      "description": "Configure, troubleshoot, and use iFinD (同花顺) data service...",
+      "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],

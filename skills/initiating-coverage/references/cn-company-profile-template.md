@@ -64,9 +64,37 @@ Extract 净资产收益率 and 加权净资产收益率 from the page text.
 ### Regional revenue
 年报 section "主营业务分地区" in annual report or search for "国内" "国外" 收入 毛利率 in the annual report description.
 
+## Data Sources (continued)
+
+### Cash flow statement (经营性/投资性/筹资性现金流)
+Navigate to Sina Finance CashFlow pages:
+```
+http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688028/ctrl/YEAR/displaytype/4.phtml
+```
+Extract all four key line items in one regex pass:
+```js
+(()=>{const t=document.body.innerText;const r=/经营活动产生的现金流量净额\s+([\d\-,.]+).*?投资活动产生的现金流量净额\s+([\d\-,.]+).*?筹资活动产生的现金流量净额\s+([\d\-,.]+).*?现金及现金等价物净增加额\s+([\d\-,.]+)/s;const m=t.match(r);return m?JSON.stringify({经营:m[1],投资:m[2],筹资:m[3],现金:m[4]}):'nf';})()
+```
+The first column is the full-year figure. To get 10 years of data, loop through years 2016-2025 in the URL, extract each, then compile into a table (convert 万元 → 亿元 by dividing by 10,000).
+
+### iFinD Excel formula syntax
+When the user asks about writing iFinD formulas for Excel:
+```
+=@thsiFinD("指标代码", 股票代码单元格, 年份单元格, 100)/100000000
+```
+- `"指标代码"`: unique code per financial metric (use iFinD's 公式向导 to search by Chinese name)
+- `$B$1`: locked stock code cell (e.g. 688028)
+- `Y4`: year cell reference
+- `100`: report type (100=年报, 50=中报, 30=三季报, 10=一季报)
+- `/100000000`: convert from 元 to 亿元
+Common codes: ths_revenue (营收), ths_np_cg (归母净利润), ths_gross_margin (毛利率), ths_roe (ROE), ths_rd_expense (研发费用), etc.
+
 ## Pitfalls
 
-- Do NOT write multi-paragraph product descriptions. The user prefers density.
+- Do NOT write multi-paragraph product descriptions. The user prefers density. Each product or segment gets ONE compact paragraph.
 - Do NOT estimate毛利率 without citing the source; if unsure, search specifically for the exact product毛利率 from the annual report.
 - The 同花顺 page loads data dynamically — if the table shows "加载中...", click on the "利润比例" tab first, then extract.
 - 四方达's template uses "资源开采/工程施工类" and "精密加工类" as product categories — adapt to the target company's actual products, don't force-fit.
+- Do NOT force comparisons to 四方达 unless the user's template explicitly includes it. If the user says "不用管四方达", remove the comparison and keep the section self-contained.
+- When the user asks to shorten a section ("简短一点", "是不是太长了"), compress to the minimum: remove explanatory bridging sentences, keep only data + one-line judgment per item.
+- For multi-year data extraction from Sina, use the regex approach above rather than individual per-item extraction — it's faster and captures all four cash flow items in one shot.
