@@ -433,13 +433,13 @@
     "created_at": "2026-06-01T12:24:11.096512+00:00",
     "created_by": null,
     "last_patched_at": "2026-06-09T01:07:15.309994+00:00",
-    "last_used_at": "2026-06-13T01:00:57.974978+00:00",
-    "last_viewed_at": "2026-06-11T01:06:51.940852+00:00",
+    "last_used_at": "2026-06-14T01:01:28.744583+00:00",
+    "last_viewed_at": "2026-06-14T01:01:28.742747+00:00",
     "patch_count": 9,
     "pinned": false,
     "state": "active",
-    "use_count": 28,
-    "view_count": 12
+    "use_count": 30,
+    "view_count": 13
   },
   "frontend-design": {
     "archived_at": null,
@@ -563,12 +563,12 @@
     "created_at": "2026-06-01T12:44:39.009477+00:00",
     "created_by": null,
     "last_patched_at": "2026-06-13T19:14:40.575928+00:00",
-    "last_used_at": "2026-06-13T19:14:15.224594+00:00",
+    "last_used_at": "2026-06-14T19:00:43.112283+00:00",
     "last_viewed_at": "2026-06-13T19:14:15.222600+00:00",
     "patch_count": 3,
     "pinned": false,
     "state": "active",
-    "use_count": 15,
+    "use_count": 16,
     "view_count": 1
   },
   "himalaya": {
@@ -1057,12 +1057,12 @@
     "created_at": "2026-06-01T12:37:53.873355+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": "2026-06-13T01:00:57.995728+00:00",
+    "last_used_at": "2026-06-14T01:00:47.965102+00:00",
     "last_viewed_at": null,
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 15,
+    "use_count": 16,
     "view_count": 0
   },
   "python-debugpy": {
