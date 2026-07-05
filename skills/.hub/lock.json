@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "installed": {
+    "whisper": {
+      "source": "official",
+      "identifier": "official/mlops/whisper",
+      "trust_level": "builtin",
+      "scan_verdict": "caution",
+      "content_hash": "sha256:f7916f28a8f510c7",
+      "install_path": "mlops/whisper",
+      "files": [
+        "SKILL.md",
+        "references/languages.md"
+      ],
+      "metadata": {},
+      "installed_at": "2026-06-02T02:46:36.914507+00:00",
+      "updated_at": "2026-06-02T02:46:36.914509+00:00"
+    },
+    "qmd": {
+      "source": "official",
+      "identifier": "official/research/qmd",
+      "trust_level": "builtin",
+      "scan_verdict": "dangerous",
+      "content_hash": "sha256:ac5081bf93120fed",
+      "install_path": "research/qmd",
+      "files": [
+        "SKILL.md"
+      ],
+      "metadata": {},
+      "installed_at": "2026-06-02T02:46:39.772042+00:00",
+      "updated_at": "2026-06-02T02:46:39.772044+00:00"
+    }
+  }
+}
