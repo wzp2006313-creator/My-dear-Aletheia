@@ -285,3 +285,17 @@ Style can drift in extensions — restate genre/mood when extending.
 - Don't be precious about rules. If a line breaks meter but hits
   harder, keep it. The feeling is what matters. Craft serves art,
   not the other way around.
+
+---
+
+## 10. Local Music Generation with HeartMuLa
+
+For users who want to generate music locally (no cloud service, no API keys), HeartMuLa is an open-source (Apache-2.0) alternative to Suno. It runs on local GPU hardware and generates full songs from lyrics + style tags.
+
+**When to use HeartMuLa vs Suno:**
+- **Suno** (sections 6-8 above): Cloud service, no setup, best quality, paid tiers. Best for creative craft work.
+- **HeartMuLa**: Local/offline, open-source, requires NVIDIA GPU (8GB+ VRAM), free. Best when you need privacy, offline capability, or want to avoid API costs.
+
+The full setup guide — including installation, GPU requirements, source-code patches for compatibility, model download, usage examples, and known pitfalls — is in the reference file:
+
+- **[references/heartmula-local-generation.md](references/heartmula-local-generation.md)** — Complete HeartMuLa setup and operation guide

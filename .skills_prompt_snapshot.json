@@ -150,8 +150,8 @@
       14168
     ],
     "creative/songwriting-and-ai-music/SKILL.md": [
-      1780310488960755060,
-      10206
+      1783342196124179009,
+      11118
     ],
     "creative/touchdesigner-mcp/SKILL.md": [
       1780310488960839642,
@@ -256,10 +256,6 @@
     "mcp/native-mcp/SKILL.md": [
       1780310488965342281,
       12365
-    ],
-    "media/heartmula/SKILL.md": [
-      1780310488965544278,
-      6412
     ],
     "media/media-tools/SKILL.md": [
       1782735098184217572,
@@ -1620,23 +1616,6 @@
       "category": "mcp",
       "frontmatter_name": "native-mcp",
       "description": "MCP client: connect servers, register tools (stdio/HTTP).",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "heartmula",
-      "category": "media",
-      "frontmatter_name": "heartmula",
-      "description": "HeartMuLa: Suno-like song generation from lyrics + tags.",
       "platforms": [
         "linux",
         "macos",

@@ -23,17 +23,17 @@
       "schedule_display": "0 9 * * *",
       "repeat": {
         "times": null,
-        "completed": 37
+        "completed": 38
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-01T20:23:47.163344+08:00",
-      "next_run_at": "2026-07-06T09:00:00+08:00",
-      "last_run_at": "2026-07-05T09:11:57.987030+08:00",
-      "last_status": "ok",
-      "last_error": null,
+      "next_run_at": "2026-07-07T09:00:00+08:00",
+      "last_run_at": "2026-07-06T09:09:28.090095+08:00",
+      "last_status": "error",
+      "last_error": "RuntimeError: [Errno 32] Broken pipe",
       "last_delivery_error": null,
       "deliver": "origin",
       "origin": {
@@ -68,15 +68,15 @@
       "schedule_display": "0 3 * * *",
       "repeat": {
         "times": null,
-        "completed": 35
+        "completed": 36
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-01T20:44:35.495762+08:00",
-      "next_run_at": "2026-07-07T03:00:00+08:00",
-      "last_run_at": "2026-07-06T03:08:24.738146+08:00",
+      "next_run_at": "2026-07-08T03:00:00+08:00",
+      "last_run_at": "2026-07-07T03:03:48.610651+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -111,15 +111,15 @@
       "schedule_display": "0 4 * * *",
       "repeat": {
         "times": null,
-        "completed": 31
+        "completed": 32
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-03T11:39:46.582888+08:00",
-      "next_run_at": "2026-07-07T04:00:00+08:00",
-      "last_run_at": "2026-07-05T04:10:18.055111+08:00",
+      "next_run_at": "2026-07-08T04:00:00+08:00",
+      "last_run_at": "2026-07-06T04:36:39.370641+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": "no delivery target resolved for deliver=origin",
@@ -151,18 +151,18 @@
       "schedule_display": "30 14 * * 1-5",
       "repeat": {
         "times": null,
-        "completed": 23
+        "completed": 24
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-03T11:43:05.342845+08:00",
-      "next_run_at": "2026-07-06T14:30:00+08:00",
-      "last_run_at": "2026-07-03T14:35:29.203705+08:00",
-      "last_status": "ok",
-      "last_error": null,
-      "last_delivery_error": null,
+      "next_run_at": "2026-07-07T14:30:00+08:00",
+      "last_run_at": "2026-07-06T14:51:59.356230+08:00",
+      "last_status": "error",
+      "last_error": "RuntimeError: Connection error.",
+      "last_delivery_error": "delivery error: Feishu send failed: HTTPSConnectionPool(host='open.feishu.cn', port=443): Max retries exceeded with url: /open-apis/im/v1/messages?receive_id_type=chat_id (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Service Unavailable')))",
       "deliver": "origin",
       "origin": {
         "platform": "feishu",
@@ -196,17 +196,17 @@
       "schedule_display": "0 9 * * 1",
       "repeat": {
         "times": null,
-        "completed": 0
+        "completed": 1
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-07-04T16:40:07.593150+08:00",
-      "next_run_at": "2026-07-06T09:00:00+08:00",
-      "last_run_at": null,
-      "last_status": null,
-      "last_error": null,
+      "next_run_at": "2026-07-13T09:00:00+08:00",
+      "last_run_at": "2026-07-06T09:09:28.402076+08:00",
+      "last_status": "error",
+      "last_error": "RuntimeError: [Errno 32] Broken pipe",
       "last_delivery_error": null,
       "deliver": "origin",
       "origin": {
@@ -223,5 +223,5 @@
       "profile": null
     }
   ],
-  "updated_at": "2026-07-06T04:00:32.108473+08:00"
+  "updated_at": "2026-07-07T04:00:56.598726+08:00"
 }

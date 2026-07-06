@@ -1,9 +1,9 @@
 {
-  "last_report_path": "/Users/eason/.hermes/logs/curator/20260629-120608",
-  "last_run_at": "2026-06-29T12:06:08.413920+00:00",
-  "last_run_duration_seconds": 398.370499,
-  "last_run_summary": "auto: no changes; llm: All consolidations verified. Here is the final curation report.\n\n---\n\n## Curator Pass Summary\n\n**Skills scanned:** 63 agent-created skills\n**Consolidations executed:** 3 archives across 2 umbrellas\n**Umbrellas created:** 1 (media-tools)\n\n##…\narchived 3 skill(s):\n  • hermes-agent-skill-authoring → hermes-agent\n  • gif-search — pruned (stale)\n  • songsee — pruned (stale)\nfull report: hermes curator status\nkeep an umbrella stable: hermes curator pin hermes-agent",
+  "last_report_path": "/Users/eason/.hermes/logs/curator/20260706-124639",
+  "last_run_at": "2026-07-06T12:46:39.197186+00:00",
+  "last_run_duration_seconds": 245.878664,
+  "last_run_summary": "auto: no changes; llm: Consolidation complete. Here's my summary of the pass:\n\n---\n\n## Consolidation Pass Summary\n\n### Library Assessment\n\nAfter reviewing ~45 of 62 skills in detail, the library is **already well-organized at the class level**. Nearly every skill…\narchived 1 skill(s):\n  • heartmula → songwriting-and-ai-music\nfull report: hermes curator status\nkeep an umbrella stable: hermes curator pin songwriting-and-ai-music",
   "last_run_summary_shown_at": null,
   "paused": false,
-  "run_count": 4
+  "run_count": 5
 }
