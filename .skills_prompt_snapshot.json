@@ -1,685 +1,911 @@
 {
-  "version": 1,
+  "version": 2,
   "manifest": {
-    "3-statement-model/SKILL.md": [
-      1780315835443486637,
-      21902
-    ],
-    "a-share-revenue-modeling/SKILL.md": [
-      1783154823517542799,
-      4941
-    ],
-    "agent-browser/SKILL.md": [
-      1780315235270101598,
-      2738
-    ],
-    "ai-readiness/SKILL.md": [
-      1780315985436626666,
-      6104
+    "apple/DESCRIPTION.md": [
+      1780310488940746328,
+      137,
+      2376996,
+      1780310811686496998
     ],
     "apple/apple/SKILL.md": [
       1780919213510647456,
-      5591
-    ],
-    "audit-xls/SKILL.md": [
-      1780315854996658439,
-      6347
-    ],
-    "autonomous-ai-agents/coding-agents/SKILL.md": [
-      1780919168459245118,
-      3958
-    ],
-    "autonomous-ai-agents/hermes-agent/SKILL.md": [
-      1780310488941518274,
-      46320
-    ],
-    "buffett-skill/SKILL.md": [
-      1780319606571860402,
-      6395
-    ],
-    "business-model-craft/SKILL.md": [
-      1780459344914453515,
-      13932
-    ],
-    "buyer-list/SKILL.md": [
-      1780315891436245333,
-      3950
-    ],
-    "career-ops/.agents/skills/career-ops/SKILL.md": [
-      1780898791315684002,
-      3707
-    ],
-    "career-ops/.claude/skills/career-ops/SKILL.md": [
-      1780898791316277376,
-      3707
-    ],
-    "career-ops/.qwen/skills/career-ops/SKILL.md": [
-      1780898791300691652,
-      3707
-    ],
-    "cim-builder/SKILL.md": [
-      1780315975796466303,
-      4511
-    ],
-    "claude-api/SKILL.md": [
-      1780314676913077665,
-      33758
-    ],
-    "clean-data-xls/SKILL.md": [
-      1780315851287267966,
-      2863
-    ],
-    "client-report/SKILL.md": [
-      1780316011266399540,
-      3300
-    ],
-    "competitive-analysis/SKILL.md": [
-      1780315869074046837,
-      12209
-    ],
-    "comps-analysis/SKILL.md": [
-      1780315918877135775,
-      31522
-    ],
-    "creative/architecture-diagram/SKILL.md": [
-      1780310488941935851,
-      5830
-    ],
-    "creative/ascii-art/SKILL.md": [
-      1780310488942116640,
-      10556
-    ],
-    "creative/ascii-video/SKILL.md": [
-      1780310488942312470,
-      14864
-    ],
-    "creative/baoyu-article-illustrator/SKILL.md": [
-      1780310488943635117,
-      10131
-    ],
-    "creative/baoyu-comic/SKILL.md": [
-      1780310488946400699,
-      14621
-    ],
-    "creative/baoyu-infographic/SKILL.md": [
-      1780310488948735121,
-      10434
-    ],
-    "creative/claude-design/SKILL.md": [
-      1782130135830576602,
-      21573
-    ],
-    "creative/comfyui/SKILL.md": [
-      1780310488950973836,
-      24287
-    ],
-    "creative/creative-ideation/SKILL.md": [
-      1780310488952935348,
-      6318
-    ],
-    "creative/excalidraw/SKILL.md": [
-      1780310488953221593,
-      7300
-    ],
-    "creative/humanizer/SKILL.md": [
-      1780310488953593254,
-      30025
-    ],
-    "creative/ideation/SKILL.md": [
-      1780459453978489113,
-      6318
-    ],
-    "creative/manim-video/SKILL.md": [
-      1780310488953718086,
-      12023
-    ],
-    "creative/p5js/SKILL.md": [
-      1780310488954688404,
-      27494
-    ],
-    "creative/pixel-art/SKILL.md": [
-      1780310488955818803,
-      7581
-    ],
-    "creative/popular-web-designs/SKILL.md": [
-      1780310488956257796,
-      9722
-    ],
-    "creative/pretext/SKILL.md": [
-      1780310488960275359,
-      14168
-    ],
-    "creative/songwriting-and-ai-music/SKILL.md": [
-      1783342196124179009,
-      11118
-    ],
-    "creative/touchdesigner-mcp/SKILL.md": [
-      1780310488960839642,
-      15429
-    ],
-    "data-science/jupyter-live-kernel/SKILL.md": [
-      1780310488962313536,
-      5285
-    ],
-    "datapack-builder/SKILL.md": [
-      1780315990276376001,
-      24040
-    ],
-    "dcf-model/SKILL.md": [
-      1780315948199563043,
-      50648
-    ],
-    "dd-checklist/SKILL.md": [
-      1780316014169727377,
-      4526
-    ],
-    "docx/SKILL.md": [
-      1780314663235199189,
-      20079
-    ],
-    "dogfood/SKILL.md": [
-      1780310488962712696,
-      6270
-    ],
-    "earnings-analysis/SKILL.md": [
-      1780315738648426691,
-      9416
-    ],
-    "earnings-preview/SKILL.md": [
-      1780315739572616412,
-      3855
-    ],
-    "elon-musk-skill/SKILL.md": [
-      1780319672741862325,
-      11065
-    ],
-    "email/himalaya/SKILL.md": [
-      1780310488963076566,
-      7164
-    ],
-    "equity-research/SKILL.md": [
-      1782709725961360854,
-      3737
-    ],
-    "find-skills/SKILL.md": [
-      1780317448181237199,
-      7357
-    ],
-    "follow-builders/SKILL.md": [
-      1783213986572161929,
-      10993
-    ],
-    "frontend-design/SKILL.md": [
-      1780314640561519609,
-      4439
-    ],
-    "frontend-slides/SKILL.md": [
-      1780462280524384933,
-      28187
-    ],
-    "frontend-slides/plugins/frontend-slides/skills/frontend-slides/SKILL.md": [
-      1780462280522847401,
-      28187
-    ],
-    "gaming/minecraft-modpack-server/SKILL.md": [
-      1780310488963352603,
-      6559
-    ],
-    "gaming/pokemon-player/SKILL.md": [
-      1780310488963422727,
-      8709
-    ],
-    "github/github-workflows/SKILL.md": [
-      1780918977519916344,
-      5606
-    ],
-    "guizang-ppt-skill/SKILL.md": [
-      1780315314894785390,
-      2811
-    ],
-    "hermes-security-matrix/SKILL.md": [
-      1781378080574203226,
-      8707
-    ],
-    "initiating-coverage/SKILL.md": [
-      1781079262930930213,
-      30719
-    ],
-    "learning/feynman-skill/SKILL.md": [
-      1780319694148334715,
-      28200
-    ],
-    "mcp/mcp-builder/SKILL.md": [
-      1780314703105963990,
-      9091
-    ],
-    "mcp/native-mcp/SKILL.md": [
-      1780310488965342281,
-      12365
-    ],
-    "media/media-tools/SKILL.md": [
-      1782735098184217572,
-      1669
-    ],
-    "media/spotify/SKILL.md": [
-      1780310488965699359,
-      6319
-    ],
-    "media/youtube-content/SKILL.md": [
-      1780310488965764274,
-      3218
-    ],
-    "microsoft-docs/SKILL.md": [
-      1780314725801312072,
-      2924
-    ],
-    "mlops/evaluation/lm-evaluation-harness/SKILL.md": [
-      1780310488966125685,
-      12020
-    ],
-    "mlops/evaluation/weights-and-biases/SKILL.md": [
-      1780310488966438764,
-      12395
-    ],
-    "mlops/huggingface-hub/SKILL.md": [
-      1780310488966750926,
-      3674
-    ],
-    "mlops/inference/llama-cpp/SKILL.md": [
-      1780310488966914173,
-      8880
-    ],
-    "mlops/inference/obliteratus/SKILL.md": [
-      1780310488967405124,
-      15464
-    ],
-    "mlops/inference/vllm/SKILL.md": [
-      1780310488967855825,
-      9071
-    ],
-    "mlops/models/audiocraft/SKILL.md": [
-      1780310488968289652,
-      16189
-    ],
-    "mlops/models/segment-anything/SKILL.md": [
-      1780310488968559606,
-      13372
-    ],
-    "mlops/research/dspy/SKILL.md": [
-      1780310488968882560,
-      15220
-    ],
-    "mlops/whisper/SKILL.md": [
-      1780368396894546346,
-      7517
-    ],
-    "morning-note/SKILL.md": [
-      1780315814474415723,
-      3238
-    ],
-    "munger-skill/SKILL.md": [
-      1780319638624224113,
-      29991
-    ],
-    "naval-skill/SKILL.md": [
-      1780319637444905021,
-      30550
-    ],
-    "note-taking/obsidian/SKILL.md": [
-      1780310488969378260,
-      2919
-    ],
-    "notebooklm/SKILL.md": [
-      1780314978859633352,
-      4152
-    ],
-    "nuwa-skill/SKILL.md": [
-      1780319753667738578,
-      33130
-    ],
-    "perspectives/zhang-yiming-skill/SKILL.md": [
-      1780319773118785365,
-      29494
-    ],
-    "productivity/airtable/SKILL.md": [
-      1780310488969534341,
-      11302
-    ],
-    "productivity/fund-portfolio-monitor/SKILL.md": [
-      1783060630416430371,
-      6053
-    ],
-    "productivity/google-workspace/SKILL.md": [
-      1780310488969614756,
-      13411
-    ],
-    "productivity/linear/SKILL.md": [
-      1780310488970027708,
-      14782
-    ],
-    "productivity/maps/SKILL.md": [
-      1780310488970172665,
-      6726
-    ],
-    "productivity/notion/SKILL.md": [
-      1782460542643178666,
-      25204
-    ],
-    "productivity/ocr-and-documents/SKILL.md": [
-      1782130148336742996,
-      5393
-    ],
-    "productivity/powerpoint/SKILL.md": [
-      1780564318609779193,
-      10592
-    ],
-    "red-teaming/godmode/SKILL.md": [
-      1780310488974743677,
-      20059
-    ],
-    "research/arxiv/SKILL.md": [
-      1780310488976268695,
-      10085
-    ],
-    "research/blogwatcher/SKILL.md": [
-      1780310488976435234,
-      5111
-    ],
-    "research/llm-wiki/SKILL.md": [
-      1780310488976533191,
-      20113
-    ],
-    "research/polymarket/SKILL.md": [
-      1780310488976624106,
-      2985
-    ],
-    "research/qmd/SKILL.md": [
-      1780368399752223290,
-      13062
-    ],
-    "research/research-paper-writing/SKILL.md": [
-      1780310488977079141,
-      103375
-    ],
-    "sbti-skill/SKILL.md": [
-      1780319419679512245,
-      2212
-    ],
-    "sbti-skill/generated-skills/soul-atm-er/SKILL.md": [
-      1780319427713759480,
-      1686
-    ],
-    "sbti-skill/generated-skills/soul-boss/SKILL.md": [
-      1780319427713018561,
-      1705
-    ],
-    "sbti-skill/generated-skills/soul-ctrl/SKILL.md": [
-      1780319427712908561,
-      1746
-    ],
-    "sbti-skill/generated-skills/soul-dead/SKILL.md": [
-      1780319427713369021,
-      1706
-    ],
-    "sbti-skill/generated-skills/soul-dior-s/SKILL.md": [
-      1780319427713200145,
-      1711
-    ],
-    "sbti-skill/generated-skills/soul-drunk/SKILL.md": [
-      1780319427715237151,
-      1733
-    ],
-    "sbti-skill/generated-skills/soul-fake/SKILL.md": [
-      1780319427714289940,
-      1755
-    ],
-    "sbti-skill/generated-skills/soul-fuck/SKILL.md": [
-      1780319427714104939,
-      1717
-    ],
-    "sbti-skill/generated-skills/soul-gogo/SKILL.md": [
-      1780319427713936022,
-      1635
-    ],
-    "sbti-skill/generated-skills/soul-hhhh/SKILL.md": [
-      1780319427715143276,
-      1706
-    ],
-    "sbti-skill/generated-skills/soul-imfw/SKILL.md": [
-      1780319427714621024,
-      1700
-    ],
-    "sbti-skill/generated-skills/soul-imsb/SKILL.md": [
-      1780319427714447065,
-      1724
-    ],
-    "sbti-skill/generated-skills/soul-joke-r/SKILL.md": [
-      1780319427714720191,
-      1709
-    ],
-    "sbti-skill/generated-skills/soul-love-r/SKILL.md": [
-      1780319427713446104,
-      1730
-    ],
-    "sbti-skill/generated-skills/soul-malo/SKILL.md": [
-      1780319427714007647,
-      1712
-    ],
-    "sbti-skill/generated-skills/soul-monk/SKILL.md": [
-      1780319427715044900,
-      1698
-    ],
-    "sbti-skill/generated-skills/soul-mum/SKILL.md": [
-      1780319427713523021,
-      1719
-    ],
-    "sbti-skill/generated-skills/soul-oh-no/SKILL.md": [
-      1780319427713849980,
-      1750
-    ],
-    "sbti-skill/generated-skills/soul-ojbk/SKILL.md": [
-      1780319427714366232,
-      1701
-    ],
-    "sbti-skill/generated-skills/soul-poor/SKILL.md": [
-      1780319427714958317,
-      1736
-    ],
-    "sbti-skill/generated-skills/soul-sexy/SKILL.md": [
-      1780319427714209523,
-      1690
-    ],
-    "sbti-skill/generated-skills/soul-shit/SKILL.md": [
-      1780319427713281312,
-      1719
-    ],
-    "sbti-skill/generated-skills/soul-solo/SKILL.md": [
-      1780319427714519524,
-      1731
-    ],
-    "sbti-skill/generated-skills/soul-than-k/SKILL.md": [
-      1780319427713636521,
-      1739
-    ],
-    "sbti-skill/generated-skills/soul-thin-k/SKILL.md": [
-      1780319427713114020,
-      1740
-    ],
-    "sbti-skill/generated-skills/soul-woc/SKILL.md": [
-      1780319427714795941,
-      1720
-    ],
-    "sbti-skill/generated-skills/soul-zzzz/SKILL.md": [
-      1780319427714872983,
-      1754
-    ],
-    "sector-overview/SKILL.md": [
-      1782716011776903514,
-      5112
-    ],
-    "skill-creator/SKILL.md": [
-      1780314080681385865,
-      6347
-    ],
-    "smart-home/openhue/SKILL.md": [
-      1780310488982990383,
-      2713
-    ],
-    "social-media/xurl/SKILL.md": [
-      1780310488983161714,
-      14977
-    ],
-    "software-development/requesting-code-review/SKILL.md": [
-      1780310488983786121,
-      8483
-    ],
-    "software-development/spike/SKILL.md": [
-      1780310488983865911,
-      8753
-    ],
-    "software-development/subagent-driven-development/SKILL.md": [
-      1780310488983952618,
-      10742
-    ],
-    "software-development/systematic-debugging/SKILL.md": [
-      1782130070198453895,
-      11550
-    ],
-    "software-development/test-driven-development/SKILL.md": [
-      1780310488984237780,
-      9573
-    ],
-    "software-development/writing-plans/SKILL.md": [
-      1780919098307911628,
-      8502
-    ],
-    "steve-jobs-skill/SKILL.md": [
-      1780319694863007671,
-      27199
-    ],
-    "taleb-skill/SKILL.md": [
-      1780319751392101902,
-      30125
-    ],
-    "web-access/SKILL.md": [
-      1780461820462818992,
-      4527
-    ],
-    "webapp-testing/SKILL.md": [
-      1780314697882331724,
-      3913
-    ],
-    "xlsx/SKILL.md": [
-      1782463006896203966,
-      12482
-    ],
-    "yuanbao/SKILL.md": [
-      1780310488984392278,
-      3795
-    ],
-    "apple/DESCRIPTION.md": [
-      1780310488940746328,
-      137
-    ],
-    "autonomous-ai-agents/DESCRIPTION.md": [
-      1780310488941185154,
-      211
-    ],
-    "creative/DESCRIPTION.md": [
-      1780310488941856727,
-      116
-    ],
-    "data-science/DESCRIPTION.md": [
-      1780310488962242162,
-      137
-    ],
-    "diagramming/DESCRIPTION.md": [
-      1780310488962642948,
-      159
-    ],
-    "domain/DESCRIPTION.md": [
-      1780310488962938068,
-      1142
-    ],
-    "email/DESCRIPTION.md": [
-      1780310488963000984,
-      101
-    ],
-    "gaming/DESCRIPTION.md": [
-      1780310488963269063,
-      129
-    ],
-    "gifs/DESCRIPTION.md": [
-      1780310488963482685,
-      109
-    ],
-    "github/DESCRIPTION.md": [
-      1780310488963545767,
-      167
-    ],
-    "inference-sh/DESCRIPTION.md": [
-      1780310488965172492,
-      706
-    ],
-    "mcp/DESCRIPTION.md": [
-      1780310488965253949,
-      216
-    ],
-    "media/DESCRIPTION.md": [
-      1780310488965406447,
-      139
-    ],
-    "mlops/DESCRIPTION.md": [
-      1780310488965965021,
-      162
-    ],
-    "mlops/evaluation/DESCRIPTION.md": [
-      1780310488966040562,
-      126
-    ],
-    "mlops/inference/DESCRIPTION.md": [
-      1780310488966828633,
-      161
-    ],
-    "mlops/models/DESCRIPTION.md": [
-      1780310488968198528,
-      253
-    ],
-    "mlops/research/DESCRIPTION.md": [
-      1780310488968765645,
-      113
-    ],
-    "mlops/training/DESCRIPTION.md": [
-      1780310488969173972,
-      150
-    ],
-    "mlops/vector-databases/DESCRIPTION.md": [
-      1780310488969243387,
-      125
-    ],
-    "note-taking/DESCRIPTION.md": [
-      1780310488969309178,
-      146
-    ],
-    "productivity/DESCRIPTION.md": [
-      1780310488969440801,
-      114
-    ],
-    "productivity/ocr-and-documents/DESCRIPTION.md": [
-      1780310488970572492,
-      147
+      5591,
+      5712321,
+      1780919213510835580
     ],
     "research/DESCRIPTION.md": [
       1780310488976175947,
-      179
+      179,
+      2376997,
+      1780310811686817449
     ],
-    "smart-home/DESCRIPTION.md": [
-      1780310488982908801,
-      123
+    "research/social-sentiment-research/SKILL.md": [
+      1788166402679907464,
+      4668,
+      31486609,
+      1788166402680302961
+    ],
+    "research/blogwatcher/SKILL.md": [
+      1780310488976435234,
+      5111,
+      2376240,
+      1780310811542273846
+    ],
+    "research/qmd/SKILL.md": [
+      1780368399752223290,
+      13062,
+      3947285,
+      1780368399752223290
+    ],
+    "research/a-share-research/SKILL.md": [
+      1790239447089470753,
+      11707,
+      41062349,
+      1790239447089965507
+    ],
+    "research/xiaohongshu-research/SKILL.md": [
+      1786894380000567868,
+      4479,
+      26847640,
+      1786894380001264531
+    ],
+    "research/polymarket/SKILL.md": [
+      1780310488976624106,
+      2985,
+      2376246,
+      1780310811543287574
+    ],
+    "research/research-paper-writing/SKILL.md": [
+      1786565222032792941,
+      72170,
+      25821834,
+      1786565242789523824
+    ],
+    "earnings-preview/SKILL.md": [
+      1780315739572616412,
+      3855,
+      2826542,
+      1780315739572724203
+    ],
+    "cim-builder/SKILL.md": [
+      1780315975796466303,
+      4511,
+      2830111,
+      1780315975796619302
+    ],
+    "agent-browser/SKILL.md": [
+      1780315235270101598,
+      2738,
+      2804815,
+      1780315235270271138
+    ],
+    "equity-research/SKILL.md": [
+      1782709725961360854,
+      3737,
+      10517023,
+      1782709725961414020
+    ],
+    "gaming/DESCRIPTION.md": [
+      1780310488963269063,
+      129,
+      2376998,
+      1780310811687398395
+    ],
+    "gaming/minecraft-modpack-server/SKILL.md": [
+      1780310488963352603,
+      6559,
+      2376319,
+      1780310811559848745
+    ],
+    "gaming/pokemon-player/SKILL.md": [
+      1780310488963422727,
+      8709,
+      2376321,
+      1780310811560097406
+    ],
+    "client-report/SKILL.md": [
+      1780316011266399540,
+      3300,
+      2830282,
+      1780316011266581789
     ],
     "social-media/DESCRIPTION.md": [
       1780310488983060757,
-      151
+      151,
+      2376999,
+      1780310811687662639
+    ],
+    "web-access/SKILL.md": [
+      1780461820462818992,
+      4527,
+      4110962,
+      1780461820463109364
+    ],
+    "taleb-skill/SKILL.md": [
+      1780319751392101902,
+      30125,
+      2872778,
+      1780319751392289236
+    ],
+    "guizang-ppt-skill/SKILL.md": [
+      1780315314894785390,
+      2811,
+      2811677,
+      1780315314895007056
+    ],
+    "morning-note/SKILL.md": [
+      1780315814474415723,
+      3238,
+      2826830,
+      1780315814474592888
+    ],
+    "ai-readiness/SKILL.md": [
+      1780315985436626666,
+      6104,
+      2830146,
+      1780315985436807873
+    ],
+    "3-statement-model/SKILL.md": [
+      1780315835443486637,
+      21902,
+      2827103,
+      1780315835443651802
+    ],
+    "comps-analysis/SKILL.md": [
+      1780315918877135775,
+      31522,
+      2829573,
+      1780315918877306441
+    ],
+    "earnings-analysis/SKILL.md": [
+      1780315738648426691,
+      9416,
+      2826540,
+      1780315738648558774
+    ],
+    "storyline/SKILL.md": [
+      1788100146499215229,
+      7023,
+      31229333,
+      1788100146499249562
+    ],
+    "data-science/DESCRIPTION.md": [
+      1780310488962242162,
+      137,
+      2377000,
+      1780310811687990257
+    ],
+    "data-science/jupyter-live-kernel/SKILL.md": [
+      1780310488962313536,
+      5285,
+      2376336,
+      1780310811561723120
+    ],
+    "steve-jobs-skill/SKILL.md": [
+      1780319694863007671,
+      27199,
+      2872468,
+      1780319694863184588
+    ],
+    "clean-data-xls/SKILL.md": [
+      1780315851287267966,
+      2863,
+      2828844,
+      1780315851287509839
+    ],
+    "software-development/github/SKILL.md": [
+      1788120030691742465,
+      2446,
+      31349041,
+      1788120059865247023
+    ],
+    "software-development/writing-plans/SKILL.md": [
+      1780919098307911628,
+      8502,
+      5712191,
+      1780919098310112160
+    ],
+    "software-development/subagent-driven-development/SKILL.md": [
+      1780310488983952618,
+      10742,
+      2376369,
+      1780310811566132271
+    ],
+    "web/DESCRIPTION.md": [
+      1788120030693758127,
+      137,
+      31349087,
+      1788120059923880278
+    ],
+    "microsoft-docs/SKILL.md": [
+      1780314725801312072,
+      2924,
+      2784827,
+      1780314725801456196
+    ],
+    "learning/feynman-skill/SKILL.md": [
+      1780319694148334715,
+      28200,
+      2872464,
+      1780319694148517882
+    ],
+    "follow-builders/SKILL.md": [
+      1784079237453573056,
+      12846,
+      15517216,
+      1784079237453809932
+    ],
+    "claude-api/SKILL.md": [
+      1780314676913077665,
+      33758,
+      2782281,
+      1780314676913278414
+    ],
+    "mlops/DESCRIPTION.md": [
+      1780310488965965021,
+      162,
+      2377001,
+      1780310811688525286
+    ],
+    "mlops/research/DESCRIPTION.md": [
+      1780310488968765645,
+      113,
+      2377002,
+      1780310811688734657
+    ],
+    "mlops/research/dspy/SKILL.md": [
+      1780310488968882560,
+      15220,
+      2376380,
+      1780310811567791443
+    ],
+    "mlops/vector-databases/DESCRIPTION.md": [
+      1780310488969243387,
+      125,
+      2377004,
+      1780310811689015567
+    ],
+    "mlops/huggingface-hub/SKILL.md": [
+      1784923285426054270,
+      3715,
+      18954135,
+      1784923304467011091
+    ],
+    "mlops/training/DESCRIPTION.md": [
+      1780310488969173972,
+      150,
+      2377006,
+      1780310811689251437
+    ],
+    "mlops/models/DESCRIPTION.md": [
+      1780310488968198528,
+      253,
+      2377007,
+      1780310811689423349
+    ],
+    "mlops/inference/DESCRIPTION.md": [
+      1780310488966828633,
+      161,
+      2377008,
+      1780310811689720176
+    ],
+    "mlops/inference/llama-cpp/SKILL.md": [
+      1780310488966914173,
+      8880,
+      2376420,
+      1780310811574984324
+    ],
+    "mlops/evaluation/DESCRIPTION.md": [
+      1780310488966040562,
+      126,
+      2377009,
+      1780310811690052710
+    ],
+    "mlops/whisper/SKILL.md": [
+      1780368396894546346,
+      7517,
+      3947166,
+      1780368396894546346
+    ],
+    "sbti-skill/SKILL.md": [
+      1780319419679512245,
+      2212,
+      2869666,
+      1780319419679512245
+    ],
+    "sbti-skill/generated-skills/soul-atm-er/SKILL.md": [
+      1780319427713759480,
+      1686,
+      2869707,
+      1780319427713759480
+    ],
+    "sbti-skill/generated-skills/soul-monk/SKILL.md": [
+      1780319427715044900,
+      1698,
+      2869737,
+      1780319427715044900
+    ],
+    "sbti-skill/generated-skills/soul-zzzz/SKILL.md": [
+      1780319427714872983,
+      1754,
+      2869733,
+      1780319427714872983
+    ],
+    "sbti-skill/generated-skills/soul-dead/SKILL.md": [
+      1780319427713369021,
+      1706,
+      2869699,
+      1780319427713369021
+    ],
+    "sbti-skill/generated-skills/soul-imsb/SKILL.md": [
+      1780319427714447065,
+      1724,
+      2869723,
+      1780319427714447065
+    ],
+    "sbti-skill/generated-skills/soul-boss/SKILL.md": [
+      1780319427713018561,
+      1705,
+      2869691,
+      1780319427713018561
+    ],
+    "sbti-skill/generated-skills/soul-poor/SKILL.md": [
+      1780319427714958317,
+      1736,
+      2869735,
+      1780319427714958317
+    ],
+    "sbti-skill/generated-skills/soul-ctrl/SKILL.md": [
+      1780319427712908561,
+      1746,
+      2869689,
+      1780319427712908561
+    ],
+    "sbti-skill/generated-skills/soul-malo/SKILL.md": [
+      1780319427714007647,
+      1712,
+      2869713,
+      1780319427714007647
+    ],
+    "sbti-skill/generated-skills/soul-shit/SKILL.md": [
+      1780319427713281312,
+      1719,
+      2869697,
+      1780319427713281312
+    ],
+    "sbti-skill/generated-skills/soul-thin-k/SKILL.md": [
+      1780319427713114020,
+      1740,
+      2869693,
+      1780319427713114020
+    ],
+    "sbti-skill/generated-skills/soul-imfw/SKILL.md": [
+      1780319427714621024,
+      1700,
+      2869727,
+      1780319427714621024
+    ],
+    "sbti-skill/generated-skills/soul-hhhh/SKILL.md": [
+      1780319427715143276,
+      1706,
+      2869739,
+      1780319427715143276
+    ],
+    "sbti-skill/generated-skills/soul-ojbk/SKILL.md": [
+      1780319427714366232,
+      1701,
+      2869721,
+      1780319427714366232
+    ],
+    "sbti-skill/generated-skills/soul-drunk/SKILL.md": [
+      1780319427715237151,
+      1733,
+      2869741,
+      1780319427715237151
+    ],
+    "sbti-skill/generated-skills/soul-mum/SKILL.md": [
+      1780319427713523021,
+      1719,
+      2869703,
+      1780319427713523021
+    ],
+    "sbti-skill/generated-skills/soul-sexy/SKILL.md": [
+      1780319427714209523,
+      1690,
+      2869717,
+      1780319427714209523
+    ],
+    "sbti-skill/generated-skills/soul-oh-no/SKILL.md": [
+      1780319427713849980,
+      1750,
+      2869709,
+      1780319427713849980
+    ],
+    "sbti-skill/generated-skills/soul-fuck/SKILL.md": [
+      1780319427714104939,
+      1717,
+      2869715,
+      1780319427714104939
+    ],
+    "sbti-skill/generated-skills/soul-joke-r/SKILL.md": [
+      1780319427714720191,
+      1709,
+      2869729,
+      1780319427714720191
+    ],
+    "sbti-skill/generated-skills/soul-solo/SKILL.md": [
+      1780319427714519524,
+      1731,
+      2869725,
+      1780319427714519524
+    ],
+    "sbti-skill/generated-skills/soul-dior-s/SKILL.md": [
+      1780319427713200145,
+      1711,
+      2869695,
+      1780319427713200145
+    ],
+    "sbti-skill/generated-skills/soul-gogo/SKILL.md": [
+      1780319427713936022,
+      1635,
+      2869711,
+      1780319427713936022
+    ],
+    "sbti-skill/generated-skills/soul-love-r/SKILL.md": [
+      1780319427713446104,
+      1730,
+      2869701,
+      1780319427713446104
+    ],
+    "sbti-skill/generated-skills/soul-woc/SKILL.md": [
+      1780319427714795941,
+      1720,
+      2869731,
+      1780319427714795941
+    ],
+    "sbti-skill/generated-skills/soul-fake/SKILL.md": [
+      1780319427714289940,
+      1755,
+      2869719,
+      1780319427714289940
+    ],
+    "sbti-skill/generated-skills/soul-than-k/SKILL.md": [
+      1780319427713636521,
+      1739,
+      2869705,
+      1780319427713636521
+    ],
+    "xlsx/SKILL.md": [
+      1782463006896203966,
+      12482,
+      9970558,
+      1782463006896489201
+    ],
+    "find-skills/SKILL.md": [
+      1780317448181237199,
+      7357,
+      2844391,
+      1780317448181549908
+    ],
+    "inference-sh/DESCRIPTION.md": [
+      1780310488965172492,
+      706,
+      2377011,
+      1780310811690378037
+    ],
+    "dd-checklist/SKILL.md": [
+      1780316014169727377,
+      4526,
+      2830289,
+      1780316014169928001
+    ],
+    "hermes-desktop-plugins/SKILL.md": [
+      1784612636250181840,
+      8849,
+      18127106,
+      1784731427221288888
+    ],
+    "buffett-skill/SKILL.md": [
+      1780319606571860402,
+      6395,
+      2870126,
+      1780319606572019028
+    ],
+    "mcp/DESCRIPTION.md": [
+      1780310488965253949,
+      216,
+      2377012,
+      1780310811690583240
+    ],
+    "mcp/native-mcp/SKILL.md": [
+      1780310488965342281,
+      12365,
+      2376437,
+      1780310811578256001
+    ],
+    "mcp/mcp-builder/SKILL.md": [
+      1780314703105963990,
+      9091,
+      2783551,
+      1780314703106149739
+    ],
+    "perspectives/zhang-yiming-skill/SKILL.md": [
+      1780319773118785365,
+      29494,
+      2872897,
+      1780319773118967907
+    ],
+    "gifs/DESCRIPTION.md": [
+      1780310488963482685,
+      109,
+      2377014,
+      1780310811690799902
+    ],
+    "competitive-analysis/SKILL.md": [
+      1780315869074046837,
+      12209,
+      2829024,
+      1780315869074454210
+    ],
+    "diagramming/DESCRIPTION.md": [
+      1780310488962642948,
+      159,
+      2377016,
+      1780310811690980731
+    ],
+    "notebooklm/SKILL.md": [
+      1780314978859633352,
+      4152,
+      2792433,
+      1780314978859796310
+    ],
+    "skill-creator/SKILL.md": [
+      1780314080681385865,
+      6347,
+      2757605,
+      1780314080681552448
+    ],
+    "github/DESCRIPTION.md": [
+      1780310488963545767,
+      167,
+      2377017,
+      1780310811691178227
+    ],
+    "github/github-issue-to-pr/SKILL.md": [
+      1786565222027333872,
+      6058,
+      25821899,
+      1786565242807069704
+    ],
+    "github/github-workflows/SKILL.md": [
+      1780918977519916344,
+      5606,
+      5712062,
+      1780918977520075385
+    ],
+    "note-taking/DESCRIPTION.md": [
+      1780310488969309178,
+      146,
+      2377018,
+      1780310811691650633
+    ],
+    "red-teaming/godmode/SKILL.md": [
+      1780310488974743677,
+      20059,
+      2376479,
+      1780310811585001975
+    ],
+    "sector-overview/SKILL.md": [
+      1782716011776903514,
+      5112,
+      10607185,
+      1782716011777196334
+    ],
+    "hermes-themes/SKILL.md": [
+      1784750494375103180,
+      7119,
+      18299259,
+      1784750552084547031
+    ],
+    "datapack-builder/SKILL.md": [
+      1780315990276376001,
+      24040,
+      2830169,
+      1780315990276614666
+    ],
+    "frontend-slides/SKILL.md": [
+      1780462280524384933,
+      28187,
+      4117474,
+      1780462280524426725
+    ],
+    "frontend-slides/plugins/frontend-slides/skills/frontend-slides/SKILL.md": [
+      1780462280522847401,
+      28187,
+      4117462,
+      1780462280522894235
+    ],
+    "dcf-model/SKILL.md": [
+      1780315948199563043,
+      50648,
+      2829870,
+      1780315948199736751
+    ],
+    "elon-musk-skill/SKILL.md": [
+      1780319672741862325,
+      11065,
+      2872390,
+      1780319672742037367
+    ],
+    "naval-skill/SKILL.md": [
+      1780319637444905021,
+      30550,
+      2870144,
+      1780319637445094605
+    ],
+    "munger-skill/SKILL.md": [
+      1780319638624224113,
+      29991,
+      2870148,
+      1780319638624393197
+    ],
+    "webapp-testing/SKILL.md": [
+      1780314697882331724,
+      3913,
+      2783486,
+      1780314697882510765
+    ],
+    "macos-proxy-diagnostics/SKILL.md": [
+      1788920937093236051,
+      3629,
+      33623713,
+      1788920937093438259
+    ],
+    "frontend-design/SKILL.md": [
+      1780314640561519609,
+      4439,
+      2779747,
+      1780314640561637150
+    ],
+    "creative/DESCRIPTION.md": [
+      1780310488941856727,
+      116,
+      2377019,
+      1780310811691989167
+    ],
+    "creative/comfyui/SKILL.md": [
+      1786565222024559358,
+      24075,
+      25821937,
+      1786565242821376735
+    ],
+    "creative/ideation/SKILL.md": [
+      1780459453978489113,
+      6318,
+      4091134,
+      1780459453978553403
+    ],
+    "creative/touchdesigner-mcp/SKILL.md": [
+      1784923285425330758,
+      15269,
+      18954199,
+      1784923304515157507
+    ],
+    "creative/excalidraw/SKILL.md": [
+      1784923285424466203,
+      7297,
+      18954207,
+      1784923304518515475
+    ],
+    "creative/ascii-art/SKILL.md": [
+      1786565222024331648,
+      10552,
+      25821951,
+      1786565242840663999
+    ],
+    "creative/baoyu-comic/SKILL.md": [
+      1780310488946400699,
+      14621,
+      2376690,
+      1780310811628633250
+    ],
+    "creative/pixel-art/SKILL.md": [
+      1780310488955818803,
+      7581,
+      2376778,
+      1780310811647054338
+    ],
+    "creative/pretext/SKILL.md": [
+      1786565222026693452,
+      13959,
+      25821975,
+      1786565242859621720
+    ],
+    "creative/baoyu-article-illustrator/SKILL.md": [
+      1780310488943635117,
+      10131,
+      2376824,
+      1780310811656547334
+    ],
+    "buyer-list/SKILL.md": [
+      1780315891436245333,
+      3950,
+      2829277,
+      1780315891436449415
+    ],
+    "business-model-craft/SKILL.md": [
+      1780459344914453515,
+      13932,
+      4090934,
+      1780459344914501722
+    ],
+    "nuwa-skill/SKILL.md": [
+      1780319753667738578,
+      33130,
+      2872784,
+      1780319753667929329
+    ],
+    "audit-xls/SKILL.md": [
+      1780315854996658439,
+      6347,
+      2828881,
+      1780315854996899396
+    ],
+    "stock-analyzer/SKILL.md": [
+      1784704549094128716,
+      60153,
+      17408860,
+      1784704549094166423
+    ],
+    "domain/DESCRIPTION.md": [
+      1780310488962938068,
+      1142,
+      2377021,
+      1780310811693419760
+    ],
+    "hermes-security-matrix/SKILL.md": [
+      1790276512504294491,
+      11902,
+      41552140,
+      1790276512504662697
+    ],
+    "email/DESCRIPTION.md": [
+      1780310488963000984,
+      101,
+      2377022,
+      1780310811693622506
+    ],
+    "career-ops/.qwen/skills/career-ops/SKILL.md": [
+      1780898791300691652,
+      3707,
+      5673801,
+      1780898791300729651
+    ],
+    "career-ops/.agents/skills/career-ops/SKILL.md": [
+      1780898791315684002,
+      3707,
+      5673897,
+      1780898791315712544
+    ],
+    "career-ops/.claude/skills/career-ops/SKILL.md": [
+      1780898791316277376,
+      3707,
+      5673904,
+      1780898791316306293
+    ],
+    "smart-home/DESCRIPTION.md": [
+      1780310488982908801,
+      123,
+      2377023,
+      1780310811693871917
+    ],
+    "smart-home/openhue/SKILL.md": [
+      1784923285428688727,
+      2843,
+      18954216,
+      1784923304556480858
+    ],
+    "autonomous-ai-agents/DESCRIPTION.md": [
+      1780310488941185154,
+      211,
+      2377024,
+      1780310811694089662
+    ],
+    "autonomous-ai-agents/hermes-agent/SKILL.md": [
+      1780310488941518274,
+      46320,
+      2376878,
+      1780310811665581591
+    ],
+    "autonomous-ai-agents/merge-reconciler/SKILL.md": [
+      1786565222024193314,
+      7606,
+      25822003,
+      1786565242874213919
+    ],
+    "autonomous-ai-agents/coding-agents/SKILL.md": [
+      1780919168459245118,
+      3958,
+      5712262,
+      1780919168459528283
+    ],
+    "initiating-coverage/SKILL.md": [
+      1783934647149997718,
+      30969,
+      15090358,
+      1783934647150304337
+    ],
+    "productivity/DESCRIPTION.md": [
+      1780310488969440801,
+      114,
+      2377025,
+      1780310811694435988
+    ],
+    "productivity/fund-portfolio-monitor/SKILL.md": [
+      1787240045821002705,
+      10810,
+      27305978,
+      1787240045821164539
+    ],
+    "productivity/session-librarian/SKILL.md": [
+      1786651283808415987,
+      4827,
+      26189795,
+      1786651304370308488
+    ],
+    "productivity/notion-classic-api/SKILL.md": [
+      1788166402713452217,
+      3885,
+      31486615,
+      1788166402713902423
+    ],
+    "productivity/pdf/SKILL.md": [
+      1788120030690507510,
+      12489,
+      31349084,
+      1788120059907602906
+    ],
+    "productivity/ocr-and-documents/SKILL.md": [
+      1782130148336742996,
+      5393,
+      8580007,
+      1782130148336987033
+    ],
+    "productivity/ocr-and-documents/DESCRIPTION.md": [
+      1780310488970572492,
+      147,
+      2376976,
+      1780310811684111385
+    ],
+    "productivity/tui-widgets/SKILL.md": [
+      1784750494382254556,
+      6672,
+      18299284,
+      1784750552193900966
+    ],
+    "productivity/docx/SKILL.md": [
+      1786565222028175043,
+      10395,
+      25822069,
+      1786565242915690045
+    ],
+    "productivity/petdex/SKILL.md": [
+      1784612636251498582,
+      3534,
+      18127126,
+      1784731427448129080
+    ],
+    "media/DESCRIPTION.md": [
+      1780310488965406447,
+      139,
+      2377026,
+      1780310811695055224
+    ],
+    "media/media-tools/SKILL.md": [
+      1782735098184217572,
+      1669,
+      10654806,
+      1782735098184410102
     ]
   },
   "skills": [
@@ -693,20 +919,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "a-share-revenue-modeling",
-      "category": "a-share-revenue-modeling",
-      "frontmatter_name": "a-share-revenue-modeling",
-      "description": "Build revenue forecasting models for A-share companies, e...",
-      "platforms": [],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -719,7 +933,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -732,7 +947,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -747,7 +963,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -760,7 +977,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -777,7 +995,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -794,7 +1013,26 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "merge-reconciler",
+      "category": "autonomous-ai-agents",
+      "frontmatter_name": "merge-reconciler",
+      "description": "Neutral third-party resolution of agent merge conflicts.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -807,7 +1045,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -820,7 +1059,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -833,7 +1073,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -846,7 +1087,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -859,7 +1101,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -872,7 +1115,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -885,7 +1129,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -898,7 +1143,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -911,7 +1157,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -924,7 +1171,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -937,7 +1185,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -950,24 +1199,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "architecture-diagram",
-      "category": "creative",
-      "frontmatter_name": "architecture-diagram",
-      "description": "Dark-themed SVG architecture/cloud/infra diagrams as HTML.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -984,24 +1217,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "ascii-video",
-      "category": "creative",
-      "frontmatter_name": "ascii-video",
-      "description": "ASCII video: convert video/audio to colored ASCII MP4/GIF.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1018,7 +1235,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1035,48 +1253,15 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "baoyu-infographic",
-      "category": "creative",
-      "frontmatter_name": "baoyu-infographic",
-      "description": "Infographics: 21 layouts x 21 styles (信息图, 可视化).",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "claude-design",
-      "category": "creative",
-      "frontmatter_name": "claude-design",
-      "description": "Design HTML artifacts and exploratory mockups: landing pa...",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
       "skill_name": "comfyui",
       "category": "creative",
       "frontmatter_name": "comfyui",
-      "description": "Generate images, video, and audio with ComfyUI — install,...",
+      "description": "Generate images, video, and audio via diffusion workflows.",
       "platforms": [
         "macos",
         "linux",
@@ -1086,24 +1271,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "creative-ideation",
-      "category": "creative",
-      "frontmatter_name": "ideation",
-      "description": "Generate project ideas via creative constraints.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1120,24 +1289,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "humanizer",
-      "category": "creative",
-      "frontmatter_name": "humanizer",
-      "description": "Humanize text: strip AI-isms and add real voice.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1154,41 +1307,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "manim-video",
-      "category": "creative",
-      "frontmatter_name": "manim-video",
-      "description": "Manim CE animations: 3Blue1Brown math/algo videos.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "p5js",
-      "category": "creative",
-      "frontmatter_name": "p5js",
-      "description": "p5.js sketches: gen art, shaders, interactive, 3D.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1205,31 +1325,15 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "popular-web-designs",
-      "category": "creative",
-      "frontmatter_name": "popular-web-designs",
-      "description": "54 real design systems (Stripe, Linear, Vercel) as HTML/CSS.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
       "skill_name": "pretext",
       "category": "creative",
       "frontmatter_name": "pretext",
-      "description": "Use when building creative browser demos with @chenglou/p...",
+      "description": "Build creative browser demos with DOM-free text layout.",
       "platforms": [
         "linux",
         "macos",
@@ -1239,31 +1343,15 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "songwriting-and-ai-music",
-      "category": "creative",
-      "frontmatter_name": "songwriting-and-ai-music",
-      "description": "Songwriting craft and Suno AI music prompts.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
       "skill_name": "touchdesigner-mcp",
       "category": "creative",
       "frontmatter_name": "touchdesigner-mcp",
-      "description": "Control a running TouchDesigner instance via twozero MCP ...",
+      "description": "Control TouchDesigner via twozero MCP.",
       "platforms": [
         "linux",
         "macos",
@@ -1273,7 +1361,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1290,7 +1379,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1303,7 +1393,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1316,7 +1407,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1329,37 +1421,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "docx",
-      "category": "docx",
-      "frontmatter_name": "docx",
-      "description": "Use this skill whenever the user wants to create, read, e...",
-      "platforms": [],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "dogfood",
-      "category": "dogfood",
-      "frontmatter_name": "dogfood",
-      "description": "Exploratory QA of web apps: find bugs, evidence, reports.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1372,7 +1435,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1385,7 +1449,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1398,24 +1463,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "himalaya",
-      "category": "email",
-      "frontmatter_name": "himalaya",
-      "description": "Himalaya CLI: IMAP/SMTP email from terminal.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1428,7 +1477,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1441,7 +1491,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1454,7 +1505,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1467,7 +1519,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1480,7 +1533,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1493,7 +1547,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1509,7 +1564,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1526,7 +1582,26 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "github-issue-to-pr",
+      "category": "github",
+      "frontmatter_name": "github-issue-to-pr",
+      "description": "Carry a GitHub issue to a verified PR with honest CI state.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1543,7 +1618,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1556,7 +1632,26 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "hermes-desktop-plugins",
+      "category": "hermes-desktop-plugins",
+      "frontmatter_name": "hermes-desktop-plugins",
+      "description": "Write desktop app plugins that add UI panes and commands.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1569,7 +1664,26 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "hermes-themes",
+      "category": "hermes-themes",
+      "frontmatter_name": "hermes-themes",
+      "description": "Author a Hermes color theme that skins every surface.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1582,7 +1696,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1595,7 +1710,22 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "macos-proxy-diagnostics",
+      "category": "macos-proxy-diagnostics",
+      "frontmatter_name": "macos-proxy-diagnostics",
+      "description": "Diagnose macOS proxy/VPN traffic hijack via fake-ip/TUN.",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1608,7 +1738,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1625,7 +1756,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1642,41 +1774,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "spotify",
-      "category": "media",
-      "frontmatter_name": "spotify",
-      "description": "Spotify: play, search, queue, manage playlists and devices.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "youtube-content",
-      "category": "media",
-      "frontmatter_name": "youtube-content",
-      "description": "YouTube transcripts to summaries, threads, blogs.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1689,40 +1788,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "lm-evaluation-harness",
-      "category": "mlops/evaluation",
-      "frontmatter_name": "evaluating-llms-harness",
-      "description": "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).",
-      "platforms": [
-        "linux",
-        "macos"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "weights-and-biases",
-      "category": "mlops/evaluation",
-      "frontmatter_name": "weights-and-biases",
-      "description": "W&B: log ML experiments, sweeps, model registry, dashboards.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1739,7 +1806,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1756,72 +1824,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "obliteratus",
-      "category": "mlops/inference",
-      "frontmatter_name": "obliteratus",
-      "description": "OBLITERATUS: abliterate LLM refusals (diff-in-means).",
-      "platforms": [
-        "linux",
-        "macos"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "vllm",
-      "category": "mlops/inference",
-      "frontmatter_name": "serving-llms-vllm",
-      "description": "vLLM: high-throughput LLM serving, OpenAI API, quantization.",
-      "platforms": [
-        "linux",
-        "macos"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "audiocraft",
-      "category": "mlops/models",
-      "frontmatter_name": "audiocraft-audio-generation",
-      "description": "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.",
-      "platforms": [
-        "linux",
-        "macos"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "segment-anything",
-      "category": "mlops/models",
-      "frontmatter_name": "segment-anything-model",
-      "description": "SAM: zero-shot image segmentation via points, boxes, masks.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1838,7 +1842,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1854,7 +1859,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1867,7 +1873,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1880,7 +1887,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1893,24 +1901,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "obsidian",
-      "category": "note-taking",
-      "frontmatter_name": "obsidian",
-      "description": "Read, search, create, and edit notes in the Obsidian vault.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1923,7 +1915,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1936,7 +1929,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1949,14 +1943,15 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
-      "skill_name": "airtable",
+      "skill_name": "docx",
       "category": "productivity",
-      "frontmatter_name": "airtable",
-      "description": "Airtable REST API via curl. Records CRUD, filters, upserts.",
+      "frontmatter_name": "docx",
+      "description": "Create, read, edit, template, and review Word .docx files.",
       "platforms": [
         "linux",
         "macos",
@@ -1966,7 +1961,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -1979,77 +1975,26 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
-      "skill_name": "google-workspace",
+      "skill_name": "notion-classic-api",
       "category": "productivity",
-      "frontmatter_name": "google-workspace",
-      "description": "Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python.",
+      "frontmatter_name": "notion-classic-api",
+      "description": "Write Notion pages/blocks via 2022-06-28 API urllib.",
       "platforms": [
-        "linux",
         "macos",
+        "linux",
         "windows"
       ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "linear",
-      "category": "productivity",
-      "frontmatter_name": "linear",
-      "description": "Linear: manage issues, projects, teams via GraphQL + curl.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "maps",
-      "category": "productivity",
-      "frontmatter_name": "maps",
-      "description": "Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [
-          "terminal"
-        ],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "notion",
-      "category": "productivity",
-      "frontmatter_name": "notion",
-      "description": "Notion API + ntn CLI: pages, databases, markdown, Workers.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2066,14 +2011,15 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
-      "skill_name": "powerpoint",
+      "skill_name": "pdf",
       "category": "productivity",
-      "frontmatter_name": "powerpoint",
-      "description": "Create, read, edit .pptx decks, slides, notes, templates.",
+      "frontmatter_name": "pdf",
+      "description": "PDF files: create, read, merge, fill, OCR, edit text.",
       "platforms": [
         "linux",
         "macos",
@@ -2083,7 +2029,58 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "petdex",
+      "category": "productivity",
+      "frontmatter_name": "petdex",
+      "description": "Install and select animated petdex mascots for Hermes.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "session-librarian",
+      "category": "productivity",
+      "frontmatter_name": "session-librarian",
+      "description": "Organize sessions by prompt: find, rename, archive, prune.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "tui-widgets",
+      "category": "productivity",
+      "frontmatter_name": "tui-widgets",
+      "description": "Author live widget apps for the Hermes TUI dock.",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2100,24 +2097,22 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
-      "skill_name": "arxiv",
+      "skill_name": "a-share-research",
       "category": "research",
-      "frontmatter_name": "arxiv",
-      "description": "Search arXiv papers by keyword, author, category, or ID.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
+      "frontmatter_name": "a-share-research",
+      "description": "A-share equity research with iFinD MCP — company deep div...",
+      "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2134,24 +2129,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "llm-wiki",
-      "category": "research",
-      "frontmatter_name": "llm-wiki",
-      "description": "Karpathy's LLM Wiki: build/query interlinked markdown KB.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2168,7 +2147,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2184,7 +2164,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2203,7 +2184,39 @@
           "files"
         ],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "social-sentiment-research",
+      "category": "research",
+      "frontmatter_name": "social-sentiment-research",
+      "description": "社交媒体舆情研究：抓取小红书等平台，分析用户痛点、口碑与趋势。",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "xiaohongshu-research",
+      "category": "research",
+      "frontmatter_name": "xiaohongshu-research",
+      "description": "小红书用户舆情研究：抓搜索页笔记做痛点/趋势分析。触发：调研某产品在小红书的用户反馈。",
+      "platforms": [
+        "macos",
+        "linux"
+      ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2216,7 +2229,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2229,7 +2243,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2242,7 +2257,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2255,7 +2271,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2268,7 +2285,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2281,7 +2299,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2294,7 +2313,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2307,7 +2327,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2320,7 +2341,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2333,7 +2355,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2346,7 +2369,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2359,7 +2383,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2372,7 +2397,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2385,7 +2411,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2398,7 +2425,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2411,7 +2439,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2424,7 +2453,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2437,7 +2467,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2450,7 +2481,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2463,7 +2495,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2476,7 +2509,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2489,7 +2523,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2502,7 +2537,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2515,7 +2551,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2528,7 +2565,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2541,7 +2579,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2554,7 +2593,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2567,7 +2607,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2580,7 +2621,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2593,7 +2635,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2610,30 +2653,15 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
-      "skill_name": "xurl",
-      "category": "social-media",
-      "frontmatter_name": "xurl",
-      "description": "X/Twitter via xurl CLI: post, search, DM, media, v2 API.",
-      "platforms": [
-        "linux",
-        "macos"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "requesting-code-review",
+      "skill_name": "github",
       "category": "software-development",
-      "frontmatter_name": "requesting-code-review",
-      "description": "Pre-commit review: security scan, quality gates, auto-fix.",
+      "frontmatter_name": "github",
+      "description": "GitHub via gh CLI: PRs, issues, reviews, repos, auth.",
       "platforms": [
         "linux",
         "macos",
@@ -2643,24 +2671,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "spike",
-      "category": "software-development",
-      "frontmatter_name": "spike",
-      "description": "Throwaway experiments to validate an idea before build.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2677,41 +2689,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "systematic-debugging",
-      "category": "software-development",
-      "frontmatter_name": "systematic-debugging",
-      "description": "4-phase root cause debugging: understand bugs before fixi...",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "test-driven-development",
-      "category": "software-development",
-      "frontmatter_name": "test-driven-development",
-      "description": "TDD: enforce RED-GREEN-REFACTOR, tests before code.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2728,7 +2707,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2741,7 +2721,36 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "stock-analyzer",
+      "category": "stock-analyzer",
+      "frontmatter_name": "stock-analyzer",
+      "description": "全方位股票分析报告 Skill。覆盖技术面（MACD、背离、RSI、KDJ、量价关系、布林带、ATR）、 基本面（...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
+      }
+    },
+    {
+      "skill_name": "storyline",
+      "category": "storyline",
+      "frontmatter_name": "storyline",
+      "description": "Use when the user asks to research an industry, analyze a...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2754,7 +2763,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2767,7 +2777,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2780,7 +2791,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     },
     {
@@ -2793,24 +2805,8 @@
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
-        "requires_tools": []
-      }
-    },
-    {
-      "skill_name": "yuanbao",
-      "category": "yuanbao",
-      "frontmatter_name": "yuanbao",
-      "description": "Yuanbao (元宝) groups: @mention users, query info/members.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": []
+        "requires_tools": [],
+        "session_platforms": []
       }
     }
   ],
@@ -2838,6 +2834,7 @@
     "productivity/ocr-and-documents": "Skills for extracting text from PDFs, scanned documents, images, and other file formats using OCR and document parsing tools.",
     "research": "Skills for academic research, paper discovery, literature review, domain reconnaissance, market data, content monitoring, and scientific knowledge retrieval.",
     "smart-home": "Skills for controlling smart home devices — lights, switches, sensors, and home automation systems.",
-    "social-media": "Skills for interacting with social platforms and social-media workflows — posting, reading, monitoring, and account operations."
+    "social-media": "Skills for interacting with social platforms and social-media workflows — posting, reading, monitoring, and account operations.",
+    "web": "Skills for reaching web content when direct access fails — blocked, paywalled, rate-limited, or bot-walled pages."
   }
 }

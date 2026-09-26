@@ -97,9 +97,9 @@ Mark clearly what is fact (from the JSON) vs what is analysis/synthesis.
 ### Step 6: Deliver
 - Telegram/email: `echo '<digest>' > /tmp/fb-digest.txt && node deliver.js --file /tmp/fb-digest.txt`
 - stdout: Output directly with the 4-chapter structure
-- **Notion (manual post-processing)**: If delivery config says `notion`, the agent writes the digest to a Notion page. The Notion page MUST be pre-shared with the Hermes integration (`...` → `Connect to` → Hermes) — otherwise the API returns 404 or the misleading ntn error "API token is invalid".
+- **Notion delivery**: Two-step process — (1) update the "每日归档" table with today's date row via `update_content`, then (2) append the full digest markdown via `insert_content`. Use `ntn` CLI through Python `subprocess.run()` to avoid both the `urllib` incompatibility and the `$()` subshell pitfall. See `references/notion-delivery-pattern.md` for the complete working pattern with code examples.
 
-  **CRITICAL PITFALL**: Hermes' shell evaluator pre-processes `$()` subshell syntax before passing to bash, so you CANNOT use `$(grep ... | cut ...)` inline to extract the Notion API key from `.env`. Instead, use a Python subprocess script to extract the key and call the Notion API via curl. See `references/notion-delivery-pattern.md` for the complete working pattern.
+  **CRITICAL PITFALL**: Hermes' shell evaluator pre-processes `$()` subshell syntax before passing to bash, so you CANNOT use `$(grep ... | cut ...)` inline to extract the Notion API key from `.env`. Instead, extract the key to a temp file via `terminal()`, then read it from Python.
 
 ## Configuration Handling
 
@@ -136,12 +136,26 @@ When the prepare script returns `{"status":"error","message":"fetch failed"}`, r
 
    **When CDN mirrors succeed**: Download all three feeds directly via curl, then use `scripts/parse-feeds.py` to parse the raw JSON files (no prepare-digest.js dependency). See `references/cdn-fallback-workflow.md` for the complete step-by-step workflow including download commands, parser invocation, and JSON structure reference.
 
-5. **Bypass DNS poisoning with browser tool** — when DNS is poisoned AND CDN mirrors also fail, the browser tool often succeeds because it uses its own network stack (different DNS resolution):
+5. **Bypass DNS poisoning with browser tool** — when DNS is poisoned AND CDN mirrors also fail, the browser's independent network stack can often bypass the restriction. Two approaches:
+
+   **A) `agent-browser` CLI (preferred — works in cron + interactive)**:
+   ```bash
+   agent-browser open "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json"
+   agent-browser wait --load networkidle
+   agent-browser get text > /tmp/fb-feed-x.json
+   # Repeat for feed-podcasts.json, feed-blogs.json
+   agent-browser close
+   ```
+   If this fails with `ERR_TUNNEL_CONNECTION_FAILURE`, it's TCP-level blocking — skip to step 6.
+
+   **B) Browser tools via delegate_task (interactive sessions only)**:
    ```bash
    browser_navigate → https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json
    browser_console → document.body.innerText   # extracts the raw JSON
    ```
-   Repeat for `feed-podcasts.json` and `feed-blogs.json`. Parse the JSON results directly instead of using the prepare script. This is the last-resort workaround that saves the digest when the terminal environment is fully restricted but the browser has clean DNS.
+   ⚠️ `delegate_task` with `toolsets=["browser"]` or `toolsets=["web"]` does NOT guarantee actual browser/fetch capabilities — subagents may only have shell access. Prefer `agent-browser` CLI over delegate_task for this step.
+
+   Repeat for `feed-podcasts.json` and `feed-blogs.json`. Parse the JSON results directly instead of using the prepare script.
    See `references/dns-poisoning-browser-bypass.md` for the complete JSON structures and detailed workflow.
 
 6. **Check for cached data from a previous successful run**:
@@ -153,19 +167,31 @@ When the prepare script returns `{"status":"error","message":"fetch failed"}`, r
 
 | Symptom | Likely Cause | Fix |
 |---|---|---|
-| DNS resolves to `198.18.0.x` | DNS poisoning / firewall (common in restricted network environments) | Try CDN mirrors first; if those also fail, use **browser tool** to bypass DNS (see step 5 above) |
-| `SSL_ERROR_SYSCALL` on curl | TCP-level block, not just DNS | Same as above — full network restriction; browser tool may still work |
+| DNS resolves to `198.18.0.x` | DNS poisoning / firewall (common in restricted network environments) | Try CDN mirrors first; if those also fail, use **agent-browser CLI** (step 5A above) |
+| `agent-browser` returns `ERR_TUNNEL_CONNECTION_FAILURE` | TCP-level blocking (full network isolation, not just DNS) | The environment has no external connectivity at all. Configure proxy/VPN or wait for restriction lift. Do NOT keep retrying browser approaches. |
+| `SSL_ERROR_SYSCALL` on curl | TCP-level block, not just DNS | Same as above — full network restriction |
 | External DNS (8.8.8.8) times out | UDP port 53 blocked | Use DNS-over-HTTPS or configure network proxy |
 | `fetch failed` but DNS resolves correctly | Transient GitHub outage | Retry after 5-10 minutes |
-| CDN mirrors also fail (`exit_code=35` SSL error, or resolve to private addresses) | CDN resolves through same poisoned DNS | Use **browser tool** (step 5) — it uses independent DNS resolution |
+| CDN mirrors also fail (`exit_code=35` SSL error, or resolve to private addresses) | CDN resolves through same poisoned DNS, OR TCP-level block | Distinguish: if `agent-browser` also fails → TCP block; if agent-browser succeeds → DNS-only poisoning |
+| All paths fail (DNS, CDN, agent-browser) + curl to google.com returns `000` | **Confirmed full network isolation** | Report clearly and stop. Do NOT fabricate content. Recommend proxy/VPN/network check.
 
 ### Reporting the Blocker
 
 When content is genuinely unreachable, report the diagnostic findings clearly:
 - Which step(s) failed and the exact error
-- Whether it's DNS-level (poisoned) or TCP-level (SYSCALL)
-- Whether any cached content exists
+- Whether it's DNS-level (poisoned) or TCP-level (SYSCALL / TUNNEL_CONNECTION_FAILURE)
+- Whether agent-browser was tried and what it returned (the key discriminator)
+- Whether any cached content exists from previous successful runs
 - Clear recommendation for the user (proxy config, VPN, network check)
+
+**Error signature reference for reporting:**
+
+| Failure pattern | Interpretation |
+|---|---|
+| DNS = `198.18.0.x`, CDN mirrors fail, agent-browser succeeds | DNS-only poisoning; agent-browser bypass works |
+| DNS = `198.18.0.x`, CDN mirrors fail, agent-browser = `ERR_TUNNEL_CONNECTION_FAILURE` | TCP-level blocking; full network isolation |
+| curl to any external site (google.com, api.github.com) returns exit code 35 | Confirms the TCP block is universal, not GitHub-specific |
+| All paths fail + cached digests exist in `/tmp/` | Report failure; mention cache dates for user awareness |
 
 **Never fabricate digest content** when feeds are unreachable. The skill rule "NEVER invent content" applies equally to network failure scenarios.
 

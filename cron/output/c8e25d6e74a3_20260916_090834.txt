@@ -1,0 +1,85 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+✅ 已成功写入 Notion（页面 372fde4c-8055-8152-a074-dac812172d61），"每日归档"表格新增 2026-09-16 行，完整摘要已追加，并已回读验证（表格行 ✓ / 摘要标题 ✓ / 关键内容 ✓）。
+
+---
+
+## AI Builders Digest — 2026-09-16
+
+### 📌 今日概览
+OpenAI Codex 团队预告"本周将迎来 DevDay 2025 级别的新品发货潮"，同时 Anthropic 的 Claude Code 上线 artifacts 与 Mods 生态——两大编程 agent 在同一天进入密集迭代期。
+
+### 🔥 重点 Highlights
+1. **OpenAI Codex 迎来"发货周"** — Thibault Sottiaux（Codex & ChatGPT @OpenAI）直言"本周的发货量级是你在 DevDay 2025 才见得到的那种，太疯狂了"，并反向征集"该从 Codex 里删掉哪个没用的功能"。→ https://x.com/thsottiaux/status/2099744972195131850
+2. **Claude Code 上线 artifacts** — Anthropic 官方博客宣布 Claude Code 现已支持 artifacts，与 Claude Mods 几乎同批落地（有人已经做出"Claude 里的俄罗斯方块"）。→ https://claude.com/blog/artifacts-in-claude-code / https://x.com/bcherny/status/2099551291601248485
+3. **Vercel 挖来 Google Cloud Run 之父 Steren，提出"verifiers + skills 是新框架"** — Guillermo Rauch 宣布 Steren 加盟领导 Fluid 计算产品线，并称"agent 的上限取决于你给它的 proof-checker、编译器、类型系统和 linter"。→ https://x.com/rauchg/status/2099514906366328902
+4. **Box CEO Aaron Levie：agent 工作负载将放大 100 倍，企业数据安全成世纪级挑战** — 他判断 agent swarm、computer use、MCP 与新形态产品会让"后台 agent"处理的信息量是单会话提示的 100 倍以上。→ https://x.com/levie/status/2099739019517235618
+5. **Anthropic 工程博客三连发** — "How we contain Claude across products""Scaling Managed Agents（大脑与双手解耦）"及"Claude Code 质量报告更新（April 23 事故复盘）"。→ https://www.anthropic.com/engineering/managed-agents
+
+### 📝 详细摘要
+
+#### 𝕏 / Twitter（按 builder 分组）
+
+**Thibault Sottiaux（Codex & ChatGPT @OpenAI）**
+- 预告本周是 DevDay 2025 级别的发货周。→ https://x.com/thsottiaux/status/2099744972195131850
+- 反向征集：Codex 里有没有已经没用、该删掉的功能。→ https://x.com/thsottiaux/status/2099393115241300166
+
+**Boris Cherny（Claude Code @Anthropic）**
+- Claude Mods 正在落地，社区已有人做出"Claude 里的俄罗斯方块"mod。→ https://x.com/bcherny/status/2099551291601248485
+
+**Thariq（Claude Code @Anthropic）**
+- 刚录完 Latent Space 播客，聊了"很多还没公开讲过的技术细节"。→ https://x.com/trq212/status/2099671266068496802
+- 与 Sid、Robert 谈构建 Claude Code 的历程：变化多大、追赶模型能力多难、"AI 时代前做软件工程有什么值得怀念"。→ https://x.com/trq212/status/2099551141621329994
+
+**Guillermo Rauch（Vercel CEO）**
+- fx 会自动升级，ctrl+g 重启并续聊；0.0.10 对长会话提速明显。→ https://x.com/rauchg/status/2099653035685445760
+- "agent 的上限取决于你给它的 proof-checker、编译器、类型系统、linter；verifiers + skills 是新的 frameworks"。→ https://x.com/rauchg/status/2099540886409695346
+- 官宣 Google Cloud Run 缔造者 Steren 加盟，领导 Fluid 计算家族，称"serverless 是云的上一个篇章，agent 是下一个前沿"。→ https://x.com/rauchg/status/2099514906366328902
+
+**Aaron Levie（Box CEO）**
+- 长文判断 agent 工作负载：agent 替我们处理的信息量将是单会话提示的 100 倍，而"我们目前只处于其形态的 1%"。→ https://x.com/levie/status/2099739019517235618
+- 在 agent 100 倍使用系统的世界里保护企业数据，是 21 世纪最复杂的安全治理挑战；Box Shield 已提供按文档分级控制 agent 访问内容的粒度。→ https://x.com/levie/status/2099550035239424465
+
+**Josh Woodward（VP, Google Labs/Gemini）**
+- Gemini power user 群组已测 20+ 早期功能，新 cohort 正获得 Daily Brief 与 Personal Intelligence 抢先体验。→ https://x.com/joshwoodward/status/2099558443078365287
+- 招人："Come design with us!"。→ https://x.com/joshwoodward/status/2099574899555930114
+
+**Peter Yang（AI 教程作者）**
+- 语音让他"在自然里散步时比盯着屏幕更高效"。→ https://x.com/petergyang/status/2099677771408846975
+- "Screw it, I can't wait to 2030"。→ https://x.com/petergyang/status/2099706366327951658
+
+**Matt Turck（VC @FirstMark）**
+- 赞 Ramp 品牌营销"天才级"——为账单做了一部百老汇音乐剧。→ https://x.com/mattturck/status/2099634379093848156
+- "AI 进展不会慢下来"——玩家太多、经济激励太强、囚徒困境太深。→ https://x.com/mattturck/status/2099589199104033031
+
+**Nikunj Kothari（partner @FPV Ventures）**
+- 领投燃料支付初创 Piston 的 A 轮：去掉加油卡、自建支付闭环；支付量 8 倍、商户网络 40 倍、留存 98%+，已覆盖 48 州 2000+ 加油站。→ https://x.com/nikunj/status/2099631145268969840
+
+**Aditya Agarwal（GP @SPC）**
+- "AI 可以像人一样，这是终极目标"，称自己是其最早的合作方。→ https://x.com/adityaag/status/2099529959262019887
+
+**Peter Steinberger（OpenClaw / OpenAI）**
+- "太有用了，正推动把它加进 Codex"。→ https://x.com/steipete/status/2099571935495827761
+
+#### 🎙️ 播客
+**《How a Professional Writer Writes With AI》**（Dan Shipper / Every 的 AI & Dive）
+- 预览实验性插件 **Compound Writing**（灵感来自 Kieran Klassen 的 Compound Engineering，由 Every 专职作者 Katie Parrott 打造），演示"像内部那样用 AI 写作"。
+- Katie 分享两年前被裁员后用 ChatGPT 当"职业教练"的经历——把 AI 当作"思维外化的工具"（tool for thought），而非替代写作本身。
+→ https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+
+#### 📰 博客
+- **Anthropic — How we contain Claude across products**：跨产品"约束/围栏"Claude 的方法论。https://www.anthropic.com/engineering/how-we-contain-claude
+- **Anthropic — Scaling Managed Agents（大脑与双手解耦）**：托管 agent 的规模化架构。https://www.anthropic.com/engineering/managed-agents
+- **Anthropic — An update on recent Claude Code quality reports**（April 23 事故复盘）。https://www.anthropic.com/engineering/april-23-postmortem
+- **Claude Blog — Claude Code now supports artifacts**。https://claude.com/blog/artifacts-in-claude-code
+
+### 💡 我的分析
+- **最意外**：OpenAI Codex 团队反向公开征集"该删什么功能"（事实），在一个动辄加功能的行业里很少见——侧面说明 agent 产品已走到"做减法比做加法更难"的阶段（分析）。
+- **趋势加速 vs 降温**：加速的是「agent 的护栏与验证层」——Rauch 的"verifiers + skills 是新框架"、Anthropic 的 contain/managed-agents 博客、Levie 的企业数据治理，三方从不同角度指向同一主题（事实）；降温的是单纯"堆模型能力"的叙事，注意力正转向"agent 上线后如何可控、可运维、可治理"（分析）。
+- **对 builder 的 actionable 启发**：① 给 agent 配 proof-checker/compiler/type-system/linter 这类"验证器"，正从可选变成护城河；② 企业场景里，数据分级 + agent 访问粒度控制是下一波产品机会（Box Shield 是先行样本）；③ 知识工作者侧，"tool for thought"（AI 外化思维）而非"AI 替你写"的定位，比直接产出更有黏性（来自播客的 Compound Writing 思路）。
+
+*注：今日概览 / 重点 Highlights / 详细摘要均为事实（源自 feed JSON，每条附原文 URL）；「我的分析」为基于事实的合理推断。*
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

@@ -1,0 +1,100 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+已完成今日 AI Builder 摘要的抓取、中文重写与 Notion 归档（页面 `372fde4c…` 的「每日归档」表格已新增 `2026-08-30` 行，摘要正文已追加）。以下是完整内容：
+
+---
+
+# AI Builders Digest — 2026-08-30
+
+### 📌 今日概览
+
+今天分量最重的一条判断来自 FirstMark VC 的 Matt Turck：所有前沿 AI 实验室其实都在做同一件事——递归自我改进（RSI，即「AI 造 AI」），并转引 Ryan Greenblatt 的观点称 AI 接管（takeover）最早可能在 2028 年底或 2029 年到来；这条被 Every CEO Dan Shipper 从「对齐」角度接住，形成今天关于「AI 自我改进与对齐」的核心讨论。
+
+### 🔥 重点 Highlights
+
+1. **Matt Turck：所有前沿实验室都在做「递归自我改进」** —— 转引 Ryan Greenblatt，称 AI 造 AI 可能导致最早 2028/2029 的 AI 接管。[https://x.com/mattturck/status/2093794720510062617](https://x.com/mattturck/status/2093794720510062617)
+2. **Vercel Agent 0.0.7 发布** —— Guillermo Rauch：大幅改进 MCP 支持（用 context7、datadog、mongodb、linear、notion、supabase、neon、stagehand、usekernel 等顶级 MCP 做 eval），并更极简：更少工具、改进 shell 执行。[https://x.com/rauchg/status/2093736865191076318](https://x.com/rauchg/status/2093736865191076318)
+3. **Nikunj Kothari：大模型实验室开打、补贴的 token 价格将在 6 个月内上涨** —— 「和你的 reset limits 说再见」，长期利好客户选择，短期给 open harnesses 加 10-300 亿美元估值。[https://x.com/nikunj/status/2093860971781746776](https://x.com/nikunj/status/2093860971781746776)
+4. **Dan Shipper：RSI 的对齐答案，可能是「让模型不愿协作 / 训练其举报坏行为」** —— 呼应 Matt Turck 的 RSI 讨论。[https://x.com/danshipper/status/2093713002453225891](https://x.com/danshipper/status/2093713002453225891)
+5. **No Priors 播客：Max Hodak 谈视网膜假体 Prima 获欧洲 CE 批准、以及「大脑是计算机」与「基板独立」** —— [https://www.youtube.com/@NoPriorsPodcast](https://www.youtube.com/@NoPriorsPodcast)
+
+### 📝 详细摘要
+
+#### 𝕏 / TWITTER（按 builder 分组）
+
+**Matt Turck（FirstMark VC 合伙人）**
+所有前沿 AI 实验室基本都在做同一件事——递归自我改进（RSI），即 AI 造 AI；转引 Ryan Greenblatt 的观点称这可能导致最早在 2028 年底或 2029 年出现 AI 接管（takeover）。
+[https://x.com/mattturck/status/2093794720510062617](https://x.com/mattturck/status/2093794720510062617)
+
+**Dan Shipper（Every CEO）**
+呼应 RSI 讨论：「我不是专家，但如果模型不愿意协作、和/或被训练成会举报坏行为，很多问题似乎就能解决。」另转一条「很有意思的帖子和视角」。
+[https://x.com/danshipper/status/2093713002453225891](https://x.com/danshipper/status/2093713002453225891) · [https://x.com/danshipper/status/2093709088911655004](https://x.com/danshipper/status/2093709088911655004)
+
+**Guillermo Rauch（Vercel CEO）**
+① 发布 Vercel Agent 0.0.7：大幅改进 MCP 支持，用 context7、datadog、mongodb、linear、notion、supabase、neon、stagehand、usekernel 等顶级 MCP 做了 eval；整体更极简——更少的工具、改进的 shell 执行。他点出 CLI agent 的难点：命令可能挂起或长时间运行、输出可能极多或为零，这是他自认 fx 大放异彩、并将持续精进的领域。② 另一条偏氛围：「我读每个人发给我的私信，即使不都回复——我持续从中了解新想法、产品改进点、我们哪里做得不够、谁能加入、该投向哪里。」
+[https://x.com/rauchg/status/2093736865191076318](https://x.com/rauchg/status/2093736865191076318) · [https://x.com/rauchg/status/2093803989578170404](https://x.com/rauchg/status/2093803989578170404)
+
+**Nikunj Kothari（FPV Ventures 合伙人）**
+① 大模型实验室正在「打架」——这不可避免。他判断：随着算力价格与短缺开始被「真正」感受到，被补贴的 token 价格将在 6 个月内上涨，「和你的 reset limits 说再见」。长期利好客户选择；短期则给所有 open harnesses 再加 10-300 亿美元估值。② 一条劝诫长文「Resist dunking」：到处是嘲讽文化，它只是嫉妒、毫无产出；如果你觉得自己能做得更好，就去做；除非是在揭露明显欺诈或糟糕透顶的事，否则别沉溺于嘲讽，选择善良。
+[https://x.com/nikunj/status/2093860971781746776](https://x.com/nikunj/status/2093860971781746776) · [https://x.com/nikunj/status/2093772803216740647](https://x.com/nikunj/status/2093772803216740647)
+
+**Zara Zhang（Builder / Follow Builders 作者）**
+① 「从来没有这么多 AI 产品看起来如此相似」——产品数量暴增，但真正激进的新想法不多，一切都在互相模糊；每次打开这类 app 都像做作业：又一个承诺做同样事情、却说不清好在哪的新产品。② 吐槽每个产品都要她授权 Gmail、Calendar、Notion、Granola、Github、Slack…。③ 分享一个机会：花 10 周在东京做产品、学习日本 AI 生态。
+[https://x.com/zarazhangrui/status/2093944988262371465](https://x.com/zarazhangrui/status/2093944988262371465) · [https://x.com/zarazhangrui/status/2093950273706430720](https://x.com/zarazhangrui/status/2093950273706430720) · [https://x.com/zarazhangrui/status/2093709609567658247](https://x.com/zarazhangrui/status/2093709609567658247)
+
+**Thibault Sottiaux（OpenAI，Codex & ChatGPT 负责人）**
+三条都偏「团队正在憋大招」的氛围信号：「Team is cooking like never before」「Landing 2:30pm PST」「这场庆祝改到明天，因为今天按钮已经按下去了」——指向 OpenAI 即将有发布/落地动作。
+[https://x.com/thsottiaux/status/2093914342551101782](https://x.com/thsottiaux/status/2093914342551101782) · [https://x.com/thsottiaux/status/2093801838504186008](https://x.com/thsottiaux/status/2093801838504186008) · [https://x.com/thsottiaux/status/2093811840258293947](https://x.com/thsottiaux/status/2093811840258293947)
+
+**Peter Yang（实用 AI 教程作者）**
+① 半自嘲「给一台云端电脑输入 2FA 的感觉真的很奇怪」。② 想出一个「最有用的 bot」但名字太长：「你配偶让你跑、但你甩给 bot 的差事」。③ 「Cheap dad all the way」。
+[https://x.com/petergyang/status/2093845886262784145](https://x.com/petergyang/status/2093845886262784145) · [https://x.com/petergyang/status/2093844648154579210](https://x.com/petergyang/status/2093844648154579210) · [https://x.com/petergyang/status/2093844072461218283](https://x.com/petergyang/status/2093844072461218283)
+
+**Nan Yu（产品爱好者）**
+「我们接下来需要的是 mentats 了吧」（《沙丘》梗，指人形计算专家）——呼应 AI 造 AI / 强化认知助手的讨论。
+[https://x.com/thenanyu/status/2093737078223966649](https://x.com/thenanyu/status/2093737078223966649)
+
+#### 🎙️ 播客
+
+**No Priors：From Restoring Sight to Reimagining the Brain, with Max Hodak**
+[https://www.youtube.com/@NoPriorsPodcast](https://www.youtube.com/@NoPriorsPodcast)
+
+嘉宾是 Max Hodak（Science 创始人兼 CEO，Neuralink 前成员之一）。核心要点：
+
+- **Prima 获欧洲 CE 批准**：Science 的视网膜假体 Prima 在 7 月拿到欧洲上市许可，未来几周将产生首批销售。它是植入视网膜下的小芯片，配合带激光投影的眼镜，绕过坏死的视杆/视锥直接刺激视网膜，把视觉信号传回大脑。临床中已有患者能做数独、填字、甚至读书——这被形容为「好到不像真的」。
+- **大脑就是计算机**：Hodak 直言「大脑极其字面地、清晰地就是一台计算机」，甚至整个宇宙也可视为计算机。他称「如果你想让网友生气，就告诉他们大脑是计算机」。
+- **「登月其实是成功了的」**：反驳「BCI 是十年后未必成真的 moonshot」的说法——登月我们做到了，moonshot 的历史成功率比人们以为的高。
+- **基板独立（substrate independence）与身份连续性**：他判断人们能接受随时间推移的身份漂移，只要保持「连续性」；一个能像你现在一样回答、但缺乏现象学连续性的软件副本，会更「不满足」。connectomics（连接组学）是这一愿景的关键拼图，距离小鼠连接组不远，人类连接组还远。
+- **柏拉图表征假说（platonic representation hypothesis）**：大型 AI 模型内部的数学对象与神经科学中看到的东西非常像——他称之为「像一条物理定律：只要给物质施加足够算力，就会得到看起来像智能的东西」；Science 已在工程上实际用它，实现动物脑神经记录与 AI 模型内部表征的对齐。
+- **「用 AI 做神经科学反而更容易」**：他和在 OpenAI/Anthropic 做神经科学的朋友开玩笑「你离开神经科学了？——不，是在模型上做神经科学容易得多」。
+- **反「脑键盘」**：他不认为「高带宽地用意念打字给 AI」是最值得做的方向——因为「说/写本身就是思考」，人脑存在约 10 bit/s 的认知瓶颈；Science 聚焦的是「生成视觉、听觉、实现基板独立」，而非脑键盘。
+
+### 💡 我的分析
+
+> 以下为基于今日内容的综合判断，非 JSON 事实。
+
+**今天最让我意外的消息**：Matt Turck 的 RSI 判断不是新概念，但它被一个主流 VC 用「所有前沿实验室都在做同一件事」这种确定性语气说出来，并且 Dan Shipper 紧接着从「对齐」角度接住，说明「AI 造 AI」正从边缘预测变成行业内的默认叙事。（事实：两条推文内容；「默认叙事」为我的解读）
+
+**在加速的趋势**：
+- **递归自我改进（RSI）成为公开讨论主题**：Matt Turck + Dan Shipper 同一天谈 AI 造 AI 与对齐，DeepCogito 这类「后训练 + 递归自我改进」实验室也在拿大额融资，这条线在升温。（事实 + 归纳）
+- **CLI/Agent 的「执行层」精细化**：Vercel Agent 0.0.7 把「更少工具、更好 shell 执行、MCP 深度集成」当卖点，说明 agent 的竞争从「模型多强」下沉到「命令执行、工具编排、输出监控」这些脏活上。（事实：Rauch 推文）
+- **算力成本重新紧张**：Nikunj 判断补贴 token 价格 6 个月内上涨，与近期多起「算力短缺」讨论共振——低价 token 的红利期可能正在收窄。（事实 + 归纳）
+
+**在降温的**：
+- **AI 产品同质化引发疲劳**：Zara Zhang 的吐槽很典型——产品数量在爆、真正的新想法不多，用户面对「又一个差不多的 AI 产品」开始疲劳，获客与激活的成本会越来越高。（事实 + 归纳）
+
+**给创业者和开发者的 actionable 启发**：
+- 别做「又一个长得一样」的 AI 产品：当差异化要靠「用户花几小时亲自试才知道」时，你的转化漏斗已经输了。把差异化做在 30 秒内可见的地方。（分析，源自 Zara Zhang 推文）
+- 提前为 token 成本上涨做对冲：如果你重度依赖某个大模型，趁补贴期把模型路由、本地小模型 fallback、开源替代方案做好，别等价格涨了才动。（分析，源自 Nikunj 推文）
+- Agent 的护城河在「执行可靠性」：Rauch 说的命令挂起、输出爆炸、工具太多——这些才是企业用 agent 真正卡住的地方。谁能把「执行层」做到稳、可观测、可恢复，谁就赢得企业信任。（分析，源自 Rauch 推文）
+- 权限/数据授权的摩擦是真实痛点：Zara 吐槽「每个产品都要我授权一堆账号」，说明「连接层」与「信任」仍是 agent 产品的隐性成本，把 onboarding 授权做轻、做透明是差异化机会。（分析，源自 Zara 推文）
+
+---
+
+*Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders*
+
+（附注：本期 feed 中另有一条播客「Simulation: the new Scaling Law — Joon Sung Park, Simile AI」因上游 404 未能抓取到文字稿，故未纳入本期摘要。）
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

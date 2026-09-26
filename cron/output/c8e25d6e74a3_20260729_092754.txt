@@ -1,0 +1,95 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+# 🤖 AI Builders Digest — 2026年7月29日
+
+> 📋 已写入 Notion 页面「🤖 AI Builders Digest 每日摘要汇总」
+
+---
+
+## 📌 今日概览
+
+Vercel CEO 发布的安全基准测试揭示了一个重要信号：**AI Agent 在容器级隔离中不够安全，微虚拟机（Firecracker microVM）是唯一可用的安全边界**——这对所有正在部署自主 Agent 的企业来说是一个关键基础设施决策点。
+
+---
+
+## 🔥 重点 Highlights
+
+1. **Grok 4.5 成为最具性价比的网络安全 AI 模型** — Vercel 基准测试显示，Grok 4.5 比 Sol 便宜 10 倍，比 Opus 5 便宜 5.7 倍，性能接近 Kimi K3。但 Sol 仍处于最前沿。 [→](https://x.com/rauchg/status/2081852481517318560)
+
+2. **Kimi 论文揭示 Agent 安全隔离的重大漏洞** — 实验表明 Agent 可以通过内核崩溃（kernel panic）突破容器级隔离，只有 Firecracker 微虚拟机（如 Vercel Sandbox）能守住安全边界。 [→](https://x.com/rauchg/status/2081842439304995169)
+
+3. **AI 并未消灭就业 — Box CEO 观察到 Jevons 悖论正在发生** — Aaron Levie 指出企业仍在招聘，只是角色在转变：AI 让企业能做更多事情，工程师去解决以前无法攻克的问题，销售投入更深的客户关系。 [→](https://x.com/levie/status/2081930301752942703)
+
+4. **Granola 创始人谈 AI App 第二波浪潮** — 这家估值 $15 亿的 AI 会议笔记公司 CEO Chris Pedrigal 认为，会议记录只是起点，真正的计算革命刚刚开始。约 50% 用户已在用 Agentic 功能。 [→](https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL)
+
+5. **Claude Code「意外开源」一年后，市场几乎毫无波澜** — Swyx 指出这是"Agent Lab 理论"最强的反证：代码被公开后竞品路线图毫无变化，说明真正的壁垒不在代码，而在产品、数据和分发。 [→](https://x.com/swyx/status/2081890955070980416)
+
+---
+
+## 📝 详细摘要
+
+### 🐦 X/Twitter 推文
+
+**Vercel CEO Guillermo Rauch** — 两条重磅技术推文：其一，Vercel 最新基准测试显示 Grok 4.5 在网络安全 AI 方面以性价比胜出（10x 便宜于 Sol，5.7x 便宜于 Opus 5）；其二，引用 Kimi 论文指出容器级隔离对 Agent 不够安全——实验中的 Agent 直接导致了宿主机的内核崩溃，Firecracker 微虚拟机是目前唯一安全方案。 [→1](https://x.com/rauchg/status/2081852481517318560) [→2](https://x.com/rauchg/status/2081842439304995169)
+
+**Box CEO Aaron Levie** — AI 取代就业的悲观预测并未兑现。大量企业仍在招聘，只是岗位类型在转变。Jevons 悖论正在发挥作用：AI 让企业能解决更多问题，因此需要更多工程师去攻克新领域，需要更多销售去做更深度的客户关系。顺便转发了 Kimi K3 权重开源的消息。 [→1](https://x.com/levie/status/2081930301752942703) [→2](https://x.com/levie/status/2081760710108012702)
+
+**Replit CEO Amjad Masad** — 提出"计算宇宙探索"概念：人类从探索地球到探索太空，这一代人将探索算法的无限空间——AI Agent 可以搜索的程序、证明和设计的广阔疆域。 [→](https://x.com/amasad/status/2082000490066592127)
+
+**AI 工程师/创作者 Swyx** — 三条思考：(1) $/token 作为成本度量单位已经过时，应按 $/task 衡量；(2) Claude Code 今年"意外开源"后对竞品路线图零影响，是对"Agent Lab 理论"最有力的反证；(3) 赞赏 Kimi Moonshot。 [→1](https://x.com/swyx/status/2081904230768816487) [→2](https://x.com/swyx/status/2081890955070980416)
+
+**OpenAI Codex & ChatGPT 的 Thibault Sottiaux** — ChatGPT Work 快速采用，今天为所有付费用户重置了 Codex 和 ChatGPT Work 的使用限额。 [→](https://x.com/thsottiaux/status/2081940052154933696)
+
+**创作者 Peter Yang** — 采访了 OpenAI DevEx 的 Jason Liu，分享了一个令人印象深刻的 Codex 用例：Jason 在骑自行车时通过手机远程连接，让 Codex 用 computer use 编辑启动视频、导出并发布到 Slack，还设置了每 30 分钟自动检查反馈并生成新版本。 [→](https://x.com/petergyang/status/2081775399097549083)
+
+**Linear 产品负责人 Nan Yu** — 如果你有很聪明的人，应该让他们做好自己的产品，然后付费使用 Linear。 [→](https://x.com/thenanyu/status/2081768780045156358)
+
+**Meta AI 高级总监 Madhu Guru**（前 Google Gemini/Veo 负责人）— 最好的产品评审是在一小时内"模拟市场反应"来压缩数月学习成果。但太多产品评审已沦为状态汇报和跨职能对齐。 [→](https://x.com/realmadhuguru/status/2081781952437486052)
+
+**OpenClaw/OpenAI 的 Peter Steinberger** — Agent 报了一个 bug，另一个 Agent 在同一晚修复了它——称 Jarred Sumner 的 robobun 是"未来"。 [→](https://x.com/steipete/status/2081767828278170002)
+
+**FPV Ventures 合伙人 Nikunj Kothari** — 度假两周全程用 Claude Code 作为主要交互界面，回来还让它做了完整复盘。 [→](https://x.com/nikunj/status/2081992618649547100)
+
+**FirstMark VC Matt Turck** — 不到 40% 的 VC 有任何成功投资，但每个 VC 都觉得自己在那 40% 里。 [→](https://x.com/mattturck/status/2081679801769668980)
+
+---
+
+### 🎙️ 播客
+
+**AI & I by Every — "The Founder of a $1.5B AI Company on What Comes After the First Wave of AI Apps"**
+
+Dan Shipper（Every CEO）对话 Chris Pedrigal（Granola 联合创始人兼 CEO，估值 $15 亿，团队约 55 人）。
+
+**核心观点：**
+- 创业无论成败都是"刀战"——即使成功也是天天在刀刃上走
+- 会议记录只是入口，真正的计算革命刚刚开始："目前已经发生的一切，与即将到来的相比不值一提"
+- 约 50% 的 Granola 用户每周以 Agentic 方式使用产品，但他们不用"Agentic"这个词
+- 不计成本的实验策略：预生成数百万条 AI 摘要，即使只有 10% 被打开——先找到最好的体验，再优化成本
+- "当我们构建越来越多 Agent 功能时，终有一天会打破成本模型。但现在，搞清楚什么是用户真正需要的体验才是第一要务" [→](https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL)
+
+---
+
+## 💡 我的分析
+
+### 🔍 今天最让我意外的消息
+
+Claude Code"意外开源"一年后竞品毫无反应——Swyx 坦诚这是对他自己"Agent Lab 理论"最有力的反证。**AI 编程工具的壁垒已经不在模型能力层面，而在产品整合、分发渠道和用户习惯。** 对创业者来说，纯技术优势不够，但产品体验和生态可以成为护城河。
+
+### 📈 趋势加速 vs 降温
+
+**加速中：**
+- **Agent 安全基础设施**正成为关键赛道。Rauch 的基准测试 + Kimi 论文明确了：容器不够，微虚拟机是底线。
+- **Agent-to-Agent 自动化**：Steinberger 的 Agent 报 bug → Agent 修 bug 案例，加上 Granola 50% 用户使用 Agentic 功能，说明 Agent 工作流正从 demo 走向生产。
+
+### 🎯 对创业者和开发者的启发
+
+1. **安全即基础设施**：容器隔离不够安全是硬事实。考虑 Firecracker microVM 或等效方案。
+2. **成本不是现在的约束**：先找出最好的用户体验，再优化成本。过早优化会限制产品上限。
+3. **壁垒在代码之外**：专注用户体验、工作流整合和生态建设。
+
+---
+*事实性内容来自 feed JSON 中的推文和播客转录，分析和趋势判断为基于已有内容的综合推论。*
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

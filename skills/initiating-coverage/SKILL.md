@@ -710,6 +710,7 @@ Detailed instructions for each task are in separate reference files to keep this
   - Also see: assets/report-template.md for report structure
   - Also see: assets/quality-checklist.md for quality checks
 - **references/cn-company-profile-template.md** - Lightweight A-share company profile format (concise, data-dense, modeled on 四方达 template). Use for quick company overviews rather than full initiation reports.
+- **references/company-visit-questioning.md** - Tactical questioning framework for company visits. Use when preparing for management meetings or investor calls — how to probe undisclosed strategic intentions without triggering regulatory barriers.
 
 **When to load reference files**: Load ONLY the reference file associated with the specific task being performed. These files are very large - do not load multiple reference files at once. Read the appropriate task reference file at the start of the task for detailed step-by-step instructions.
 

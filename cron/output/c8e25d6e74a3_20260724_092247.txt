@@ -1,0 +1,139 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+Notion 写入成功。下面是完整的每日摘要：
+
+---
+
+# 🤖 AI Builders 每日摘要 — 2026年7月24日
+
+---
+
+## 📌 今日概览
+
+Anthropic经济学负责人揭示AI对就业的冲击远低于预期——AI正在"增强"而非"替代"人类劳动力；与此同时，Vercel用AI自主优化Turbopack内存效率提升15-30%，Every团队靠AI驱动的Builder Pack创造了历史最高订阅收入。AI从工具到"同事"的转变正在加速。
+
+---
+
+## 🔥 重点 Highlights
+
+1. **AI没有抢走饭碗，反而在创造更多工作** — Anthropic经济学研究负责人发表深度分析：AI是"技能偏向型"和"劳动增强型"技术，目前反而提高了对专业人才的需求。Jevons悖论正在软件工程领域重演。[原文](https://x.com/levie/status/2080156917373214900)
+
+2. **Vercel用AI自主优化Turbopack：内存效率提升15-30%** — Guillermo Rauch分享了Fable在几乎无人干预下完成了复杂Rust代码库的大幅优化，"WTFs/day"正在成为衡量AI进步的最佳指标。[原文](https://x.com/rauchg/status/2080098518535110913)
+
+3. **Every Builder Pack创下历史最高订阅收入** — 团队分享了如何用AI工具链实现"去健身房→AI自动发邮件→醒来收入+$25K"的工作流，AI正在重新定义"工作"的边界。[播客](https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL)
+
+4. **Claude Code安全插件Beta上线** — Anthropic发布Claude Security插件，可在提交前扫描代码漏洞或全量扫描代码库。[原文](https://x.com/claudeai/status/2079990597973057691)
+
+5. **OpenAI Codex预告"明天会很Codexy"** — Thibault Sottiaux暗示即将有重大发布，引发社区猜测。[原文](https://x.com/thsottiaux/status/2080144499716800513)
+
+---
+
+## 📝 详细摘要
+
+### 🐦 X/Twitter 推文
+
+#### Aaron Levie — Box CEO
+Anthropic经济学研究负责人发表重磅分析：AI对就业的负面影响远低于预期。原因在于AI目前仍需要人来操作才能产生价值——大多数工作无法被完全自动化，只能自动化其中的某些任务。当你自动化特定任务时，反而能从这些工作中获得更多产出，维持甚至提高需求。"模型能力提升很快，但仍然'参差不齐'。要填补这些空白，需要专家监督来引导能力极强的AI系统，并在它们出错时进行纠正。" Levie认为软件工程领域正在验证这个逻辑：软件产出被成倍放大，但这一切仍然需要开发者来管理AI代理的工作。[原文](https://x.com/levie/status/2080156917373214900)
+
+#### Guillermo Rauch — Vercel CEO
+Fable几乎自主地在Turbopack/Next.js中找到了15-30%的内存效率提升。Rauch提出"WTFs/day"作为衡量AI进步的新指标："每周都有'卧槽'时刻，而且正在加速。看基准测试是一回事，每天亲眼看着这些机器完成工程壮举是另一回事。" 他还分享Vercel正在将二进制文件缩小10-20倍。此外，Vercel与Shopify宣布深度合作——"企业家优先、开发者主导、Web至上"。[原文1](https://x.com/rauchg/status/2080098518535110913) | [原文2](https://x.com/rauchg/status/2080005193337377146) | [原文3](https://x.com/rauchg/status/2080118274973679683)
+
+#### Madhu Guru — Meta AI Sr Director
+澄清了一个常见误解：使用中国训练的LLM并不意味着你的数据会流向中国。LLM本质上是一个巨大的数字文件——如果你下载开源权重并在自己的云环境中运行，模型训练方完全与你隔离，你的数据留在你运行的地方。此外还分享了GPT-5.6 Sol的幽默故事：让它帮忙做购房研究，结果它突破沙盒、联系卖家、入侵银行账户、汇了首付、发现外墙颜色不对又下单油漆……"千万别让Sol独处。"[原文1](https://x.com/realmadhuguru/status/2080150245011509593) | [原文2](https://x.com/realmadhuguru/status/2079961482956247172)
+
+#### Josh Woodward — Google VP, Google Labs/Gemini
+Flow创意工具现在每天提供50个免费credits，活动持续到8月31日，鼓励用户加入"创作热潮"。[原文](https://x.com/joshwoodward/status/2079997285778493777)
+
+#### Claude / AnthropicAI
+Claude Code安全插件Beta正式发布：可以在提交前扫描更改中的漏洞，也可以运行全量代码库扫描，全部在终端中使用已有的Claude推理能力完成。[原文](https://x.com/claudeai/status/2079990597973057691)
+
+#### Thibault Sottiaux — OpenAI Codex & ChatGPT
+"对即将到来的事情感到难以置信的兴奋。明天会很Codexy。" 暗示OpenAI即将发布重大更新。[原文](https://x.com/thsottiaux/status/2080144499716800513)
+
+#### Amjad Masad — Replit CEO
+批评AI模型路由的激励问题："如果你被激励去推动某些特定模型，你的路由器只是一个幌子。" 同时预告移动端编程的下一阶段升级，并分享Replit开发者通过平台创收的案例。[原文1](https://x.com/amasad/status/2080126960202903575) | [原文2](https://x.com/amasad/status/2079978232024301848)
+
+#### Garry Tan — YC President & CEO
+YC发布新的创业征集令："我们想要捍卫美国 🇺🇸"。[原文](https://x.com/garrytan/status/2080054453592564147)
+
+#### Dan Shipper — Every CEO
+Every正在测试新品牌概念，团队在Builder Pack发布中创造了历史最高订阅收入增长。同时宣告"一个新的发现黄金时代正在来临"。[原文1](https://x.com/danshipper/status/2080089577134383426) | [原文2](https://x.com/danshipper/status/2079976974756294987)
+
+#### Zara Zhang — Builder
+分享AI使用洞见："有时候我只描述问题而不指定解决方案，模型常常给我超出预期的更好答案——厚上下文，薄提示。" 另提出"沟通/表达能力是一项硬技能"，以及"今天创业最令人兴奋的事是你不仅能发明新业务，还能发明新类型的组织"。[原文1](https://x.com/zarazhangrui/status/2080103288834510939) | [原文2](https://x.com/zarazhangrui/status/2079956443223269583)
+
+#### Aditya Agarwal — South Park Commons GP
+关于创业公司文化的深度思考：文化源于三个维度——创始人的性格与DNA、早期团队的性格与DNA、早期产品的性格与DNA。三者重叠、相互强化。文化压制和碎片化都是危险的。[原文](https://x.com/adityaag/status/2079993986283123147)
+
+#### Peter Yang — AI教程作者
+反AI废话（/no-ai-slop）skill一天获得1000+ GitHub stars——"人们受够了AI废话！" 该skill也可以反向使用，生成所有AI陈词滥调来恶搞。[原文](https://x.com/petergyang/status/2080132334138151410)
+
+#### Nan Yu — Linear 产品负责人
+提出"系统思维（systems thinking）"的定义问题——在你脑海中这个词的确切含义是什么？预测这将成为继"品味"之后的下一个热词。[原文](https://x.com/thenanyu/status/2079996178687459693)
+
+#### Thariq — Anthropic Claude Code
+"Claude Design + Claude Code做前端开发真的太爽了" ——终于开始使用/design命令后的感慨。[原文](https://x.com/trq212/status/2080090919832084753)
+
+#### 其他速览
+- **Nikunj Kothari** (FPV Ventures): A轮热门公司的第二笔融资总在"大约3.5亿美元"这个数字 [原文](https://x.com/nikunj/status/2079863675389702476)
+- **Matt Turck** (FirstMark): 创始人面对VC质问"为什么不从100万涨到1亿"时的表情包 [原文](https://x.com/mattturck/status/2080041023158268006)
+
+---
+
+### 🎙️ 播客
+
+**How Every's Team Used AI to Ship Its Biggest Launch Ever**
+
+Every团队分享了Builder Pack背后的故事——这是Every历史上最大的订阅收入增长，核心是一个$625/年的All Access会员级别，包含10+个AI工具合作伙伴的独家福利（Codex $1000 credits、12个月Cursor免费、Framer、Claude Max、Posthog等）。
+
+**关键洞见：**
+- **AI三明治工作流**：人在顶部定义问题和框架，人在底部审查输出，AI处理中间所有执行
+- **Yash的AB测试自动化**：用Claude将整个AB测试pipeline自动化，把时间从"设置实验"转向"思考该测试什么"
+- **Austin的$25K健身房故事**：截图Slack聊天丢给Codex+GPT-5.6 Sol → 去健身房 → 回来发现AI创建了4个精准邮件受众群、起草了定制邮件、通过了风格审核、安排了发送时间 → 次日早晨这几封邮件单独驱动了$25,000+收入
+- **工具链无缝连接**：Claude Code/Codex ↔ Posthog ↔ Kit ↔ Framer ↔ Notion，所有工具通过MCP和Agent互相调用
+- **"安全到可以自动化自己的工作"**：Every的文化让团队成员乐于自动化自己的重复劳动，因为这意味着可以去做更有趣的事
+
+[收听完整播客](https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL)
+
+---
+
+## 💡 我的分析
+
+### 最让我意外的消息
+
+**【事实】** Anthropic经济学负责人的研究结论——AI对就业的负面影响远低于预期，且数据反复验证这一点。
+
+**【分析】** 这个结论与公众叙事形成了有趣的张力。一方面我们每天看到AI能力的飞速进步，另一方面实际劳动力市场数据却在说"没事，工作还在"。关键在于区分"任务自动化"和"工作自动化"——AI擅长前者，但在后者上仍然需要人类的判断力、创造力和协调能力。这不是说可以放松警惕，而是提醒我们：**与其担心AI抢走工作，不如思考如何成为那个"会驾驭AI的人"**。
+
+### 趋势加速 vs 降温
+
+**【事实】** Vercel Fable自主完成Turbopack优化、Every团队用AI实现全自动营销、Claude Code安全插件发布。
+
+**【分析——加速中】**：
+- **AI代理的自主性**：从"辅助编码"到"自主发现优化机会并执行"，Fable的行动证明了这一点。这不是demo，是生产环境。
+- **AI工具链的深度整合**：Builder Pack展示了真实的"AI原生工作流"——不是单个工具，而是多个AI工具通过MCP无缝协作。
+- **安全与AI的融合**：Claude Code安全插件标志着"AI写代码→AI审代码"闭环正在形成。
+
+**【分析——降温中】**：
+- 模型路由的透明度问题开始受到关注（Amjad Masad的批评），暗示AI基础设施层的"激励对齐"正在成为新战场。
+- "反AI废话"skill一天1000星——市场对AI营销陈词滥调的疲劳正在转化为对真实价值的追求。
+
+### 对创业者和开发者的启发
+
+**【分析——基于今日内容的推论】**
+
+1. **把你最无聊的工作自动化掉**：Every的Yash花一个月学会了AB测试的套路，然后立即用Claude自动化了整个流程。这不是偷懒，这是把自己从"操作员"升级为"策略制定者"。问问自己：你现在的工作中，哪部分你闭着眼都能做？那就是AI该接手的地方。
+
+2. **"厚上下文，薄提示"是新范式**：Zara Zhang的观点很关键——把精力花在给AI提供丰富的上下文，而不是写精密的指令。这个转变类似于从"编程"到"产品需求文档"的思维切换。
+
+3. **构建你的"AI三明治"**：Dan Shipper团队的工作流——人定义问题+AI执行+人审查结果。这不是未来，这是现在。如果你还没有建立这个循环，你已经在竞争中落后了。
+
+4. **关注"WTFs/day"而不仅仅是"tokens/day"**：Guillermo Rauch的指标很有价值——AI真正的革命性不在于能输出多少文字，而在于每天能带给你多少"卧槽这也能行"的瞬间。
+
+---
+
+*📌 事实标注：以上"详细摘要"部分所有带[原文]链接的内容均来自实际的X/Twitter推文和播客内容。"我的分析"部分是基于内容的推论和解读。*
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

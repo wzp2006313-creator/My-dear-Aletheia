@@ -1,0 +1,86 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+已成功获取最新内容并写入 Notion。以下是今日完整摘要：
+
+---
+
+## AI Builders Digest — 2026-08-24
+
+### 📌 今日概览
+
+微软 CTO Kevin Scott 在「AI and I」播客里系统阐述了「为 Agent 而生的互联网（Agentic Web）」愿景——MCP 正在扮演「Agent 世界的 HTTP」角色，而行业真正的瓶颈已从「模型不够强」转向「能力过剩（capability overhang）」：模型推理能力跑在了产品交付前面。
+
+### 🔥 重点 Highlights
+
+1. **微软 CTO Kevin Scott：MCP 是「Agent 的 HTTP」，明年将看到异步 Agent 常态化** —— 模型能力已过剩，行业要集体「还债」去把能力真正交付给用户。https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+2. **Box CEO Aaron Levie：AI 扩散的真正瓶颈是「好评测（evals）」** —— 企业级、工作流级、公司专属的评测将是一个巨大市场，「无法评估的东西就无法自动化」。https://x.com/levie/status/2091359223368315050
+3. **Meta AI 高级总监 Madhu Guru：评测「爬山（hill climbing）」方法论第 6 篇** —— 选定一个维度持续优化，工具调用失败就用 context engineering 只喂它真正需要的 3-5 个工具。https://x.com/realmadhuguru/status/2091278653435072523
+4. **OpenAI Codex 负责人 Thibault Sottiaux：定位到额度消耗异常根因，明日修复并全额重置付费订阅用量**。https://x.com/thsottiaux/status/2091407991736332689
+5. **Zara Zhang：有才华的人在 AI 加持下做自己的事能实现 10 倍，进大公司却只剩约 20%** —— 越来越多人才正离开大公司。https://x.com/zarazhangrui/status/2091379220257603593
+
+### 📝 详细摘要
+
+**𝕏 / TWITTER（按 builder 分组）**
+
+**Thibault Sottiaux（OpenAI，Codex & ChatGPT 负责人）**
+发布 Codex 用量限制的最新进展：团队发现三处低效来源——长会话多次 compact 时使用图片的效率问题、Computer History 的 p95+ 高用量、以及一个本应只生成对话标题的功能消耗了超预期的额度。已成立专项「tiger team」逐项排查，明天推送修复；作为修复的一部分，将对所有付费订阅的用量做一次全额重置。https://x.com/thsottiaux/status/2091407991736332689
+
+**Peter Yang（实用 AI 教程作者）**
+连发三条：(1) 教用户如何用 Codex / Claude Code 一键断开已授权 Google 数据的第三方应用，他本人刚切断了一半不该再持有他信息的应用；(2) 正在做一个名为 `/fuck-cancer` 的新 AI skill，目标是帮癌症患者及家属走通整个就医流程，向社区征集建议；(3) 发现 Instinct 现在允许删除外部数据（他删掉了 36 条 Gmail 记录），点赞 Instinct 团队快速响应了隐私与信任诉求。https://x.com/petergyang/status/2091331251211059468 · https://x.com/petergyang/status/2091239339204415969 · https://x.com/petergyang/status/2091187611507499321
+
+**Madhu Guru（Meta，AI 高级总监）**
+继续评测系列，发布「如何构建优秀 evals」第 6 篇：所谓「评测爬山」本质就是选定一个值得优化的维度并持续迭代——可以是基于最新生产数据提升现有功能质量、拓展相邻场景、或降低成本和延迟。落地的核心是更好的 harness 和模型选择（prompt engineering、context engineering、memory、post-training 等）。他特别强调：失败模式分类（第 3 篇）是判断产品短板的好罗盘，例如工具调用失败最常见时，往往是因为一次性塞了 20 个工具，而每个任务其实只需要 3-5 个。另一条建议：先用最好的模型把质量拉满，等确认用户真的喜欢，再「爬山」用更小更便宜的模型追平同等质量。https://x.com/realmadhuguru/status/2091278653435072523
+
+**Amjad Masad（Replit CEO）**
+「一周有 7 天，意味着 7 次发布」——高调宣示 Replit 的持续交付节奏；另一条自嘲「'很快'最后变成了 3 个月」。https://x.com/amasad/status/2091346778746757204 · https://x.com/amasad/status/2091217410615644349
+
+**Guillermo Rauch（Vercel CEO）**
+几条偏氛围的分享：「AI 能实现很多愿望，但我们只有一个地球、一个加州、一个巴塔哥尼亚，长期看好 🇺🇸🇦🇷」；「旧金山是地球上的天堂」；并 @ 了 Windows，疑似在暗示与微软 Windows 的联动。https://x.com/rauchg/status/2091338152791474331 · https://x.com/rauchg/status/2091265836719956474 · https://x.com/rauchg/status/2091263423359389951
+
+**Aaron Levie（Box CEO）**
+「AI 扩散受评测（evals）限制的程度远超多数人认知。」每次模型发布附带的评测很有帮助，但只能反映通用 AI 进展的「形状」和模型相对能力。更大的空间在于企业所有主要工作流、乃至具体到某家公司的专属评测——「你无法自动化你无法评估进展的东西」，企业不可能只靠「感觉」来推进。https://x.com/levie/status/2091359223368315050
+
+**Zara Zhang（Builder）**
+观察到一个现象：有才华的人在 AI 加持下做「自己的事」能实现 10 倍潜力，但同一个人被放进大组织，最多只提升 20%（有时甚至倒退）。因此她看到越来越多人才离开大公司，唯一的例外大概是 OpenAI / Anthropic 这类顶级 AI 实验室。另一条金句：「在 AI 上领先的人，都觉得自己落后了。」https://x.com/zarazhangrui/status/2091379220257603593 · https://x.com/zarazhangrui/status/2091338374447763481
+
+**Nikunj Kothari（FPV Ventures 合伙人）**
+对创投圈乱象发声：「对投资人 rage-bait 然后直接甩 SAFE 文件让对方打钱，不是投资的正确打开方式」；提醒年轻人「找对人取经」极其重要；并吐槽 LinkedIn 的内容已经比 X 还「slop」了。https://x.com/nikunj/status/2091381756012511244 · https://x.com/nikunj/status/2091403643815604629 · https://x.com/nikunj/status/2091220881590927441
+
+**Dan Shipper（Every CEO）**
+发布 Every 的招聘信息；另一条「agent native ftw」呼应其对 Agent 原生产品形态的一贯看好。https://x.com/danshipper/status/2091361962068254840 · https://x.com/danshipper/status/2091162447029608735
+
+**🎙️ 播客：Microsoft's Vision for an Internet Made for Agents（Kevin Scott，微软 CTO，与 Dan Shipper 对谈）**
+
+本期核心是 Kevin Scott 对「Agentic Web」的完整构想：
+
+- **能力过剩（capability overhang）**：模型的推理能力已经「有点领先于」我们实际在产品里用它做的事，整个行业需要集体缩小「模型能做」和「交付给用户」之间的差距。这也是为什么今年 Build 不再大谈 scaling law——不是因为 scaling law 失效（他明确说它们仍然完好），而是因为它已不再是需要提醒人们的事。
+- **MCP = Agent 世界的 HTTP**：类比当年互联网，MCP 是扮演 HTTP 角色的简单开放协议，而 NL Web 扮演 HTML 的角色。他给微软内部定的原则是「所有系统都要向所有 Agent 说同一套标准协议」，否则就会「把你公司的组织架构图 ship 出去」（Conway's Law）。
+- **Agent 缺的三样东西**：更好的「记忆」（现在的 Agent 是交易式的，任务结束记忆就丢）；「身份 + 权限」体系（让 Agent 代表某个人、按 entitlement 访问资源、并主动向用户请求授权）；以及开放的安全模型（他举例自己作为妻子账户的备份安全联系人，未来 Agent 可以跨渠道 triangulate 判断异常登录是否真实）。
+- **开放 vs 封闭是伪二元**：无许可创新的价值巨大，但可以用 AI 能力本身来构建安全——两者可以兼得。
+- **异步 Agent 是明年的大方向**：从「同步」的「发指令→等结果」转向「异步」的「把任务丢给 Agent，它花很长时间多次调用系统、迭代整合，再回来交给你」。
+- **对创业者的洞察**：最有趣的初创公司不是在造「差异化基础设施」，而是对某个具体问题有比别人更深的理解，然后去选用/改造基础设施把它世界级地解决。关于「手艺 vs Agent」的争论，他（自称还用 VI 写代码的老派程序员）的建议是：保持开放心态，去尝试，好用就用、不好用就不用。https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+
+### 💡 我的分析
+
+**今天最让我意外的消息**：不是某个产品发布，而是 Kevin Scott 的「能力过剩（capability overhang）」与 Zara Zhang 的「10x vs 20%」形成了同一个判断——瓶颈正在从「模型不够强」转移到「组织与产品跟不上」。（事实：两人原话均出自今日推文与播客；此判断为我的综合解读）
+
+**在加速的趋势**：
+- **Agentic Web / MCP 标准化**：微软 CTO 公开把 MCP 比作「Agent 的 HTTP」，并已推动到 Windows 与内部系统，协议层正从「实验」走向「基础设施」。
+- **评测（evals）成为企业采纳的命门**：Levie（Box）和 Madhu Guru（Meta）在同一天不约而同谈 evals，方向一致——通用跑分不够，工作流级、企业级评测才是下一块大蛋糕。
+- **异步 Agent**：Scott 明确预测明年从同步走向异步，Agent 会开始「长时间自主跑任务」。
+
+**在降温的**：
+- **纯粹的 scaling law / 模型跑分崇拜**：Scott 说今年 Build 不再谈 scaling law（因为已「无需提醒」），Madhu Guru 也反对把模型压缩成单一分数。
+
+**给创业者和开发者的 actionable 启发**：
+- 别做「差异化基础设施」，去做「对某个具体问题有更深理解」的产品——这是 Scott 今天的原话，也是当前最清晰的创业方向指针。
+- 企业 AI 采纳的卡点是评测：谁能提供「工作流级 / 公司专属」的评测工具，谁就握住了企业预算的钥匙。
+- 警惕被模型厂商「覆盖」：Codex 今天自我修复用量问题，说明平台方正在把运维、安全、可观测性逐步内化，纯做这类中间层工具的团队要提前想清楚护城河。
+
+---
+
+**执行说明**：已从中央 feed 拉取 19 条推文（9 位 builder）+ 1 期播客，并已写入 Notion 页面（`每日归档` 表格新增 `2026-08-24` 行，摘要正文已追加，页面从 342,972 字符增至 349,726 字符，验证通过）。所有内容均出自 feed JSON 真实数据，每条附原文 URL，未编造任何内容。
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

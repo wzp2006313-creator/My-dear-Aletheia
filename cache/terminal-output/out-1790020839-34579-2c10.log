@@ -1,0 +1,991 @@
+[backup] Starting Hermes backup for 2026-09-22...
+Initialized empty Git repository in /private/tmp/hermes-backup-20260922/.git/
+[backup] Fetched remote HEAD (blobless)
+[backup] 1337 file(s) changed — committing
+[main a9769de] auto-backup 2026-09-22
+ 1001 files changed, 145871 insertions(+), 48854 deletions(-)
+ rename skills/productivity/powerpoint/scripts/__init__.py => .install_id.lock (100%)
+ rename skills/productivity/powerpoint/scripts/office/helpers/__init__.py => .mcp-discovery.lock (100%)
+ create mode 100644 .npm_lock_hash_20ad97944f7e
+ rename config.yaml.bak.20260601_184916 => backups/config/config.yaml.bak.20260601_184916 (100%)
+ rename config.yaml.bak.20260601_185332 => backups/config/config.yaml.bak.20260601_185332 (100%)
+ create mode 100644 backups/config/config.yaml.good.20260914-040104
+ create mode 100644 backups/config/config.yaml.good.20260915-040228
+ create mode 100644 backups/config/config.yaml.good.20260915-040241
+ create mode 100644 cache/banner_snapshot.json
+ create mode 100644 cache/blocked-scripts/blocked-1788289765-84d92514.sh
+ create mode 100644 cache/blocked-scripts/blocked-1788289821-52cbe0eb.sh
+ create mode 100644 cache/blocked-scripts/blocked-1788775152-16fd1c2b.sh
+ create mode 100644 cache/delegation/live/deleg_2d290124/manifest.json
+ create mode 100644 cache/delegation/live/deleg_2d290124/task-0.log
+ create mode 100644 cache/delegation/live/deleg_2d290124/task-1.log
+ create mode 100644 cache/delegation/live/deleg_2d290124/task-2.log
+ delete mode 100644 "cache/documents/doc_015251c1fd0e_\345\261\261\351\253\230\347\216\257\350\203\275\350\260\203\347\240\224\347\272\252\350\246\201202606.docx"
+ delete mode 100644 "cache/documents/doc_5e70ea2503d8_\345\261\261\351\253\230\347\216\257\350\203\275\350\260\203\347\240\224\347\272\252\350\246\201202606_v4.docx"
+ delete mode 100644 "cache/documents/doc_7373ab2de5f2_\344\274\260\345\200\274\345\273\272\346\250\241-chengxun.pdf"
+ delete mode 100644 "cache/documents/doc_7c3fe3152b93_\345\205\253\345\255\227\350\267\257-\346\226\207\347\250\277-\350\275\254\345\206\231\347\273\223\346\236\234.docx"
+ delete mode 100644 "cache/documents/doc_c8f71d2e3255_\345\205\253\345\255\227\350\267\257-\346\226\207\347\250\277-\350\275\254\345\206\231\347\273\223\346\236\234.docx"
+ create mode 100644 cache/mcp_schema_cache.json
+ create mode 100644 cache/nous_recommended_cache.json
+ create mode 100644 cache/openrouter_curated_catalog.json
+ create mode 100644 cache/openrouter_model_metadata.json
+ create mode 100644 cache/plugin_toolset_keys.json
+ create mode 100644 cache/reasoning_caps.json
+ create mode 100644 cache/schema_columns.json
+ delete mode 100644 cache/screenshots/browser_screenshot_1aad556053804d52a475f50238df8a15.png
+ delete mode 100644 cache/screenshots/browser_screenshot_300ff33ffbce4471b6c9f3556619b6fd.png
+ delete mode 100644 cache/screenshots/browser_screenshot_80339f9cc8f84ace81b552183f4b0c15.png
+ delete mode 100644 cache/screenshots/browser_screenshot_8bf72d29abc242b397c94cd74eecef02.png
+ delete mode 100644 cache/screenshots/browser_screenshot_c01116fb8f6b49ff97f92240b7319635.png
+ delete mode 100644 cache/screenshots/browser_screenshot_cb3189202b594487b5a1f1ccc8ed7a64.png
+ create mode 100644 cache/terminal-output/out-1789416052-3911-b350.log
+ create mode 100644 cache/terminal-output/out-1789502457-18145-8910.log
+ create mode 100644 cache/terminal-output/out-1789588831-34579-8ed0.log
+ create mode 100644 cache/terminal-output/out-1789675260-34579-b3d0.log
+ create mode 100644 cache/terminal-output/out-1789761630-34579-1010.log
+ create mode 100644 cache/terminal-output/out-1789848020-34579-c710.log
+ create mode 100644 cache/terminal-output/out-1789866170-34579-a5d0.log
+ create mode 100644 cache/terminal-output/out-1789934415-34579-3b90.log
+ create mode 100644 cache/tool_discovery_cache.json
+ create mode 100644 cron/.fire-01867943f7f1562ea9c714098fd086ea.lock
+ create mode 100644 cron/.fire-77b93b732a575c568d7df40de5923bef.lock
+ create mode 100644 cron/.fire-7b8d9ae7f6d15487b93e5e16df55c594.lock
+ create mode 100644 cron/.fire-8cec29ba20645af199daa5e319c743ae.lock
+ create mode 100644 cron/.fire-93d72d58969b5fecaea6763774480f98.lock
+ create mode 100644 cron/.fire-ab31ad56af4857d5a856a8d413854da7.lock
+ create mode 100644 cron/.jobs.lock
+ create mode 100644 cron/catch_up_occurrences
+ create mode 100644 cron/executions.db
+ create mode 100644 cron/notepad.db
+ create mode 100644 cron/output/0dfb5be140ea/2026-07-13_09-53-07.md
+ create mode 100644 cron/output/0dfb5be140ea/2026-07-20_09-09-23.md
+ create mode 100644 cron/output/0dfb5be140ea/2026-07-27_09-38-10.md
+ create mode 100644 cron/output/0dfb5be140ea/2026-08-03_09-32-01.md
+ create mode 100644 cron/output/0dfb5be140ea/2026-08-12_16-57-17.md
+ create mode 100644 cron/output/0dfb5be140ea/2026-08-17_09-29-21.md
+ create mode 100644 cron/output/0dfb5be140ea/2026-08-24_09-24-37.md
+ create mode 100644 cron/output/0dfb5be140ea/2026-08-31_09-23-45.md
+ create mode 100644 cron/output/0dfb5be140ea/2026-09-07_18-22-12.md
+ create mode 100644 cron/output/0dfb5be140ea/2026-09-14_09-01-11.md
+ create mode 100644 cron/output/0dfb5be140ea/2026-09-21_09-13-43.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-04_04-01-21.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-05_04-01-20.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-09_04-01-08.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-10_04-01-27.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-11_04-01-35.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-12_04-01-16.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-14_04-01-05.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-15_04-01-05.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-17_04-01-04.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-18_04-02-48.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-20_04-01-44.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-21_04-01-26.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-22_04-01-02.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-23_04-04-53.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-24_04-01-42.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-25_04-04-00.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-26_04-02-07.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-27_04-01-19.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-28_04-01-36.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-29_04-01-03.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-06-30_04-05-53.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-07-01_04-03-27.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-07-02_04-02-12.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-07-03_04-02-05.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-07-05_04-10-18.md
+ delete mode 100644 cron/output/302a8db2bf0d/2026-07-06_04-36-39.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-07-21_04-11-57.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-07-22_04-05-52.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-07-23_04-10-46.md
+ rename cron/output/302a8db2bf0d/{2026-07-04_04-02-13.md => 2026-07-25_04-03-25.md} (52%)
+ create mode 100644 cron/output/302a8db2bf0d/2026-07-26_04-03-21.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-07-27_04-02-40.md
+ rename cron/output/302a8db2bf0d/{2026-06-08_04-03-43.md => 2026-07-28_04-02-29.md} (52%)
+ create mode 100644 cron/output/302a8db2bf0d/2026-07-29_04-04-39.md
+ rename cron/output/302a8db2bf0d/{2026-06-13_04-01-19.md => 2026-07-30_04-01-40.md} (95%)
+ create mode 100644 cron/output/302a8db2bf0d/2026-07-31_04-03-38.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-04_04-11-26.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-06_04-01-59.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-07_04-03-45.md
+ rename cron/output/302a8db2bf0d/{2026-06-16_04-01-35.md => 2026-08-08_04-01-19.md} (95%)
+ rename cron/output/302a8db2bf0d/{2026-06-06_04-01-22.md => 2026-08-09_04-01-00.md} (95%)
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-12_17-04-34.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-13_04-21-14.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-14_04-09-50.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-15_04-34-51.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-16_04-02-31.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-17_04-01-44.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-18_04-01-49.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-20_23-38-31.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-21_04-11-57.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-22_04-02-16.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-23_04-03-04.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-24_04-02-50.md
+ rename cron/output/302a8db2bf0d/{2026-06-07_04-01-13.md => 2026-08-25_04-00-52.md} (95%)
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-26_04-03-24.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-27_04-03-56.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-28_04-02-37.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-30_20-37-58.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-08-31_04-03-02.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-01_04-03-42.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-02_04-02-45.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-07_18-09-39.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-08_09-43-42.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-09_04-04-33.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-10_04-02-14.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-11_04-02-34.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-12_04-01-54.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-13_04-02-06.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-14_04-03-07.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-15_04-02-38.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-16_04-02-32.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-17_04-02-04.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-18_04-02-40.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-19_04-01-39.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-20_04-01-27.md
+ create mode 100644 cron/output/302a8db2bf0d/2026-09-21_04-01-39.md
+ delete mode 100644 cron/output/7f2b940e2ec7/2026-06-01_20-47-43.md
+ delete mode 100644 cron/output/7f2b940e2ec7/2026-06-02_03-03-04.md
+ delete mode 100644 cron/output/7f2b940e2ec7/2026-06-03_03-03-34.md
+ delete mode 100644 cron/output/7f2b940e2ec7/2026-06-04_03-03-52.md
+ delete mode 100644 cron/output/7f2b940e2ec7/2026-06-05_03-07-43.md
+ delete mode 100644 cron/output/7f2b940e2ec7/2026-06-06_03-01-59.md
+ delete mode 100644 cron/output/7f2b940e2ec7/2026-06-07_03-01-51.md
+ delete mode 100644 cron/output/7f2b940e2ec7/2026-06-08_03-08-11.md
+ delete mode 100644 cron/output/7f2b940e2ec7/2026-06-09_03-07-58.md
+ delete mode 100644 cron/output/7f2b940e2ec7/2026-06-10_03-04-42.md
+ delete mode 100644 cron/output/7f2b940e2ec7/2026-06-11_03-15-34.md
+ delete mode 100644 cron/output/7f2b940e2ec7/2026-06-12_03-04-14.md
+ delete mode 100644 cron/output/7f2b940e2ec7/2026-06-13_03-01-54.md
+ delete mode 100644 cron/output/7f2b940e2ec7/2026-06-14_03-14-04.md
+ delete mode 100644 cron/output/7f2b940e2ec7/2026-06-25_03-03-56.md
+ rename cron/output/7f2b940e2ec7/{2026-06-27_03-04-00.md => 2026-07-27_03-07-52.md} (76%)
+ rename cron/output/7f2b940e2ec7/{2026-07-02_03-01-32.md => 2026-07-28_03-09-07.md} (78%)
+ rename cron/output/7f2b940e2ec7/{2026-06-24_03-01-21.md => 2026-07-29_03-09-01.md} (75%)
+ create mode 100644 cron/output/7f2b940e2ec7/2026-07-30_03-07-44.md
+ rename cron/output/7f2b940e2ec7/{2026-06-18_03-02-00.md => 2026-07-31_03-07-52.md} (79%)
+ create mode 100644 cron/output/7f2b940e2ec7/2026-08-01_03-06-56.md
+ rename cron/output/7f2b940e2ec7/{2026-07-01_03-01-29.md => 2026-08-02_03-05-26.md} (76%)
+ create mode 100644 cron/output/7f2b940e2ec7/2026-08-03_03-06-18.md
+ rename cron/output/7f2b940e2ec7/{2026-06-22_03-04-11.md => 2026-08-04_03-08-38.md} (77%)
+ rename cron/output/7f2b940e2ec7/{2026-07-05_03-04-52.md => 2026-08-05_03-03-57.md} (75%)
+ create mode 100644 cron/output/7f2b940e2ec7/2026-08-06_03-07-26.md
+ rename cron/output/7f2b940e2ec7/{2026-06-28_03-01-46.md => 2026-08-07_03-03-35.md} (82%)
+ rename cron/output/7f2b940e2ec7/{2026-06-17_03-00-28.md => 2026-08-08_03-01-10.md} (99%)
+ rename cron/output/7f2b940e2ec7/{2026-06-16_03-01-13.md => 2026-08-09_03-00-48.md} (99%)
+ rename cron/output/7f2b940e2ec7/{2026-06-29_03-01-58.md => 2026-08-12_16-51-03.md} (80%)
+ rename cron/output/7f2b940e2ec7/{2026-07-06_03-08-24.md => 2026-08-13_03-03-31.md} (79%)
+ rename cron/output/7f2b940e2ec7/{2026-06-23_03-01-28.md => 2026-08-14_03-04-02.md} (76%)
+ create mode 100644 cron/output/7f2b940e2ec7/2026-08-15_03-05-18.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-08-16_03-02-57.md
+ rename cron/output/7f2b940e2ec7/{2026-07-07_03-03-47.md => 2026-08-17_03-10-18.md} (76%)
+ create mode 100644 cron/output/7f2b940e2ec7/2026-08-18_03-10-45.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-08-20_23-31-02.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-08-21_03-02-53.md
+ rename cron/output/7f2b940e2ec7/{2026-06-15_03-11-06.md => 2026-08-22_03-03-23.md} (70%)
+ rename cron/output/7f2b940e2ec7/{2026-07-03_03-08-37.md => 2026-08-23_03-09-43.md} (70%)
+ create mode 100644 cron/output/7f2b940e2ec7/2026-08-24_03-11-09.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-08-25_03-00-45.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-08-26_03-02-54.md
+ rename cron/output/7f2b940e2ec7/{2026-07-04_03-03-43.md => 2026-08-27_03-10-36.md} (69%)
+ create mode 100644 cron/output/7f2b940e2ec7/2026-08-28_03-09-49.md
+ rename cron/output/7f2b940e2ec7/{2026-06-26_03-03-45.md => 2026-08-30_20-34-44.md} (67%)
+ create mode 100644 cron/output/7f2b940e2ec7/2026-08-31_03-02-24.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-09-01_03-07-21.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-09-02_03-11-57.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-09-07_18-02-26.md
+ rename cron/output/7f2b940e2ec7/{2026-06-20_03-02-46.md => 2026-09-08_09-43-43.md} (76%)
+ create mode 100644 cron/output/7f2b940e2ec7/2026-09-09_03-09-24.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-09-10_03-07-04.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-09-11_03-09-25.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-09-12_03-09-02.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-09-13_03-09-09.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-09-14_03-02-48.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-09-15_03-09-58.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-09-16_03-07-25.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-09-17_03-09-43.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-09-18_03-01-40.md
+ rename cron/output/7f2b940e2ec7/{2026-06-21_03-01-35.md => 2026-09-19_03-02-15.md} (74%)
+ rename cron/output/7f2b940e2ec7/{2026-06-30_03-10-05.md => 2026-09-20_03-02-10.md} (63%)
+ create mode 100644 cron/output/7f2b940e2ec7/2026-09-21_03-01-58.md
+ create mode 100644 cron/output/7f2b940e2ec7/2026-09-22_03-02-19.md
+ create mode 100644 cron/output/8086dba17168/2026-07-25_04-01-54.md
+ create mode 100644 cron/output/8086dba17168/2026-07-26_04-01-39.md
+ create mode 100644 cron/output/8086dba17168/2026-07-27_04-01-39.md
+ create mode 100644 cron/output/8086dba17168/2026-07-28_04-01-31.md
+ create mode 100644 cron/output/8086dba17168/2026-07-29_04-02-20.md
+ create mode 100644 cron/output/8086dba17168/2026-07-30_04-01-55.md
+ create mode 100644 cron/output/8086dba17168/2026-07-31_04-02-02.md
+ create mode 100644 cron/output/8086dba17168/2026-08-01_04-01-48.md
+ create mode 100644 cron/output/8086dba17168/2026-08-02_04-01-59.md
+ create mode 100644 cron/output/8086dba17168/2026-08-03_04-02-04.md
+ create mode 100644 cron/output/8086dba17168/2026-08-04_04-01-47.md
+ create mode 100644 cron/output/8086dba17168/2026-08-05_04-01-07.md
+ create mode 100644 cron/output/8086dba17168/2026-08-06_04-03-36.md
+ create mode 100644 cron/output/8086dba17168/2026-08-07_04-00-55.md
+ create mode 100644 cron/output/8086dba17168/2026-08-08_04-01-18.md
+ create mode 100644 cron/output/8086dba17168/2026-08-09_04-00-58.md
+ create mode 100644 cron/output/8086dba17168/2026-08-12_16-50-45.md
+ create mode 100644 cron/output/8086dba17168/2026-08-13_04-07-46.md
+ create mode 100644 cron/output/8086dba17168/2026-08-14_04-01-52.md
+ create mode 100644 cron/output/8086dba17168/2026-08-15_04-05-32.md
+ create mode 100644 cron/output/8086dba17168/2026-08-16_04-01-45.md
+ create mode 100644 cron/output/8086dba17168/2026-08-17_04-01-07.md
+ create mode 100644 cron/output/8086dba17168/2026-08-18_04-01-28.md
+ create mode 100644 cron/output/8086dba17168/2026-08-20_23-35-10.md
+ create mode 100644 cron/output/8086dba17168/2026-08-21_04-01-23.md
+ create mode 100644 cron/output/8086dba17168/2026-08-22_04-01-07.md
+ create mode 100644 cron/output/8086dba17168/2026-08-23_04-02-27.md
+ create mode 100644 cron/output/8086dba17168/2026-08-24_04-03-48.md
+ create mode 100644 cron/output/8086dba17168/2026-08-25_04-00-54.md
+ create mode 100644 cron/output/8086dba17168/2026-08-26_04-01-38.md
+ create mode 100644 cron/output/8086dba17168/2026-08-27_04-02-55.md
+ create mode 100644 cron/output/8086dba17168/2026-08-30_20-36-35.md
+ create mode 100644 cron/output/8086dba17168/2026-08-31_04-01-18.md
+ create mode 100644 cron/output/8086dba17168/2026-09-01_04-01-30.md
+ create mode 100644 cron/output/8086dba17168/2026-09-02_04-01-49.md
+ create mode 100644 cron/output/8086dba17168/2026-09-07_18-08-55.md
+ create mode 100644 cron/output/8086dba17168/2026-09-08_09-43-43.md
+ create mode 100644 cron/output/8086dba17168/2026-09-09_04-05-09.md
+ create mode 100644 cron/output/8086dba17168/2026-09-10_04-01-21.md
+ create mode 100644 cron/output/8086dba17168/2026-09-11_04-02-13.md
+ create mode 100644 cron/output/8086dba17168/2026-09-12_04-01-13.md
+ create mode 100644 cron/output/8086dba17168/2026-09-13_04-01-25.md
+ create mode 100644 cron/output/8086dba17168/2026-09-14_04-01-44.md
+ create mode 100644 cron/output/8086dba17168/2026-09-15_04-03-13.md
+ create mode 100644 cron/output/8086dba17168/2026-09-16_04-02-18.md
+ create mode 100644 cron/output/8086dba17168/2026-09-17_04-01-56.md
+ create mode 100644 cron/output/8086dba17168/2026-09-18_04-01-56.md
+ create mode 100644 cron/output/8086dba17168/2026-09-19_04-02-33.md
+ create mode 100644 cron/output/8086dba17168/2026-09-20_04-01-01.md
+ create mode 100644 cron/output/8086dba17168/2026-09-21_04-01-07.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-03_14-36-14.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-04_14-33-39.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-05_14-32-04.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-08_14-33-46.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-09_14-33-36.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-10_14-34-27.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-11_14-34-18.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-12_14-37-11.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-15_14-31-17.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-16_14-39-23.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-17_14-37-24.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-18_14-34-51.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-19_14-34-32.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-22_14-33-07.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-23_14-33-54.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-24_14-35-35.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-25_14-35-14.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-26_14-35-27.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-29_14-37-19.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-06-30_14-34-01.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-07-01_14-33-30.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-07-02_14-39-14.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-07-03_14-35-28.md
+ delete mode 100644 cron/output/b0dfa9945543/2026-07-06_14-51-28.md
+ create mode 100644 cron/output/b0dfa9945543_20260804_143340.txt
+ create mode 100644 cron/output/b0dfa9945543_20260806_143342.txt
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-01_20-24-52.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-01_20-43-37.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-02_09-10-50.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-03_09-08-57.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-04_09-11-11.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-05_09-01-08.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-06_09-01-10.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-07_09-01-59.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-08_09-09-35.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-08_14-00-10.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-09_09-06-35.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-09_09-25-40.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-10_09-05-22.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-11_09-09-46.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-12_09-05-20.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-13_09-02-05.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-14_09-03-17.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-15_09-06-23.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-16_09-01-24.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-17_09-01-07.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-18_09-09-48.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-20_09-09-35.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-21_09-07-07.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-22_09-13-32.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-23_09-09-08.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-24_09-09-33.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-25_09-09-53.md
+ delete mode 100644 cron/output/c8e25d6e74a3/2026-06-26_09-10-03.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-07-25_09-14-53.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-07-26_09-15-31.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-07-27_09-25-31.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-07-28_09-16-05.md
+ rename cron/output/c8e25d6e74a3/{2026-07-03_09-07-34.md => 2026-07-29_09-27-54.md} (75%)
+ rename cron/output/c8e25d6e74a3/{2026-06-28_09-05-58.md => 2026-07-30_09-25-25.md} (75%)
+ create mode 100644 cron/output/c8e25d6e74a3/2026-07-31_09-27-14.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-01_09-15-54.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-02_09-15-13.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-03_09-30-31.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-04_09-26-09.md
+ rename cron/output/c8e25d6e74a3/{2026-07-04_09-11-14.md => 2026-08-05_09-24-40.md} (74%)
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-06_09-22-22.md
+ rename cron/output/c8e25d6e74a3/{2026-07-06_09-09-27.md => 2026-08-07_09-00-24.md} (92%)
+ rename cron/output/c8e25d6e74a3/{2026-06-29_09-10-05.md => 2026-08-08_09-01-05.md} (89%)
+ rename cron/output/c8e25d6e74a3/{2026-07-01_09-09-21.md => 2026-08-09_09-00-46.md} (89%)
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-12_16-57-18.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-13_09-35-19.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-14_09-22-19.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-15_09-14-19.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-16_09-14-03.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-17_09-20-21.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-18_09-20-56.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-20_23-35-58.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-21_09-19-09.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-22_09-12-51.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-23_09-14-05.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-24_09-18-06.md
+ rename cron/output/c8e25d6e74a3/{2026-06-30_09-09-58.md => 2026-08-25_09-00-39.md} (89%)
+ rename cron/output/c8e25d6e74a3/{2026-07-02_09-14-40.md => 2026-08-26_09-11-42.md} (75%)
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-27_09-12-43.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-28_09-13-25.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-30_20-35-35.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-08-31_09-15-43.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-09-01_09-15-04.md
+ rename cron/output/c8e25d6e74a3/{2026-07-05_09-11-56.md => 2026-09-07_18-07-30.md} (77%)
+ create mode 100644 cron/output/c8e25d6e74a3/2026-09-08_09-43-41.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-09-09_09-01-18.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-09-10_09-04-09.md
+ rename cron/output/c8e25d6e74a3/{2026-06-27_09-10-09.md => 2026-09-11_11-42-45.md} (71%)
+ create mode 100644 cron/output/c8e25d6e74a3/2026-09-12_09-04-41.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-09-13_09-04-02.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-09-14_09-01-11.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-09-15_09-07-59.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-09-16_09-08-34.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-09-17_09-09-45.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-09-18_09-06-45.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-09-19_09-04-48.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-09-20_09-04-50.md
+ create mode 100644 cron/output/c8e25d6e74a3/2026-09-21_09-13-23.md
+ create mode 100644 cron/output/c8e25d6e74a3_20260723_092524.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260724_092247.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260725_091453.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260726_091531.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260727_092531.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260729_092754.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260730_092525.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260731_092714.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260801_091554.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260802_091513.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260803_093031.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260804_092609.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260805_092440.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260806_092222.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260812_165718.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260813_093519.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260814_092220.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260815_091420.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260816_091403.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260817_092021.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260818_092056.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260820_233558.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260822_091251.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260823_091406.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260824_091806.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260826_091142.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260827_091243.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260828_091325.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260830_203536.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260831_091543.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260901_091504.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260907_180730.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260910_090409.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260911_114245.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260912_090441.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260913_090402.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260915_090759.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260916_090834.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260918_090645.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260919_090448.txt
+ create mode 100644 cron/output/c8e25d6e74a3_20260920_090450.txt
+ create mode 100644 cron/ticker_heartbeat
+ create mode 100644 cron/ticker_last_success
+ create mode 100644 cron/usage_audit.jsonl
+ create mode 100644 gateway-starts.log
+ create mode 100644 install_id
+ create mode 100644 kanban.db-shm
+ create mode 100644 kanban.db-wal
+ create mode 100644 kanban.db.dispatch.lock
+ create mode 100644 kanban/.dispatcher.lock
+ create mode 100644 models_dev_cache.etag
+ create mode 100644 ollama_cloud_models_cache.json
+ create mode 100644 provider_models_cache.json
+ create mode 100644 runtime/active_sessions.json
+ create mode 100644 runtime/active_sessions.lock
+ create mode 100755 scripts/.hermes-tmp.lK1oEj
+ create mode 100755 scripts/.hermes-tmp.mCgBX3
+ create mode 100755 scripts/hermes-backup.sh.bak.20260815_042322
+ create mode 100755 scripts/hermes-backup.sh.bak.20260909_040236
+ delete mode 100644 security-reports/audit-20260608-030035.txt
+ delete mode 100644 security-reports/audit-20260609-030342.txt
+ delete mode 100644 security-reports/audit-20260610-030028.txt
+ delete mode 100644 security-reports/audit-20260611-030314.txt
+ delete mode 100644 security-reports/audit-20260611-030532.txt
+ delete mode 100644 security-reports/audit-20260612-030105.txt
+ delete mode 100644 security-reports/audit-20260614-030341.txt
+ delete mode 100644 security-reports/audit-20260614-030847.txt
+ delete mode 100644 security-reports/audit-20260615-030358.txt
+ delete mode 100644 security-reports/audit-20260618-030105.txt
+ delete mode 100644 security-reports/audit-20260620-030213.txt
+ delete mode 100644 security-reports/audit-20260621-030104.txt
+ delete mode 100644 security-reports/audit-20260622-030337.txt
+ delete mode 100644 security-reports/audit-20260623-030052.txt
+ delete mode 100644 security-reports/audit-20260624-030044.txt
+ delete mode 100644 security-reports/audit-20260625-030321.txt
+ delete mode 100644 security-reports/audit-20260626-030305.txt
+ delete mode 100644 security-reports/audit-20260627-030321.txt
+ delete mode 100644 security-reports/audit-20260628-030053.txt
+ delete mode 100644 security-reports/audit-20260629-030052.txt
+ delete mode 100644 security-reports/audit-20260630-030321.txt
+ delete mode 100644 security-reports/audit-20260701-030052.txt
+ delete mode 100644 security-reports/audit-20260702-030022.txt
+ delete mode 100644 security-reports/audit-20260703-030057.txt
+ delete mode 100644 security-reports/audit-20260704-030259.txt
+ delete mode 100644 security-reports/audit-20260705-030352.txt
+ delete mode 100644 security-reports/audit-20260706-030644.txt
+ delete mode 100644 security-reports/audit-20260707-030132.txt
+ create mode 100644 security-reports/audit-20260822-030123.txt
+ create mode 100644 security-reports/audit-20260823-030106.txt
+ create mode 100644 security-reports/audit-20260824-030108.txt
+ create mode 100644 security-reports/audit-20260826-030035.txt
+ create mode 100644 security-reports/audit-20260827-030042.txt
+ create mode 100644 security-reports/audit-20260828-030032.txt
+ create mode 100644 security-reports/audit-20260830-203117.txt
+ create mode 100644 security-reports/audit-20260831-030103.txt
+ create mode 100644 security-reports/audit-20260901-030039.txt
+ create mode 100644 security-reports/audit-20260902-030018.txt
+ create mode 100644 security-reports/audit-20260907-175836.txt
+ create mode 100644 security-reports/audit-20260909-030026.txt
+ create mode 100644 security-reports/audit-20260910-030027.txt
+ create mode 100644 security-reports/audit-20260911-030055.txt
+ create mode 100644 security-reports/audit-20260912-030018.txt
+ create mode 100644 security-reports/audit-20260913-030038.txt
+ create mode 100644 security-reports/audit-20260914-030046.txt
+ create mode 100644 security-reports/audit-20260915-030119.txt
+ create mode 100644 security-reports/audit-20260916-030059.txt
+ create mode 100644 security-reports/audit-20260917-030044.txt
+ create mode 100644 security-reports/audit-20260918-030051.txt
+ create mode 100644 security-reports/audit-20260919-030038.txt
+ create mode 100644 security-reports/audit-20260920-030038.txt
+ create mode 100644 security-reports/audit-20260921-030106.txt
+ create mode 100644 security-reports/audit-20260922-030059.txt
+ create mode 100644 sessions/request_dump_20260602_101726_eae56f7b_20260714_145556_265976.json
+ create mode 100644 sessions/request_dump_20260602_101726_eae56f7b_20260723_144042_394328.json
+ create mode 100644 sessions/request_dump_cron_0dfb5be140ea_20260720_090013_20260720_090923_717300.json
+ create mode 100644 sessions/request_dump_cron_0dfb5be140ea_20260914_090001_20260914_090111_658075.json
+ create mode 100644 sessions/request_dump_cron_0dfb5be140ea_20260921_090056_20260921_091343_662823.json
+ create mode 100644 sessions/request_dump_cron_302a8db2bf0d_20260730_040016_20260730_040140_293809.json
+ create mode 100644 sessions/request_dump_cron_302a8db2bf0d_20260808_040057_20260808_040119_952246.json
+ create mode 100644 sessions/request_dump_cron_302a8db2bf0d_20260809_040037_20260809_040100_234606.json
+ create mode 100644 sessions/request_dump_cron_302a8db2bf0d_20260825_040031_20260825_040052_582390.json
+ create mode 100644 sessions/request_dump_cron_302a8db2bf0d_20260908_094319_20260908_094342_186668.json
+ create mode 100644 sessions/request_dump_cron_302a8db2bf0d_20260909_040023_20260909_040433_714976.json
+ create mode 100644 sessions/request_dump_cron_7f2b940e2ec7_20260808_030048_20260808_030110_657328.json
+ create mode 100644 sessions/request_dump_cron_7f2b940e2ec7_20260809_030028_20260809_030048_269375.json
+ create mode 100644 sessions/request_dump_cron_7f2b940e2ec7_20260825_030023_20260825_030045_755177.json
+ create mode 100644 sessions/request_dump_cron_7f2b940e2ec7_20260908_094320_20260908_094343_159008.json
+ create mode 100644 sessions/request_dump_cron_8086dba17168_20260730_040016_20260730_040155_632795.json
+ create mode 100644 sessions/request_dump_cron_8086dba17168_20260808_040057_20260808_040118_496508.json
+ create mode 100644 sessions/request_dump_cron_8086dba17168_20260809_040037_20260809_040058_632405.json
+ create mode 100644 sessions/request_dump_cron_8086dba17168_20260825_040031_20260825_040053_996105.json
+ create mode 100644 sessions/request_dump_cron_8086dba17168_20260908_094319_20260908_094343_216628.json
+ create mode 100644 sessions/request_dump_cron_8086dba17168_20260909_040023_20260909_040509_759055.json
+ create mode 100644 sessions/request_dump_cron_b0dfa9945543_20260803_143058_20260803_143213_653443.json
+ create mode 100644 sessions/request_dump_cron_b0dfa9945543_20260807_143053_20260807_143115_327698.json
+ create mode 100644 sessions/request_dump_cron_c8e25d6e74a3_20260707_090047_20260707_090956_546208.json
+ create mode 100644 sessions/request_dump_cron_c8e25d6e74a3_20260709_090057_20260709_091006_246323.json
+ create mode 100644 sessions/request_dump_cron_c8e25d6e74a3_20260710_090043_20260710_090954_259343.json
+ create mode 100644 sessions/request_dump_cron_c8e25d6e74a3_20260720_090013_20260720_090924_390333.json
+ create mode 100644 sessions/request_dump_cron_c8e25d6e74a3_20260722_090034_20260722_090944_129291.json
+ create mode 100644 shared-state.db
+ rename skills/{creative => .archive}/architecture-diagram/SKILL.md (100%)
+ rename skills/{creative => .archive}/architecture-diagram/templates/template.html (100%)
+ rename skills/{research => .archive}/arxiv/SKILL.md (95%)
+ rename skills/{research => .archive}/arxiv/scripts/search_arxiv.py (100%)
+ rename skills/{creative => .archive}/ascii-video/README.md (100%)
+ rename skills/{creative => .archive}/ascii-video/SKILL.md (99%)
+ rename skills/{creative => .archive}/ascii-video/references/architecture.md (100%)
+ rename skills/{creative => .archive}/ascii-video/references/composition.md (100%)
+ rename skills/{creative => .archive}/ascii-video/references/effects.md (100%)
+ rename skills/{creative => .archive}/ascii-video/references/inputs.md (100%)
+ rename skills/{creative => .archive}/ascii-video/references/optimization.md (100%)
+ rename skills/{creative => .archive}/ascii-video/references/scenes.md (100%)
+ rename skills/{creative => .archive}/ascii-video/references/shaders.md (100%)
+ rename skills/{creative => .archive}/ascii-video/references/troubleshooting.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/PORT_NOTES.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/SKILL.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/analysis-framework.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/base-prompt.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/bento-grid.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/binary-comparison.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/bridge.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/circular-flow.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/comic-strip.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/comparison-matrix.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/dashboard.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/dense-modules.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/funnel.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/hierarchical-layers.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/hub-spoke.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/iceberg.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/isometric-map.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/jigsaw.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/linear-progression.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/periodic-table.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/story-mountain.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/structural-breakdown.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/tree-branching.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/venn-diagram.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/layouts/winding-roadmap.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/structured-content-template.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/aged-academia.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/bold-graphic.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/chalkboard.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/claymation.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/corporate-memphis.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/craft-handmade.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/cyberpunk-neon.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/hand-drawn-edu.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/ikea-manual.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/kawaii.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/knolling.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/lego-brick.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/morandi-journal.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/origami.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/pixel-art.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/pop-laboratory.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/retro-pop-grid.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/storybook-watercolor.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/subway-map.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/technical-schematic.md (100%)
+ rename skills/{creative => .archive}/baoyu-infographic/references/styles/ui-wireframe.md (100%)
+ create mode 100644 skills/.archive/blocked-page-recovery/SKILL.md
+ create mode 100644 skills/.archive/blocked-page-recovery/scripts/recover_page.py
+ create mode 100644 skills/.archive/box/SKILL.md
+ create mode 100644 skills/.archive/box/references/bulk-operations.md
+ create mode 100644 skills/.archive/box/references/cli-guide.md
+ create mode 100644 skills/.archive/box/references/content-workflows.md
+ create mode 100644 skills/.archive/box/references/hubs.md
+ create mode 100644 skills/.archive/box/references/oauth-setup.md
+ create mode 100644 skills/.archive/box/references/rest-api.md
+ create mode 100644 skills/.archive/box/references/sdk-development.md
+ create mode 100644 skills/.archive/box/references/search-and-ai.md
+ create mode 100644 skills/.archive/box/references/troubleshooting.md
+ create mode 100644 skills/.archive/box/references/webhooks-and-events.md
+ create mode 100644 skills/.archive/case-prep-notion/SKILL.md
+ rename skills/{creative => .archive}/claude-design/SKILL.md (100%)
+ rename skills/{creative => .archive}/claude-design/references/design-md-tokens.md (100%)
+ rename skills/{creative => .archive}/claude-design/templates/design-md-starter.md (100%)
+ create mode 100644 skills/.archive/cn-research-report/SKILL.md
+ create mode 100644 skills/.archive/competitor-news-monitor/SKILL.md
+ create mode 100644 skills/.archive/computer-use/SKILL.md
+ create mode 100644 skills/.archive/consulting-case-prep/SKILL.md
+ create mode 100644 skills/.archive/consulting-case-prep/references/peterk-casebook.md
+ create mode 100644 skills/.archive/consulting-case-prep/scripts/notion_helper.py
+ create mode 100644 skills/.archive/document-to-action-items/SKILL.md
+ rename skills/{ => .archive}/docx/SKILL.md (100%)
+ rename skills/{ => .archive}/dogfood/SKILL.md (99%)
+ rename skills/{ => .archive}/dogfood/references/issue-taxonomy.md (100%)
+ rename skills/{ => .archive}/dogfood/templates/dogfood-report-template.md (100%)
+ create mode 100644 skills/.archive/email-inbox-triage/SKILL.md
+ create mode 100644 skills/.archive/grounded-citations/SKILL.md
+ create mode 100644 skills/.archive/grounded-citations/references/citation-formats.md
+ create mode 100644 skills/.archive/grounded-citations/references/grounding-rationale.md
+ create mode 100644 skills/.archive/grounded-citations/scripts/_hermes_home.py
+ create mode 100644 skills/.archive/grounded-citations/scripts/sources.py
+ rename skills/{email => .archive}/himalaya/SKILL.md (96%)
+ rename skills/{email => .archive}/himalaya/references/configuration.md (100%)
+ rename skills/{email => .archive}/himalaya/references/message-composition.md (100%)
+ rename skills/{creative => .archive}/humanizer/LICENSE (100%)
+ rename skills/{creative => .archive}/humanizer/SKILL.md (80%)
+ create mode 100644 skills/.archive/inspecting-hermes-desktop-dom/SKILL.md
+ rename skills/{research => .archive}/llm-wiki/SKILL.md (99%)
+ rename skills/{creative => .archive}/manim-video/README.md (100%)
+ rename skills/{creative => .archive}/manim-video/SKILL.md (98%)
+ rename skills/{creative => .archive}/manim-video/references/animation-design-thinking.md (100%)
+ rename skills/{creative => .archive}/manim-video/references/animations.md (100%)
+ rename skills/{creative => .archive}/manim-video/references/camera-and-3d.md (100%)
+ rename skills/{creative => .archive}/manim-video/references/decorations.md (100%)
+ rename skills/{creative => .archive}/manim-video/references/equations.md (100%)
+ rename skills/{creative => .archive}/manim-video/references/graphs-and-data.md (100%)
+ rename skills/{creative => .archive}/manim-video/references/mobjects.md (100%)
+ rename skills/{creative => .archive}/manim-video/references/paper-explainer.md (100%)
+ rename skills/{creative => .archive}/manim-video/references/production-quality.md (100%)
+ rename skills/{creative => .archive}/manim-video/references/rendering.md (100%)
+ rename skills/{creative => .archive}/manim-video/references/scene-planning.md (100%)
+ rename skills/{creative => .archive}/manim-video/references/troubleshooting.md (100%)
+ rename skills/{creative => .archive}/manim-video/references/updaters-and-trackers.md (100%)
+ rename skills/{creative => .archive}/manim-video/references/visual-design.md (100%)
+ rename skills/{creative => .archive}/manim-video/scripts/setup.sh (100%)
+ rename skills/{productivity => .archive}/maps/SKILL.md (81%)
+ rename skills/{productivity => .archive}/maps/scripts/maps_client.py (100%)
+ create mode 100644 skills/.archive/meeting-action-items/SKILL.md
+ create mode 100644 skills/.archive/meeting-minutes/SKILL.md
+ create mode 100644 skills/.archive/meeting-minutes/templates/minutes.js
+ create mode 100644 skills/.archive/meeting-minutes/templates/qa-meeting-minutes.js
+ rename skills/{ => .archive}/mlops/evaluation/lm-evaluation-harness/SKILL.md (100%)
+ rename skills/{ => .archive}/mlops/evaluation/lm-evaluation-harness/references/api-evaluation.md (100%)
+ rename skills/{ => .archive}/mlops/evaluation/lm-evaluation-harness/references/benchmark-guide.md (100%)
+ rename skills/{ => .archive}/mlops/evaluation/lm-evaluation-harness/references/custom-tasks.md (100%)
+ rename skills/{ => .archive}/mlops/evaluation/lm-evaluation-harness/references/distributed-eval.md (100%)
+ rename skills/{ => .archive}/mlops/inference/vllm/SKILL.md (100%)
+ rename skills/{ => .archive}/mlops/inference/vllm/references/optimization.md (100%)
+ rename skills/{ => .archive}/mlops/inference/vllm/references/quantization.md (100%)
+ rename skills/{ => .archive}/mlops/inference/vllm/references/server-deployment.md (100%)
+ rename skills/{ => .archive}/mlops/inference/vllm/references/troubleshooting.md (100%)
+ rename skills/{ => .archive}/mlops/models/audiocraft/SKILL.md (100%)
+ rename skills/{ => .archive}/mlops/models/audiocraft/references/advanced-usage.md (100%)
+ rename skills/{ => .archive}/mlops/models/audiocraft/references/troubleshooting.md (100%)
+ rename skills/{ => .archive}/mlops/models/segment-anything/SKILL.md (100%)
+ rename skills/{ => .archive}/mlops/models/segment-anything/references/advanced-usage.md (100%)
+ rename skills/{ => .archive}/mlops/models/segment-anything/references/troubleshooting.md (100%)
+ rename skills/{productivity => .archive}/notion/SKILL.md (100%)
+ rename skills/{productivity => .archive}/notion/references/block-types.md (100%)
+ rename skills/{creative => .archive}/p5js/README.md (100%)
+ rename skills/{creative => .archive}/p5js/SKILL.md (99%)
+ rename skills/{creative => .archive}/p5js/references/animation.md (100%)
+ rename skills/{creative => .archive}/p5js/references/color-systems.md (100%)
+ rename skills/{creative => .archive}/p5js/references/core-api.md (100%)
+ rename skills/{creative => .archive}/p5js/references/export-pipeline.md (100%)
+ rename skills/{creative => .archive}/p5js/references/interaction.md (100%)
+ rename skills/{creative => .archive}/p5js/references/shapes-and-geometry.md (100%)
+ rename skills/{creative => .archive}/p5js/references/troubleshooting.md (100%)
+ rename skills/{creative => .archive}/p5js/references/typography.md (100%)
+ rename skills/{creative => .archive}/p5js/references/visual-effects.md (100%)
+ rename skills/{creative => .archive}/p5js/references/webgl-and-3d.md (100%)
+ rename skills/{creative => .archive}/p5js/scripts/export-frames.js (100%)
+ rename skills/{creative => .archive}/p5js/scripts/render.sh (100%)
+ rename skills/{creative => .archive}/p5js/scripts/serve.sh (100%)
+ rename skills/{creative => .archive}/p5js/scripts/setup.sh (100%)
+ rename skills/{creative => .archive}/p5js/templates/viewer.html (100%)
+ rename skills/{creative => .archive}/popular-web-designs/SKILL.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/airbnb.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/airtable.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/apple.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/bmw.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/cal.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/claude.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/clay.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/clickhouse.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/cohere.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/coinbase.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/composio.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/cursor.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/elevenlabs.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/expo.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/figma.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/framer.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/hashicorp.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/ibm.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/intercom.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/kraken.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/linear.app.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/lovable.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/minimax.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/mintlify.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/miro.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/mistral.ai.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/mongodb.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/notion.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/nvidia.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/ollama.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/opencode.ai.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/pinterest.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/posthog.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/raycast.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/replicate.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/resend.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/revolut.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/runwayml.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/sanity.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/sentry.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/spacex.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/spotify.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/stripe.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/supabase.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/superhuman.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/together.ai.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/uber.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/vercel.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/voltagent.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/warp.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/webflow.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/wise.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/x.ai.md (100%)
+ rename skills/{creative => .archive}/popular-web-designs/templates/zapier.md (100%)
+ rename skills/{productivity => .archive}/powerpoint/LICENSE.txt (100%)
+ rename skills/{productivity => .archive}/powerpoint/SKILL.md (100%)
+ rename skills/{productivity => .archive}/powerpoint/editing.md (100%)
+ rename skills/{productivity => .archive}/powerpoint/pptxgenjs.md (100%)
+ rename skills/{productivity => .archive}/powerpoint/references/case-interview-session-notes-template.md (100%)
+ rename skills/{productivity => .archive}/powerpoint/references/consulting-research-patterns.md (100%)
+ create mode 100644 skills/.archive/powerpoint/scripts/__init__.py
+ rename skills/{productivity => .archive}/powerpoint/scripts/add_slide.py (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/clean.py (100%)
+ create mode 100644 skills/.archive/powerpoint/scripts/office/helpers/__init__.py
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/helpers/merge_runs.py (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/helpers/simplify_redlines.py (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/pack.py (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/mce/mc.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/microsoft/wml-2010.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/microsoft/wml-2012.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/microsoft/wml-2018.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/microsoft/wml-cex-2018.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/microsoft/wml-cid-2016.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd (100%)
+ rename skills/{productivity => .archive}/powerpoint/scripts/office/schemas/microsoft/wml-symex-2015.xsd (100%)
+ create mode 100644 skills/.archive/product-price-monitor/SKILL.md
+ rename skills/{software-development => .archive}/requesting-code-review/SKILL.md (95%)
+ create mode 100644 skills/.archive/sdlc-review/SKILL.md
+ create mode 100644 skills/.archive/simplify-code/SKILL.md
+ rename skills/{creative => .archive}/songwriting-and-ai-music/SKILL.md (100%)
+ rename skills/{creative => .archive}/songwriting-and-ai-music/references/heartmula-local-generation.md (100%)
+ rename skills/{software-development => .archive}/spike/SKILL.md (97%)
+ create mode 100644 skills/.archive/stock-research-report/SKILL.md
+ rename skills/{software-development => .archive}/systematic-debugging/SKILL.md (100%)
+ rename skills/{software-development => .archive}/systematic-debugging/references/hermes-tui-commands.md (100%)
+ rename skills/{software-development => .archive}/systematic-debugging/references/node-debugging.md (100%)
+ rename skills/{software-development => .archive}/systematic-debugging/references/python-debugging.md (100%)
+ rename skills/{software-development => .archive}/test-driven-development/SKILL.md (92%)
+ create mode 100644 skills/.archive/weekly-review-planning/SKILL.md
+ create mode 100644 skills/.archive/xlsx/LICENSE
+ create mode 100644 skills/.archive/xlsx/SKILL.md
+ create mode 100644 skills/.archive/xlsx/references/restructuring.md
+ create mode 100644 skills/.archive/xlsx/scripts/csv_to_xlsx.py
+ create mode 100644 skills/.archive/xlsx/scripts/xlsx_create.py
+ create mode 100644 skills/.archive/xlsx/scripts/xlsx_edit.py
+ create mode 100644 skills/.archive/xlsx/scripts/xlsx_read.py
+ create mode 100644 skills/.archive/xlsx/scripts/xlsx_recalc.py
+ create mode 100644 skills/.archive/xlsx/scripts/xlsx_restructure.py
+ create mode 100644 skills/.archive/xlsx/scripts/xlsx_to_csv.py
+ create mode 100644 skills/.archive/xlsx/tests/test_xlsx_skill.py
+ rename skills/{social-media => .archive}/xurl/SKILL.md (88%)
+ rename skills/{media => .archive}/youtube-content/SKILL.md (79%)
+ rename skills/{media => .archive}/youtube-content/references/output-formats.md (100%)
+ rename skills/{media => .archive}/youtube-content/scripts/fetch_transcript.py (92%)
+ delete mode 100644 skills/.curator_backups/2026-06-08T11-39-28Z/cron-jobs.json
+ delete mode 100644 skills/.curator_backups/2026-06-08T11-39-28Z/manifest.json
+ delete mode 100644 skills/.curator_backups/2026-06-08T11-39-28Z/skills.tar.gz
+ delete mode 100644 skills/.curator_backups/2026-06-15T12-00-07Z/cron-jobs.json
+ delete mode 100644 skills/.curator_backups/2026-06-15T12-00-07Z/manifest.json
+ delete mode 100644 skills/.curator_backups/2026-06-15T12-00-07Z/skills.tar.gz
+ delete mode 100644 skills/.curator_backups/2026-06-22T12-04-50Z/cron-jobs.json
+ delete mode 100644 skills/.curator_backups/2026-06-22T12-04-50Z/manifest.json
+ delete mode 100644 skills/.curator_backups/2026-06-22T12-04-50Z/skills.tar.gz
+ delete mode 100644 skills/.curator_backups/2026-06-29T12-06-08Z/cron-jobs.json
+ delete mode 100644 skills/.curator_backups/2026-06-29T12-06-08Z/manifest.json
+ delete mode 100644 skills/.curator_backups/2026-06-29T12-06-08Z/skills.tar.gz
+ delete mode 100644 skills/.curator_backups/2026-07-06T12-46-39Z/manifest.json
+ delete mode 100644 skills/.curator_backups/2026-07-06T12-46-39Z/skills.tar.gz
+ create mode 100644 skills/.curator_ledger.jsonl
+ create mode 100644 skills/.curator_suppressed
+ create mode 100644 skills/autonomous-ai-agents/merge-reconciler/SKILL.md
+ delete mode 100644 skills/creative/creative-ideation/SKILL.md
+ delete mode 100644 skills/creative/creative-ideation/references/full-prompt-library.md
+ create mode 100644 skills/github/github-issue-to-pr/SKILL.md
+ create mode 100644 skills/hermes-desktop-plugins/SKILL.md
+ create mode 100644 skills/hermes-desktop-plugins/templates/plugin.js
+ create mode 100644 skills/hermes-themes/SKILL.md
+ create mode 100644 skills/hermes-themes/templates/skin.yaml
+ create mode 100644 skills/initiating-coverage/references/company-visit-questioning.md
+ create mode 100644 skills/macos-proxy-diagnostics/SKILL.md
+ delete mode 100644 skills/media/spotify/SKILL.md
+ delete mode 100644 skills/mlops/evaluation/weights-and-biases/SKILL.md
+ delete mode 100644 skills/mlops/evaluation/weights-and-biases/references/artifacts.md
+ delete mode 100644 skills/mlops/evaluation/weights-and-biases/references/integrations.md
+ delete mode 100644 skills/mlops/evaluation/weights-and-biases/references/sweeps.md
+ delete mode 100644 skills/mlops/inference/obliteratus/SKILL.md
+ delete mode 100644 skills/mlops/inference/obliteratus/references/analysis-modules.md
+ delete mode 100644 skills/mlops/inference/obliteratus/references/methods-guide.md
+ delete mode 100644 skills/mlops/inference/obliteratus/templates/abliteration-config.yaml
+ delete mode 100644 skills/mlops/inference/obliteratus/templates/analysis-study.yaml
+ delete mode 100644 skills/mlops/inference/obliteratus/templates/batch-abliteration.yaml
+ delete mode 100644 skills/note-taking/obsidian/SKILL.md
+ delete mode 100644 skills/productivity/airtable/SKILL.md
+ create mode 100644 skills/productivity/docx/LICENSE
+ create mode 100644 skills/productivity/docx/SKILL.md
+ create mode 100644 skills/productivity/docx/references/revisions-and-comments.md
+ create mode 100644 skills/productivity/docx/scripts/docx_comments.py
+ create mode 100644 skills/productivity/docx/scripts/docx_common.py
+ create mode 100644 skills/productivity/docx/scripts/docx_create.py
+ create mode 100644 skills/productivity/docx/scripts/docx_edit.py
+ create mode 100644 skills/productivity/docx/scripts/docx_read.py
+ create mode 100644 skills/productivity/docx/scripts/docx_revisions.py
+ create mode 100644 skills/productivity/docx/scripts/docx_template.py
+ create mode 100644 skills/productivity/docx/scripts/docx_validate.py
+ create mode 100644 skills/productivity/docx/tests/test_docx_skill.py
+ create mode 100644 skills/productivity/fund-portfolio-monitor/references/sina-api-guide.md
+ delete mode 100644 skills/productivity/google-workspace/SKILL.md
+ delete mode 100644 skills/productivity/google-workspace/references/gmail-search-syntax.md
+ delete mode 100644 skills/productivity/google-workspace/scripts/_hermes_home.py
+ delete mode 100644 skills/productivity/google-workspace/scripts/google_api.py
+ delete mode 100755 skills/productivity/google-workspace/scripts/gws_bridge.py
+ delete mode 100644 skills/productivity/google-workspace/scripts/setup.py
+ delete mode 100644 skills/productivity/linear/SKILL.md
+ delete mode 100644 skills/productivity/linear/scripts/linear_api.py
+ create mode 100644 skills/productivity/notion-classic-api/SKILL.md
+ create mode 100644 skills/productivity/notion-classic-api/references/block-builder-helper.md
+ create mode 100644 skills/productivity/notion-classic-api/references/moving-blocks.md
+ create mode 100644 skills/productivity/pdf/LICENSE
+ create mode 100644 skills/productivity/pdf/SKILL.md
+ create mode 100644 skills/productivity/pdf/references/forms.md
+ create mode 100644 skills/productivity/pdf/references/nano-pdf-editing.md
+ create mode 100644 skills/productivity/pdf/references/ocr-extraction.md
+ create mode 100644 skills/productivity/pdf/scripts/_raster.py
+ create mode 100644 skills/productivity/pdf/scripts/extract_marker.py
+ create mode 100644 skills/productivity/pdf/scripts/extract_pymupdf.py
+ create mode 100644 skills/productivity/pdf/scripts/pdf_create.py
+ create mode 100644 skills/productivity/pdf/scripts/pdf_fill_form.py
+ create mode 100644 skills/productivity/pdf/scripts/pdf_form_layout.py
+ create mode 100644 skills/productivity/pdf/scripts/pdf_make_form.py
+ create mode 100644 skills/productivity/pdf/scripts/pdf_merge.py
+ create mode 100644 skills/productivity/pdf/scripts/pdf_meta.py
+ create mode 100644 skills/productivity/pdf/scripts/pdf_page_image.py
+ create mode 100644 skills/productivity/pdf/scripts/pdf_read.py
+ create mode 100644 skills/productivity/pdf/scripts/pdf_secure.py
+ create mode 100644 skills/productivity/pdf/scripts/pdf_split.py
+ create mode 100644 skills/productivity/pdf/scripts/pdf_stamp.py
+ create mode 100644 skills/productivity/pdf/scripts/pdf_watermark.py
+ create mode 100644 skills/productivity/pdf/tests/test_pdf_skill.py
+ create mode 100644 skills/productivity/petdex/SKILL.md
+ create mode 100644 skills/productivity/session-librarian/SKILL.md
+ create mode 100644 skills/productivity/tui-widgets/SKILL.md
+ create mode 100644 skills/productivity/tui-widgets/templates/clock.mjs
+ create mode 100644 skills/research/a-share-research/SKILL.md
+ rename skills/{a-share-revenue-modeling => research/a-share-research}/references/huifeng-diamond-prospectus.md (100%)
+ create mode 100644 skills/research/a-share-research/references/ifind-mcp-guide.md
+ create mode 100644 skills/research/a-share-research/references/management-profile-template.md
+ create mode 100644 skills/research/a-share-research/references/notion-api.md
+ create mode 100644 skills/research/a-share-research/references/pcb-inkjet-printing.md
+ create mode 100644 skills/research/a-share-research/references/report-section-templates.md
+ rename skills/{a-share-revenue-modeling/SKILL.md => research/a-share-research/references/revenue-modeling.md} (93%)
+ create mode 100644 skills/research/a-share-research/references/stock-memo-format.md
+ create mode 100644 skills/research/a-share-research/references/stock-screening-excel.md
+ create mode 100644 skills/research/a-share-research/references/web-tools-backup.md
+ create mode 100644 skills/research/a-share-research/references/workpaper-template.md
+ create mode 100644 skills/research/research-paper-writing/references/phase5-paper-drafting.md
+ create mode 100644 skills/research/social-sentiment-research/SKILL.md
+ create mode 100644 skills/research/social-sentiment-research/references/xhs-scraping.md
+ create mode 100644 skills/research/xiaohongshu-research/SKILL.md
+ create mode 100644 skills/research/xiaohongshu-research/scripts/extract_xhs.js
+ create mode 100644 skills/software-development/github/SKILL.md
+ create mode 100644 skills/software-development/github/references/auth.md
+ create mode 100644 skills/software-development/github/references/ci-troubleshooting.md
+ create mode 100644 skills/software-development/github/references/code-review.md
+ create mode 100644 skills/software-development/github/references/conventional-commits.md
+ create mode 100644 skills/software-development/github/references/github-api-cheatsheet.md
+ create mode 100644 skills/software-development/github/references/issue-to-pr.md
+ create mode 100644 skills/software-development/github/references/issues.md
+ create mode 100644 skills/software-development/github/references/pr-workflow.md
+ create mode 100644 skills/software-development/github/references/repo-management.md
+ create mode 100644 skills/software-development/github/references/review-output-template.md
+ create mode 100755 skills/software-development/github/scripts/gh-env.sh
+ create mode 100644 skills/software-development/github/scripts/git-credential-token.py
+ create mode 100644 skills/software-development/github/templates/bug-report.md
+ create mode 100644 skills/software-development/github/templates/feature-request.md
+ create mode 100644 skills/software-development/github/templates/pr-body-bugfix.md
+ create mode 100644 skills/software-development/github/templates/pr-body-feature.md
+ create mode 100644 skills/stock-analyzer/.gitignore
+ create mode 100644 skills/stock-analyzer/README.md
+ create mode 100644 skills/stock-analyzer/SKILL.md
+ create mode 100644 skills/stock-analyzer/references/checklist.md
+ create mode 100644 skills/stock-analyzer/references/cognitive_time_gap.md
+ create mode 100644 skills/stock-analyzer/references/investment_sop.md
+ create mode 100644 skills/stock-analyzer/references/odds_and_winrate.md
+ create mode 100644 skills/stock-analyzer/references/profit_philosophy.md
+ create mode 100644 skills/stock-analyzer/references/return_blindspot.md
+ create mode 100644 skills/stock-analyzer/scripts/compute_indicators.py
+ create mode 100644 skills/stock-analyzer/scripts/convert_to_pdf.py
+ create mode 100755 skills/stock-analyzer/scripts/fetch_ashare.sh
+ create mode 100644 skills/stock-analyzer/scripts/fetch_market_data.py
+ create mode 100644 skills/stock-analyzer/scripts/generate_charts.py
+ create mode 100644 skills/stock-analyzer/scripts/resolve_ticker.py
+ create mode 100644 skills/stock-analyzer/scripts/sina_data_helper.py
+ create mode 100644 skills/storyline/SKILL.md
+ create mode 100644 skills/storyline/references/rubric.md
+ create mode 100644 skills/storyline/references/workflow.md
+ create mode 100644 skills/web/DESCRIPTION.md
+ delete mode 100644 skills/yuanbao/SKILL.md
+ create mode 100644 state-snapshots/20260721-054353-pre-update/auth.json
+ create mode 100644 state-snapshots/20260721-054353-pre-update/channel_directory.json
+ create mode 100644 state-snapshots/20260721-054353-pre-update/config.yaml
+ rename skills/.curator_backups/2026-07-06T12-46-39Z/cron-jobs.json => state-snapshots/20260721-054353-pre-update/cron/jobs.json (92%)
+ create mode 100644 state-snapshots/20260721-054353-pre-update/gateway_state.json
+ create mode 100644 state-snapshots/20260721-054353-pre-update/manifest.json
+ create mode 100644 state-snapshots/20260721-054353-pre-update/processes.json
+ create mode 100644 state/gateway.heartbeat
+ create mode 100644 state/gateway.lifecycle.json
+ create mode 100644 terminal-sessions/tty-dev-ttys000
+ create mode 100644 verification_evidence.db
+ create mode 100644 web-ui-build-stamp.json
+remote: error: GH013: Repository rule violations found for refs/heads/main.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— OpenAI API Key ————————————————————————————————————        
+remote:        locations:        
+remote:          - commit: a9769def474b021f95e4e911663f4e53d24e553e        
+remote:            path: backups/config/config.yaml.good.20260914-040104:5        
+remote:          - commit: a9769def474b021f95e4e911663f4e53d24e553e        
+remote:            path: backups/config/config.yaml.good.20260915-040228:5        
+remote:          - commit: a9769def474b021f95e4e911663f4e53d24e553e        
+remote:            path: config.yaml:5        
+remote:          - commit: a9769def474b021f95e4e911663f4e53d24e553e        
+remote:            path: state-snapshots/20260721-054353-pre-update/config.yaml:5        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/wzp2006313-creator/My-dear-Aletheia/security/secret-scanning/unblock-secret/3JeUG5vG6HE6zwFdVfZrE9yi7FE        
+remote:             
+remote: 
+remote: 
+To ssh://ssh.github.com:443/wzp2006313-creator/My-dear-Aletheia.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'ssh://ssh.github.com:443/wzp2006313-creator/My-dear-Aletheia.git'
+
+__HERMES_CWD_6e6795002ce8__/Users/eason__HERMES_CWD_6e6795002ce8__

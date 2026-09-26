@@ -1,0 +1,29 @@
+{
+  "delegation_id": "deleg_2d290124",
+  "started": "2026-08-15 16:50:19",
+  "task_count": 3,
+  "tasks": [
+    {
+      "index": 0,
+      "goal": "将 Peter K 2020 Casebook 中的第 1、2、3 号案例整理进 Notion 数据库（数据库 ID 329fde4c-8055-807d-a29d-cb206d82671a），每个案例创建一个独立页面，包含 Prompt、关键事实、所有题目（每道题留 YOUR ANSWER 空白 callout + 官方答案 callout）。\n\n三个案例及其在 PDF 中的页范围（pymupdf 0-indexed）：\n1. Diesel truck manufacturer（McKinsey 2020，Market entry，25-30 min）— doc[2] 到 doc[13]（第3页到第14页前）\n2. Female executives（Wild card）— doc[13] 到 doc[26]（第14页到第27页前）\n3. Spanish Airlines（Profitability）— doc[26] 到 doc[44]（第27页到第45页前）\n\n注意：Female executives 是 Wild card 类型，结构可能和标准案例不同（可能没有标准 frame",
+      "log": "/Users/eason/.hermes/cache/delegation/live/deleg_2d290124/task-0.log",
+      "status": "completed",
+      "exit_reason": "completed"
+    },
+    {
+      "index": 1,
+      "goal": "将 Peter K 2020 Casebook 中的第 5、6、7、8 号案例整理进 Notion 数据库（数据库 ID 329fde4c-8055-807d-a29d-cb206d82671a），每个案例创建一个独立页面，包含 Prompt、关键事实、所有题目（每道题留 YOUR ANSWER 空白 callout + 官方答案 callout）。\n\n四个案例及其页范围（pymupdf 0-indexed）：\n5. Almond farm（PE firm）— doc[62] 到 doc[78]（第63页到第79页前）\n6. Banknote manufacturer（Revenue growth）— doc[78] 到 doc[92]（第79页到第93页前）\n7. Fast casual food restaurant（Revenue growth）— doc[92] 到 doc[110]（第93页到第111页前）\n8. Instant coffee pod producer（Comparison）— doc[110] 到 doc[129]（第111页到第130页前）\n\n注意：Alm",
+      "log": "/Users/eason/.hermes/cache/delegation/live/deleg_2d290124/task-1.log",
+      "status": "completed",
+      "exit_reason": "completed"
+    },
+    {
+      "index": 2,
+      "goal": "将 Peter K 2020 Casebook 中的第 9、10、11 号案例整理进 Notion 数据库（数据库 ID 329fde4c-8055-807d-a29d-cb206d82671a），每个案例创建一个独立页面，包含 Prompt、关键事实、所有题目（每道题留 YOUR ANSWER 空白 callout + 官方答案 callout）。\n\n三个案例及其页范围（pymupdf 0-indexed）：\n9. Grocery retailer（Profitability）— doc[129] 到 doc[145]（第130页到第146页前）\n10. Snack food company（Comparison）— doc[145] 到 doc[159]（第146页到第160页前）\n11. Electronics manufacturer（Profitability）— doc[159] 到 doc[172]（第160页到最后）\n\n注意：Snack food company 是 Comparison 类型，结构可能不同，如实提取即可。\n\n每处理完一个案例，立即读取页范围、理解结构、",
+      "log": "/Users/eason/.hermes/cache/delegation/live/deleg_2d290124/task-2.log",
+      "status": "completed",
+      "exit_reason": "completed"
+    }
+  ],
+  "completed": "2026-08-15 16:57:42"
+}

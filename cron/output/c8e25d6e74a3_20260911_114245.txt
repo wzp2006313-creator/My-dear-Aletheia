@@ -1,0 +1,96 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+✅ 已写入 Notion（每日归档表新增 `2026-09-11` 行 + 正文追加完整摘要，校验通过）。
+
+---
+
+# AI Builders Digest — 2026-09-11
+
+### 📌 今日概览
+
+OpenAI 与 Anthropic 同日释放关键信号：Sam Altman 欢迎一位 AI 安全领域的重要人物 Paul 回归共事，而 Anthropic 的 Claude Marketplace 接入 CrowdStrike、Cursor、Vercel 等产品，让企业能直接用已有预算采购 Claude 生态——人才与商业化两条主线同时加速。
+
+### 🔥 重点 Highlights
+
+1. **Sam Altman 欢迎 Paul 回归 OpenAI，聚焦 AI 安全** — 感谢他"为 AI 安全所做的一切"，并称"期待再次共事"。[https://x.com/sama/status/2097776310940569783](https://x.com/sama/status/2097776310940569783)
+2. **Claude Marketplace 大规模扩圈** — 新增 CrowdStrike、Cursor、Factory、Gamma、Vercel，企业可用 Anthropic spend commitment 购买更多 Claude 生态产品和 agent。[https://x.com/claudeai/status/2097718980437831935](https://x.com/claudeai/status/2097718980437831935)
+3. **Vercel 价格持续下探** — 过去 6 个月 8 次降价/费用调整 + 16 个模型折扣，CEO Rauch 称"还有更多"；同时与 Benchmark 合办 AI Benchmarks 活动。[https://x.com/rauchg/status/2097828203658383674](https://x.com/rauchg/status/2097828203658383674)
+4. **Box CEO：coding agents 让工程师更有杠杆** — Aaron Levie 认为降低代码成本会带来更多软件需求，"我们需要更多工程师，而非更少"。[https://x.com/levie/status/2097920810543468551](https://x.com/levie/status/2097920810543468551)
+5. **OpenAI Codex/ChatGPT 积分重置故障已修复并补偿** — 受影响用户会再次获得重置额度并收到道歉邮件。[https://x.com/thsottiaux/status/2097752790177370535](https://x.com/thsottiaux/status/2097752790177370535)
+
+### 📝 详细摘要
+
+#### X / Twitter
+
+**OpenAI CEO Sam Altman** — 三条：欢迎 Paul 回归并感谢其在 AI 安全上的贡献（"期待再次共事"）；称《塞尔达传说：时之笛》重制版是"很久以来最好的消息"，玩笑说 11 月 5-6 日没空、得找一箱 Mountain Dew；另有一条关于服务优先级的表态（"这会很糟，但在恢复之前我们会优先保证现有客户的服务"）。
+- 欢迎 Paul：[https://x.com/sama/status/2097776310940569783](https://x.com/sama/status/2097776310940569783)
+- 时之笛重制：[https://x.com/sama/status/2097696043492143157](https://x.com/sama/status/2097696043492143157)
+- 服务优先级：[https://x.com/sama/status/2097695001341829212](https://x.com/sama/status/2097695001341829212)
+
+**OpenAI（Codex & ChatGPT）Thibault Sottiaux** — 三条：最大乐趣之一是和研究员讨论新模型命名（"他们总能想出最好玩的名字"）；"很高兴和你们一起在这里 build，有很多值得探索"；另处理了一件今早的插曲——部分 banked resets 在 ChatGPT Work 和 Codex 中未完全生效，受影响用户会再获得一次并收到道歉邮件。
+- 命名讨论：[https://x.com/thsottiaux/status/2097912273264095536](https://x.com/thsottiaux/status/2097912273264095536)
+- Build 感言：[https://x.com/thsottiaux/status/2097829053147582782](https://x.com/thsottiaux/status/2097829053147582782)
+- Reset 补偿：[https://x.com/thsottiaux/status/2097752790177370535](https://x.com/thsottiaux/status/2097752790177370535)
+
+**Vercel CEO Guillermo Rauch** — 两条：官宣与 Benchmark 合办的 AI Benchmarks 活动（"SF 史上最名副其实的命名之一"），聚焦模型评测与引导行业走向"skill、truth、efficiency"；并列数过去 6 个月 8 次降价/费用调整 + 16 个模型折扣，预告"还有更多"。
+- AI Benchmarks：[https://x.com/rauchg/status/2097837950612717804](https://x.com/rauchg/status/2097837950612717804)
+- 降价记录：[https://x.com/rauchg/status/2097828203658383674](https://x.com/rauchg/status/2097828203658383674)
+
+**Box CEO Aaron Levie** — 两条长文，是今天最有分量的观点。其一：coding agents 的应用范围将远超预期（为负担不起软件的公司造工具、用 agent 保护系统免受网络风险、自动化生命科学研究等），"降低代码成本 → 做更多的事 → 工程师的杠杆大幅提升，反而需要更多工程师"。其二：AI 能力与 GDP 影响之间的落差，在于 AI 扩散会比人们想的慢得多，且很多 AI 收益难以在 GDP 里立刻度量；AI 扩散将是未来十年主题，机会在于搭建"超级智能与现实工作流之间的桥梁"。
+- 工程师杠杆：[https://x.com/levie/status/2097920810543468551](https://x.com/levie/status/2097920810543468551)
+- AI 扩散论：[https://x.com/levie/status/2097738533297689012](https://x.com/levie/status/2097738533297689012)
+
+**Every CEO Dan Shipper** — 一条长评：对一份关于 AI 与就业的报告提出两点质疑——①报告假设工作可拆解为任务；②报告假设自动化总是减少人类劳动（或至多持平）。他反驳说自动化常常"为人类创造数倍的新工作"，并借维特根斯坦/海德格尔的视角指出"工作是一种看待和关心世界的方式"，同一份关心在工具变化时会不断产生新任务——这份分析完全漏掉了这一点。
+- 就业报告长评：[https://x.com/danshipper/status/2097758891270697101](https://x.com/danshipper/status/2097758891270697101)
+- every slack：[https://x.com/danshipper/status/2097796322145562900](https://x.com/danshipper/status/2097796322145562900)
+
+**OpenClaw Peter Steinberger** — 两条干货：OpenClaw 的云会话终于跑"快"了（Remote Terminal、WebVNC 和 computer use 的 CUA）；此前力推的 Dashboards/Mini-Apps 已替换掉团队围绕 OC 自建的大量工具——"现在一切要么是侧边栏入口、要么是 dashboard、要么是 plugin"。
+- 云会话提速：[https://x.com/steipete/status/2097935551735423464](https://x.com/steipete/status/2097935551735423464)
+- Dashboards/Mini-Apps：[https://x.com/steipete/status/2097880507753382201](https://x.com/steipete/status/2097880507753382201)
+
+**SPC GP Aditya Agarwal** — Waymo 联合 CEO Dmitri Dolgov 本月将来 SPC 分享（"人类导向技术的绝佳范例，但走了很长的路"），名额有限需 RSVP。
+- Waymo 分享：[https://x.com/adityaag/status/2097736847879192917](https://x.com/adityaag/status/2097736847879192917)
+
+**OpenAI 产品 Nan Yu** — 转发一条标题为"Introducing Apple Orbital Strike"的内容（调侃性质）。
+- Apple Orbital Strike：[https://x.com/thenanyu/status/2097726586191851790](https://x.com/thenanyu/status/2097726586191851790)
+
+**AI 教程作者 Peter Yang** — 分享他测试新模型思考能力的方法：让它对自己的盲点给出"残酷诚实"的反馈（把整张图贴进 ChatGPT），称 Astra 的反馈"尤其直接"；并追问 Work/Remote Codex threads 何时上线移动端。
+- 诚实反馈法：[https://x.com/petergyang/status/2097729250505966046](https://x.com/petergyang/status/2097729250505966046)
+- 移动端追问：[https://x.com/petergyang/status/2097763574886375832](https://x.com/petergyang/status/2097763574886375832)
+
+**Anthropic（Claude 官方）** — 两条：邀请在 Claude Platform 上 build 的产品"入驻上架，方便客户购买"；并官宣 Claude Marketplace 新增 CrowdStrike、Cursor、Factory、Gamma、Vercel，企业现可用 Anthropic 的 spend commitment 购买更多 Claude 生态产品与 agent。
+- 上架邀请：[https://x.com/claudeai/status/2097718982920855834](https://x.com/claudeai/status/2097718982920855834)
+- Marketplace 扩圈：[https://x.com/claudeai/status/2097718980437831935](https://x.com/claudeai/status/2097718980437831935)
+
+**YC CEO Garry Tan** — 一条旧金山本地政治帖（点评候选人 Jane Kim），与 AI 无关。
+- 政治帖：[https://x.com/garrytan/status/2097728692596486487](https://x.com/garrytan/status/2097728692596486487)
+
+**FirstMark VC Matt Turck** — 玩笑帖：证明 VC 也能像创始人一样熬夜（"昨晚最晚结束的美网"）。
+- 玩笑帖：[https://x.com/mattturck/status/2097738051577422256](https://x.com/mattturck/status/2097738051577422256)
+
+**Builder Zara Zhang** — 一句话："Idea is easy, Conviction is hard"（点子容易，信念难）。
+- Conviction：[https://x.com/zarazhangrui/status/2097599758391255259](https://x.com/zarazhangrui/status/2097599758391255259)
+
+**FPV Ventures partner Nikunj Kothari** — 一条简短转推（"Finally"）。
+- Finally：[https://x.com/nikunj/status/2097870497505837478](https://x.com/nikunj/status/2097870497505837478)
+
+#### 播客 / 博客
+
+今天没有新的播客剧集或官方博客更新。
+
+### 💡 我的分析
+
+> 标注：以下为基于上述事实的归纳与推论，非原文事实。
+
+**最让我意外的，是"自动化减少就业"这个叙事在今天被两个不同阵营同时拆台。** Box CEO Aaron Levie 和 Every CEO Dan Shipper 从完全不同的角度得出同一个结论：自动化/编码 agent 不一定减少人类工作，反而常常创造更多。Levie 的论点是"降低代码成本 → 软件需求扩张 → 工程师杠杆上升 → 需要更多工程师"；Shipper 的论点更哲学——"工作是对世界的一种看待与关心方式，工具变了，同一份关心会生出全新任务"。两人都不是"AI 威胁论"者，却都不买账"任务拆解 = 可自动化比例"的线性推算。这对当下铺天盖地的"XX% 工作将被自动化"报告是一记及时的清醒剂。
+
+**加速 vs 降温（我的判断）：** 加速的是"企业采购/分销"这条商业主线——Anthropic 开放 Claude Marketplace 用 spend commitment 买第三方产品，Vercel 连续降价，都在把模型能力更快地"打包成可采购的商品"，这是 AI 从"技术叙事"转向"商业分销"的标志。降温的是"纯情绪化的 AI 末日/失业恐慌"叙事，至少头部 builder 圈里，理性、结构化的讨论在回归。
+
+**给创业者和开发者的启发：**
+1. 把你的产品接进 Claude Marketplace / 官方生态（Anthropic 官方今天明确在"招揽"第三方 builder 上架），这是低成本获得企业客户的渠道红利期。
+2. 做 coding agent 或自动化工具的人，别只盯"省人力"的卖点——Levie/Shipper 都提示真正的价值在"创造新工作量、释放新需求"，把 pitch 从"裁员"转向"解锁以前做不了的事"。
+3. 模型推理成本还在快速下探（Vercel 6 个月 8 次降价），做应用层的窗口在变大，但护城河更取决于你在特定工作流里沉淀的数据与流程，而非模型本身。
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

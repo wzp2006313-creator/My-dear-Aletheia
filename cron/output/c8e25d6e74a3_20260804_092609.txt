@@ -1,0 +1,103 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+✅ Notion 写入成功：表格新增 2026-08-04 行 + 完整摘要已追加。
+
+---
+
+# 🔮 AI Builders 每日摘要 — 2026-08-04
+
+## 📌 今日概览
+
+**Vercel CEO 披露内部 AI Agent 已渗透公司所有日常运营，企业级 Agent 从实验走向核心基础设施的信号越来越强。**
+
+---
+
+## 🔥 重点 Highlights
+
+1. **Vercel 的 @v Agent 已覆盖全公司运营** — Guillermo Rauch 透露 @v 日交互量和 token 消耗呈指数增长，涵盖财务、通讯、文档、营销、工程和商业分析。他预测"AI agent 运营整家公司"已可外推。→ [原文](https://x.com/rauchg/status/2084042561690456157)
+
+2. **AI 时代的"代理权断裂"** — Dan Shipper 提出一个完整的心理框架：人类面对 AI 替代自身任务时，经历"初始断裂→看到人类脚手架→代理权重构"三个阶段。→ [原文](https://x.com/danshipper/status/2084038453831020916)
+
+3. **最难的工作反而最先被自动化** — Box CEO Aaron Levie 指出数学、网络安全、编程因"可验证性"反而是最先被 AI 攻克的领域；而那些没有"唯一正确答案"的领域（法律谈判、营销策略、销售话术）反而更难自动化。→ [原文](https://x.com/levie/status/2083965372747882741)
+
+4. **Swyx 展示 Codex CUA 实战：AI 替你跟客服吵架** — Codex 的 Computer Use Agent 在无人干预下完成客服对话、升级工单，客服完全没察觉对面是 bot。客服试图甩锅时，bot 甩出了完整的聊天记录证据。→ [原文](https://x.com/swyx/status/2084156733027701164)
+
+5. **Amjad Masad 的 LLM 国际象棋引擎登上 LiChess** — 1253 Elo，已开始自主与真人对弈，支持网页端实时观看棋局。→ [原文](https://x.com/amasad/status/2083926395403821427)
+
+---
+
+## 📝 详细摘要
+
+### 🐦 X/Twitter 推文
+
+**Guillermo Rauch**（Vercel CEO）
+- **@v Agent 已深度嵌入 Vercel 日常运营**：日交互量和 token 使用呈指数增长。@v 具备子 agent、技能系统和 agent 间路由能力，类比为"企业 AI 的 monorepo"。每个员工有独立的记忆、工作流和日程安排。Rauch 认为如果 agent 成为现代公司的基础设施，那么"完全掌控 source → runtime → data → token"至关重要。→ [长文1](https://x.com/rauchg/status/2084042561690456157) | [架构阐述](https://x.com/rauchg/status/2084060157085143512)
+- **"Mastery + Creativity + AI"**：不要因为 AI 的存在而放弃追求卓越和技艺，技艺与 AI 结合才是降维打击。→ [原文](https://x.com/rauchg/status/2083969120270450911)
+
+**Dan Shipper**（Every CEO）
+- **"代理权断裂"三段式理论**：当 AI 开始做你曾经的任务——第一阶段你只看到 AI；第二阶段你看到人类"脚手架"（prompting、编排）；第三阶段你重新构建自我认同，AI 回归为工具。→ [原文](https://x.com/danshipper/status/2084038453831020916)
+- **技术重塑道德直觉**：引用康德"ought implies can"——技术扩展了人类能力边界，因此也在同时改变我们的道德直觉。→ [原文](https://x.com/danshipper/status/2084024211539116466)
+
+**Swyx**（smol.ai / Latent Space）
+- **Codex CUA 实战演示**：Computer Use Agent 处理客服对话，客服全程没发现对面是 AI。当客服试图甩锅时，bot 拿出了完整聊天记录反驳。Swyx 正在整理 CUA 的 "wow moments" 合集。→ [原文](https://x.com/swyx/status/2084156733027701164)
+- **大公司的隐性代价**：在大公司可能浪费 10 年人生，"让你感觉自己做了很多事但其实什么都没做"。→ [原文](https://x.com/swyx/status/2084171901451268599)
+
+**Aaron Levie**（Box CEO）
+- **可验证性决定自动化先后**：数学/代码/网络安全因为有客观测试标准，反而比合同谈判、营销策略等"软领域"更先被自动化。这意味着即使模型能力继续指数级增长，应用层和流程改造仍然是长期课题。→ [原文](https://x.com/levie/status/2083965372747882741)
+
+**Amjad Masad**（Replit CEO）
+- **LLM 国际象棋引擎登顶 LiChess**：自己的 LLM 象棋引擎已在 LiChess 上自主对弈，当前 Elo 1253。可以在网页上实时观看，同时打 3 局。→ [1](https://x.com/amasad/status/2083926395403821427) | [2](https://x.com/amasad/status/2083936067355635948)
+
+**Thariq**（Claude Code @ Anthropic）
+- **Jevons 悖论已在数学领域上演**：AI 让数学变得更容易理解，数学家有更多时间在更高抽象层面讨论——对"会思考且懂数学的人"的需求反而上升了。→ [原文](https://x.com/trq212/status/2083977795290734975)
+
+**Garry Tan**（YC CEO）
+- **AI 将创造无法想象的经济增长**，这是最大的"白色药丸"。→ [原文](https://x.com/garrytan/status/2083957110711386439)
+- **"惊奇感消失的那一刻，恰恰是惊奇呈抛物线增长的时刻"**。→ [原文](https://x.com/garrytan/status/2083923385193828612)
+
+**Peter Yang**（AI 教程作者）
+- **Hermes Curator 反"slop"机制**：采访 Nous Research 联合创始人 Karan，Hermes 的后台任务会定期清理 skills 和 memory，用户甚至可以自定义"垃圾"的定义，系统会据此重写清理循环。→ [原文](https://x.com/petergyang/status/2083968605432267139)
+
+**Nikunj Kothari**（FPV Ventures）
+- **VC 完全进入了"氛围资本"时代**：早期到中期阶段的市场现实与基本面完全脱钩。如果你在"热门赛道"，融资很容易；如果不在，寸步难行。他预测这种状态至少持续 12-18 个月。→ [原文](https://x.com/nikunj/status/2083873335998333227)
+
+**Andrej Karpathy**
+- 转发了 Simon Willison 关于"pelican on a bicycle"基准测试的讨论，已将源码上传到浏览器可玩的版本。→ [原文](https://x.com/karpathy/status/2083948654377996480)
+
+**Ryo Lu**（Cursor 设计师）
+- 她的早期"导师"是那些让软件感觉更简单、更直觉的经典 App（Rdio、Mailbox、Apple）。在离开 App 世界的今天，她追问：软件的哪些部分将保持可见，它会如何被感知？→ [原文](https://x.com/ryolu_/status/2083939454017053179)
+
+### 🎙️ 播客
+
+**Building the Automated AGI Lab: Core Automation's Jerry Tworek and Rohan Anil**
+- 主题：强化学习在 AGI 实验室自动化中的应用
+- Jerry Tworek 用踢足球对比学数学：前者像强化学习（反复试错、微调），后者是深度思考型学习（阅读难懂的概念、在脑海中反复推演直到"click"）
+- → [YouTube](https://www.youtube.com/watch?v=2RJiaf0SY8s)
+
+---
+
+## 💡 我的分析
+
+### 今天最让我意外的消息
+
+**Guillermo Rauch 对 @v 的披露程度远超预期。** 他不是在说"我们做了一个实验性 agent"，而是在说"Vercel 的每一个日常岗位都已经依赖 @v"。这是一个真正的 CEO 在用自己公司做 agent 大规模部署的活体实验。他的"monorepo 式 agent 架构"类比——一个主 agent 路由，子 agent 执行，偶尔有专门的 agent 对外暴露——这可能成为未来企业 AI 基础设施的标准模板。
+
+### 趋势在加速 vs 降温
+
+- **加速：企业级 Agent 从 demo 走向 infrastructure**。Rauch、Swyx 的 Codex CUA、甚至 Hermes Curator 的自我清理机制——agent 不再是"能做什么"的问题，而是"如何可靠地嵌入工作流"的问题。
+- **加速：可验证性差距的认知**。Aaron Levie 的"最难工作先被自动化"悖论正在被更多人接受。这对教育、职业规划、投资方向都有深远影响。
+- **降温：VC 的狂热仍然是非理性的**。Nikunj Kothari 的描述"氛围资本"很精准——市场仍在用赛道标签而非基本面定价，但他认为这个状态会持续而不是崩溃。
+
+### 对创业者和开发者的 actionable 启发
+
+1. **如果你在做企业 SaaS，现在应该思考"agent-native"架构**。不是加一个 AI chatbot 到产品里，而是像 Rauch 描述的：主 agent 路由 + 子 agent 分治 + 记忆系统 + 技能系统。这是下一代企业软件的骨架。
+2. **做高可验证性领域的工具仍然是最快能证明价值的路径**。Levies 的框架暗示：代码生成/测试、网络安全、数学推理——这些领域的 AI 产品 ROI 可衡量、进步可量化。
+3. **Dan Shipper 的"代理权断裂"框架值得用来做用户教育**。如果你的产品在替代用户的某些核心任务，理解他们正在经历的心理阶段很重要——从否认到接受再到重构认同。
+
+---
+
+> *以上"📝 详细摘要"部分为事实性内容，均来自原文链接。"💡 我的分析"部分为基于事实的综合推论。*
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

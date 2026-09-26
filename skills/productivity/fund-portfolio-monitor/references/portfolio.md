@@ -40,11 +40,26 @@
 
 ## API取数代码
 
+### 批量获取基金净值 (Sina API — 主数据源)
+
 ```bash
-# 批量获取基金实时估值
-for code in 002207 016708 012349 000217 012734 022364 014855 020671 022365 018301 006479 002697; do
-  echo "=== $code ==="
+# 单次请求获取全部基金净值（Sina 支持最多20只合并查询）
+codes="f_000217,f_012734,f_016708,f_002207,f_022364,f_014855,f_020671,f_012349,f_022365,f_018301"
+curl -s "https://hq.sinajs.cn/list=${codes}" -H "Referer: https://finance.sina.com.cn"
+```
+
+返回格式: `var hq_str_f_{code}="名称,最新净值(7/21),昨收,累计净值,日期,..."`
+
+### 基金实时估值 (天天基金 API — 备选，经常404)
+
+```bash
+for code in 002207 016708 012349 000217 012734 022364 014855 020671 022365 018301; do
   curl -s "https://fundgz.1234567.com.cn/js/${code}.js"
-  echo ""
 done
+```
+
+### 基金代码搜索 (东方财富)
+
+```bash
+curl -s "https://fundsuggest.eastmoney.com/FundSearch/api/FundSearchAPI.ashx?callback=&search=suggest&m=1&key={关键词}"
 ```

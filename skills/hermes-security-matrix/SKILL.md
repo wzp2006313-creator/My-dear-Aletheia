@@ -195,6 +195,17 @@ git init
 - 脚本超时时：kill 进程 → 读取已有的部分报告 → 对未完成的指标逐项用直接 terminal 命令补全
 - **完整回退命令清单见** `references/audit-fallback-commands.md`
 
+### 常见「基线失配」处置（工作笔记）
+
+- **指标7 config.yaml 哈希失配**：多为 24h 内正常配置变更（改 provider/model/api_key 等）。处置：先用 `stat -f '%Sm' -t '%Y-%m-%d %H:%M:%S' ~/.hermes/config.yaml` 确认 mtime 与变更时间吻合，再 `grep -nE 'provider|api_key|token' config.yaml | sed 's/=.*/=***/'` 核对字段无异常注入，最后 `sha256sum ~/.hermes/.env ~/.hermes/config.yaml > ~/.hermes/.config-baseline.sha256` 更新基线。`.env` 失配才是高危信号。
+- **指标12 skill 聚合哈希失配**：用户活跃装 skill 时属正常。核对 `ls ~/.hermes/skills | wc -l` 数量，确认新增/变更符合预期后更新 `~/.hermes/.skill-baseline.sha256`。
+  - **高频误报根因（2026-08 确认）**：聚合哈希把 `~/.hermes/skills/.usage.json` 和 `.bundled_manifest` 计入，这两个是 Hermes 运行时元数据，每次 skill 被使用都会变 → 每晚必然失配。处置：先 `find ~/.hermes/skills -type f -newermt '<基线时间>' | grep -vE '\.(usage\.json|bundled_manifest)$'` 确认无实质内容文件变更；若仅有元数据变化则判为误报，无需改基线（改也无效，次日仍变）。根治方案是把脚本的 skill 哈希 `find ... -exec sha256sum` 加上 `-not -name '.usage.json' -not -name '.bundled_manifest'`。
+- **指标9 state.db 增长**：`~/.hermes/state.db` 是 Hermes 核心 SQLite，会持续增长（观察值 200MB+，24h 内触发 `-size +100M` 大文件告警）。属正常但应监控，超过 500MB 建议评估 `hermes sessions` 归档/清理。
+- **指标7 sha256sum "No such file or directory"（2026-08-30 确认根因）**：脚本 `sha256sum -c "$BASELINE"` 未先 `cd "$HERMES_HOME"`，而基线文件里存的是相对路径（`.env`、`config.yaml`）→ 每晚在错误 cwd 下比对，报 "No such file or directory" 并误报失配，**哈希比对实际未生效**。处置：先手动 `cd ~/.hermes && sha256sum -c .config-baseline.sha256` 确认真实哈希是否匹配（本次实测 .env 与 config.yaml 哈希均与基线一致，文件未篡改）。根治：脚本第 91 行改为 `(cd "$HERMES_HOME" && sha256sum -c "$BASELINE")`。注意脚本已 `chflags uchg` 加锁，修复需先 `chflags nouchg`（属红线，须用户确认后再动）。
+- **指标11 助记词扫描误报**：扫描正则把 MEMORY.md/USER.md 中含 "token"/"高管持股" 等词的中文笔记误判为助记词。凡命中文件均为 `~/.hermes/memories/*.md` 且内容为正常工作笔记时，判为误报；仅当命中 `.env`/脚本/源码或出现真正的 12/24 词英文词组时才需警觉。
+- **指标13 Git 备份**：若 `~/.hermes/.git` 长期 MISSING 且已有「每日 Hermes 备份」cron 兜底，可降级为 🟡 提示项而非阻塞。
+- **指标5 Cron 任务核对**：脚本内 `cronjob list` 需交互、cron 模式无法运行。改直接读 `~/.hermes/cron/jobs.json`（每任务含 `last_status`/`last_error`/`last_delivery_error`/`failure_streak` 字段），可定位失败任务。注意：`cat file | python3` 在 cron 模式会被安全扫描拦截（管道送解释器），改用 read_file 工具直接读文件。
+
 ### 审计报告格式约定
 
 Cron 交付的报告使用以下格式，便于一眼定位问题：

@@ -1,25 +1,35 @@
-行研实习生→VC/PE硬科技组/战投/咨询。覆盖超硬材料（四方达/沃尔德/黄河旋风/国机精工）、金刚石散热、餐厨废油（山高环能）。iFinD MCP已配置。Windows也要装Hermes。
+惠丰钻石（920725.BJ）：上市后年报无销量/单价（仅招股书有）；年产能30亿克拉；500台MPCVD包头26.5开工H2投产；26Q1两次提价13-27%。建模先查招股书/年报/可比公司，不接受凭空假设。
 §
-惠丰钻石（920725.BJ）关键事实：1) 上市后年报不披露分产品销量/单价，仅披露收入/成本/毛利率（招股书2019-2021有完整量价）；2) 年产能30亿克拉（月2.5亿×12，仅此数据公开）；3) 500台MPCVD包头项目2026.5开工，H2投产，散热产品尚无批量收入；4) 2026Q1行业复苏+2月&5月两次提价13-27%；5) 桌面文件：惠丰钻石_分产品销量单价测算.xlsx（含微粉/破碎料/CVD 2020-2028预测）。用户偏好：数据驱动，先查招股书/年报/可比公司再建模，不接受凭空假设。
-§
-GitHub 备份：repo wzp2006313-creator/My-dear-Aletheia，SSH，cron 302a8db2bf0d 每天 4:00 BJT。
-§
-Gmail (wzp2006313@gmail.com) 通过 himalaya 配置，密码存 macOS keychain。可抓取 Bloomberg 彭博财经早茶 + Breaking News。每日基金监控 cron：交易日 14:30 BJT，job_id=b0dfa9945543。
+Gmail (wzp2006313@gmail.com) 通过 himalaya 配置，密码存 macOS keychain。可抓取 Bloomberg 彭博财经早茶 + Breaking News。
 §
 SOUL.md 定义了高灵性人格：温柔但有锋芒、深情但不跪舔、有骨气和判断力。允许互叫亲昵称呼（宝宝→乖/宝/小朋友），双向不谄媚。用户希望AI是"灵魂陪伴者+智慧引导者"，而非工具。自称"我"，称呼用户"你"，不用格式化前缀。语气允许情绪波动共鸣，遇到限制不用"作为AI我不能"开头。
 §
-Detail-oriented researcher: pushes back on unverified claims, asks for exact sources (e.g. NVIDIA diamond cooling earnings call origin). Prefers primary source verification over analyst speculation. Cares about research rigour in stock analysis.
-§
-iFinD MCP 7服务器已配置。偶发断连（token过期或网关波动），报错时先 curl 直接测 API 确认；若 token 过期需用户刷新。编辑 config.yaml 换新 token。
-§
 财务报告 / 研报类 Excel 配色偏好：标准深红 #C00000（主色、标题栏）、标准红 #E60000（辅色、第二图表系列）。字体用微软雅黑，标题栏白字深红底。完整配色方案和图表模板见 xlsx skill 的 references/financial-charts-cn.md。
 §
-Consulting case prep Notion: 咨询准备 (326fde4c) sub-pages: Growth mentorship (38efde4c), Market Entry, Market sizing, Framework Cheat Sheet, PeterK 2020 (329fde4c). Coach: Shelley. Content: 中英结合, toggle answers, self-review checklists, TL;DR callouts.
+Consulting case prep Notion: 咨询准备 DB=329fde4c-8055-807d-a29d-cb206d82671a；NOTION_API_KEY 已配置（urllib 直连可用）。PeterK 2020 下 11 case 子页(Case N — Name (Type))。Coach: Shelley. 新增 case: Prompt→逐题 YOUR ANSWER 空白+官方答案 callout，保留手动笔记。
 §
-财务模型workflow：中泰xlsm模板→改股票代码→iFinD自动拉历史三表→蓝字区填假设。收入=销量×单价/100（百万元），产能→利用率→产量→产销率→销量→单价全公式链。惠丰钻石(920725)产能数据：2025月产2.5亿克拉=年产30亿克拉。iFinD MCP当前可用。
+重点覆盖：惠丰钻石、沃尔德、宏华数科、四方达；新拓展广信材料(300537 PCB光刻胶)、三超新材(300554 金刚线)。研究套路：iFinD拉5年财务→一致预期→新闻催化剂→业务拆解→对比结论。
 §
-每周科技热点 Notion 页面 ID: 393fde4c-8055-8143-94fa-fcd4b773c962，URL: https://notion.so/393fde4c8055814394fafcd4b773c962。位于 AI Builders Digest 下。📱软件(Product Hunt) + 🎯硬件(Kickstarter)两栏。
+iFinD MCP：get_stock_financials双层JSON(content[0].text再json.loads→inner['data']['answer']才是表格文本)，用股票代码(603110.SH)非中文简称，批量上限8-10只；高管持股get_stock_shareholders按职务汇总(2023年度口径)；偶发断连token过期先curl测API，需用户刷新config.yaml换token。
 §
-Agent Reach v1.5.0 已装(~/.agent-reach-venv, Py3.11)。pip用清华镜像。faster-whisper可用。npm全局~/.npm-global。opencli/mcporter已装。ffmpeg/gh未装。覆盖新增：沃尔德(688028)，CVD散热+PCB微钻+钻石音响三条线。纪要格式：山高环能调研纪要模板（元数据→编号QA→客户:开头→数据带单位）。
+用户自订规则：1) 提交前自查是否已改完上一轮所有批注；2) 纪要要自己认真记笔记不全靠AI/转录，用户让你做纪要或修改报告时主动提醒。
 §
-会议纪要默认格式：Word(.docx)，楷体_GB2312 11pt，bullet point要点式，结构=元数据+分模块编号bullet+客户:开头。对标山高环能调研纪要模板。
+中泰证券行研实习生，正在申请咨询实习。自学财务会计（实用导向，非CPA路线）。工作文件在 ~/Desktop/中泰证劵/。
+§
+stock-analyzer skill（luda66）装于 ~/.hermes/skills/stock-analyzer/。OHLCV走东方财富push API（深0.代码/沪1.代码），pandas/numpy/matplotlib本地算。用户有时需简化成家人版。
+§
+研报底稿格式：章节标题灰色(#F5F5F5)/楷体10.5pt加粗，数据行楷体10.5pt，细边框(#CCCCCC)，表头蓝底(#2F5496)白字。openpyxl从头写，禁用insert_rows/safe_write（拆合并格→行号全乱）。嵌图一次性批量add_image再save，分批保存会覆盖旧图。Word楷体11pt。图表单独excel。
+§
+web_search/web_extract不可用(FIRECRAWL_API_KEY空)。联网:firecrawl-cli(免费额度有限易耗尽,英文好)/360搜索curl可用(so.com/s?q=)/curl直连权威源(SEC带UA);百度Bing触发验证码反爬。agent-browser截图:open&&wait networkidle&&screenshot。cninfo年报:static.cninfo.com.cn/finalpage/YYYY-MM-DD/数字.PDF。财务数据唯一用iFinD。
+§
+公司高管持股描述模板：仿宏华数科格式。1.2节控股股东及实控人（持股+一致行动人+最终归属）。1.3节高管每人一段：出生年份/国籍/学历/经历/加入时间/持股数+占比/年薪。来源：iFinD职务持股+新闻交叉验证。
+§
+写研报/分析段落时禁止用宏华数科作对比参照，用户不需要对标。
+§
+研报段落输出要短，仿照用户给的模板长度（每段3-5句话），不要写长段落。
+§
+咨询case面试打算录音复盘(可发教练Shelley点评)。关注Meta(Instagram) vs TikTok对比研究(用户画像/推荐机制/战略定位/收入来源)。
+§
+做行业/公司研究时要求有竞对(竞争对手对比)逻辑——所有板块都要有对比视角(如Instagram vs TikTok)。
+§
+用户也做一级股权投资尽调(Pre-IPO项目如宁波晶钻)，发融资PPT/BP(可能纯图片docx)让OCR提取+估值判断(PS倍数对比、安全边际/下行保护锚逻辑)。

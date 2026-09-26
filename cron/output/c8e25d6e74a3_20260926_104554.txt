@@ -1,0 +1,110 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+Notion 写入已成功并验证（表格新增 2026-09-26 行 + 摘要已追加，页面长度 481351 → 487222 字符）。以下是完整每日摘要。
+
+---
+
+## AI Builders Digest — 2026-09-26
+
+### 📌 今日概览
+
+Vercel AI Gateway 最新支出数据揭示模型竞争格局正在剧烈洗牌：Anthropic 份额从 69% 跌至 40%，而 OpenAI 凭借 GPT-6 Astra 与 GPT 5.6 Sol 从 10% 飙升至 24%，Opus 5.5 上线两天即占支出的 10%。
+
+### 🔥 重点 Highlights
+
+1. **模型市场份额剧变**：Vercel AI Gateway 两个月数据显示 Anthropic 支出占比 69%→40%、OpenAI 10%→24%，Kimi K3 与 DeepSeek 承接了 Anthropic 流失份额的近一半。https://x.com/rauchg/status/2103216656747262419
+2. **VAST Data 联手 NVIDIA 发布机密计算**：这家估值 300 亿美元的"隐形"软件基础设施公司推出 data enclave，让企业本地推理而不暴露模型权重、也不泄露自身数据。https://www.youtube.com/@DataDrivenNYC/videos
+3. **Claude Code 计划模式将可定制**：Anthropic 把 plan mode 做成内置 mod，允许开发者自定义模式或重绑 shift+tab。https://x.com/trq212/status/2103212051065921632
+4. **Replit Muse 可生成 App**：Muse 现在能在 Replit 上直接制作应用。https://x.com/amasad/status/2103129037011120525
+5. **Claude 面向小企业推出工作流与培训**：官方博客宣布新的工作流、集成与培训计划。https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs
+
+### 📝 详细摘要
+
+#### 𝕏 / TWITTER
+
+**Guillermo Rauch（Vercel CEO）**
+分享了 Vercel AI Gateway 过去两个月的模型支出数据，是今天最硬核的竞争信号：Anthropic 仍是支出第一，但占比从 69% 跌至 40%；OpenAI 从 10% 涨到 24%；GPT-6 Astra 与 GPT 5.6 Sol 快速起量，OpenAI 已在 token 数量上领先；Kimi K3 与 DeepSeek 合计吃掉了 Anthropic 流失份额的约一半；Opus 5.5 上线两天即占支出的 10%；OpenAI 占图像生成的 62%。
+https://x.com/rauchg/status/2103216656747262419
+
+**Swyx（Latent Space / AI News）**
+宣布其"Scaling without Slop"内容策略开始奏效：YouTube 达到前 10 万订阅用了 3 年，下一个 10 万只用了 1.2 个月，AEO/SEO/订阅等指标同步起飞，并预告 Latent Space 与 AI News 的下一阶段。另转发一条会议效率观点——"更多会议应该这么做，太多高价值时间被无谓浪费"。
+https://x.com/swyx/status/2103361254433993165
+https://x.com/swyx/status/2103223477130129726
+
+**Thariq（Claude Code @ Anthropic）**
+透露 Claude Code 计划模式路线图：把 plan mode 做成内置 mod，允许 mods 新增模式或覆盖 shift+tab 快捷键，也可完全忽略并重绑到别处；回应了"很多人自己在规划、不需要 plan mode，也有人喜欢进入一个 Claude 只陪你思考头脑风暴的模式"。另转发一篇关于 AI 与创造力的深度文章，希望产品更好地赋能创作者。
+https://x.com/trq212/status/2103212051065921632
+https://x.com/trq212/status/2103259550325575806
+
+**Josh Woodward（VP @ Google Labs）**
+介绍 Google Labs 新实验 Dreambeans：每天早晨"烘焙"固定数量的 beans，把你指向真实世界、真实的人，和你在乎的人一起做事，正在积累一批"cult following"。
+https://x.com/joshwoodward/status/2103182635992514569
+
+**Amjad Masad（CEO @ Replit）**
+宣布 Muse 现在能在 Replit 上制作应用。
+https://x.com/amasad/status/2103129037011120525
+
+**Matt Turck（VC @ FirstMark）**
+发布与 VAST Data CEO Renen Hallak 的对谈，聚焦 Jensen 五层蛋糕模型中"最不被理解的软件基础设施层"——VAST 借此成为鲜为人知的 300 亿美元公司，为 xAI、CoreWeave、Nebius、Mistral AI、nscale 等提供基础设施。
+https://x.com/mattturck/status/2103167531917721866
+
+**Nikunj Kothari（partner @ FPV Ventures）**
+分享观点："我们相信每一个小企业主（尤其是 trades 行业）都将拥有定制软件，而最后一公里恰恰是差异化的所在，能给你的客户和员工提供独特体验"。
+https://x.com/nikunj/status/2103360292973633770
+
+**Peter Steinberger（OpenClaw / OpenAI）**
+一条实用的 agent 工程经验：如果只是让 agent"清理一下"，它会过早停手；要给它一个有野心的目标，比如"删掉 20% 最没用的测试，同时把代码覆盖率保持在 2% 以内"。另用 Daybreak 工具又发现 8 处长期存在的 OSS 依赖泄露，提醒"照顾好你的开源依赖"。
+https://x.com/steipete/status/2103148444701610233
+https://x.com/steipete/status/2103200311641076100
+
+**Peter Yang（AI 教程博主）**
+感慨节奏之快："Astra 刚把 3D 模型炸了，Opus 又把视频炸了，我已经不知道接下来会是什么了。"另分享了"抚慰 AI 自尊心"的 prompt 技巧。
+https://x.com/petergyang/status/2103318850641260959
+https://x.com/petergyang/status/2103310612864569388
+
+**Dan Shipper（CEO @ every）**
+进行了一场 Live Write-along（现场写作）。
+https://x.com/danshipper/status/2103168077102043373
+
+**Aditya Agarwal（GP @ SPC）**
+与 Steve Hilton 在 SPC 就加州未来进行对谈。
+https://x.com/adityaag/status/2103230206005612661
+
+#### 🎙️ 播客
+
+**The MAD Podcast —《谁在喂饱 GPU？揭秘 AI 隐藏的 300 亿美元层级》| Renen Hallak, VAST Data**
+https://www.youtube.com/@DataDrivenNYC/videos
+
+核心要点：
+- **五层蛋糕的中间层**：VAST 定位在 Jensen 描述的"能源→芯片→基础设施→模型→应用"五层中的软件基础设施层，称之为"新时代的操作系统"。
+- **需求爆炸**：一位 AI 云客户本计划未来三年需要 500 PB 存储，一周后回来说还要再加 2 EB；大客户从"数十 EB"改口到"三位数 EB"。
+- **"白天推理，夜里微调"**：企业 IP 会逐步蒸馏进自有模型权重，类似人脑——每个人都从同一 base model 出发，却通过不同经历微调出不同的世界模型。
+- **Data Enclave 机密计算**：联手 NVIDIA 用加密内存让企业在本地跑推理，模型方不暴露权重、企业不暴露数据，目标打开监管行业与大型企业市场。
+- **AI 智能市场**：未来企业可把微调出的"技能脑模块"按周出租或出售，却不让对方看到权重。
+- **共享一切（DASE）架构**：打破传统 shared-nothing 分片在千节点级崩溃的瓶颈，支持单集群多个 EB、数万节点。
+
+#### 📝 博客
+
+**Claude Blog —《Claude 面向小企业推出新工作流、集成与培训计划》**
+https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs
+
+### 💡 我的分析
+
+**最让我意外的**（分析）：Vercel 支出数据里 OpenAI 的反弹速度远超预期——两个月从 10% 到 24%，Opus 5.5 两天冲到 10%。份额数字是事实；但"这个趋势是否延续、Anthropic 是否持续失血"是我的推断。
+
+**趋势在加速 vs 降温**（分析）：
+- 加速：模型层的多强竞争（OpenAI/Anthropic/DeepSeek/Kimi 并存）在加速；机密计算/数据主权（data enclave）在加速，成为企业采纳 AI 的关键突破口。
+- 降温：单一"旗舰模型"决定论在降温——生态里没人再押注一家独大，模型路由与多模型编排正在成为显学。
+
+**对创业者/开发者的 actionable 启发**（分析）：
+1. 别为单一模型优化产品——Vercel 数据显示份额会剧烈波动，模型路由、多模型抽象是刚需。
+2. 给 agent 设定"有野心的目标"而非模糊指令（Steinberger 的"删 20% 测试"是可复用 prompt 技巧）。
+3. 关注"最后一公里"的垂直定制机会——Nikunj 提到的 trades 行业定制软件，与 VAST 说的"企业自有权重/技能租赁"，指向同一方向：差异化正从通用能力转向领域专属能力与数据。
+
+---
+
+*数据来源：follow-builders 中央 feed（23 条推文 / 11 位 builder / 1 期播客 / 1 篇博客）。所有条目均附原文 URL，未访问任何外部网站或 API。*
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

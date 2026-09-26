@@ -1,0 +1,127 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+已完成 AI Builders 每日摘要推送，并成功写入 Notion（每日归档表新增 2026-09-12 行，摘要已追加至页面末尾，共 41 个日期条目）。
+
+以下是今日完整摘要：
+
+---
+
+## AI Builders Digest — 2026-09-12
+
+### 📌 今日概览
+OpenAI 的 Astra 因需求过载而暂停 $200 Pro 新订阅，成为「AI 算力需求从供给驱动转向需求过载」的最新注脚；与此同时，Anthropic 发布 Threat Intelligence 报告警示模型能力提升带来的双用途风险，而 Box 与 OpenAI 达成企业级合作——商业化与安全两条主线同日加速。
+
+### 🔥 重点 Highlights
+1. **OpenAI Astra 暂停 $200 Pro 新订阅** — Thibault Sottiaux 表示 Astra 需求「前所未有」，Pro 计划给系统带来的压力最大，为优先保障存量用户体验，暂停新订阅；API 和其他套餐不受影响。→ https://x.com/thsottiaux/status/2098113585683808624
+2. **Box × OpenAI 企业级合作** — Box CEO Aaron Levie 宣布与 OpenAI 深化合作，让用户可在 ChatGPT 中安全地使用企业 Box 内容，「软件持续走向无头（headless）」，未来工作将由能随时随地处理数据、执行工作流的 AI agent 承担。→ https://x.com/levie/status/2098135659714085281
+3. **Anthropic Threat Intelligence 报告警示双用途风险** — Claude Code 的 Boris Cherny 称这份报告「绝对可怕且重要」：模型越聪明，若缺乏正确防护与监控就越危险，编码能力可被用于攻击关键基础设施、生物研究能力可被用于制造下一场大流行。→ https://x.com/bcherny/status/2098281805770309686
+4. **Richard Socher 详解递归自我改进（RSI）** — 前 Salesforce 首席科学家、Recursive 创始人（刚融资 6.5 亿美元）在新书《The Eureka Machine》与 MAD Podcast 中系统阐述「AI 造 AI」如何革命化科学发现。→ https://x.com/mattturck/status/2098081448330674182
+5. **Vercel 日部署量 1000 万次** — Guillermo Rauch 披露 Vercel 累计部署 23.5 亿次，CDN 底层元数据存储 p99 提速 91%，以应对「agentic 部署」带来的巨大压力。→ https://x.com/rauchg/status/2098091056302833837
+
+### 📝 详细摘要
+
+#### 𝕏 / Twitter（按 builder 分组）
+
+**Thibault Sottiaux（OpenAI，Codex & ChatGPT）**
+三条重磅：① 为保障存量用户体验与 Astra 的持续可访问，暂停 $200 Pro 新订阅（该档位对系统压力最大），其他套餐与 API 不受影响；② 发布「Scaled agents on demand」——即 ChatGPT Work 底层的基础设施以 API 形式开放，一分钟内即可上手；③ 分享 OpenAI 内部用仪表盘了解业务的方式。
+→ https://x.com/thsottiaux/status/2098113585683808624 ｜ https://x.com/thsottiaux/status/2098238138334548260 ｜ https://x.com/thsottiaux/status/2098165551554240764
+
+**Boris Cherny（Anthropic，Claude Code）**
+① 强烈推荐 Threat Intelligence 报告：许多能力是「双用途」的，能编码的模型也能被用于攻击关键基础设施，能辅助生物研究的模型也能被用于制造下一场大流行，这些复杂问题需要全世界理解并响应；② 一条长回复谈「生产代码的质量门槛」——Claude 写的生产代码应比人类写的标准更高，Anthropic 通过大量 lint 规则、测试、Claude 驱动的端到端测试、每日运行的模糊测试、自动化代码审查与安全审查来保证；若质量不达标，可尝试最新前沿模型、提高 effort、打磨 CLAUDE.md 与 skills；③ 分享这条回复给有类似困扰的人。
+→ https://x.com/bcherny/status/2098281805770309686 ｜ https://x.com/bcherny/status/2098217573276131577 ｜ https://x.com/bcherny/status/2098217571153838124
+
+**Guillermo Rauch（Vercel CEO）**
+① 「A computer for every agent, in every region」——为 agent 提供全球分布的算力；② Vercel 每天约 1000 万次部署、累计 23.5 亿次，是全球最重的多租户系统之一，底层 CDN 的全球元数据存储数百毫秒内全球同步，近期将系统 p99 提速 91%，以应对 agentic 部署的爆发式增长；③ 「We made deployments faster again」。
+→ https://x.com/rauchg/status/2098158541932794222 ｜ https://x.com/rauchg/status/2098091056302833837 ｜ https://x.com/rauchg/status/2098066258155708851
+
+**Aaron Levie（Box CEO）**
+① 与 OpenAI 深化合作，让企业内容在 ChatGPT 中被安全使用，「软件持续走向无头化，我们坚信未来工作将由能随时随地处理数据、执行工作流的 AI agent 承担」；② 分享与银行、媒体、信息服务、保险、咨询等行业技术负责人的交流观察：企业 AI 当下最大趋势是网络安全焦虑（OpenAI/Hugging Face 事件后对漏洞率上升的担忧）、模型混战（多数企业同时部署多个前沿模型、难以标准化）、agent 安全与身份管理、以及流程再造（agent 真正的 ROI 在于改变工作流本身，而非简单叠加）。
+→ https://x.com/levie/status/2098135659714085281 ｜ https://x.com/levie/status/2098218284139311615
+
+**Amjad Masad（Replit CEO）**
+① 「Chat with the etn bros!」与「Chat with PG in London!」——推广与知名人物对话的功能；② 对 AI 风险的表态：担心网络安全等问题，但「灭绝风险」（100% 人类死亡）绝非其中之一。
+→ https://x.com/amasad/status/2098171773413929322 ｜ https://x.com/amasad/status/2098171501505581559 ｜ https://x.com/amasad/status/2098171265924116732
+
+**Madhu Guru（Meta，Sr Director AI）**
+「如何构建优秀的 eval——第 10 篇」：要衡量「步骤」而非只看「结果」。就像高中数学，光答对不够，过程同样关键。两个 agent 轨迹可能得出相同答案，但一个精准检索、4 次干净工具调用，另一个 17 次调用、重复搜索 3 次、从 2 次错误中恢复——优劣立判。方法：① 清晰定义整体工作流；② 定义每一步的任务；③ 思考如何衡量每一步（独立 eval 还是大 eval 的切片）；④ 定义中位数任务与硬任务并反映到 eval 里。看 eval 结果时先研究步骤、再看最终结果。
+→ https://x.com/realmadhuguru/status/2098064969464217720
+
+**Nan Yu（即将加入 OpenAI 产品团队，前 Linear 产品负责人）**
+① 「Yet normies use Google and Instagram and Zillow and Doordash all day every day. Still. Early.」——AI 对大众的渗透仍处早期；② 「别叫它『从估值峰值大幅折价的私募股权收购』，叫它『意式告别』」。
+→ https://x.com/thenanyu/status/2098216215525331353 ｜ https://x.com/thenanyu/status/2098094411465048497
+
+**Peter Yang（实用 AI 教程/访谈作者）**
+「在我看来，要『把事办成』，Sol > Astra」。
+→ https://x.com/petergyang/status/2098215935467544604
+
+**Thariq（Anthropic，Claude Code）**
+分享一条给 Claude 用的 prompt：让 Claude 深度采访你、把你生活里它还不知道的相关部分存进 memory（开放式用自由文本、多选时用 askuserquestion 工具）。
+→ https://x.com/trq212/status/2098157600361861579
+
+**Google Labs**
+「Dreambeans」正式面向全美 18+ 用户免费开放（iOS/Android，无需订阅），并可连接 Gemini App——Dreambeans 会基于你在 Gemini 聊天中的细节，生成更个性化、更有洞察力的每日故事。
+→ https://x.com/GoogleLabs/status/2098110018289803558
+
+**Josh Woodward（Google，VP of Google Labs）**
+「Gemini，现已登陆 Windows！」
+→ https://x.com/joshwoodward/status/2098131750660772342
+
+**Matt Turck（FirstMark VC，MAD Podcast 主持人）**
+① 与 Richard Socher 的对谈已上线（YouTube / Spotify / Apple Podcasts）；② 发布完整章节时间轴：从「科学进步为何放缓」到「递归自我改进」「AI 幻觉如何驱动发现」「虚拟细胞」「自驱动机器人实验室」「agent swarm」「算力瓶颈」等 12 个章节。
+→ https://x.com/mattturck/status/2098081452839637480 ｜ https://x.com/mattturck/status/2098081448330674182
+
+**Nikunj Kothari（FPV Ventures 合伙人，投 seed/A 轮）**
+① 分享一篇文章的创作过程（开车时的语音备忘录 + 会议间隙 30 分钟写作 + 快速校对发布），顺带吐槽 Claude 的语音转写；② 「当前早期风投的三个真相」：人人都想募 5000 万美元的 seed；人人都觉得自己明年能到 3000 万美元 ARR；每一轮火热的 tranched seed 都会「神奇地」停在约 3 亿美元估值。
+→ https://x.com/nikunj/status/2098255116751257663 ｜ https://x.com/nikunj/status/2098078391065018816
+
+**Peter Steinberger（OpenClaw 🦞 + OpenAI）**
+① 「Astra 需求涨得太快了，赶紧上车！」；② 「这很有道理：复制逻辑不再痛苦，抽象才仍然痛苦」——呼应 AI 时代「重复代码成本极低、抽象反而增加认知负担」的观点。
+→ https://x.com/steipete/status/2098088917782413740 ｜ https://x.com/steipete/status/2098089196800098798
+
+**Aditya Agarwal（SPC GP，Dropbox 前 CTO）**
+「如果你有一台只会做一件事的机器——为我们最紧迫的疾病寻找解药，你愿意把 GDP 的多大比例投入它？我认为答案是很高。这就是我们所处的世界。」
+→ https://x.com/adityaag/status/2098112281267843264
+
+**Dan Shipper（Every CEO）**
+几条轻松推文（「采访者也很帅」「我很抱歉」「这个的可能性太惊人了，迫不及待想实验」），无实质产业信息。
+→ https://x.com/danshipper/status/2098162669769695676
+
+**Claude（Anthropic 官方）**
+「Fable 5.1 Build Days 本周开启」——Claude 社区 9 月 11–25 日在全球多个城市举办 buildathon，带一个问题、一个想法、或只是来看看可能性即可。
+→ https://x.com/claudeai/status/2098138736642933143
+
+**Zara Zhang（Builder，Harvard '17）**
+「为什么 computer use 还是慢得让人抓狂？？」
+→ https://x.com/zarazhangrui/status/2098136119154254287
+
+#### 🎙️ 播客
+
+**The MAD Podcast with Matt Turck —「When AI Improves Itself | Richard Socher (Recursive)」**
+嘉宾 Richard Socher（前 Salesforce 首席科学家，Recursive 创始人兼 CEO，刚以 6.5 亿美元融资做「AI 造 AI」）携新书《The Eureka Machine》对话 Matt Turck。核心要点：
+- **科学进步在放缓**：抗生素解决了细菌感染，但病毒、癌症远未像细菌那样被「解决」；广义相对论级的基础理论进展也停滞——直觉上研究者与资金都更多了，但真正的突破在变慢。
+- **递归自我改进（RSI）**：核心主张是「凡是能被模拟的，AI 都能解决」，从而进入「AI 改进 AI」的自我加速循环，这是 Recursive 公司押注的「重大解锁」。
+- **模拟 + 验证器 = 超人类 AI**：任何可模拟、可验证的领域，AI 都能在模拟中无限次实验，最终在该领域超过人类（围棋、国际象棋等完全信息游戏是例证）。
+- **幻觉可以是特性而非缺陷**：在 AI 驱动的科学中，幻觉可用于探索新型蛋白质——「AI 能记忆，也能生成新东西」。
+- **《Eureka Machine》的四大支柱**：① 用 LLM 摄取世界知识（他特别谈到 Anthropic/OpenAI 闭源、中国开源蒸馏再开源回互联网的循环）；② 模拟；③ 验证器；④（结合）虚拟细胞——让 AI 在虚拟细胞里做扰动实验，最终走向自驱动实验室与 agent swarm，算力是当前主要瓶颈。
+→ https://www.youtube.com/@DataDrivenNYC/videos
+
+### 💡 我的分析
+> 标注：以下为基于上述事实的归纳与推论，非 feed 原文。
+
+**最让我意外的，是「需求过载」已经成为一个高频、可验证的信号。** Astra 暂停 Pro 新订阅、Steinberger 喊「Astra 需求涨太快」、Vercel 日部署 1000 万次且为 agentic 部署压力提速 p99 91%——三条独立信息指向同一件事：AI 的算力/推理/部署需求正在从「供给驱动」切换到「需求过载」，服务商开始主动限流。这是产业周期里少见的拐点特征。
+
+**趋势加速 vs 降温（我的判断）：**
+- 加速——(1) **企业 agent 化**：Box × OpenAI 把企业内容接入 ChatGPT、Levie 强调 agent 真正 ROI 在「流程再造」，企业从「试验」走向「部署」；(2) **科学 AI / RSI**：Socher 的 Recursive 融资 6.5 亿美元 + 新书，把「AI 造 AI 做科研」从概念推到资本与产品层面；(3) **agentic 基础设施**：Vercel「每个 agent 一台电脑」、Rauch 的部署量数据，说明 agent 已成为基础设施层的真实负载。
+- 降温——**「灭绝风险」叙事在 builder 圈遇冷**：Replit CEO Amjad Masad 明确说灭绝风险「绝非其一」，对比此前 RSI/接管论的焦虑，头部 builder 对「100% 灭绝」这类极端叙事的态度明显冷静、务实（更担心的是网络安全这类具体风险）。
+
+**给创业者和开发者的 actionable 启发：**
+1. **把 eval 从「看结果」升级为「看步骤」**：Madhu Guru 的第 10 篇 eval 指南（衡量步骤而非结果）值得照做——两个 agent 答案相同但过程质量天差地别，过程可观测性（工具调用次数、检索效率、错误恢复）才是衡量 agent 质量的关键指标，也是差异化所在。
+2. **做 agent 基础设施正处顺风**：供给端紧张（Astra 限流、部署量暴增），推理基建、成本优化、token 效率、以及「每个 agent 一台电脑」的算力编排工具，短期仍有明确需求。
+3. **警惕算力/订阅的「供给天花板」**：如果你重度依赖某个模型的订阅或 API，Astra 暂停 Pro 订阅是警钟——把关键工作流做成多模型可切换、把单位经济按「真实算力成本」而非补贴价建模，避免被单一供应商的容量瓶颈卡住。
+4. **企业内容/数据是 agent 的护城河**：Box × OpenAI 合作印证 Levie 反复强调的点——模型人人可用，真正不可替代的是你的机构知识、数据资产与领域工作流。现在就开始系统化数字化这些资产。
+
+*注：今日概览 / 重点 Highlights / 详细摘要均为事实（源自 feed JSON，每条附原文 URL）；「我的分析」为基于事实的合理推断。*
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

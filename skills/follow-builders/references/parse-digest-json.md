@@ -61,6 +61,28 @@ for blog in data.get('blogs', []):
     print(f"  Content: {len(blog.get('content', ''))} chars")
 ```
 
+## parse-output.py vs Raw JSON — What Gets Truncated
+
+The `parse-output.py` script is fast and grep-friendly, but it **truncates long fields**:
+- `TRANSCRIPT_PREVIEW` — **first ~200 characters only** (podcast transcripts can be 40K+ chars)
+- Blog content is reduced to `BLOG_*_SUMMARY` (sometimes empty, `LEN=0`)
+
+When you need the **full podcast transcript** to write a meaningful summary, extract it directly from the raw JSON:
+
+```bash
+python3 -c "
+import json
+with open('/tmp/fb-digest-raw.json') as f:
+    data = json.load(f)
+for p in data.get('podcasts', []):
+    print(f'TITLE: {p.get(\"title\",\"\")}')
+    print(f'TRANSCRIPT ({len(p.get(\"transcript\",\"\"))} chars):')
+    print(p.get('transcript', ''))
+" > /tmp/fb-podcast-full.txt
+```
+
+Same pattern for blog content — use `blog.get('content', '')` from the raw JSON if `SUMMARY_LEN=0`.
+
 ## Filtering Non-Substantive Tweets
 
 The feed includes all tweets from tracked builders. For the digest, skip:
