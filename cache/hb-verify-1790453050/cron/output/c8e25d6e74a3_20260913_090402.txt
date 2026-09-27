@@ -1,0 +1,114 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+已执行 follow-builders 每日摘要工作流。今日内容：**30 条推文（15 位 builder）＋ 1 期播客**，已生成中文摘要并写入 Notion（`每日归档`表新增 `2026-09-13` 行，摘要追加至页尾，均已验证）。以下是完整摘要：
+
+---
+
+## AI Builders Digest — 2026-09-13
+
+### 📌 今日概览
+OpenAI 本周密集交付 Astra 生态（Images 2.5、GPT-Live-1、Agents API、Data Agent、ChatGPT for Financial Services），并宣布收购开源工具团队 Git AI；而 Coinbase CEO Brian Armstrong 在播客中系统阐述「Agentic Finance（AIFi）」——AI 智能体将拥有自己的银行账户，成为继稳定币之后加密的下一个大故事。
+
+### 🔥 重点 Highlights
+1. **OpenAI 本周连发五弹** — Thibault Sottiaux 盘点 Astra 驱动的新品：Images 2.5、GPT-Live-1、Agents API、Data Agent、ChatGPT for Financial Services，并预告「这还不是 DevDay，下周还有更多」。→ [https://x.com/thsottiaux/status/2098639827084480864](https://x.com/thsottiaux/status/2098639827084480864)
+2. **Coinbase CEO：76% 的 AI 智能体交易低于 30 美分** — Brian Armstrong 披露，信用卡最低手续费（约 30 美分固定费）让「机器对机器」的微额支付寸步难行，加密轨道是唯一解，Coinbase 正用 X402 协议让智能体拥有自己的账户。→ [https://www.youtube.com/watch?v=uLDK4l_-gUE](https://www.youtube.com/watch?v=uLDK4l_-gUE)
+3. **「AI Gateway 就是新的 CDN」** — Vercel CEO Guillermo Rauch 披露 Tailscale 的模型路由器底层跑在 Vercel AI Gateway 上，直连 origin 太脆弱、自建太痛苦，模型网关正成为新一代基础设施。→ [https://x.com/rauchg/status/2098531157230969062](https://x.com/rauchg/status/2098531157230969062)
+4. **OpenAI 收购 Git AI 团队** — 欢迎 Aidan & Sasha 加入，其开源工具帮助开发者理解 coding agent 如何贡献代码库，OpenAI 将保持其开源并持续投入。→ [https://x.com/thsottiaux/status/2098569976143806918](https://x.com/thsottiaux/status/2098569976143806918)
+5. **Box 把企业内容挂载到 agent 沙盒** — Aaron Levie 认为 AI agent 执行关键企业工作流时，需要与人类相同的文件读写原语，Box 正补齐这一环。→ [https://x.com/levie/status/2098478938003841123](https://x.com/levie/status/2098478938003841123)
+
+### 📝 详细摘要
+
+#### 𝕏 / Twitter（按 builder 分组）
+
+**Thibault Sottiaux（OpenAI，Codex & ChatGPT）**
+三条：① Astra 驱动本周连发五弹（Images 2.5 / GPT-Live-1 / Agents API / Data Agent / ChatGPT for Financial Services），「这还不是 DevDay，下周还有更多」；② 面向 Astra 用户的质量修复公告——修复了为旧模型写的 skills 触发过频、关闭了一个会导致提前停止的上下文管理实验（约 4000-5000 用户受影响）、移除了一批配置不佳的引擎，整体质量显著改善；③ 欢迎 Git AI 团队 Aidan & Sasha 加入 OpenAI，其开源工具帮助理解 coding agent 如何贡献代码库，将保持开源。
+→ [https://x.com/thsottiaux/status/2098639827084480864](https://x.com/thsottiaux/status/2098639827084480864) ｜ [https://x.com/thsottiaux/status/2098612714704891959](https://x.com/thsottiaux/status/2098612714704891959) ｜ [https://x.com/thsottiaux/status/2098569976143806918](https://x.com/thsottiaux/status/2098569976143806918)
+
+**Peter Yang（实用 AI 教程/访谈作者）**
+两条观点：① 任务编排的「干净分工」——所有本地定时任务放 Codex，所有云端任务迁到 Grok Bot；② 对「software factories（软件工厂）」明确质疑——除验证与测试外，AI 尚未达到能端到端自改进产品或构建新功能、无需人类在环的程度，一旦做出错误假设，整夜 token 就白烧了。
+→ [https://x.com/petergyang/status/2098614492066435228](https://x.com/petergyang/status/2098614492066435228) ｜ [https://x.com/petergyang/status/2098565668241334366](https://x.com/petergyang/status/2098565668241334366)
+
+**Madhu Guru（Meta，Sr Director AI；前 Google Gemini/Veo）**
+一篇「为何大多数企业 AI 努力会失败」的长文：① 用老套路做 AI——CEO 钦点亲信带中央 AI 团队，但过去 15 年的增量式产品方法论在 AI 面前失灵，AI 需要实验与发明；② 对 evals 投入不足；③ 从「外部」为公司造 AI——中央平台团队造的工具脱离真实工作流，只能换来勉强采用而非生产力提升。解法：招真正建过 AI 产品的领导者、把 evals 当一等公民、把最好的 AI builder 嵌入财务/销售/支持等部门「与之一同构建」。
+→ [https://x.com/realmadhuguru/status/2098448235048378456](https://x.com/realmadhuguru/status/2098448235048378456)
+
+**Thariq（Anthropic，Claude Code）**
+两条：① 回应「新模型发布后不知道 skills 是否还 work」的反馈——在插件目录跑 `claude plugin eval init` 即可获得插件评测；② 指出如今仅看 pass/fail 分数几乎无法解读 evals，很多基准「失败」源于过度严格的隐藏测试，有时模型答案比预期结果更合理。
+→ [https://x.com/trq212/status/2098531560643539440](https://x.com/trq212/status/2098531560643539440) ｜ [https://x.com/trq212/status/2098490139798655427](https://x.com/trq212/status/2098490139798655427)
+
+**Amjad Masad（Replit CEO）**
+三条：① Replit 收购了一家「完全在 Replit 上」建起来的公司，并预言这只是第一个；② 带预算的 Routines；③ 为 Replit 上的 Astra 3D 实验叫好。
+→ [https://x.com/amasad/status/2098548464452055437](https://x.com/amasad/status/2098548464452055437) ｜ [https://x.com/amasad/status/2098317466682179643](https://x.com/amasad/status/2098317466682179643) ｜ [https://x.com/amasad/status/2098316298820219058](https://x.com/amasad/status/2098316298820219058)
+
+**Guillermo Rauch（Vercel CEO）**
+一条：Tailscale 的模型路由器底层跑在 Vercel AI Gateway 上，「AI Gateway 就是新的 CDN」——直连 origin 太脆弱，自建太痛苦，Vercel 很荣幸服务 Tailscale。
+→ [https://x.com/rauchg/status/2098531157230969062](https://x.com/rauchg/status/2098531157230969062)
+
+**Aaron Levie（Box CEO）**
+一条：现在可以把 Box 挂载到 agent 沙盒，让 agent 在其「电脑」上读写文件更容易；AI agent 执行企业关键工作流时，需要与人类相同的文件原语。
+→ [https://x.com/levie/status/2098478938003841123](https://x.com/levie/status/2098478938003841123)
+
+**Ryo Lu（设计过 Cursor / Notion / Stripe）**
+两条：① 清空房子搬到台北，「so far so great」；② Cursor 现在支持面向「大想法」的 long-lived agents（长期存活的 agent）。
+→ [https://x.com/ryolu_/status/2098612137321201942](https://x.com/ryolu_/status/2098612137321201942) ｜ [https://x.com/ryolu_/status/2098324260867772806](https://x.com/ryolu_/status/2098324260867772806)
+
+**Garry Tan（YC CEO）**
+一条（非 AI 主业）：吐槽 SAT 满分 1600 之上应该再开一层更难的考试，而不是直接取消 SAT 让一切变成抽签。
+→ [https://x.com/garrytan/status/2098615692425851205](https://x.com/garrytan/status/2098615692425851205)
+
+**Matt Turck（FirstMark VC）**
+一条（个人叙事）：更新版 9/11 回忆——2001 年 9 月他还是 TripleHop Technologies 联合创始人，办公室在世贸中心北塔 53 层。
+→ [https://x.com/mattturck/status/2098517022049190227](https://x.com/mattturck/status/2098517022049190227)
+
+**Zara Zhang（Builder）**
+一条：「一人公司」被高估了——AI 让一个人能做更多，但从零创造新东西是极其孤独的体验，你需要有人一起头脑风暴、一起受苦、一起庆祝，不把自己和别人绑在同一根桅杆上很容易失去动力。
+→ [https://x.com/zarazhangrui/status/2098483800456179923](https://x.com/zarazhangrui/status/2098483800456179923)
+
+**Nikunj Kothari（FPV Ventures 合伙人）**
+一条：「成功有很多父亲，失败却是孤儿」——看到极成功的 VC 为热门 deal 争抢归属感才懂这句话的分量；未来几年会有很多名字被擦掉、很多人想改写历史去蹭那些最终成功的项目的功劳。
+→ [https://x.com/nikunj/status/2098550718923997430](https://x.com/nikunj/status/2098550718923997430)
+
+**Peter Steinberger（OpenClaw 🦞 + OpenAI）**
+两条：① 给 @trycua 提交了让按键在 Linux 下稳定工作的 patch；② 在云端会话里用 Astra + CUA 玩 Doom，「还不算 AGI，但大概能打赢果蝇大脑了」。
+→ [https://x.com/steipete/status/2098527982709256637](https://x.com/steipete/status/2098527982709256637) ｜ [https://x.com/steipete/status/2098527519213604889](https://x.com/steipete/status/2098527519213604889)
+
+**Dan Shipper（Every CEO）**
+三条：① 「这个可不妙」；② 更好的 benchmark 分数说明不了模型在你真实工作上的表现——过去 3 年 Every 对新模型做「vibe checks」（真实工作的长文实测），现在正与 hammer_mt、nityeshaga 搭建内部平台，把「纯 vibe」升级为「基于每个人真实日常工作的量化个人 benchmark」；③ 招聘：加入地球上最 AI-pilled 的团队。
+→ [https://x.com/danshipper/status/2098579426178908494](https://x.com/danshipper/status/2098579426178908494) ｜ [https://x.com/danshipper/status/2098481799047647715](https://x.com/danshipper/status/2098481799047647715) ｜ [https://x.com/danshipper/status/2098476917448118321](https://x.com/danshipper/status/2098476917448118321)
+
+**Aditya Agarwal（SPC GP，Dropbox 前 CTO）**
+三条：① 9/11 反思（希望自己也能有 United 93 上那些人的勇气）；② RSVP 链接；③ SPC 今秋与决策者举办科技政策对话，Steve Hilton 9/23 开场，探讨「如何鼓励真正的创新、如何实现两党制、科技该如何监管」。
+→ [https://x.com/adityaag/status/2098580235268899123](https://x.com/adityaag/status/2098580235268899123) ｜ [https://x.com/adityaag/status/2098472517845328303](https://x.com/adityaag/status/2098472517845328303)
+
+#### 🎙️ 播客
+**No Priors —「Coinbase's Everything Exchange: Agentic Finance, Stablecoins, and Tokenization with CEO Brian Armstrong」**
+Coinbase CEO Brian Armstrong 系统阐述公司的三大方向与前沿布局，核心要点：
+- **Everything Exchange**：每一类资产都在上链——股票、大宗商品、加密、衍生品、永续合约、预测市场，可在一个地方、用一个保证金账户交易。公司 88% 收入已来自非比特币交易。
+- **稳定币支付**：无论比特币涨跌都在疯涨，「以信息的速度转账」——全球范围内 1 秒内、不到 1 美分。
+- **Agentic Finance（AIFi）**：分两层——① 给人类用户的 AI 投顾（教组合构建、定投、税务损失收割）；② 让 AI agent 自己拥有账户。他提出「别让 AI 成为无银行账户者（unbanked）」，用自托管钱包 + 加密轨道，AI 无需政府 ID 即可开户。76% 的 agent 电商交易低于 30 美分，传统信用卡 30 美分最低手续费根本不适用。
+- **X402 协议**：Coinbase 孵化、已捐入 Linux 基金会，Google/Cloudflare/AWS 等参与，是「机器对机器微支付」的底层协议。
+- **代币化**：已推出首个「真正代币化的股票」产品（目前仅美国以外），非合成/衍生品，1:1 对应托管中的真实证券；全球约 40 亿人无法接触美投资账户，这是巨大机会。
+- **预测市场**：上线几个月即达约 1 亿美元收入 run rate、季度环比翻倍；他认为其社会意义远超体育博彩，可用于政策评估甚至「人生大问题」的意见市场。
+- **递归自我改进**：内部在软件开发生命周期中做「brain（大脑）」——把每次事故、财务控制、AB 测试、PR 接受/拒绝历史都注入，人工修正 agent 时上下文会回流进 brain，实现「一次修复、永久生效」。内部 harness 叫「Toshi」，能对外部 vendor 用 X402 支付。
+- **New Limit（抗衰老）**：通过表观遗传重编程（epigenetic reprogramming）让细胞恢复年轻功能，首批三个细胞类型（肝脏/血管/免疫 T 细胞），首个临床 I 期明年启动、针对酒精性肝病（ALD）；愿景是「恢复 40 岁的人 20 岁的肝脏/免疫/皮肤」。
+→ [https://www.youtube.com/watch?v=uLDK4l_-gUE](https://www.youtube.com/watch?v=uLDK4l_-gUE)
+
+### 💡 我的分析
+> 标注：以下为基于上述事实的归纳与推论，非 feed 原文。
+**最让我意外的，是「微额支付」这个看似枯燥的细节，成了理解「智能体经济」的关键钥匙。** Armstrong 给出一个反直觉的数据点：76% 的 agent 电商交易低于 30 美分，而信用卡最低手续费就是 30 美分——这意味着给 agent 做支付，几乎绕不开加密轨道。这跟 Vercel 的「AI Gateway 是新 CDN」、Box 的「agent 需要文件原语」是同一种信号：**智能体正在催生一批「为机器而非为人」设计的基础设施原语**（支付、网关、文件系统），这批原语的供给方是下一轮基础设施赢家。
+
+**趋势加速 vs 降温（我的判断）：**
+- **加速**——(1) **智能体基础设施**：AI Gateway（Vercel/Tailscale）、agent 沙盒文件挂载（Box）、agent 账户与微支付（Coinbase/X402）、long-lived agents（Cursor）都在同一周冒出，方向高度收敛；(2) **OpenAI 的「全栈化」**：从模型到 Agents API、Data Agent、金融服务 ChatGPT 再到收购开源工具团队，生态扩张节奏明显加快；(3) **evals 从「看分数」到「看过程/看真实工作」**：Thariq 质疑隐藏测试、Dan Shipper 做个人 benchmark、Madhu Guru 反复强调 evals 一等公民，三股力量指向同一个结论。
+- **降温**——(1) **「软件工厂」全自动叙事**：Peter Yang 明确踩刹车，认为「无需人类在环」的端到端自改进尚未成立，这与 Armstrong 播客里「人工修正回流 brain」的务实做法互相印证——现实是「人类纠错 + 机器复用」，不是「机器自我进化」；(2) **「一人公司」理想化**：Zara Zhang 的「孤独感」提醒，AI 放大了个人产能，却没解决协作与陪伴需求，创业仍需团队。
+
+**给创业者和开发者的 actionable 启发：**
+1. **如果你的 agent 要「花钱」，现在就关注 X402 这类机器微支付协议**——传统支付栈在 30 美分以下交易上是失效的，这是被低估的卡位点（事实：Armstrong 的 76% 数据；分析：推论）。
+2. **把「过程可观测性」当成 eval 的核心，而不是只看分数**——Thariq 和 Dan Shipper 都在说同一件事：benchmark 分数对「你的真实工作」几乎无预测力，值得投资的是「基于自己业务的个性化 eval + 轨迹审查」（事实：两条推文；分析：推论）。
+3. **企业 AI 别用「中央平台团队」的老套路**——Madhu Guru 的诊断（技能断层 + 低估 evals + 从外部造 AI）几乎可以当 checklist 用，解法是把 AI builder 嵌入业务部门、让 evals 一等公民（事实：Madhu Guru 长文；分析：推论）。
+4. **别被「全自动软件工厂」的销售话术带偏**——Peter Yang 的质疑和 Armstrong 的「人工修正回流」都指向同一个现实：产品化的人类判断仍是闭环里不可缺的一环，把它设计进工作流，而非指望机器自己长出来（事实：两条来源；分析：推论）。
+
+*注：今日概览 / 重点 Highlights / 详细摘要均为事实（源自 feed JSON，每条附原文 URL）；「我的分析」为基于事实的合理推断。*
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

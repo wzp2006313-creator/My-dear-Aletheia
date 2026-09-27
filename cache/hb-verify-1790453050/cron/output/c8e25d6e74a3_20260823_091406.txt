@@ -1,0 +1,102 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+✅ 每日摘要已完成并写入 Notion（归档表已新增 2026-08-23 行，完整内容已追加到页面底部）。
+
+---
+
+# AI Builders Digest — 2026-08-23
+
+### 📌 今日概览
+
+AI 编程与智能体赛道今天密集迭代：OpenAI 为 Codex / ChatGPT Work 付费用户落地"banked reset"配额重置机制，Anthropic 推出安全模型 Mythos 5 并配套 3500 万美元开源安全基金，Vercel 用 is-agentic 基准反向打磨自家产品——前沿能力正在加速下沉到开发者的日常。
+
+### 🔥 重点 Highlights
+
+1. **Anthropic 发布安全模型 Mythos 5 + Claude Security**：让 Claude Code 对 GitHub 仓库做跨文件漏洞扫描，每条发现附 CWE 类别、置信度与严重度，并配 3500 万美元开源安全基金与扩展的 Cyber Verification Program。https://x.com/claudeai/status/2090852316328902930
+
+2. **OpenAI Codex "banked reset" 已上线**：ChatGPT Work 与 Codex 付费用户的配额重置机制落地；同时官方承认本周部分用户 cache 命中率下降导致额度消耗偏快，正在排查、明日出更新。https://x.com/thsottiaux/status/2090964822422949999
+
+3. **Swyx 公开转向"模拟是新的缩放定律"**：他坦言 2 年后才真正理解 Karpathy、李飞飞当年为何押注 Joon Sung Park 团队（Smallville→Simile），认为"模拟人类与人类反馈"是自动化 ML/AI 工程最后一道壁垒，Simile 已在财富 100 强找到 PMF。https://x.com/swyx/status/2090948945753076141
+
+4. **Vercel is-agentic 基准循环跑通 + 产品支持 Grok/Codex 订阅**：Guillermo Rauch 透露用 is-agentic 反复跑自家产品直到 100/100，逼出不少产品缺口；v0 类产品开始接入 Grok 与 Codex 订阅。https://x.com/rauchg/status/2090858571613470919
+
+5. **Aaron Levie：AI 进步速度史无前例**：模型在同等任务上更便宜、更通用、更快，智能一旦"便宜到无法计量"，最大机会就是把 AI 扩散进实体经济——这是应用型 AI 公司的黄金窗口。https://x.com/levie/status/2091038566260539574
+
+### 📝 详细摘要
+
+#### 𝕏 / TWITTER
+
+**Thibault Sottiaux（Codex & ChatGPT @OpenAI）**
+Codex 配额机制密集更新：banked reset（额度重置）已于周末上线，覆盖 ChatGPT Work 与 Codex 全部付费用户；同时他承认本周部分用户 cache 命中率较前几周更差，导致额度消耗偏快，团队正在排查并承诺明日更新。https://x.com/thsottiaux/status/2091033630147854385 · https://x.com/thsottiaux/status/2090964822422949999
+
+**Swyx（DX tips / smol_ai / Latent Space）**
+本周最大的一条是他关于"模拟是新的缩放定律"的认真表态：从采访中途由半开玩笑转为非常严肃，称自己晚了 2 年才看懂 Smallville 当年的价值，认为当模型开始自动化 ML 研究与 AI 工程时，最后一道壁垒就是模拟人类与人类反馈，而 Simile 是显然能做这件事的团队、且已在财富 100 强早期验证 PMF。另预告"Kill My SaaS"第二弹，下周公开第一弹结果。https://x.com/swyx/status/2090948945753076141 · https://x.com/swyx/status/2090908959590740033
+
+**Guillermo Rauch（Vercel CEO）**
+三连发：v0 现已支持 Grok 与 Codex 订阅、可即时沙盒安装；用 is-agentic 基准在循环里反复跑自家产品直到 100/100，逼出并关闭了不少产品缺口，强调基准标准要保持高质量；Python 团队进展迅速。https://x.com/rauchg/status/2090953806624489501 · https://x.com/rauchg/status/2090858571613470919 · https://x.com/rauchg/status/2090856968407978031
+
+**Claude / Anthropic**
+安全主线集中发布：Mythos 5 可扫描 GitHub 仓库、跨文件追踪数据并推理组件交互，每条漏洞发现附 CWE 类别、置信度、严重度与修复建议；修复建议可直接在网页版 Claude Code 打开；配套 3500 万美元 Defender Advantage Fund（开源安全额度）与未来几周扩大的 Cyber Verification Program。https://x.com/claudeai/status/2090852316328902930 · https://x.com/claudeai/status/2090852318527033804 · https://x.com/claudeai/status/2090852320128938319
+
+**Madhu Guru（Sr Director, AI @Meta，前 Google Gemini/Veo 负责人）**
+"如何构建优秀的 evals"系列第 5 篇：不要把复杂评测套件压缩成单一分数——"平均值的暴政"。AI 系统没有单一的"质量维度"，单一分数会掩盖模型在 frontier 用例上的退化；加权分数也只是给主观判断套上虚假的数学外衣。应保留按优先级排序的评测清单，让人深入理解每一项在哪失败、在哪出彩。https://x.com/realmadhuguru/status/2090930137885774324
+
+**Thariq（Claude Code @Anthropic）**
+推广 Anthropic 内部高频使用的新 skill：ELI5——"用带大图、少文字、面向零基础者的 HTML artifact 来解释某个主题"。已提供社区插件安装方式，正考虑是否转为官方插件。https://x.com/trq212/status/2090884854590382515 · https://x.com/trq212/status/2090884855798407576
+
+**Peter Yang（Practical AI tutorials）**
+试用新 AI 助手 Instinct：对连接 iMessage、Google Workspace、MCP 的 onboarding 流畅度印象深刻，且比同类助手更主动；但指出两点问题——一是不经授权就索引并留存邮箱内容、且无法从记录中删除（暂不推荐他人使用），二是单线程 UX 无法做真正的深度工作。https://x.com/petergyang/status/2090814910720835633 · https://x.com/petergyang/status/2090936583814025417
+
+**Aaron Levie（Box CEO）**
+判断当前 AI 进步速度是科技史上任何时期都无法比拟的：模型更便宜、更通用、更快、更深。当智能"便宜到无法计量"时，最大机会在于把 AI 扩散进经济体系——对能抓住这一点的创业公司是巨大窗口。https://x.com/levie/status/2091038566260539574
+
+**Nikunj Kothari（partner @FPV Ventures）**
+分享一个"被低估"的实用场景：用 Claude Code 抓取女儿幼儿园的午餐菜单网页、从网络请求里找到未鉴权的 API、理清格式后交给自家 Hermes 机器人，现在每天早上家里的 bot 会自动播报早餐/午餐，方便准备便当。https://x.com/nikunj/status/2090884422178627624
+
+**Peter Steinberger（OpenClaw + OpenAI）**
+在 Berkeley Agentic AI Summit 演讲《No Doors for Agents》；另预告将发布新 skill。https://x.com/steipete/status/2090898421108605078 · https://x.com/steipete/status/2090946181564440727
+
+**Aditya Agarwal（GP @SPC）**
+"前沿模型竞赛才刚刚开始"，并放出与 Sridhar Ramaswamy 的完整访谈。https://x.com/adityaag/status/2090814574400307585 · https://x.com/adityaag/status/2090814576270975265
+
+**其他动态**
+- Amjad Masad（Replit CEO）调侃"用手机就能赚钱"，配合产品演示链接，无实质信息。https://x.com/amasad/status/2090845035537522925
+- Zara Zhang 鼓励"每天出现、持续发布、不怕重复"。https://x.com/zarazhangrui/status/2090702627206214081
+- Matt Turck（FirstMark）发 VC 错过种子轮后悔的梗图。https://x.com/mattturck/status/2090870362007281984
+- Garry Tan（YC CEO）连续几条社会议题评论（"奢侈品信念工业复合体"、UC Berkeley 教授、亚裔抹除），属文化评论而非 AI 行业。https://x.com/garrytan/status/2090889728719777952
+- Dan Shipper（every）仅发"gang gang"，低信号。https://x.com/danshipper/status/2090860697504653480
+
+#### 🎙️ PODCAST
+
+**No Priors —《Chess.com 教会我们关于超人类能力的什么》| 嘉宾：CEO Erik Allebest**
+https://www.youtube.com/@NoPriorsPodcast
+
+核心观点：
+- **AI 没有杀死棋类，反而让它更火**：Deep Blue 击败 Kasparov 三十年后，人类反而更在乎国际象棋。电脑先让棋变得乏味（人人模仿引擎下无聊残局），神经网络（Leela Chess Zero）又让它重新变得激进、有趣。
+- **人类技能在超人类 AI 时代依然有意义**：即使机器更强，人们依然愿意亲自练习、观看顶尖人类对弈。核心洞察是"人类天然想做人该做的事"——与人竞技、动手创造、解决问题。
+- **掌握技能没有捷径，只有重复**：他把"任何一天 × 1000 ≈ 你的人生"当作心法——每天 5 道棋题 ×1000 天 = 5000 道。AI 能加速信息获取，但"练习不可压缩"。
+- **创业的反主流路径**：2005 年 5.6 万美元从破产拍卖买下 chess.com 域名，几乎被所有 VC 判定"不可投资"，于是零融资、靠现金流自生长，18 个月即盈利；如今 2.5 亿注册会员、约 1000 万 DAU、年收入超 2 亿美元、650 人团队。他给创始人的建议是"别听太多建议，去执行、把美好的东西放进世界"。
+- **AI 在产品中的应用**：内部系统 GNS 做权限+知识层，agentic 开发缩短"发现问题→上线代码"的周期；面向用户做口袋里的 AI 棋类教练、按个人水平生成的题库。
+- **对 AGI 的态度**：乐观多于悲观，但警惕"钱流向太少的人手里"是文化问题而非技术问题。
+
+### 💡 我的分析
+
+> 以下为基于今日内容的综合推断，非 JSON 事实。
+
+**最让我意外的**：Swyx 这种长期以"挑剔、反营销"著称的 DX 圈老炮，公开承认自己"晚了 2 年才看懂模拟是新的缩放定律、从未如此高兴地看错"——这种级别的认错与转向，本身就是一个强信号，说明"模拟人类/人类反馈"这条线正在从学术叙事进入商业化早期（Simile 已在财富 100 强验证 PMF）。【分析】
+
+**在加速的趋势**：
+- 安全成为新战场：Anthropic 把安全模型 Mythos 5 与扫描工具、开源安全基金打包推向开发者，说明"AI 安全"正从合规话题变成可产品化的付费能力。【分析】
+- 编程智能体进入"体验优化"阶段：Codex 在调 cache 命中率、做 banked reset，Vercel 用基准反复打磨产品——竞争重心从"模型能力"转向"稳定性、额度、工具链体验"。【分析】
+- "AI 扩散进实体经济"的叙事升温（Levie、Chess.com 的 agentic 开发都在讲同一件事）。【分析】
+
+**在降温的**：纯粹的"模型跑分崇拜"——Meta 的 Madhu Guru 连发评测系列，明确反对把模型压缩成单一分数，说明业内精英正从"比分数"转向"比真实用户价值"。【分析】
+
+**给创业者和开发者的 actionable 启发**：
+- 如果你在做 AI 编程/智能体工具，别只卷模型能力，把 cache 命中率、额度可预期性、onboarding 流畅度当一等公民（Peter Yang 对 Instinct 的反馈就是反例：体验惊艳但隐私与单线程直接劝退）。【分析】
+- 效仿 Chess.com 的"反主流自生长"逻辑不一定普适，但"把一天 ×1000"的重复心法值得内化——AI 能给你信息，给不了你复利式的刻意练习。【分析】
+- 安全扫描正在被前沿模型公司打包成开发者可用的功能，纯做"安全扫描工具"的团队要警惕被模型厂商覆盖。【分析】
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

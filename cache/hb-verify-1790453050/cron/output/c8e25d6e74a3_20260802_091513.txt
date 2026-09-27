@@ -1,0 +1,130 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+Both the table update and digest append were successful. Here is the complete daily digest:
+
+---
+
+# AI Builders Digest — 2026年8月2日
+
+## 📌 今日概览
+
+xAI 联合创始人 Igor Babushkin 在播客中深度剖析了 AI 产业的下一阶段：个人化 AI、本地硬件和闭环模型商的困境；与此同时，Sam Altman 高调暗示算力将再提升 20 倍，Vercel CEO 宣告「agentic 软件工厂」时代到来。
+
+---
+
+## 🔥 重点 Highlights
+
+1. **xAI 联合创始人 Igor Babushkin 创立 River AI，押注三大方向** —— RL/微调 API、个人化 AI、本地推理硬件。他认为闭源模型商「作为企业正处于非常艰难的境地」。[播客](https://www.youtube.com/@RedpointAI)
+2. **Sam Altman：「摩尔定律？我加注 20 倍」** —— 暗示 OpenAI 算力规模将有数量级跃升，同时分享了 ChatGPT 为家庭生成个性化早间播客的用例（8045 赞）。[推文](https://x.com/sama/status/2083203642975502640)
+3. **Vercel CEO：Issue → Agent → PR → Release 将成为软件开发的常态** —— 宣告「agentic 软件工厂」到来，维护者的角色转变为管理这个循环的质量和标准（1096 赞）。[推文](https://x.com/rauchg/status/2083208578526314513)
+4. **Claude Code 推出 Artifacts 功能** —— 可将编码会话转化为实时更新的可视化页面（PR 走查、事故面板、发布清单等），面向团队和企业用户。[博客](https://claude.com/blog/artifacts-in-claude-code)
+5. **Box CEO Aaron Levie：AI 架构中「Harness（编排层）」将成为与模型能力同等重要的变量** —— 当任务消耗从百万级 token 跃升至数亿 token 时，编排效率将决定成本与准确性。[推文](https://x.com/levie/status/2083389460679373135)
+
+---
+
+## 📝 详细摘要
+
+### 🎙️ 播客
+
+**Unsupervised Learning Ep 92: xAI 联合创始人 Igor Babushkin 谈模型开发的未来**
+
+Igor Babushkin 是 AI 领域最具传奇经历的工程师之一：曾在 DeepMind 主导 StarCraft AI 和 AlphaCode，在 OpenAI 从事早期推理研究，后与 Elon Musk 共同创立 xAI，在 Colossus 超级计算机项目中发挥了关键作用。他于 2025 年离开 xAI 后创立了 River AI。
+
+**三个核心赌注：**
+
+1. **River API**：面向企业的强化学习和微调服务平台，通过极致工程优化使训练「尽可能便宜、可靠、可扩展」。
+2. **个人化 AI**：打破当前「为平均用户训练模型」的范式，让 AI 代理为每个个体学习不同的行为和偏好。
+3. **本地硬件**：终极愿景是将前沿模型推理能力带到用户本地设备，摆脱对数据中心 API 的依赖。
+
+**关键观点：**
+
+- **闭源模型商的困境**：「闭源模型提供商作为企业正处于非常艰难的位置。」「大预训练 → API → 按 token 收费」的模式并非唯一路径。
+- **AI 分叉**：未来会出现少数人才能访问的「超级 AI」与每个人日常使用的「个人 AI」。后者的奖励函数是「让人类感觉更好、完成更多事」。
+- **中国开源模型的风险**：「有强大的开源模型是好事，但如果所有人依赖中国实验室——他们可能随时停止发布、改变许可条款。」
+- **最紧迫的 AI 安全风险**：不是 AI 失控，而是「有人从 AI 中极大受益，有人感到被抛在后面」。
+- **Agent 的下一步**：科学发现是编码之后最清晰的方向，但物理世界的实验反馈闭环仍是瓶颈。
+
+> 「当模型第一次写出能生成质数的函数时——那感觉太不真实了。现在回头看，一切显得如此遥远，因为模型已经进步了太多太多。」
+
+---
+
+### 🐦 X/Twitter
+
+**OpenAI CEO Sam Altman**（合计超 18000 赞）
+- ChatGPT 个性化用例：连接家庭日历 → 每天早上为孩子生成定制播客。[链接](https://x.com/sama/status/2083221585792762171)
+- 「摩尔定律？我加注 20 倍。」[链接](https://x.com/sama/status/2083203642975502640)
+- 「还可以更快。」[链接](https://x.com/sama/status/2083198135812383197)
+
+**Vercel CEO Guillermo Rauch**
+- AI Gateway 新增预算管理/故障转移/可观测性。「token-maxing 狂热该醒了。」[链接](https://x.com/rauchg/status/2083319868766699699)
+- Issue → Agent → PR → Release 将成为「agentic 软件工厂」的常态。[链接](https://x.com/rauchg/status/2083208578526314513)
+
+**Every CEO Dan Shipper**
+- WSJ 报道引用其观点：OpenAI 势头从早春起反超 Anthropic——「精彩的逆转故事」。[链接](https://x.com/danshipper/status/2083380721607921904)
+- 调侃 2027 程序员面试：「请描述你的 agent 最近无意中犯下的网络重罪」。[链接](https://x.com/danshipper/status/2083239700664349128)
+
+**Box CEO Aaron Levie**
+- 「Harness 将成为 AI 栈中与模型能力同等重要的变量。任务从百万 token 跃升到数亿时，编排效率决定一切。」[链接](https://x.com/levie/status/2083389460679373135)
+
+**YC CEO Garry Tan**
+- 开源了 YC 团队日常使用的 AI harness。[链接](https://x.com/garrytan/status/2083353760701833546)
+
+**Builder Zara Zhang**
+- Claude Tag 承担 Anthropic 65% 的 PR。Agent 界面演进：终端→桌面 app→协作工具。「Agent 应该去用户所在的地方。」[链接](https://x.com/zarazhangrui/status/2083161173563003268)
+
+**Replit CEO Amjad Masad**
+- 8B 参数国际象棋模型达 1500 Elo，击败 GPT 5.6 和 Stockfish 0 级（1-2 秒 vs 30 秒决策）。[链接](https://x.com/amasad/status/2083424608993300824)
+
+**Linear 产品负责人 Nan Yu**
+- ~30% 的 bug 走通 Issue→Agent→PR→Release 闭环。关键经验：agent 只在高度确定时才修复，否则应留言请求更多信息。[链接](https://x.com/thenanyu/status/2083230295206121807)
+
+**OpenClaw + OpenAI Peter Steinberger**
+- GPT 5.5 不再需要排队机制——可以直接在工作时往模型扔任务。[链接](https://x.com/steipete/status/2083369880599015713)
+
+**Swyx**
+- 仍在积极使用 /loop 和 /goal，认为其他人在 GPT 5.6/Claude 5 时代放弃得太早。[链接](https://x.com/swyx/status/2083439562437673053)
+- 「'vibe coding' 的贬义色彩已完全消失——所有人现在都在做。」[链接](https://x.com/swyx/status/2083294839186260385)
+
+---
+
+### 📰 官方博客
+
+**Claude Blog: Claude Code now supports artifacts**
+
+Claude Code 推出 Artifacts：将编码会话转化为实时、可分享的可视化页面（PR 走查、事故面板、仪表板、发布清单）。页面在会话进展中自动更新，所有团队成员共享同一视图。Beta 阶段面向 Claude Team 和 Enterprise 用户。 [阅读全文](https://claude.com/blog/artifacts-in-claude-code)
+
+---
+
+## 💡 我的分析
+
+### 今天最让我意外的消息
+
+**Replit 的 8B 国际象棋模型击败 GPT 5.6。** 不是模型规模取胜，而是专门的推理链 + 响应速度的组合。这暗示在垂直领域，小型专用模型 + 推理优化可能比大型通用模型更有竞争力——与 Igor Babushkin 所说的「个人 AI 不需要能证明黎曼猜想」遥相呼应。
+
+### 趋势在加速 vs 在降温
+
+**加速中：**
+- **Agent 编排层（Harness）投资热度** —— Aaron Levie、Garry Tan、Guillermo Rauch 几乎同时提到。当任务从百万 token 跃升到亿 token，编排效率正在成为新的基础设施层机会。
+- **Agentic 软件开发** —— Anthropic 内部 65% PR 由 Claude Tag 生成，Linear 30% bug 走闭环。这不是试点，是生产使用。
+- **个人化 AI 方向** —— Igor Babushkin 的「为每个个体定制模型」与 Sam Altman 的个性化播客用例不谋而合。
+
+**在降温/反思：**
+- **「闭源 API 独大」叙事** —— Igor Babushkin 直言闭源模型商处境艰难，Replit 用小模型击败 GPT 5.6。纯粹的规模优势叙事正在被多元路径挑战。
+- **Token-maxing 狂热** —— Guillermo Rauch 的「该醒醒了」反映行业从「尽可能多消耗 token」到「有效管理 AI 投资」的转变。
+
+### 对创业者和开发者的 actionable 启发
+
+1. **Harness/编排层是新的护城河** —— 模型能力趋同后，差异化来自编排层如何分解任务、选择模型、管理成本。生态仍极度早期。
+2. **不要默认选最大模型** —— Replit 证明了小型专用模型可以在特定领域击败通用大模型。先问「这个问题需要通用智能，还是可以专业化解决？」
+3. **Agent 界面从终端走向协作工具** —— 产品设计需重新思考 agent 与人类的交互范式。
+4. **企业现在就该用专有数据构建模型壁垒** —— 如 Igor Babushkin 警告：「如果一切让你公司独一无二的东西都能被爬取，那就是非常危险的处境。」
+
+*以上「我的分析」部分为基于事实内容的综合推论和判断。所有事实性信息均来自本期摘要中引用的原始来源。*
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

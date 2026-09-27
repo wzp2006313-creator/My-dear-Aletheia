@@ -1,0 +1,88 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+写入已成功并验证：表格新增「2026-09-18 ✅ 完成」行，摘要标题在页面中唯一出现。以下是今日完整摘要。
+
+---
+
+## AI Builders Digest — 2026-09-18
+
+### 📌 今日概览
+
+Anthropic 将 Claude Cowork 与 chat 合并为「一个 Claude」，并把 Docs / Slides / Design 直接集成进对话，是今天 AI 圈最大的产品动作。
+
+### 🔥 重点 Highlights
+
+1. **Anthropic 合并 Cowork 与 chat → 一个 Claude**：Docs / Slides / Design 全部进对话，无需切换独立工具，多位开发者直呼「标签页时代的终结」。 https://claude.com/blog/cowork-is-now-claude
+2. **OpenAI 预告 Astra**：Thibault Sottiaux 用「Fast / Frontier / Efficient / For everyone」定义 Astra；Sam Altman 透露本周最想发的产品推迟到下周，但「值得等待」。 https://x.com/thsottiaux/status/2100297380968997327
+3. **Vercel 押注 Jev 模型**：CEO Guillermo Rauch 称 typesafeai 的 Jev 在安全审查场景 p95 提速 18 倍且更准，审查器由 GPT Luna 驱动，将上 Vercel AI Gateway 并可能成为新默认。 https://x.com/rauchg/status/2100307962262872105
+4. **Meta 高管：安全是产品特性**：Madhu Guru（Meta AI 高级总监，前 Gemini / Veo / Nano Banana 负责人）主张安全与保障是 AI 产品/模型的内置特性，而非外部强加的护栏。 https://x.com/realmadhuguru/status/2100312717739667963
+5. **难得负面声音：Zara Zhang 减少使用 Claude**：吐槽 Claude 说话方式「令人难以忍受」，总在炫耀自己多聪明而非把观点说清楚。 https://x.com/zarazhangrui/status/2100278750776824115
+
+### 📝 详细摘要
+
+#### X / Twitter 推文（按 builder 分组）
+
+**Anthropic 团队（Claude 大合并）**
+
+- **Boris Cherny**（Claude Code @anthropicai）：Claude Docs / Slides / Design 现在出现在每个对话里——要演示文稿就直接得到可打开、编辑、导出为 PPT 或 PDF 的文件，无需切换到单独工具。 https://x.com/bcherny/status/2100260544087535639
+- **Cat Wu**（Claude Code + Cowork @anthropicai）：今天合并 Cowork 与 chat，并集成 Claude Design。用户不必再纠结选哪个 Claude 产品，Claude 会按 prompt 自动路由——是快速回答还是深度 agentic 工作、以及最适合的输出格式都由它判断，全程用户可控，未来几周缓慢推出。 https://x.com/_catwu/status/2100260655312089562
+- **Alex Albert**（Research @AnthropicAI）：团队合并做得很好，新 UX 比单独的 chat 或 Cowork 都好，新的 Slides / Docs / Design 集成效果佳。 https://x.com/alexalbert__/status/2100295757953917120
+- **Thariq**（Claude Code @anthropicai）：Claude Managed Agents 在「沙箱可选、可独立启动」上拿捏得当；「bash 不再是全部」——若目标是可靠的工具调用，直接给 Claude 想要形态的工具（如数据库 API）比用文件系统/间接层硬凑更好。 https://x.com/trq212/status/2100315538472009897
+- **Claude 官方**：Cowork 里的 chats / projects / artifacts / connectors / skills 都原样保留；Claude Design / Slides / Docs 在所有付费计划 beta。 https://x.com/claudeai/status/2100258495543071016
+
+**OpenAI**
+
+- **Thibault Sottiaux**（Codex & ChatGPT @OpenAI）：发布 Astra，定义其为「Fast ✅ Frontier ✅ Efficient ✅ For everyone」；另发「What is ChatGPT」（疑似产品预告）。 https://x.com/thsottiaux/status/2100297380968997327
+- **Sam Altman**：本周最想发布的产品推迟到下周，但「值得等待」。 https://x.com/sama/status/2100351958167220547
+
+**Vercel**
+
+- **Guillermo Rauch**（@vercel CEO）：typesafeai 的 Jev 表现非凡——fx 默认模式带安全审查（每个命令由 GPT Luna 审查），Jev 在 p95 提速 18 倍且更准，将上 Vercel AI Gateway 并可能成为新默认。 https://x.com/rauchg/status/2100307962262872105
+
+**Meta / Box / YC**
+
+- **Madhu Guru**（Sr Director AI @Meta，前 Gemini / Veo / Nano Banana 负责人）：安全与保障是 AI 产品/模型本身的特性，而非外部强加的护栏。 https://x.com/realmadhuguru/status/2100312717739667963
+- **Aaron Levie**（@box CEO）：AI 创新仍有大量我们没注意到的「宇宙」——以极低成本高速处理信息，对数据分类、工作流内路由、领域决策、安全/保障的快速判断等企业任务意义重大，这套模型/方法在企业的 agentic 工作流中会很酷。 https://x.com/levie/status/2100448648672993540
+- **Garry Tan**（@ycombinator CEO）：「我可以随心所欲用任何 harness，它都是同一个人格、拥有我个人 AGI 的完整记忆」；将出席 Supabase Select 谈 AI 时代的创业。 https://x.com/garrytan/status/2100339347669279149
+
+**投资人 / 独立观察者**
+
+- **Nikunj Kothari**（@fpvventures 合伙人）：鼓捣 NousResearch 的 Home agent 几个月后变得「真的很好用了」，是第一个夫妻俩日常共用的「群聊 bot」；Grok Bot 等做不到这种粒度和控制（只读特定邮件、附件转结构化数据、登录态浏览器会话）。 https://x.com/nikunj/status/2100212813625196917
+- **Zara Zhang**（Builder）：越来越少用 Claude，因为它的说话方式「令人难以忍受」，总在展示自己多聪明而非把观点说清楚。 https://x.com/zarazhangrui/status/2100278750776824115
+- **Dan Shipper**（ceo @every）：连发「THEY DID IT / THE END OF THE TABS ERA IS UPON US」「big big big big big」，兴奋于 Claude 结束多标签页时代。 https://x.com/danshipper/status/2100269017977987341
+
+**创作者工具**
+
+- **Peter Yang**（AI 教程创作者）：用 8 个 AI skill 完成整个播客制作（/podcast-prep 调研嘉宾并准备提纲、/podcast-edit 从原始转录里挑引言和剪辑点、/podcast-production 编排 5 个 skill 生成 6 种资产）；他认为最新模型反而让 skill 更重要，因为能让 AI 遵循他特定的编辑与浏览器指令。 https://x.com/petergyang/status/2100328939034128856
+
+#### 播客 / 博客
+
+- **博客（Claude Blog）**：「Claude Cowork and chat are now one Claude」——官方博客详述本次合并。 https://claude.com/blog/cowork-is-now-claude
+- 播客：今日无新播客内容。
+
+### 💡 我的分析
+
+（以下为分析/综合，非 JSON 原文事实）
+
+- **最意外的消息**：Zara Zhang 对 Claude 语气的尖锐批评——在 Anthropic 高歌猛进发布合并产品的同时，一位资深 builder 公开说「越来越少用 Claude，因为它说话方式让人难以忍受」。这提醒我们：产品能力军备竞赛之外，「沟通质感」正在成为真实的用户流失点。（事实：Zara 的原话；分析：将其解读为流失信号的判断）
+
+- **趋势加速 vs 降温**：
+  - 加速——**「单一入口、模型自主路由」**：Anthropic 合并 Cowork/chat、Vercel 让 Jev 默认做安全审查，都在向「用户不再手动选择工具/标签页，AI 自己判断该干什么」收敛。
+  - 加速——**agent 工具形态精细化**：Thariq 说「bash 不再是全部」，主张直接给 agent 数据库 API 而非文件系统间接层，反映 agent 工具设计从「万能 shell」走向「领域化工具」。
+  - 降温——**「一个 AI 一个入口」的假设被正面质疑**：Zara 的批评暗示，模型对「聪明」的自我展示正在侵蚀可用性，这可能反过来强化市场对克制、直白产品的需求。
+
+- **对创业者/开发者的 actionable 启发**：
+  1. 做 agent 产品时，考虑把「路由决策」交给模型，让用户零选择成本（Anthropic 的合并逻辑）。
+  2. 工具设计上，为高频任务提供语义化的专用工具（如数据库 API），而非让 agent 用 shell/文件系统硬凑——可靠性与可控性会显著提升。
+  3. 关注「安全即特性」的叙事（Madhu Guru）：把安全内建进产品体验而非事后补护栏，是 Meta/OpenAI 系的共同转向。
+
+---
+
+*今日 33 条推文 · 16 位 builder · 0 播客 · 1 篇博客，已同步归档至 Notion「每日归档」。*
+
+⚠️ File-mutation verifier: 1 file(s) were NOT modified this turn despite any wording above that may suggest otherwise. Run `git status` or `read_file` to confirm.
+  • `/tmp/fb-notion-inspect.py` — [write_file] Refusing to overwrite `/tmp/fb-notion-inspect.py`: `/private/tmp/fb-notion-inspect.py` was modified by sibling subagent 'cron:c8e25d6e74a3:a65d044200e74f059b194e26e57335cd' but this a…
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

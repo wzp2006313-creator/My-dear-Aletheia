@@ -1,0 +1,31 @@
+{
+  "updated_at": "2026-09-27T04:00:24.254203",
+  "platforms": {
+    "feishu": [
+      {
+        "id": "oc_9e19fd780d3617c2c6fbac770909d0f7",
+        "name": "oc_9e19fd780d3617c2c6fbac770909d0f7",
+        "type": "dm",
+        "thread_id": null
+      },
+      {
+        "id": "oc_9e19fd780d3617c2c6fbac770909d0f7:om_x100b6ca985b1d088c26455504d43d49",
+        "name": "oc_9e19fd780d3617c2c6fbac770909d0f7 / topic om_x100b6ca985b1d088c26455504d43d49",
+        "type": "dm",
+        "thread_id": "om_x100b6ca985b1d088c26455504d43d49"
+      },
+      {
+        "id": "oc_24831701fee07397e9a010a30dff5202",
+        "name": "猫鹰家族",
+        "type": "group",
+        "thread_id": null
+      },
+      {
+        "id": "oc_9e19fd780d3617c2c6fbac770909d0f7:om_x100b6ece50f440b4c36954e1384e33a",
+        "name": "oc_9e19fd780d3617c2c6fbac770909d0f7 / topic om_x100b6ece50f440b4c36954e1384e33a",
+        "type": "dm",
+        "thread_id": "om_x100b6ece50f440b4c36954e1384e33a"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+AI Builders 每日摘要已完成，并已写入 Notion（归档表新增 2026-08-27 行 + 追加完整摘要，均已回读验证）。以下是今日摘要：
+
+---
+
+## AI Builders Digest — 2026-08-27
+
+### 📌 今日概览
+
+Sam Altman 用一句轻描淡写的「we made a chip and it is fast」官宣了 OpenAI 的自研芯片，这大概率是今天 AI 圈分量最重的一条消息；同一天，Anthropic 把 Claude 的记忆打通了 Chat 与 Cowork，Vercel 则把 agent 连接企业服务/数据的通道正式 GA。
+
+### 🔥 重点 Highlights
+
+1. **OpenAI 自研芯片官宣**——Sam Altman：「we made a chip and it is fast」，OpenAI 正式踏入硅竞赛场。https://x.com/sama/status/2092339694210040187
+2. **Claude 统一记忆上线**——跨 Chat 与 Cowork 共享同一份记忆，默认开启、可在设置中管理，敏感话题默认不存。https://x.com/claudeai/status/2092299704864284888
+3. **Vercel Connect 正式 GA + Run SDK**——`vercel connect create notion` 一键拿到代表用户身份的 MCP 客户端，解决 agent 安全连接服务/数据的难题。https://x.com/rauchg/status/2092352411839193234
+4. **Parallel 宣布与 Google Cloud 合作**——前 Twitter CEO Parag Agrawal 的公司成为 Google 企业 agent API 的搜索与 grounding 供应商。https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+5. **OpenAI 推出 ChatGPT/Codex 团队版**——对标 Pro $100 计划、面向团队与中小企业，含 SAML/SSO/MFA 与用量管控。https://x.com/thsottiaux/status/2092345330272780499
+
+### 📝 详细摘要
+
+**Sam Altman（@sama，OpenAI CEO）**
+- 「we made a chip and it is fast」——一句没头没尾的官宣，指向 OpenAI 自研芯片落地，算力自主是当下最硬的主题。https://x.com/sama/status/2092339694210040187
+
+**Anthropic Claude（@claudeai）+ Claude Code 团队**
+- Claude 现在跨 Chat 与 Cowork 共享同一份记忆，你决定里面装什么：聊过的项目、老板的偏好、上个季度的客户，Cowork 都能直接承接。https://x.com/claudeai/status/2092299704864284888
+- 记忆默认在 Free/Pro/Max 全量开启，保存为「话题列表」存于设置中，可随时查看/编辑/删除；健康、宗教信仰等敏感话题默认不记。https://x.com/claudeai/status/2092299710002319742
+- Boris Cherny（Claude Code）：memory 现在更简单也更强大。https://x.com/bcherny/status/2092355642363453943
+- Cat Wu：Chat 与 Cowork 的记忆已统一，一句话让 Claude 记住，跨端都有上下文。https://x.com/_catwu/status/2092337156455051345
+- Thariq：很快会分享如何让 Claude Code 更具可 hack 性。https://x.com/trq212/status/2092303682616627311
+
+**Guillermo Rauch（@rauchg，Vercel CEO）**
+- Vercel Connect GA：构建 agent 最难的是「安全连接服务与数据」；`vercel connect create notion` 就能拿到一个代表认证用户的 MCP 客户端。https://x.com/rauchg/status/2092352411839193234
+- Run SDK：动态 Code Mode 执行的安全 eval，无需完整沙箱，在轻量 QuickJS 安全上下文里跑代码，更快更省。https://x.com/rauchg/status/2092382653161107534
+
+**Thibault Sottiaux（@thsottiaux，Codex & ChatGPT @ OpenAI）**
+- 团队版：功能对齐 Pro $100 计划，集成 Google Workspace/Slack/GitHub/Microsoft 365，含 SAML/SSO/MFA、集中计费、用量分析，无 5 小时上限。https://x.com/thsottiaux/status/2092345330272780499
+
+**Aaron Levie（@levie，Box CEO）**
+- 模型与企业的真实工作流之间存在巨大鸿沟，溢价将属于能把智能「扩散进每个环节、把 token 变成现实结果」的应用型公司。https://x.com/levie/status/2092466424694649066
+
+**Madhu Guru（@realmadhuguru，Meta 高级 AI 总监）**
+- 评测系列第 9 篇「Eval Roadmap Problem」：多数 eval 失效，是因为把评测当静态工件，而用户预期早已进化——评测需要跟着用量一起迭代。https://x.com/realmadhuguru/status/2092426017118028266
+
+**Peter Yang（@petergyang）**
+- 开源 `/fuck-cancer` 技能：帮癌症患者与照护者梳理病情、明确下一步、区分已知与未知、记录照护日志。https://x.com/petergyang/status/2092249012913258946
+
+**Google Labs（@GoogleLabs）**
+- 新实验「Play with Putty」：多人实时协作的 vibe coding 工具，美国限定、18+ 开放 waitlist。https://x.com/GoogleLabs/status/2092293667688173593
+
+**Aditya Agarwal（@adityaag，SPC GP）**
+- AI 目前主要帮知识工作者和最高收入群体；真正的转折会在 AI 能治愈困扰所有人的疾病时到来。https://x.com/adityaag/status/2092290497826173186
+
+**Swyx（@swyx）**
+- PSA：别用 Codex 的「locked use」能力，依赖不稳定的 Mac 特性，本周已两次锁死 macOS 钥匙串，Apple 已确认是已知 bug。https://x.com/swyx/status/2092492963435946494
+
+**Nikunj Kothari（@nikunj）**
+- 用 ChatGPT codex + Railway 做了「厄尔尼诺实时监测站」elneenyo.com。https://x.com/nikunj/status/2092383834470002922
+
+**播客 — Training Data「Parallel 的 Parag Agrawal：为 AI agent 构建一个新 Web」**
+https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+
+核心观点：**「human click data is a bug」**——agent 搜索应依赖 agent 反馈而非人类点击数据；agent 的搜索量会是人类的 1000 倍；先做「搜索 agent」再增量建索引；发布 TurboNow（延迟约 200ms）；当日官宣与 Google Cloud 合作、成为其企业 agent API 的搜索/grounding 供应商；商业模式用 Shapley value 做「内容质量 × 工作价值」的差异化付费，12–24 个月内钱能真正流向内容方；愿景是「parallel web」——内容面向人与 agent 双重发布，web 从「pull」走向「push」。
+
+### 💡 我的分析
+
+**今天最让我意外的消息**：不是 OpenAI 的芯片（这早有预期），而是官宣方式之轻——一句「we made a chip and it is fast」，没有发布会、没有参数。【事实：推文内容；「早有预期」「方式之轻」为解读】
+
+**在加速的趋势**：
+- **记忆/上下文成为新主战场**：Claude 跨端统一记忆、默认开启，Vercel 打通连接层——「上下文」正从单次会话的临时态变成产品的持久资产。【事实 + 归纳】
+- **agent 的「连接层」商业化**：Vercel Connect GA、Parallel 做 Google 的 grounding 供应商，都指向同一判断——构建 agent 最难的不再是模型，而是「安全、可审计地连接服务与数据」。【事实 + 归纳】
+- **评测从静态走向动态**：Madhu Guru 的「Eval Roadmap」与 Parallel 的 Shapley 归因，都在说评测/归因必须随真实用量一起演化。【事实 + 归纳】
+
+**在降温的**：单靠「刷分式评测」的崇拜退潮，行业更看重「区分力」与「随用演进」；纯 prompt 型 influencer 内容被挤出，builder 的动手产出权重上升。【事实 + 归纳】
+
+**给创业者和开发者的启发**：
+- 做 agent 基础设施，把「安全连接 + 身份 + 审计」当一等公民而非事后补丁——这是 Vercel 和 Parallel 同时押注的缺口。【分析】
+- 记忆/上下文设计把「用户可控」做在前面（默认开启、可编辑、敏感信息默认排除），既是信任也是合规。【分析】
+- 内容方要开始为「agent 受众」双重发布——早一步为机器优化结构，等于早一步进入新 Web 的分配机制。【分析】
+
+---
+
+*数据来源：follow-builders 中央 feed（32 条推文、1 期播客、0 篇博客），全部内容与 URL 来自真实 JSON，未访问任何外部网站。*
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

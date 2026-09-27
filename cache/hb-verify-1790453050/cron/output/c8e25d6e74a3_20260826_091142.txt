@@ -1,0 +1,88 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+已完成今日 AI builder 摘要，并成功写入 Notion（每日归档表格新增 2026-08-26 行 + 全文追加，已验证）。以下是完整摘要：
+
+---
+
+## AI Builders Digest — 2026-08-26
+
+### 📌 今日概览
+OpenAI 确认恢复 ChatGPT Plus 套餐的 5 小时用量上限（Pro $100/$200 用户不受影响），并预告 DevDay 2026 将是"公司史上最强、差距不会接近"的一届——平台在用量治理与产品节奏上同步加码。
+
+### 🔥 重点 Highlights
+
+1. **OpenAI 恢复 Plus 套餐 5 小时用量上限**（Thibault Sottiaux，9223 赞）——为平滑算力负载、避免轻度用户"误耗尽一周额度"，Pro 用户未来几个月不受限。https://x.com/thsottiaux/status/2092058556707344708
+
+2. **OpenAI DevDay 2026 预告"史上最强"**（Thibault Sottiaux，1869 赞）——"It will not be close." https://x.com/thsottiaux/status/2092117461646856505
+
+3. **"我们得摆脱那种无法用一句 prompt 修改的软件"**（Peter Steinberger，2423 赞）——软件应可被自然语言直接改写，这是 agent 时代对软件形态的重新主张。https://x.com/steipete/status/2091923535513928015
+
+4. **Box CEO：AI agent 时代"系统记录（systems of record）"比以往更重要**（Aaron Levie，344 赞）——agent 将在这些平台上做 100 倍于人类的工作，治理、权限、业务逻辑仍是命门。https://x.com/levie/status/2092087679240569126
+
+5. **YC 总裁 Garry Tan：数据中心创造就业与繁荣**（502 赞）——并分享一套构建心法："形成判断→做成 artifact→投入现实→如实读取结果→迭代"。https://x.com/garrytan/status/2092062820229890209
+
+### 📝 详细摘要
+
+**X / Twitter（13 位 builder，29 条推文）**
+
+**OpenAI（Codex & ChatGPT）的 Thibault Sottiaux**
+- 今天恢复 Plus 套餐 5 小时用量上限，理由：平滑算力负载、保留周度额度的慷慨性、避免新用户意外耗尽额度；Pro $100/$200 订阅未来几个月不受限。（9223 赞）https://x.com/thsottiaux/status/2092058556707344708
+- 预告 DevDay 2026 将是公司史上最强的一届，"差距不会接近"。（1869 赞）https://x.com/thsottiaux/status/2092117461646856505
+
+**OpenClaw + OpenAI 的 Peter Steinberger**
+- "我们得摆脱那种无法用一句 prompt 修改的软件"——软件应可被自然语言直接改写，是 agent 时代的产品主张。（2423 赞）https://x.com/steipete/status/2091923535513928015
+- 造词"prompt kiddie"（prompt 小子），调侃靠提示词吃饭的新玩家。（654 赞）https://x.com/steipete/status/2091778518531395927
+
+**Box CEO Aaron Levie**
+- 系统记录（systems of record）在 AI agent 时代从未如此重要：agent 会做 100 倍于人类的工作，治理、可靠性、安全、访问控制仍比以往更关键；OpenAI 与 Hugging Face 的 incident 只是未来 agent 失控的"小预览"。（344 赞）https://x.com/levie/status/2092087679240569126
+- Zero Data Retention（ZDR，零数据留存）被严重低估：它极大简化了合规流程，是 AI 采用速度的关键推动力；若没有 ZDR，AI 扩散会停滞。（172 赞）https://x.com/levie/status/2091909170308296950
+
+**YC 总裁 Garry Tan**
+- "数据中心其实创造就业与繁荣。"（502 赞）https://x.com/garrytan/status/2092062820229890209
+- Conductor Cloud 让他生产力大增，不用再一直开着 MacBook Pro。（389 赞）https://x.com/garrytan/status/2092062231488061584
+- 构建心法：形成判断 → 做成 artifact/实验 → 投入现实 → 如实读取结果 → 修正重跑。（421 赞）https://x.com/garrytan/status/2092059517446156640
+
+**Vercel CEO Guillermo Rauch**
+- 新软件"更快、更便宜、更能干、更小"：软件演进常变得又慢又臃肿，他的产品从架构上就规避这一点。（210 赞）https://x.com/rauchg/status/2092081554814320677
+- 终端 reset 命令为何"出奇地慢"：1979 年 3BSD 的 tset 里留了一个 sleep(1) 给机械打印终端"settle down"；他让 fx 用 Zig 写了个 1ms 替代方案。（514 赞）https://x.com/rauchg/status/2091957823945216474
+
+**Meta 高级 AI 总监 Madhu Guru**
+- 评测的"区分力"（discriminatory power）：好的 eval 要能区分真正有差异的模型，太难大家都挂、太简单大家都满分；甜点是"真实 + 有难度 + 对能力差异敏感"。（92 赞）https://x.com/realmadhuguru/status/2092058332735693264
+
+**Replit CEO Amjad Masad**
+- Replit Agent 已在他日常工作中完全取代 Claude CoWork——更持久、更一丝不苟、更擅长用代码/软件完成任务。（160 赞）https://x.com/amasad/status/2091962601907638352
+
+**Builder Zara Zhang**
+- 反主流观点：黑客松是过时的活动形式（至少传统举办方式如此）。（85 赞）https://x.com/zarazhangrui/status/2092079390301556883
+- 盛赞某主持人让 Sam Altman 呈现"最自在的一面"。（61 赞）https://x.com/zarazhangrui/status/2092053829772881972
+
+**FPV Ventures 合伙人 Nikunj Kothari**
+- 非传统 deal 在风投内部会"死 100 次"，关键是要有一位 champion 挺身而出把案子带到终点线；创始人要尽早识别谁是真正的 champion 并给他弹药。（34 赞）https://x.com/nikunj/status/2092079149028716877
+
+**Every CEO Dan Shipper**
+- Google 在无通知、无理由的情况下禁用了 @every 的 YouTube 账号，正在向社区求助。（116 赞）https://x.com/danshipper/status/2092026065644335446
+
+**其他（信号较弱）**：AI 教程博主 Peter Yang 吐槽"登录摩擦让人想弃用产品"，并想尝试用 AI 语音打客服电话 https://x.com/petergyang/status/2092080901094248474；产品爱好者 Nan Yu 用 Codex 装机"让人希望 Siri 也能这么强" https://x.com/thenanyu/status/2092048044502192374；SPC GP Aditya Agarwal 招募与嘉宾活动预告（信号弱，略）。
+
+**播客 / 官方博客**：今日无新内容。
+
+### 💡 我的分析
+
+**今天最让我意外的消息**：OpenAI 重新给 Plus 上 5 小时上限，且 Thibault 说得直白——这是"用量治理 + 体验"的平衡，而非单纯降本。这释放了一个信号：算力仍是稀缺资源，平台正用配额精细化管理低价层的边际用户。【事实：5h 上限与理由出自推文；"信号"判断为我的解读】
+
+**在加速的趋势**：
+- **agent 时代的企业治理 / 系统记录**：Levie 把 systems of record 的重要性推到前台，这是"agent 会大量调用数据、执行工作流"的直接推论，企业软件护城河正从"功能"转向"治理 + 可被 agent 安全调用"。【事实 + 归纳】
+- **软件可被 prompt 改写**：Steinberger 的 2423 赞并非空穴来风——Codex、Replit Agent 正在把"软件"从"不可变产物"变成"可对话修改的对象"。【事实 + 归纳】
+
+**在降温的**：传统黑客松（Zara Zhang 的反主流观点）与纯"评测刷分"崇拜——Madhu Guru 明确说难/易两端都会让 eval 失效，要的是"区分力"。【事实 + 归纳】
+
+**给创业者和开发者的 actionable 启发**：
+- 若你在做企业软件，把"agent 可安全调用"（API、权限、审计、ZDR）当作一等公民来设计，而非事后补丁。【分析，基于 Levie 两条推文】
+- 做工具时问自己：我的产品能不能被一句 prompt 改变？若不能，警惕被 Codex/Replit 这类"软件可对话化"平台覆盖。【分析，基于 Steinberger + Amjad 推文】
+- 评测工具的机会在"区分力"而不在"难度"——企业要的是能分辨真实能力差异、贴合工作流的 eval，这是块被低估的蛋糕。【分析，基于 Madhu Guru 推文】
+
+---
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

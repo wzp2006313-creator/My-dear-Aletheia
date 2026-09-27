@@ -1,0 +1,193 @@
+==========================================
+ Hermes Agent 夜间安全审计报告
+ 时间: 2026-09-16 03:00:59
+==========================================
+
+=== [1] Hermes 平台审计 ===
+Hermes CLI: Hermes Agent v0.21.3 (2026.9.14) · upstream 1ab32b21
+Install directory: /Users/eason/.hermes/hermes-agent
+Install method: git
+Python: 3.11.15
+OpenAI SDK: 2.24.0
+Up to date
+Status: ⚠ A previous `hermes update` pulled new code but did not restart running gateways.
+  Gateways may still be serving pre-update modules (mixed sys.modules).
+  Run `hermes update` or `hermes gateway restart`.
+
+┌─────────────────────────────────────────────────────────┐
+✅ Hermes 平台状态正常
+
+=== [2] 进程与网络审计 ===
+--- 监听端口 (TCP+UDP) ---
+COMMAND     PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+rapportd    639 eason   13u  IPv4 0x13839fcab37e1da9      0t0  TCP *:49152 (LISTEN)
+rapportd    639 eason   14u  IPv6 0xa1a266dff2841389      0t0  TCP *:49152 (LISTEN)
+Eudic       732 eason   12u  IPv4 0x82d41275197f9ad0      0t0  TCP 127.0.0.1:32094 (LISTEN)
+Eudic       732 eason   36u  IPv4 0x82d41275197f9ad0      0t0  TCP 127.0.0.1:32094 (LISTEN)
+ControlCe   770 eason   10u  IPv4 0x13d15b39956363ef      0t0  TCP *:7000 (LISTEN)
+ControlCe   770 eason   11u  IPv6 0x6cd7bf56f110cbbc      0t0  TCP *:7000 (LISTEN)
+ControlCe   770 eason   12u  IPv4 0xb979814ff130a080      0t0  TCP *:5000 (LISTEN)
+ControlCe   770 eason   13u  IPv6 0x6fb4658a289f1317      0t0  TCP *:5000 (LISTEN)
+netdisk_s  1031 eason   11u  IPv4 0xaf81b5812577717e      0t0  TCP 127.0.0.1:10000 (LISTEN)
+netdisk_s  1127 eason    7u  IPv4 0x84a7b9efc334f972      0t0  TCP 127.0.0.1:10001 (LISTEN)
+MacPacket 34031 eason   12u  IPv4 0xb3c602960e9afde6      0t0  TCP 127.0.0.1:1082 (LISTEN)
+MacPacket 34031 eason   14u  IPv6 0x30918fac76d206c4      0t0  TCP [::1]:1082 (LISTEN)
+COMMAND     PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+identitys   659 eason    7u  IPv4 0xe7f8d8bc85dc8351      0t0  UDP *:*
+identitys   659 eason   15u  IPv4 0x990a9c137028f545      0t0  UDP *:*
+identitys   659 eason   20u  IPv4 0xb39f2bf7df1c4241      0t0  UDP *:*
+identitys   659 eason   50u  IPv4  0x7e6d33beeddbed8      0t0  UDP *:*
+identitys   659 eason   54u  IPv4 0xafe890fb81d9dcaa      0t0  UDP *:*
+replicato   692 eason    8u  IPv6 0xa91856fdb5775311      0t0  UDP *:62229
+homed       699 eason   45u  IPv4 0xde98b1cbc03b9eab      0t0  UDP *:57832
+homed       699 eason   46u  IPv6  0x6d042d15d54ce36      0t0  UDP *:64588
+sharingd    705 eason    4u  IPv4 0x6c6553a01e1825f8      0t0  UDP *:*
+
+--- Top 15 高资源消耗进程 ---
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+eason              411   5.9  0.6 471023264 162784   ??  Ss    8Sep26  50:57.02 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+root             33411   4.2  0.0 441912720   8160   ??  S     3:00AM   0:00.34 /usr/bin/top -l 2 -o power -stats pid,command,power
+eason             1052   3.2  2.9 2006988240 730672   ??  S     8Sep26 321:27.69 /Applications/飞书.app/Contents/Frameworks/Lark Framework.framework/Versions/143.0.7499.203/Helpers/Lark Helper (Renderer).app/Contents/MacOS/Lark Helper (Renderer) --type=renderer --enable-aha-hardening=7 --no-sandbox --scene=profile_main --enable-run-before-paint --enable-renderer-jank-monitor --enable-native-resource-code-cache --block-unsubscribe-shell-api-event --enable-shellapi-new-tunnel --enable-shellapi-env-block --enable-shellapi-jsb-permission-no-http --enable-v8-callstack-check --enable-v8-callstack-check-block --lang=zh-CN --num-raster-threads=4 --enable-zero-copy --enable-main-frame-before-activation --renderer-client-id=10 --time-ticks-at-unix-epoch=-1788831704876475 --browser-runtime --aha-multi-profile --launch-time-ticks=58290779 --shared-files --metrics-shmem-handle=1752395122,r,16829591973734066853,6006598207576557744,2097152 --field-trial-handle=1718379636,r,17414926244373228005,14293044898936399951,262144 --variations-seed-version --trace-process-track-uuid=3190708995682289984 --smc-metadata=1936548722,230635631033287699,7116822576699863314,20971520
+_windowserver      409   2.9  0.9 60931375744 223456   ??  Ss    8Sep26 537:53.76 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+eason             1127   1.2  0.0 68327872   1444   ??  S     8Sep26 113:13.07 /Applications/BaiduNetdisk_mac.app/Contents/Frameworks/netdisk_service --hidden
+root               514   0.7  0.1 442114496  33616   ??  Ss    8Sep26   5:09.42 /usr/libexec/syspolicyd
+eason            76716   0.7  1.0 902231472 251760   ??  S    Sat03PM 136:35.57 /Applications/TencentMeeting.app/Contents/MacOS/TencentMeeting
+eason             1016   0.5  0.4 605773712 101968   ??  S     8Sep26  71:20.21 /Applications/飞书.app/Contents/Frameworks/Lark Framework.framework/Versions/143.0.7499.203/Helpers/Lark Helper (GPU).app/Contents/MacOS/Lark Helper (GPU) --type=gpu-process --no-sandbox --enable-aha-hardening=7 --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAwAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAABQAAABQAAAAIAAAAAAAAAAgAAAAAAAAA --browser-runtime --aha-multi-profile --shared-files --metrics-shmem-handle=1752395122,r,6459293543458445658,13399198453576773782,262144 --field-trial-handle=1718379636,r,17414926244373228005,14293044898936399951,262144 --variations-seed-version --trace-process-track-uuid=3190708988185955192 --smc-metadata=1936548722,230635631033287699,7116822576699863314,20971520
+_trustd            420   0.4  0.1 442029760  34896   ??  Ss    8Sep26   2:52.86 /usr/libexec/trustd
+root               336   0.4  0.3 463425232  71488   ??  Ss    8Sep26  19:42.51 /usr/libexec/logd
+root               353   0.3  0.0 442073104  11952   ??  Ss    8Sep26   0:05.31 /usr/libexec/amfid
+_coreaudiod        419   0.3  0.2 442328960  58464   ??  Ss    8Sep26  89:23.71 /usr/sbin/coreaudiod
+eason              717   0.3  1.2 962112016 290896   ??  S     8Sep26  90:53.51 /Applications/飞书.app/Contents/MacOS/Feishu
+eason              773   0.3  0.8 452611648 198672   ??  S     8Sep26  49:07.00 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+eason              770   0.1  0.4 445061024 108736   ??  S     8Sep26  23:49.21 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+
+--- 出站连接 ---
+COMMAND     PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+identitys   659 eason   30u  IPv6 0x20f31781e0552b89      0t0  TCP [fe80:17::3616:95e5:ebc7:97e8]:1024->[fe80:17::c798:64dc:35ce:58cf]:1024 (ESTABLISHED)
+identitys   659 eason   44u  IPv6 0x98ce62a52b45ca76      0t0  TCP [fe80:17::3616:95e5:ebc7:97e8]:1025->[fe80:17::c798:64dc:35ce:58cf]:1026 (ESTABLISHED)
+identitys   659 eason   45u  IPv6 0x98ce62a52b45ca76      0t0  TCP [fe80:17::3616:95e5:ebc7:97e8]:1025->[fe80:17::c798:64dc:35ce:58cf]:1026 (ESTABLISHED)
+Feishu      717 eason  198u  IPv6 0x549ef6d80386e34d      0t0  TCP [fd00:1234:ffff::10]:59881->[::ffff:0:c612:1f]:443 (ESTABLISHED)
+BaiduNetd   730 eason  146u  IPv4 0xfb35b8f6245da350      0t0  TCP 198.18.0.1:56929->111.206.210.75:80 (ESTABLISHED)
+BaiduNetd   730 eason  169u  IPv4 0x5d09f2b083567970      0t0  TCP 198.18.0.1:59890->198.18.0.35:80 (ESTABLISHED)
+Lark\x20H  1015 eason   21u  IPv4 0x57853bbdcfd3308a      0t0  TCP 127.0.0.1:59638->127.0.0.1:1082 (ESTABLISHED)
+Lark\x20H  1023 eason    4u  IPv6 0x86d479e0006cc6f9      0t0  TCP [fd00:1234:ffff::10]:49988->[::ffff:0:c612:11]:443 (ESTABLISHED)
+Lark\x20H  1023 eason   62u  IPv6 0x461dda3cf01ef907      0t0  TCP [fd00:1234:ffff::10]:50310->[::ffff:0:c612:19]:443 (ESTABLISHED)
+Lark\x20H  1023 eason   75u  IPv6 0x546b4797270fe0d9      0t0  TCP [fd00:1234:ffff::10]:57494->[::ffff:0:c612:f]:443 (ESTABLISHED)
+Notion     1076 eason   27u  IPv4  0x8ca28c5e4d52271      0t0  TCP 127.0.0.1:50030->127.0.0.1:1082 (ESTABLISHED)
+Notion     1076 eason   32u  IPv4 0xd16fe63e05a7c0ef      0t0  TCP 127.0.0.1:50057->127.0.0.1:1082 (ESTABLISHED)
+python    18145 eason   33u  IPv4 0x6ee50da373e0c7ce      0t0  TCP 198.18.0.1:50117->198.18.0.26:443 (ESTABLISHED)
+python3   27236 eason   18u  IPv4 0x7658e1e5e194df1e      0t0  TCP 127.0.0.1:59893->127.0.0.1:1082 (ESTABLISHED)
+MacPacket 34031 eason   10u  IPv4 0x8950fb5a62971a45      0t0  TCP 192.168.71.73:56930->111.206.210.75:80 (ESTABLISHED)
+MacPacket 34031 eason   15u  IPv6 0xecce9d2d6e2b6c95      0t0  TCP [240e:b8f:2bd5:c100:f999:164c:20bc:33a]:59891->[240e:904:2800:1188:0:ff:b0ed:276e]:80 (ESTABLISHED)
+MacPacket 34031 eason   17u  IPv4 0x2074cbffd44e01f3      0t0  TCP 127.0.0.1:1082->127.0.0.1:49905 (ESTABLISHED)
+MacPacket 34031 eason   18u  IPv6   0x4e24472a0ec297      0t0  TCP [240e:b8f:2bd5:c100:f999:164c:20bc:33a]:49906->[2406:da18:14ca:7a00:3fbc:523:94ac:9c2b]:443 (ESTABLISHED)
+MacPacket 34031 eason   23u  IPv4 0xb24b0598696d0e4e      0t0  TCP 127.0.0.1:1082->127.0.0.1:59893 (ESTABLISHED)
+✅ 进程与网络审计完成
+
+=== [3] 敏感目录变更 ===
+--- ~/.hermes/ 24h 内修改 ---
+/Users/eason/.hermes
+/Users/eason/.hermes/gateway.pid
+/Users/eason/.hermes/cache
+/Users/eason/.hermes/models_dev_cache.etag
+/Users/eason/.hermes/gateway-starts.log
+/Users/eason/.hermes/gateway.lock
+/Users/eason/.hermes/.update_check
+/Users/eason/.hermes/state.db
+/Users/eason/.hermes/gateway_state.json
+/Users/eason/.hermes/config.yaml
+/Users/eason/.hermes/.mcp-discovery.lock
+/Users/eason/.hermes/fleet_restart_pending
+/Users/eason/.hermes/models_dev_cache.json
+/Users/eason/.hermes/state
+/Users/eason/.hermes/state/gateway.heartbeat
+/Users/eason/.hermes/state/gateway.lifecycle.json
+/Users/eason/.hermes/state/gateway.loop-tick.18145.sock
+/Users/eason/.hermes/kanban.db-shm
+/Users/eason/.hermes/.skills_prompt_snapshot.json
+/Users/eason/.hermes/processes.json
+/Users/eason/.hermes/channel_directory.json
+/Users/eason/.hermes/logs/gateway.log
+/Users/eason/.hermes/logs/update_receipts
+/Users/eason/.hermes/logs/update_receipts/latest.json
+/Users/eason/.hermes/logs/update_receipts/update_20260915_040234_17881.json
+/Users/eason/.hermes/logs/gateway.log.1
+/Users/eason/.hermes/logs/gateway.error.log
+/Users/eason/.hermes/logs/gateway-exit-diag.log
+/Users/eason/.hermes/logs/errors.log
+/Users/eason/.hermes/logs/update.log
+/Users/eason/.hermes/logs/agent.log
+/Users/eason/.hermes/kanban.db-wal
+/Users/eason/.hermes/feishu_seen_message_ids.json
+/Users/eason/.hermes/gateway.sock
+/Users/eason/.hermes/hermes-agent
+/Users/eason/.hermes/hermes-agent/hermes_state_sessions.py
+/Users/eason/.hermes/hermes-agent/ui-tui
+/Users/eason/.hermes/hermes-agent/ui-tui/node_modules
+/Users/eason/.hermes/hermes-agent/ui-tui/README.md
+/Users/eason/.hermes/hermes-agent/ui-tui/src
+/Users/eason/.hermes/hermes-agent/hermes_state_wal.py
+/Users/eason/.hermes/hermes-agent/evals/core_tool_deferral
+/Users/eason/.hermes/hermes-agent/tools
+/Users/eason/.hermes/hermes-agent/tools/mcp_tool_registration.py
+/Users/eason/.hermes/hermes-agent/tools/mcp_tool_errors.py
+/Users/eason/.hermes/hermes-agent/tools/connectors
+/Users/eason/.hermes/hermes-agent/tools/voice_mode.py
+/Users/eason/.hermes/hermes-agent/tools/tool_search.py
+/Users/eason/.hermes/hermes-agent/tools/vision_tools.py
+/Users/eason/.hermes/hermes-agent/tools/process_registry_notifications.py
+
+--- ~/.ssh/ 24h 内修改 ---
+✅ 敏感目录变更检查完成
+
+=== [4] 系统定时任务 ===
+--- 用户 crontab ---
+无用户 crontab
+
+--- launchd agents ---
+ai.hermes.gateway.plist
+com.macpaw.zh.CleanMyMac4.Updater.plist
+netdisk_service.plist
+✅ 系统定时任务检查完成
+
+=== [5] Hermes Cron 任务 ===
+Hermes cron 任务列表需要手动检查: 'cronjob list'
+⚠️ 请在 Hermes 会话中手动运行 cronjob 检查
+✅ Hermes Cron 任务检查完成
+
+=== [6] 登录与 SSH ===
+--- 最近登录 ---
+eason      ttys000                         Wed Sep  9 10:20   still logged in
+eason      ttys000                         Tue Sep  8 17:01 - 17:01  (00:00)
+eason      ttys000                         Tue Sep  8 15:19 - 15:19  (00:00)
+eason      console                         Tue Sep  8 09:42   still logged in
+reboot time                                Tue Sep  8 09:41
+eason      console                         Sat Sep  5 08:57 - crash (3+00:44)
+eason      console                         Fri Aug 28 05:32 - 08:57 (8+03:24)
+eason      console                         Sun Aug 23 15:56 - 05:32 (4+13:36)
+eason      console                         Tue Aug 18 19:21 - 15:56 (4+20:35)
+eason      ttys000                         Fri Aug  7 07:46 - 07:46  (00:00)
+
+--- SSH 失败尝试 ---
+无 SSH 失败记录或无系统日志访问权限
+✅ 登录审计完成
+
+=== [7] 核心文件完整性 ===
+sha256sum:  .env: No such file or directory
+sha256sum:  config.yaml: No such file or directory
+⚠️ 文件完整性检查发现不匹配！
+
+--- 权限检查 ---
+/Users/eason/.hermes/.env → 权限 600
+/Users/eason/.hermes/config.yaml → 权限 600
+✅ 核心文件完整性检查完成
+
+=== [8] 黄线操作交叉验证 ===
+--- sudo 记录 (24h) ---
+Timestamp                       Thread     Type        Activity             PID    TTL  
+✅ 黄线操作交叉验证完成
+
+=== [9] 磁盘使用率 ===
+根磁盘使用率: 3%
+
+--- 24h 内大文件 (>100MB) ---

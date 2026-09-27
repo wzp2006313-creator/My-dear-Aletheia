@@ -1,0 +1,117 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+已完成今日 AI Builders 摘要，并成功写入 Notion（归档表已加 2026-08-14 行，正文已追加，校验通过）。
+
+---
+
+## AI Builders Digest — 2026-08-14
+
+### 📌 今日概览
+
+模型层与智能体层同时开闸：DeepSeek 与 Grok 同日发布新模型（能力大幅跃升、成本极低），而 Gemini 与 Claude 同时把 Agent 能力铺向日常应用和跨端会话，巨头正从"卷模型"转入"卷智能体落地"。
+
+### 🔥 重点 Highlights
+
+1. **DeepSeek 与 Grok 同日发布新模型，成本再下探** — Box CEO Aaron Levie 称这是"AI 的杰文斯悖论"：能力跃升 + 成本骤降 → 企业用例暴增 → 需求加速。https://x.com/levie/status/2087719356763672917
+
+2. **Gemini 新一轮应用集成落地，覆盖 15 个日常 App** — Google VP Josh Woodward 宣布 Gemini 可在 Angi、OpenTable、Ticketmaster、Wix、Zocdoc、Zoho 等应用中代你执行任务。https://x.com/joshwoodward/status/2087751559606407615
+
+3. **Claude 跨端会话打通 + Chrome 集成** — Claude in Chrome 的会话现在可无缝衔接到桌面/网页/移动端，skills 与 connectors 在浏览器里同样可用（Max/Team 已上线，Pro 陆续推出）。https://x.com/claudeai/status/2087635262390026525
+
+4. **Anthropic 连发三篇工程博客：Claude Managed Agents 支持自托管沙箱与 MCP 隧道** — 把 Agent 的"大脑"与"双手"解耦，实现规模化托管。https://claude.com/blog/claude-managed-agents-updates
+
+5. **OpenAI Codex 活跃用户突破 15M，重置限额** — Thibault Sottiaux 宣布"go /fast"，新一轮额度已下发。https://x.com/thsottiaux/status/2087706104814023111
+
+### 📝 详细摘要
+
+**X/Twitter 推文（按 builder 分组）**
+
+**Aaron Levie（Box CEO）** — DeepSeek/Grok 新模型与杰文斯悖论 https://x.com/levie/status/2087719356763672917
+- DeepSeek 与 Grok 同日发布新模型更新，能力大幅跃升、成本"低得离谱"；这是 AI 的杰文斯悖论：成本下降 → 需求加速
+- 企业想用 Agent 干的事（扫代码找安全漏洞、审所有文档、处理工作流信息）远多于当前预算能覆盖的
+- 对应用层同样利好：模型选择越多，路由与优化层的价值越大，"整个技术栈都在受益"
+
+**Josh Woodward（Google Gemini VP）** — Gemini 应用集成新一波 https://x.com/joshwoodward/status/2087751559606407615
+- 新一轮集成落地：Angi、Fever、GetYourGuide、Granola、iHeartRadio、Localiza、OpenTable、Otter、Pandora、Thumbtack、Ticketmaster、Wix、Zocdoc、Zoho
+
+**Claude（Anthropic 官方）** — 跨端会话 + 浏览器安全
+- Chrome 会话衔接到桌面/网页/移动端，skills 与 connectors 在浏览器可用（Max/Team 上线，Pro 未来数周）https://x.com/claudeai/status/2087635262390026525
+- 侧边栏运行与桌面/网页/移动端相同的 Claude Cowork 会话，会话随账号不随设备 https://x.com/claudeai/status/2087635263774232617
+- 提醒：浏览器 Agent 可能被页面隐藏指令欺骗，官方已建防御，仍建议养成好习惯 https://x.com/claudeai/status/2087635265066004694
+
+**Thibault Sottiaux（Codex & ChatGPT @OpenAI）** — 用户突破 15M https://x.com/thsottiaux/status/2087706104814023111
+- 突破 15M，额度重置到账，"go /fast"
+
+**Garry Tan（YC CEO）** — GBrain v0.45.6.0 https://x.com/garrytan/status/2087594114372259890
+- 新增 17 个 brain skills，经个人 OpenClaw agent 数十万 markdown 文件淬炼；现兼容 Codex 与 Claude Code
+- "个人 AGI 是为你自己干活的 AGI"；建议把 GBrain 当独立 agent 跑（有自己的 git 仓库），而非塞进主编码 agent https://x.com/garrytan/status/2087597829065945249
+
+**Swyx（smol.ai / Latent Space）** — Perplexity 曾出价收购 Chrome https://x.com/swyx/status/2087691099691475285
+- 一年前的今天，Perplexity 曾出价收购 Google Chrome（定时推文）
+- 称某篇论文是"今年最重要的论文之一"，方法论未讲清，遂写了进一步蒸馏的笔记 https://x.com/swyx/status/2087437017840046156
+
+**Guillermo Rauch（Vercel CEO）** — Sandbox 与 AI Gateway https://x.com/rauchg/status/2087698195120116064
+- `npx sandbox@latest sh` 体验"比本地机器还快"；Sandbox 现带合理的预装工具、可完全自定义
+- Seedance 2.5 上线 Vercel AI Gateway https://x.com/rauchg/status/2087631388359242050
+
+**Matt Turck（FirstMark VC）** — 术语演化链 https://x.com/mattturck/status/2087528600849252696
+- "Graph engineering 是新的 loop engineering，后者又是新的 harness engineering，再往前是 context engineering，最早是 prompt engineering"
+
+**Madhu Guru（Meta AI 高级总监）** — 应用层才是最大 alpha https://x.com/realmadhuguru/status/2087553833098723547
+- 未来几年 AI 产品最大 alpha 在应用层；模型会持续更便宜、更好、更本地化
+- 差异化来自深度理解用户工作流 + 有想象力地重塑体验；能造 AI 产品的人分母将暴增，成为 top 0.1% 的 builder 比以往更重要
+- 另一条：怀念团队白板碰撞，COVID 远程办公把它"磨掉了" https://x.com/realmadhuguru/status/2087706598542290958
+
+**Peter Yang** — 语音成为编排层 https://x.com/petergyang/status/2087547168764862495
+- 新长文：我们用电脑的方式即将永远改变——从键鼠手动操作转向用语音在云端指挥 Agent；三大论点：语音成为编排层、个人电脑迁往云端、信任成为关键差异化
+
+**Peter Steinberger（OpenClaw）** — Agent 形态演进 https://x.com/steipete/status/2087568620465607078
+- "cli 是一年前的事，app 大概是 6 个月前，现在轮到 services、web、cloud sessions"
+
+**Aditya Agarwal（SPC GP）** — 看好印度 https://x.com/adityaag/status/2087563716350902530
+- "这十年最雄心勃勃的项目会在印度建起来"，@spc_india 是首个美国之外布局
+
+**Amanda Askell（Anthropic）** — 游戏伦理观察（轻松向）https://x.com/AmandaAskell/status/2087606022961865148
+- 《生化奇兵》"伦理"门槛是不杀小孩、杀成年人没事；《上古卷轴》发现可不杀人推进游戏，专注收养孤儿盖房子
+
+**Dan Shipper（Every CEO）** — 内容公司 One Word https://x.com/danshipper/status/2087555423893065872
+- 创办内容公司 "One Word"，受 ajambrosino 启发帮 AI lab 在 X 每天发一个词涨粉
+
+**播客：AI & I by Every — Microsoft CTO Kevin Scott《为 Agent 打造的互联网》(Best of the Pod)**
+https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+
+- **能力过剩（capability overhang）**：模型推理能力已"跑到产品使用之前"，行业需共同缩小"模型能做到"与"交付给用户"的鸿沟
+- **Agentic Web 是今年的大故事**：MCP 之于 agentic web 等同 HTTP 之于互联网；NL web 则相当于 HTML 的角色——简单、可组合、开放
+- **Agentic memory 是短板**：Agent 现在是"事务性"的，任务结束后记忆可能清零，阻碍把复杂任务委托给它
+- **内部标准化**：力推微软内部所有系统用同一套标准协议与所有内部 Agent 对话，避免把世界暴露给康威定律
+
+**博客（3 篇，均来自 Anthropic）**
+- 《Claude Code 质量报告更新（4 月 23 日复盘）》 https://www.anthropic.com/engineering/april-23-postmortem
+- 《规模化托管 Agent：把"大脑"与"双手"解耦》 https://www.anthropic.com/engineering/managed-agents
+- 《Claude Managed Agents 新功能：自托管沙箱 + MCP 隧道》 https://claude.com/blog/claude-managed-agents-updates
+
+### 💡 我的分析
+
+**今天最让我意外的：** Perplexity 一年前曾出价收购 Google Chrome（Swyx 的定时推文）。这条埋了整整一年的"冷知识"突然浮出，配合今天的主题——巨头都在把 Agent 塞进"浏览器 + 日常应用 + 跨端会话"这套基础设施——显得意味深长：浏览器作为 Agent 的默认操作界面，正在变成兵家必争之地。（事实依据：Swyx 推文）
+
+**趋势在加速：**
+- **"模型平价化 + 应用层价值上移"** → Levie 的杰文斯悖论与 Madhu Guru 的"应用层才是最大 alpha"互相印证：价值差不再来自模型本身，而来自"深度理解工作流 + 重塑体验"。
+- **Agent 从 CLI/桌面向"跨端会话 + 服务化"演进** → Steinberger 的"cli 是一年前，app 是 6 个月前，现在轮到 services/web/cloud" + Claude 跨端 Cowork 会话 + Gemini 的 15 个应用集成，都指向同一终点：Agent 不再是开发者玩具，而是驻留在账户里、随时续接的"常驻服务"。
+
+**趋势在降温：**
+- **"scaling laws"叙事让位给"agentic web"叙事** → Kevin Scott 明说今年 Build 不再聊 scaling laws（能力过剩 + 已反复验证有效），转而谈 MCP、agentic memory、协议标准化。
+
+**给创业者和开发者的 actionable 启发：**
+1. **别再押注"自有模型"，押注"工作流 + 路由"**——模型价格战会持续，护城河是 Levie 说的"路由与优化层"：针对不同任务/成本自动选型。
+2. **把"跨端续接"当作产品默认假设**——Claude 已证明会话"随账号不随设备"，你的 Agent 若每次换设备都重来，就是在逆着潮水游。
+3. **浏览器是 Agent 的下一个主战场**——Perplexity 收购 Chrome 传闻、Claude in Chrome、Gemini 应用集成都指向"Agent 在用户已待着的地方干活"。
+
+---
+
+*事实内容来源：X/Twitter 推文、YouTube 播客文字稿及 Anthropic 博客，URL 均已标注；分析部分为基于已有事实的合理推论。*
+
+（注：本次因 GitHub 直连被阻断，已通过 jsDelivr CDN 镜像成功拉取三路 feed，内容完整，未缺失。）
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

@@ -1,0 +1,197 @@
+==========================================
+ Hermes Agent 夜间安全审计报告
+ 时间: 2026-09-11 03:00:55
+==========================================
+
+=== [1] Hermes 平台审计 ===
+Hermes CLI: Hermes Agent v0.21.1 (2026.9.7) · upstream 267a6b79
+Install directory: /Users/eason/.hermes/hermes-agent
+Install method: git
+Python: 3.11.15
+OpenAI SDK: 2.24.0
+Update available: 3 commits behind — run 'hermes update'
+Status: ⚠ A previous `hermes update` pulled new code but did not restart running gateways.
+  Gateways may still be serving pre-update modules (mixed sys.modules).
+  Run `hermes update` or `hermes gateway restart`.
+
+┌─────────────────────────────────────────────────────────┐
+✅ Hermes 平台状态正常
+
+=== [2] 进程与网络审计 ===
+--- 监听端口 (TCP+UDP) ---
+COMMAND     PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+rapportd    639 eason   13u  IPv4 0x13839fcab37e1da9      0t0  TCP *:49152 (LISTEN)
+rapportd    639 eason   14u  IPv6 0xa1a266dff2841389      0t0  TCP *:49152 (LISTEN)
+Eudic       732 eason   12u  IPv4 0x82d41275197f9ad0      0t0  TCP 127.0.0.1:32094 (LISTEN)
+Eudic       732 eason   36u  IPv4 0x82d41275197f9ad0      0t0  TCP 127.0.0.1:32094 (LISTEN)
+ControlCe   770 eason   10u  IPv4 0x13d15b39956363ef      0t0  TCP *:7000 (LISTEN)
+ControlCe   770 eason   11u  IPv6 0x6cd7bf56f110cbbc      0t0  TCP *:7000 (LISTEN)
+ControlCe   770 eason   12u  IPv4 0xb979814ff130a080      0t0  TCP *:5000 (LISTEN)
+ControlCe   770 eason   13u  IPv6 0x6fb4658a289f1317      0t0  TCP *:5000 (LISTEN)
+netdisk_s  1031 eason   11u  IPv4 0xaf81b5812577717e      0t0  TCP 127.0.0.1:10000 (LISTEN)
+netdisk_s  1127 eason    7u  IPv4 0x84a7b9efc334f972      0t0  TCP 127.0.0.1:10001 (LISTEN)
+MacPacket 34031 eason   12u  IPv4 0x72e2f1c4a8be62cb      0t0  TCP 127.0.0.1:1082 (LISTEN)
+MacPacket 34031 eason   14u  IPv6 0x826c52f27229948f      0t0  TCP [::1]:1082 (LISTEN)
+wpsclouds 47524 eason  223u  IPv4 0xc73ced6b47961e52      0t0  TCP 127.0.0.1:4709 (LISTEN)
+wpsclouds 47524 eason  306u  IPv6 0xae3dbd91739460b9      0t0  TCP *:50043 (LISTEN)
+agent-bro 49030 eason    9u  IPv4 0x96622db25bcfa1c6      0t0  TCP 127.0.0.1:62978 (LISTEN)
+COMMAND     PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+rapportd    639 eason   23u  IPv6 0x92b0fb22c1e81e3f      0t0  UDP *:3722
+identitys   659 eason    7u  IPv4 0xe7f8d8bc85dc8351      0t0  UDP *:*
+identitys   659 eason   15u  IPv4 0x990a9c137028f545      0t0  UDP *:*
+identitys   659 eason   20u  IPv4 0xb39f2bf7df1c4241      0t0  UDP *:*
+identitys   659 eason   50u  IPv4  0x7e6d33beeddbed8      0t0  UDP *:*
+identitys   659 eason   54u  IPv4 0xafe890fb81d9dcaa      0t0  UDP *:*
+replicato   692 eason    8u  IPv6 0xa91856fdb5775311      0t0  UDP *:62229
+homed       699 eason   45u  IPv4 0xde98b1cbc03b9eab      0t0  UDP *:57832
+homed       699 eason   46u  IPv6  0x6d042d15d54ce36      0t0  UDP *:64588
+
+--- Top 15 高资源消耗进程 ---
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+eason             1143   2.7  0.4 2444251296 100640   ??  Ss   Tue09AM 128:03.77 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+eason             1052   2.1  2.3 2001998528 581088   ??  S    Tue09AM  94:20.85 /Applications/飞书.app/Contents/Frameworks/Lark Framework.framework/Versions/143.0.7499.203/Helpers/Lark Helper (Renderer).app/Contents/MacOS/Lark Helper (Renderer) --type=renderer --enable-aha-hardening=7 --no-sandbox --scene=profile_main --enable-run-before-paint --enable-renderer-jank-monitor --enable-native-resource-code-cache --block-unsubscribe-shell-api-event --enable-shellapi-new-tunnel --enable-shellapi-env-block --enable-shellapi-jsb-permission-no-http --enable-v8-callstack-check --enable-v8-callstack-check-block --lang=zh-CN --num-raster-threads=4 --enable-zero-copy --enable-main-frame-before-activation --renderer-client-id=10 --time-ticks-at-unix-epoch=-1788831704876475 --browser-runtime --aha-multi-profile --launch-time-ticks=58290779 --shared-files --metrics-shmem-handle=1752395122,r,16829591973734066853,6006598207576557744,2097152 --field-trial-handle=1718379636,r,17414926244373228005,14293044898936399951,262144 --variations-seed-version --trace-process-track-uuid=3190708995682289984 --smc-metadata=1936548722,230635631033287699,7116822576699863314,20971520
+eason             1133   1.5  0.2 2321176656  52944   ??  S    Tue09AM  94:11.87 /Applications/Wallspace.app/Contents/MacOS/Wallspace
+eason              773   1.4  0.6 447625440 141952   ??  S    Tue09AM  20:55.16 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+eason            47524   1.3  0.9 445488672 232656   ??  S    12:53PM  14:23.23 /Applications/wpsoffice.app/Contents/SharedSupport/wpscloudsvr.app/Contents/MacOS/wpscloudsvr Run /InstanceId:WpsCloudSvr wpscloudsvrimpunix.dll /qingbangong /run_plugin /plugin_name=qing /plugin_entry=qingbangong.dll /start_from=qingipc autologin
+root               336   0.4  0.2 451005520  51456   ??  Ss   Tue09AM  10:28.02 /usr/libexec/logd
+eason             1016   0.4  0.4 602606352  92768   ??  S    Tue09AM  26:41.24 /Applications/飞书.app/Contents/Frameworks/Lark Framework.framework/Versions/143.0.7499.203/Helpers/Lark Helper (GPU).app/Contents/MacOS/Lark Helper (GPU) --type=gpu-process --no-sandbox --enable-aha-hardening=7 --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAwAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAABQAAABQAAAAIAAAAAAAAAAgAAAAAAAAA --browser-runtime --aha-multi-profile --shared-files --metrics-shmem-handle=1752395122,r,6459293543458445658,13399198453576773782,262144 --field-trial-handle=1718379636,r,17414926244373228005,14293044898936399951,262144 --variations-seed-version --trace-process-track-uuid=3190708988185955192 --smc-metadata=1936548722,230635631033287699,7116822576699863314,20971520
+eason              655   0.4  0.8 519082240 203264   ??  S    Tue09AM  11:16.28 /System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app/Contents/MacOS/Safari
+_windowserver      409   0.3  0.6 41668646032 138512   ??  Ss   Tue09AM 336:37.84 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+eason             1127   0.3  0.0 68327872   1444   ??  S    Tue09AM  40:23.14 /Applications/BaiduNetdisk_mac.app/Contents/Frameworks/netdisk_service --hidden
+_coreaudiod        419   0.3  0.2 442307952  44736   ??  Ss   Tue09AM  27:04.24 /usr/sbin/coreaudiod
+eason              717   0.2  1.0 949543344 255600   ??  S    Tue09AM  37:58.02 /Applications/飞书.app/Contents/MacOS/Feishu
+root                 1   0.1  0.1 442187216  25744   ??  Ss   Tue09AM  25:30.15 /sbin/launchd
+eason            41681   0.1  1.9 443576592 481808   ??  S     4:02AM  10:52.97 /Users/eason/.hermes/hermes-agent/venv/bin/python -m hermes_cli.main gateway run --replace
+eason              615   0.1  0.1 442047696  32384   ??  S    Tue09AM   9:43.26 /System/Library/CoreServices/WindowManager.app/Contents/MacOS/WindowManager
+
+--- 出站连接 ---
+COMMAND     PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+rapportd    639 eason   24u  IPv6 0xa26c8de1b571563f      0t0  TCP [fe80:f::4d3:3997:d1a6:3857]:49152->[fe80:f::897:d945:9fa2:263a]:49665 (ESTABLISHED)
+identitys   659 eason   30u  IPv6 0x20f31781e0552b89      0t0  TCP [fe80:17::3616:95e5:ebc7:97e8]:1024->[fe80:17::c798:64dc:35ce:58cf]:1024 (ESTABLISHED)
+identitys   659 eason   44u  IPv6 0x98ce62a52b45ca76      0t0  TCP [fe80:17::3616:95e5:ebc7:97e8]:1029->[fe80:17::c798:64dc:35ce:58cf]:1025 (ESTABLISHED)
+identitys   659 eason   45u  IPv6 0x98ce62a52b45ca76      0t0  TCP [fe80:17::3616:95e5:ebc7:97e8]:1029->[fe80:17::c798:64dc:35ce:58cf]:1025 (ESTABLISHED)
+Feishu      717 eason    4u  IPv6  0xe7d5dc1f8abb9ba      0t0  TCP [fd00:1234:ffff::10]:63783->[::ffff:0:c612:1f]:443 (ESTABLISHED)
+BaiduNetd   730 eason  132u  IPv4 0x430b4553d0308152      0t0  TCP 198.18.0.1:63805->111.206.210.75:80 (ESTABLISHED)
+Claude      954 eason   25u  IPv4 0x5ea6fc698f0005bb      0t0  TCP 127.0.0.1:63686->127.0.0.1:1082 (ESTABLISHED)
+Google      986 eason   19u  IPv4 0xa3348cf0b2ad47a6      0t0  TCP 127.0.0.1:63786->127.0.0.1:1082 (ESTABLISHED)
+Lark\x20H  1015 eason    3u  IPv4 0xa9245539c7ad0f69      0t0  TCP 127.0.0.1:63788->127.0.0.1:1082 (ESTABLISHED)
+Lark\x20H  1023 eason   19u  IPv6 0x368082084018ef18      0t0  TCP [fd00:1234:ffff::10]:56640->[::ffff:0:c612:11]:443 (ESTABLISHED)
+Lark\x20H  1023 eason   75u  IPv4 0xe45f94e331f0d5b0      0t0  TCP 198.18.0.1:56671->114.80.252.226:443 (ESTABLISHED)
+Lark\x20H  1023 eason  145u  IPv6 0x2b911fb62aca8650      0t0  TCP [fd00:1234:ffff::10]:57861->[::ffff:0:c612:f]:443 (ESTABLISHED)
+Notion     1076 eason   27u  IPv4 0xa9d26b3774e79a97      0t0  TCP 127.0.0.1:58017->127.0.0.1:1082 (ESTABLISHED)
+Notion     1076 eason   32u  IPv4 0xb3c602960e9afde6      0t0  TCP 127.0.0.1:58097->127.0.0.1:1082 (ESTABLISHED)
+python3   27236 eason   18u  IPv4 0x1f57b444c6a520a3      0t0  TCP 127.0.0.1:63790->127.0.0.1:1082 (ESTABLISHED)
+python3   27236 eason   19u  IPv4 0x489ce3655d546ab3      0t0  TCP 127.0.0.1:63792->127.0.0.1:1082 (ESTABLISHED)
+python3   27236 eason   20u  IPv4 0xb345cbae6b9d1c15      0t0  TCP 127.0.0.1:63794->127.0.0.1:1082 (ESTABLISHED)
+python3   27236 eason   21u  IPv4 0x9868a17115f13889      0t0  TCP 127.0.0.1:63796->127.0.0.1:1082 (ESTABLISHED)
+python3   27236 eason   22u  IPv4 0x461dda3cf01ef907      0t0  TCP 127.0.0.1:63800->127.0.0.1:1082 (ESTABLISHED)
+✅ 进程与网络审计完成
+
+=== [3] 敏感目录变更 ===
+--- ~/.hermes/ 24h 内修改 ---
+/Users/eason/.hermes
+/Users/eason/.hermes/gateway.pid
+/Users/eason/.hermes/cache
+/Users/eason/.hermes/models_dev_cache.etag
+/Users/eason/.hermes/gateway-starts.log
+/Users/eason/.hermes/gateway.lock
+/Users/eason/.hermes/.update_check
+/Users/eason/.hermes/state.db
+/Users/eason/.hermes/gateway_state.json
+/Users/eason/.hermes/runtime
+/Users/eason/.hermes/runtime/active_sessions.json
+/Users/eason/.hermes/config.yaml
+/Users/eason/.hermes/.mcp-discovery.lock
+/Users/eason/.hermes/fleet_restart_pending
+/Users/eason/.hermes/models_dev_cache.json
+/Users/eason/.hermes/state
+/Users/eason/.hermes/state/gateway.heartbeat
+/Users/eason/.hermes/state/gateway.lifecycle.json
+/Users/eason/.hermes/state/gateway.loop-tick.41681.sock
+/Users/eason/.hermes/kanban.db-shm
+/Users/eason/.hermes/.curator_backups/blobs
+/Users/eason/.hermes/.curator_backups/blobs/497805a6c3b5e5ed03585382a5a8505cf9cbd1338df4546e0461e003f0b89b20
+/Users/eason/.hermes/.curator_backups/blobs/b6eb0f13451b6c34a141f94d394ba31456218b1e52f4a9a3945d45a38f084d5b
+/Users/eason/.hermes/.curator_backups/blobs/c2ce5870bf7e769e95c993bc88dfb756a493b1eb975b9c3dfd0ffbdafcb11e60
+/Users/eason/.hermes/.curator_backups/blobs/f711b3a5a7a6c67a32b27550b2df15b8a1f5c23547608266946b2d9f4bc8e8cf
+/Users/eason/.hermes/.curator_backups/blobs/ccdb0a2ef72c80ff5d9241c703ad0c56a7f8da765346bda988354e7ec3687267
+/Users/eason/.hermes/.curator_backups/blobs/582b82ee84a7a1b126a1aac9e8802983e513e5bdfe7cdb33166bda836e98b5b8
+/Users/eason/.hermes/.curator_backups/blobs/df6ba7b29510e782a3fa00661a77175d7202856d4d8d407509ae7729975a35e8
+/Users/eason/.hermes/.curator_backups/blobs/b7e742ebd8b693858637221432d63e3b7f694897354e145e6d9d5ca87e5fcc65
+/Users/eason/.hermes/.curator_backups/blobs/b365fb86a03eff73082745948ddbc9d138126ff2e61409512363e98fb9f3f454
+/Users/eason/.hermes/.curator_backups/blobs/c44af605d59293b0da5a901f5b12b23b714f9cefa524d8920dec4afc827efc5d
+/Users/eason/.hermes/.curator_backups/blobs/f646155a1a36e8f6dc68b93b4e7ccb72efbc0d3aabe8ae9d76adc955c0c7a79e
+/Users/eason/.hermes/.curator_backups/blobs/eed33d4b0e38752ddcc4f506f47d9af8722b33c007753b23cc9ba547a56c9af8
+/Users/eason/.hermes/.curator_backups/blobs/6c5f98f7968210a636aec5bf79b71f48646a05feb836807a5b28d4f1b117af2c
+/Users/eason/.hermes/.curator_backups/blobs/437d4d6b15304523b94142a3107a8dc069c9195cb84725392e1a8e0f472e9864
+/Users/eason/.hermes/.curator_backups/blobs/4b2a2de4dd88d5834c42ff7a5b409530a354f55e591f5d75a332a31b0e3fe2d7
+/Users/eason/.hermes/.curator_backups/blobs/643f681f7507f2b3bdeb26ce0c4f191c87b577225ad5be09dc00ed2dea5639d3
+/Users/eason/.hermes/.curator_backups/blobs/eaff64404f479ff117b94ab70de5e0c483d15c3494be5e61838d96d4a7fda866
+/Users/eason/.hermes/.curator_backups/blobs/fa54cdcb262236f654620b4e77cc01f06b523e16fd895812ef2dbbd1b091e1c2
+/Users/eason/.hermes/.skills_prompt_snapshot.json
+/Users/eason/.hermes/processes.json
+/Users/eason/.hermes/channel_directory.json
+/Users/eason/.hermes/sessions
+/Users/eason/.hermes/sessions/sessions.json
+/Users/eason/.hermes/logs/gateway.log
+/Users/eason/.hermes/logs/update_receipts
+/Users/eason/.hermes/logs/update_receipts/latest.json
+/Users/eason/.hermes/logs/update_receipts/update_20260910_040110_41416.json
+/Users/eason/.hermes/logs/gateway.error.log
+/Users/eason/.hermes/logs/process-results
+
+--- ~/.ssh/ 24h 内修改 ---
+✅ 敏感目录变更检查完成
+
+=== [4] 系统定时任务 ===
+--- 用户 crontab ---
+无用户 crontab
+
+--- launchd agents ---
+ai.hermes.gateway.plist
+com.macpaw.zh.CleanMyMac4.Updater.plist
+netdisk_service.plist
+✅ 系统定时任务检查完成
+
+=== [5] Hermes Cron 任务 ===
+Hermes cron 任务列表需要手动检查: 'cronjob list'
+⚠️ 请在 Hermes 会话中手动运行 cronjob 检查
+✅ Hermes Cron 任务检查完成
+
+=== [6] 登录与 SSH ===
+--- 最近登录 ---
+eason      ttys000                         Wed Sep  9 10:20   still logged in
+eason      ttys000                         Tue Sep  8 17:01 - 17:01  (00:00)
+eason      ttys000                         Tue Sep  8 15:19 - 15:19  (00:00)
+eason      console                         Tue Sep  8 09:42   still logged in
+reboot time                                Tue Sep  8 09:41
+eason      console                         Sat Sep  5 08:57 - crash (3+00:44)
+eason      console                         Fri Aug 28 05:32 - 08:57 (8+03:24)
+eason      console                         Sun Aug 23 15:56 - 05:32 (4+13:36)
+eason      console                         Tue Aug 18 19:21 - 15:56 (4+20:35)
+eason      ttys000                         Fri Aug  7 07:46 - 07:46  (00:00)
+
+--- SSH 失败尝试 ---
+无 SSH 失败记录或无系统日志访问权限
+✅ 登录审计完成
+
+=== [7] 核心文件完整性 ===
+sha256sum: WARNING: 1 computed checksum did NOT match
+.env: OK
+config.yaml: FAILED
+⚠️ 文件完整性检查发现不匹配！
+
+--- 权限检查 ---
+/Users/eason/.hermes/.env → 权限 600
+/Users/eason/.hermes/config.yaml → 权限 600
+✅ 核心文件完整性检查完成
+
+=== [8] 黄线操作交叉验证 ===
+--- sudo 记录 (24h) ---
+Timestamp                       Thread     Type        Activity             PID    TTL  
+✅ 黄线操作交叉验证完成
+
+=== [9] 磁盘使用率 ===
+根磁盘使用率: 3%
+
+--- 24h 内大文件 (>100MB) ---

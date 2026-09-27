@@ -1,0 +1,72 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+已完成 follow-builders 每日摘要推送工作流，并成功写入 Notion（page `372fde4c-8055-8152-a074-dac812172d61`）：每日归档表新增 `2026-08-31 ✅ 完成` 行，摘要正文已追加到页面末尾（共 36 条摘要）。以下是今日完整摘要。
+
+---
+
+## AI Builders Digest — 2026-08-31
+
+### 📌 今日概览
+Science Corp（前 Neuralink 联合创始人 Max Hodak 创办）的 Prima 视网膜假体获欧盟 CE 批准、首批销售数周内启动——这是"把大脑当计算机处理"的 BCI 路线首次落地为可商用的产品，为盲人恢复此前从未有人做到的"形态视觉"。
+
+### 🔥 重点 Highlights
+1. **BCI 首个商业里程碑**：Prima 视网膜假体（"眼睛的耳蜗植入物"）7 月获欧洲 CE 批准，首批销售即将启动，能为黄斑变性等失明患者恢复形态视觉。
+2. **AI 接管时间表预警**：Matt Turck 转述 Ryan Greenblatt——所有前沿 AI 实验室都在做"递归自我改进（RSI）"，最早 2028 末—2029 年可能出现 AI 接管（takeover）。
+3. **模型层价格战将反转**：Nikunj Kothari 判断大模型实验室正在互相开打，补贴性 token 价格 6 个月内上涨、算力短缺开始被真正感受到，开源 harness 短期估值 +10~30 亿美元。
+4. **CLI agent 工程加深**：Vercel CEO Rauch 发布 fx 0.0.7，大幅改进 MCP 支持与 shell 执行——"让 agent 可靠地跑命令"本身就是护城河。
+5. **AI 产品严重同质化**：Zara Zhang 直言"从未有这么多 AI 产品看起来如此相似"，每个产品都要授权一堆账号，onboarding 摩擦成为新瓶颈。
+
+### 📝 详细摘要
+
+**𝕏 / Twitter（按 builder 分组）**
+
+**Matt Turck（FirstMark VC，MAD Podcast 主持人）**
+所有前沿 AI 实验室本质上都在做同一件事：递归自我改进（RSI），即"AI 造 AI"。这最早可能在 2028 年末到 2029 年导致 AI 接管。
+https://x.com/mattturck/status/2093794720510062617
+
+**Nikunj Kothari（FPV Ventures 合伙人，投 seed/A 轮）**
+大模型实验室正在互相竞争，这不可避免；补贴性的 token 价格将在 6 个月内上涨，算力价格与短缺开始被"真正感受到"，reset 限额将告终——长期利好客户选择，短期给所有开源 harness 增加 10~30 亿美元估值。另一条长文劝大家"抵制嘲讽（dunking）"：除非揭露明显欺诈，否则嘲讽只是嫉妒、毫无产出，应当"keep building、选择善意"。
+https://x.com/nikunj/status/2093860971781746776 · https://x.com/nikunj/status/2093772803216740647
+
+**Guillermo Rauch（Vercel CEO）**
+发布 fx 0.0.7：大幅改进 MCP 支持（用 context7、datadog、mongodb、linear、notion、supabase、neon、stagehand、kernel 等顶级 MCP 评测），工具集更精简、shell 执行更好。他指出 CLI agent 最难之处在于"跑命令其实不简单"——命令可能挂起、超时、输出巨大或完全没有输出，这是 fx 擅长并将持续改进的方向。另一条：他会读每一条 DM（即便不全部回复），用于发现新想法、产品短板与潜在人才。
+https://x.com/rauchg/status/2093736865191076318 · https://x.com/rauchg/status/2093803989578170404
+
+**Zara Zhang（Builder，Harvard '17）**
+从未有这么多 AI 产品看起来如此相似：产品数量爆炸，但真正激进的新想法并不多，一切模糊地混在一起；每次打开这类 app 都像做作业——号称"更好"但差异不亲自花几小时试用根本看不出来。另一条：每个产品都向她要 Gmail / 日历 / Notion / Granola / GitHub / Slack 授权。
+https://x.com/zarazhangrui/status/2093944988262371465 · https://x.com/zarazhangrui/status/2093950273706430720
+
+**Thibault Sottiaux（OpenAI，Codex & ChatGPT）**
+"团队正在以前所未有的状态推进"；原定的庆祝推迟到明天，因为"按钮今天已经按下"；下午 2:30 PST 落地——暗示新发布临近。
+https://x.com/thsottiaux/status/2093914342551101782 · https://x.com/thsottiaux/status/2093811840258293947
+
+**Dan Shipper（Every CEO）**
+不是专家，但如果模型"不愿意协作"、且/或被训练为会主动报告不良行为，很多对齐问题就能解决不少。
+https://x.com/danshipper/status/2093713002453225891
+
+**Peter Yang（AI 教程/访谈作者）**
+给云电脑输入 2FA 的感觉真的很奇怪；想到一个最实用的 bot——"帮配偶跑腿、但你转交给 bot 做"，只是名字太长。
+https://x.com/petergyang/status/2093845886262784145 · https://x.com/petergyang/status/2093844648154579210
+
+**Nan Yu（产品爱好者）**
+"我们大概会需要 Mentats 了吧"（《沙丘》里的人形计算者，暗指 AI 心智/算力需求上升）。
+https://x.com/thenanyu/status/2093737078223966649
+
+**🎙️ 播客：No Priors — "From Restoring Sight to Reimagining the Brain, with Max Hodak"**（Max Hodak，Science Corp 创始人/CEO，前 Neuralink 联合创始人）
+- **Prima 落地**：芯片植入视网膜下，眼镜上的激光投影仪把图像投射到植入体，绕过死掉的感光细胞直接刺激视网膜，为黄斑变性/视网膜色素变性/Stargardt 病患者恢复"形态视觉"（能看清脸、扫读段落），此前无人做到。7 月获欧盟 CE 批准，首批销售未来数周启动。
+- **"大脑就是一台计算机"**：他坚信这一点（并调侃"在网上说这话会激怒很多人"）。小分子药物研发像"在自然里随机游走"，而把大脑当计算机（电极、植入）处理见效快得多——"植入 M1 后一小时你就能用电脑了"。
+- **柏拉图表征假说**：大模型内部的数学结构看起来和神经科学里的东西惊人相似；他们已在动物脑神经记录与 AI 模型内部表征之间实际做出对齐。这让他相信 AI 在正确轨道上，"像是在逼近一条物理定律"。
+- **BCI 光谱**：从"静默语音/脑键盘"到"生成视觉/听觉/基底独立（substrate independence）"，他明确不做"脑键盘"（认为约 10 bit/s 的认知瓶颈难以突破，且"说话/写作本身就是思考"），专注视觉、听觉与基底独立。
+- **商业与愿景**：当前 Prima 在美欧 TAM 约数十万患者，下一代（明年进人体）可扩到数百万；价格未定，参考先例 Second Sight 约 15 万美元/患者（十年前）、某基因疗法近 50 万美元/眼。长期目标让人类"不那么脆弱"、可升级替换身体部件；连接组学已接近小鼠级别、离人类还很远；心血管病与脑转移癌两大死因都可被这套路线攻击。
+https://www.youtube.com/@NoPriorsPodcast
+
+### 💡 我的分析
+- **最让我意外**：BCI 领域的"首个商业里程碑"不是运动解码（Neuralink 那套），而是视觉假体先拿到了欧洲批文——印证了"大脑即计算机"路线里，感官输入/输出（视觉、听觉）反而是更早能落地的方向。同时 Prima 的定价空间（参考 Second Sight 15 万美元/患者）说明神经假体的天花板远高于"消费级硬件"的想象。
+- **趋势加速 vs 降温**：加速——(1) 模型层竞争白热化（Nikunj：补贴 token 价格 6 个月内会涨）；(2) 神经科学与 AI 的"表征对齐"从哲学猜想变成工程事实（柏拉图表征假说被实际用于对齐动物脑与模型）；(3) CLI agent 的工程深度（Rauch 的 fx 专注命令执行可靠性）。降温——AI 应用/产品的同质化（Zara：产品爆炸但想法趋同），说明应用层创新正撞上瓶颈，授权/连接摩擦成为新瓶颈。
+- **对创业者/开发者的启发**：(1) 若在模型层或应用层拼杀，警惕算力价格回升——当前补贴价不可持续，定价与单位经济应按"真实算力成本"建模；(2) 差异化正从"又一个 agent 产品"转向"把 onboarding 授权与信任做轻做透明"（Zara 的吐槽直击痛点）；(3) CLI/agent 基础设施层（命令执行的可观测性、可靠性）是被低估的护城河。
+
+*注：今日概览 / 重点 / 详细摘要均为事实（源自 feed JSON）；"我的分析"为基于事实的合理推断。*
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

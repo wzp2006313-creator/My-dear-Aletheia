@@ -1,0 +1,116 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+✅ 摘要已生成并成功写入 Notion（已验证：`每日归档` 表格已新增 `2026-09-25` 行，digest 全文已追加，页面 markdown 现为 481KB）。
+
+---
+
+## AI Builders Digest — 2026-09-25
+
+### 📌 今日概览
+
+Anthropic 平台化动作密集落地：Claude Marketplace 上线（工具/Agent/服务伙伴的发现与交易）、Claude Code 大幅提速并引入"类形式化方法"找 bug、Opus 5.5 被多位 builder 确认为新的默认模型；同时 Vercel 发布 Drives（存储解耦）、OpenAI 预告下周二 DevDay。
+
+### 🔥 重点 Highlights
+
+1. **Claude Marketplace 正式上线** — 可发现工具、Agent 和专家伙伴；添加 Slack/Notion 等连接器、购买 Cursor/CrowdStrike 等产品、对接 Accenture/Deloitte 等服务伙伴。https://x.com/claudeai/status/2102840851538080172
+2. **Claude Code 引入"形式化方法"式找 bug** — 对高风险状态机/竞态代码建模、找反例、复现并修复 bug（还不是全库形式化验证）。https://x.com/bcherny/status/2102898067133595992
+3. **Opus 5.5 成为新默认模型** — Swyx 实测 Latent Space AINews 效果远超上一代、更简洁克制；Peter Yang 称其智能、快、写得好、限流友好。https://x.com/swyx/status/2102650014552182920
+4. **Vercel 发布 Drives（存储解耦）** — 把 Agent 拆成 brain/hands/files 三件套，Drives 作为 Sandbox 的"外接硬盘"，优化成本 + 安全 + 可审计。https://x.com/rauchg/status/2102820148629614685
+5. **OpenAI 下周二 DevDay，Astra 加持** — Thibault Sottiaux 称这是"最有野心的一次 sprint"，Astra 让很多新东西成为可能。https://x.com/thsottiaux/status/2102996313780736363
+
+### 📝 详细摘要
+
+**𝕏 / Twitter（按 builder 分组）**
+
+**Claude（@claudeai — Anthropic 官方）**
+Claude Marketplace 上线：可以添加 Slack/Notion 等连接器和插件、购买 Cursor/CrowdStrike 等公司的 Agent/产品、对接 Accenture/Deloitte 等服务伙伴。
+- https://x.com/claudeai/status/2102840851538080172
+
+**Boris Cherny（@bcherny — Claude Code @Anthropic）**
+解释 Claude 如何做到"形式化方法"式找 bug：① 对棘手的状态机/竞态代码建模 ② 在模型里找反例（疑似 bug）③ 复现 bug ④ 修复代码。强调"不是整个代码库都被形式化验证了，而是最棘手的那部分被建模、查反例并修复"。另外分享了 Claude.ai 和 Desktop app 近期大幅提速的技术细节（附博客）。
+- https://x.com/bcherny/status/2102898067133595992
+- https://x.com/bcherny/status/2102854267782705648
+
+**Swyx（@swyx — smol.ai / DX tips）**
+用 Opus 5.5 与 6 Sol 并排跑 Latent Space AINews，差距"天壤之别"；宣布 5.5 Opus 成为 AINews 的新默认模型——"更简洁、更有品味，slop 少得多"。
+- https://x.com/swyx/status/2102650014552182920
+
+**Guillermo Rauch（@rauchg — Vercel CEO）**
+① 用 Opus 5.5 做 ShellPerfBench，发现了很多其他模型漏掉的 shell 启动优化（建议让 agent 优化 .zshrc）。② 提出成功 Agent 的三件套：Brain（模型/harness）+ Hands（工具/浏览器/computer）+ Files（记忆/skills/repos），并宣布 Vercel Drives 上线——给 Agent 的"外接硬盘"，实现存储解耦，大幅优化成本、安全与可审计性。
+- https://x.com/rauchg/status/2102947745132924993
+- https://x.com/rauchg/status/2102820148629614685
+
+**Thibault Sottiaux（@thsottiaux — Codex & ChatGPT @OpenAI）**
+① 下周二 DevDay 会有"很多有趣的东西"和"改变工作方式"的内容，是"最有野心的一次 sprint"。② 已习惯直接用语音调用 ChatGPT 处理工作、查邮件、写代码、管理日历，且能跨整套插件生态（含第三方插件）。
+- https://x.com/thsottiaux/status/2102996313780736363
+- https://x.com/thsottiaux/status/2102814202117411196
+
+**Peter Yang（@petergyang — AI 教程作者）**
+① 评价 Opus 5.5：智能、快、有趣、写得好、限流友好、能力持续超预期。② 认为"一个实验室有最好的模型，另一个实验室有最好的 harness"——Claude Code 需要真正好的实时语音 + 浏览器/computer use。
+- https://x.com/petergyang/status/2102946952740741394
+- https://x.com/petergyang/status/2102952201350254667
+
+**Madhu Guru（@realmadhuguru — Meta AI 高级总监，前 Google）**
+反驳 Ben Thompson 对消费级 Agent 的质疑：消费者对"做事"不只有一种关系——浏览衣服可能是娱乐，但找屋顶工是痛苦；技术不断给人更好的做事方式，Agent 消除这种摩擦的潜在需求巨大。
+- https://x.com/realmadhuguru/status/2102777931764498536
+
+**Aaron Levie（@levie — Box CEO）**
+分享关于 AI 与创意产业的愿景：壁垒和成本降低会让更多电影被制作、制片厂敢于冒险、出现全新的叙事形式；技术反复重塑创意产业，但创意技能和品味不会消失。
+- https://x.com/levie/status/2102934874470617303
+
+**Garry Tan（@garrytan — Y Combinator CEO）**
+① 提出创业公司获客的两大并行趋势："让软件 Agent 想要（你的产品）"与"用 Agent 让用户想要软件"。② 评价 Muse "非常令人印象深刻""还没有被定价"。
+- https://x.com/garrytan/status/2102955139875397806
+- https://x.com/garrytan/status/2102972765989151226
+
+**Aditya Agarwal（@adityaag — SPC 合伙人）**
+① 认为判断团队要看"团队存续时间（longevity）"而非"团队规模"——共事 3 年以上的团队吞吐和韧性显著更高。② 力挺 Zuck 的"war mode"统治力。
+- https://x.com/adityaag/status/2102782451643040074
+
+**Ryo Lu（@ryolu_ — 前 Cursor/Notion/Stripe 设计师）**
+一篇长文反思：当大家都在崇拜"效率、生产力、速度"时，要警惕 AI 变成"slop factory"。真正的边疆不是更快，而是"辨识力（discernment）"——知道什么不该做、何时该停下。AI 本可以成为让人触碰想象力的新画布。
+- https://x.com/ryolu_/status/2102933485795369213
+
+**Peter Steinberger（@steipete — OpenClaw / OpenAI）**
+对 Astra 的高度评价："Astra is crushing it""Who needs VNC when there's browsers"。
+- https://x.com/steipete/status/2103001790069526564
+
+**Thariq（@trq212 — Claude Code @Anthropic）**
+Claude Code 团队在尝试一种新型内容：分享具体 prompt + 技巧的深度工作法（如一个 1 万字符、含 skills/示例/API key 的 prompt 让 Claude one-shot 完成）。
+- https://x.com/trq212/status/2102857025206255902
+
+**Josh Woodward（@joshwoodward — Google Labs VP）**
+更多你喜欢的 App 将接入 Gemini，问用户下一个想要哪个。
+- https://x.com/joshwoodward/status/2102800209894056351
+
+**Dan Shipper（@danshipper — Every CEO）**
+Every 的 Agent 规划了 9 月聚会（从菜单到嘉宾名单），明天 6 点检验"AI Agent 能否办好一场 party"。
+- https://x.com/danshipper/status/2102826854357016793
+
+**📰 博客（Anthropic Engineering）**
+
+- **How we contain Claude across products** — 如何在各产品间"contain"Claude。https://www.anthropic.com/engineering/how-we-contain-claude
+- **An update on recent Claude Code quality reports** — Claude Code 质量报告更新（April 23 postmortem）。https://www.anthropic.com/engineering/april-23-postmortem
+- **Scaling Managed Agents: Decoupling the brain from the hands** — 扩展托管 Agent：大脑与双手解耦（与 Vercel 的三件套思路呼应）。https://www.anthropic.com/engineering/managed-agents
+
+### 💡 我的分析
+
+*（以下为分析与综合，非事实）*
+
+**最意外的消息**：Claude Code 竟在用"形式化方法"式的模型检查来找真实 bug——不是营销话术，而是对最棘手的状态机/竞态代码建模、找反例、复现、修复。这比"更强的 benchmark"更实质性，暗示 Agent 开始从"写代码"走向"验证代码"。
+
+**加速 vs 降温**：
+- 加速：① Agent 基础设施平台化（Claude Marketplace 的交易/发现层 + Vercel Drives 的存储解耦，都在把 Agent 拆成可组合的"器官"）；② 模型代际更新节奏（Opus 5.5 被多位 builder 一致认可为默认模型）；③ 语音/浏览器成为 Agent 的"双手"。
+- 降温/反思：Ryo Lu 和 Madhu Guru 从两个方向敲警钟——前者警惕"无意义加速"，后者提醒不要用单一模型理解用户与"做事"的关系。这是从"工具狂热"到"价值判断"的冷静回调。
+
+**给创业者/开发者的 actionable 启发**：
+1. 如果你在做 Agent 工具/服务，现在有了明确的"货架"（Claude Marketplace）——尽快把产品做成可被发现、可交易的形式，抢占生态位。
+2. Garry Tan 的两个获客趋势值得抄作业：既要"让 Agent 想用你的软件"（agent-first 接口），也要"用 Agent 帮用户想要你的软件"（agent 驱动的增长）。
+3. 团队评估看 longevity 而非 size（Aditya Agarwal）；技术选型上优先把最棘手的代码路径交给模型验证，而不是追求"全库验证"的假象。
+
+⚠️ File-mutation verifier: 1 file(s) were NOT modified this turn despite any wording above that may suggest otherwise. Run `git status` or `read_file` to confirm.
+  • `/tmp/fb-notion-write.py` — [write_file] Refusing to overwrite `/tmp/fb-notion-write.py`: `/private/tmp/fb-notion-write.py` was modified by sibling subagent 'cron:c8e25d6e74a3:6b6920e9ca3840d6a0894846a034cac5' but this agent…
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

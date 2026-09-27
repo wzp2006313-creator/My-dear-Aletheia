@@ -1,0 +1,50 @@
+#!/bin/bash
+# Hermes Agent daily backup to GitHub
+# Runs via cron, pushes ~/.hermes/ config, skills, cron, scripts etc.
+# Excludes: .env, venv/, node_modules/, __pycache__/, .git/
+# Uses blobless fetch to avoid downloading large repo (353MB+)
+
+set -euo pipefail
+
+BACKUP_DIR="/tmp/hermes-backup-$(date +%Y%m%d)"
+REPO_DIR="$HOME/.hermes"
+REMOTE="ssh://git@ssh.github.com:443/wzp2006313-creator/My-dear-Aletheia.git"
+BRANCH="main"
+DATE_TAG=$(date +%Y-%m-%d)
+
+echo "[backup] Starting Hermes backup for $DATE_TAG..."
+
+rm -rf "$BACKUP_DIR"
+mkdir -p "$BACKUP_DIR"
+
+export GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=accept-new -o ConnectTimeout=15"
+
+git init -b "$BRANCH" "$BACKUP_DIR"
+git -C "$BACKUP_DIR" remote add origin "$REMOTE"
+
+if git -C "$BACKUP_DIR" fetch --depth 1 --filter=blob:none origin "$BRANCH" 2>/dev/null; then
+    echo "[backup] Fetched remote HEAD (blobless)"
+    git -C "$BACKUP_DIR" reset --soft FETCH_HEAD
+else
+    echo "[backup] First run or empty remote — starting fresh"
+fi
+
+rsync -a --delete     --exclude=".env"     --exclude=".env.*"     --exclude="venv/"     --exclude="node_modules/"     --exclude="__pycache__/"     --exclude="*.pyc"     --exclude=".git/"     --exclude="hermes-agent/"     --exclude="image_cache/"     --exclude="audio_cache/"     --exclude="pastes/"     --exclude="logs/"     --exclude="state.db"     --exclude="state.db-wal"     --exclude="state.db-shm"     --exclude=".hermes_history"     --exclude=".curator_backups/"     --exclude="bin/uv"     --exclude="bin/uvx"     --exclude="config.yaml"     --exclude="config.yaml.*"     --exclude="backups/config/"     --exclude="state-snapshots/"     "$REPO_DIR/" "$BACKUP_DIR/"
+
+cd "$BACKUP_DIR"
+if [ -z "$(git status --porcelain)" ]; then
+    echo "[backup] No changes — skipping commit"
+    rm -rf "$BACKUP_DIR"
+    exit 0
+fi
+
+CHANGE_COUNT=$(git status --porcelain | wc -l | tr -d ' ')
+echo "[backup] $CHANGE_COUNT file(s) changed — committing"
+
+git add -A
+git commit -m "auto-backup $DATE_TAG"
+git push origin "$BRANCH" 2>&1
+
+echo "[backup] Backup complete for $DATE_TAG"
+
+rm -rf "$BACKUP_DIR"

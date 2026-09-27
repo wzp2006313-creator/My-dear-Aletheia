@@ -1,0 +1,265 @@
+{
+  "jobs": [
+    {
+      "id": "c8e25d6e74a3",
+      "name": "AI Builders Digest 每日推送",
+      "prompt": "执行 follow-builders skill 的每日 AI 摘要推送工作流，并写入 Notion：\n\n## 步骤\n1. 执行 prepare-digest.js 脚本获取最新内容：\n   cd /Users/eason/.hermes/skills/follow-builders/scripts && node prepare-digest.js 2>/dev/null\n\n2. 解析脚本输出的 JSON，获取 builders 的 X/Twitter 推文和播客内容\n\n3. 如果没有任何新内容，回复\"今天没有新的 AI builder 更新，明天见！\"\n\n4. 如果有内容，生成中文摘要，包含以下章节：\n\n   ### 📌 今日概览\n   一句话概括今天 AI 圈最重要的动态\n\n   ### 🔥 重点 Highlights\n   按重要性排序的 3-5 条最值得关注的信息\n\n   ### 📝 详细摘要\n   - 先处理 X/Twitter 推文：按 builder 分组，总结每个 builder 的核心观点，附上原文 URL\n   - 再处理播客：总结关键内容\n   \n   ### 💡 我的分析\n   对今天内容的综合分析：\n   - 今天最让我意外的消息是什么？\n   - 哪些趋势在加速？哪些在降温？\n   - 对创业者和开发者有什么 actionable 的启发？\n\n5. **写入 Notion**：将生成的摘要追加到 Notion 页面（page_id: 372fde4c-8055-8152-a074-dac812172d61）的 markdown 中。在\"每日归档\"表格下方追加新的日期行和完整内容。\n\n6. 最后在回复中也输出完整的每日摘要。\n\n注意事项：\n- 绝对不能编造内容，只使用 JSON 中的真实数据\n- 每条内容都必须附上原文 URL\n- 不要访问任何外部网站或 API\n- \"我的分析\"部分可以基于已有内容做合理推论，但必须标注哪些是事实、哪些是分析",
+      "skills": [
+        "follow-builders",
+        "productivity/notion"
+      ],
+      "skill": "follow-builders",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "display": "0 9 * * *"
+      },
+      "schedule_display": "0 9 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 108
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-01T20:23:47.163344+08:00",
+      "next_run_at": "2026-09-27T09:00:00+08:00",
+      "last_run_at": "2026-09-26T10:45:55.775530+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "feishu",
+        "chat_id": "oc_9e19fd780d3617c2c6fbac770909d0f7",
+        "chat_name": "oc_9e19fd780d3617c2c6fbac770909d0f7",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null,
+      "fire_claim": null,
+      "failure_streak": 0,
+      "last_dispatch": {
+        "scheduled_at": "2026-09-26T09:00:00+08:00",
+        "dispatched_at": "2026-09-26T10:39:01.569463+08:00",
+        "lateness_seconds": 5941.6,
+        "kind": "late"
+      }
+    },
+    {
+      "id": "7f2b940e2ec7",
+      "name": "nightly-security-audit",
+      "prompt": "执行 Hermes 安全夜间巡检脚本，然后生成简明安全报告。\n\n1. 执行命令：bash /Users/eason/.hermes/scripts/nightly-security-audit.sh\n2. 读取输出的审计报告，将 13 项指标逐项以表情符号状态列出（🚨 严重/⚠️ 警告/✅ 正常）\n3. 报告以一行 summary header 开头，显示 critical/warn/ok 数量\n4. 如果发现任何 🚨 或 ⚠️ 项目，必须向用户明确指出风险和建议处理措施",
+      "skills": [
+        "hermes-security-matrix"
+      ],
+      "skill": "hermes-security-matrix",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "display": "0 3 * * *"
+      },
+      "schedule_display": "0 3 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 108
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-01T20:44:35.495762+08:00",
+      "next_run_at": "2026-09-28T03:00:00+08:00",
+      "last_run_at": "2026-09-27T03:09:02.920530+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "feishu",
+        "chat_id": "oc_9e19fd780d3617c2c6fbac770909d0f7",
+        "chat_name": "oc_9e19fd780d3617c2c6fbac770909d0f7",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null,
+      "fire_claim": null,
+      "failure_streak": 0,
+      "last_dispatch": {
+        "scheduled_at": "2026-09-27T03:00:00+08:00",
+        "dispatched_at": "2026-09-27T03:00:21.255015+08:00",
+        "lateness_seconds": 21.3,
+        "kind": "on_time"
+      }
+    },
+    {
+      "id": "302a8db2bf0d",
+      "name": "每日 Hermes 备份",
+      "prompt": "执行 Hermes 日常备份脚本：bash ~/.hermes/scripts/hermes-backup.sh\n\n如果备份失败，报告具体的错误信息。",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 4 * * *",
+        "display": "0 4 * * *"
+      },
+      "schedule_display": "0 4 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 110
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-03T11:39:46.582888+08:00",
+      "next_run_at": "2026-09-28T04:00:00+08:00",
+      "last_run_at": "2026-09-26T04:02:02.601096+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": null,
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": null,
+      "profile": null,
+      "fire_claim": {
+        "at": "2026-09-27T04:02:31.226319+08:00",
+        "by": "wangzhanpengdeMacBook-Pro.local:1264:0348e96666644a56b365526dbb70296d"
+      },
+      "failure_streak": 0,
+      "last_dispatch": {
+        "scheduled_at": "2026-09-27T04:00:00+08:00",
+        "dispatched_at": "2026-09-27T04:00:30.867158+08:00",
+        "lateness_seconds": 30.9,
+        "kind": "on_time"
+      }
+    },
+    {
+      "id": "0dfb5be140ea",
+      "name": "每周科技热点：Product Hunt + Kickstarter",
+      "prompt": "你是一个科技产品猎手。完成以下任务：\n\n1. 抓取 Product Hunt RSS (https://www.producthunt.com/feed)，提取过去7天发布的热门项目。重点关注 AI 相关、开发工具、效率工具类产品。\n\n2. web_search \"Kickstarter trending projects technology design this week\"，提取 Kickstarter 上最受关注的科技/设计类众筹项目。\n\n3. 用中文输出简要周报（500字以内），格式：\n📱 **Product Hunt**\n- [产品名]：一句话描述 | 👆 票数\n（取前5个）\n🎯 **Kickstarter**\n- [项目名]：一句话描述 | 💰 已筹金额\n（取前5个）\n\n4. 把以上内容同步更新到 Notion 页面 393fde4c-8055-8143-94fa-fcd4b773c962：\n先读取当前markdown内容，然后用 PATCH /v1/pages/{id}/markdown 的 replace_content 替换整个页面。保留页面顶部的两个 callout 结构（📱软件 和 🎯硬件），把\"本周暂无数据\"替换为本周实际内容。\n\nNotion API 操作方式：提取 ~/.hermes/.env 中的 NOTION_API_KEY，设置 NOTION_API_TOKEN 和 NOTION_KEYRING=0 环境变量，使用 ntn CLI 或 curl 调用 Notion API v2026-03-11。",
+      "skills": [
+        "web-access"
+      ],
+      "skill": "web-access",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "display": "0 9 * * 1"
+      },
+      "schedule_display": "0 9 * * 1",
+      "repeat": {
+        "times": null,
+        "completed": 12
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-07-04T16:40:07.593150+08:00",
+      "next_run_at": "2026-09-28T09:00:00+08:00",
+      "last_run_at": "2026-09-21T09:13:49.860367+08:00",
+      "last_status": "error",
+      "last_error": "RuntimeError: Connection error.",
+      "last_delivery_error": "live adapter send failed: HTTPSConnectionPool(host='open.feishu.cn', port=443): Max retries exceeded with url: /open-apis/auth/v3/tenant_access_token/internal (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Service Unavailable'))); live adapter delivery to feishu:oc_9e19fd780d3617c2c6fbac770909d0f7 failed: HTTPSConnectionPool(host='open.feishu.cn', port=443): Max retries exceeded with url: /open-apis/auth/v3/tenant_access_token/internal (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Service Unavailable'))); delivery error: Feishu send failed: HTTPSConnectionPool(host='open.feishu.cn', port=443): Max retries exceeded with url: /open-apis/auth/v3/tenant_access_token/internal (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Service Unavailable'))) (target feishu:oc_9e19fd780d3617c2c6fbac770909d0f7)",
+      "deliver": "origin",
+      "origin": {
+        "platform": "feishu",
+        "chat_id": "oc_9e19fd780d3617c2c6fbac770909d0f7",
+        "chat_name": "oc_9e19fd780d3617c2c6fbac770909d0f7",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "web",
+        "terminal"
+      ],
+      "workdir": null,
+      "profile": null,
+      "fire_claim": null,
+      "failure_streak": 2,
+      "last_dispatch": {
+        "scheduled_at": "2026-09-21T09:00:00+08:00",
+        "dispatched_at": "2026-09-21T09:00:56.594548+08:00",
+        "lateness_seconds": 56.6,
+        "kind": "on_time"
+      }
+    },
+    {
+      "id": "8086dba17168",
+      "name": "Auto-update Hermes Agent",
+      "prompt": "Run `hermes update` to check for and apply any available updates to Hermes Agent. This command is idempotent — if already up to date it exits quickly. Report the result: whether an update was applied (old version → new version) or if it was already current.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 4 * * *",
+        "display": "0 4 * * *"
+      },
+      "schedule_display": "0 4 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 59
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-07-21T13:50:21.247752+08:00",
+      "next_run_at": "2026-09-28T04:00:00+08:00",
+      "last_run_at": "2026-09-27T04:01:59.558463+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null,
+      "fire_claim": null,
+      "failure_streak": 0,
+      "last_dispatch": {
+        "scheduled_at": "2026-09-27T04:00:00+08:00",
+        "dispatched_at": "2026-09-27T04:00:30.867158+08:00",
+        "lateness_seconds": 30.9,
+        "kind": "on_time"
+      }
+    }
+  ],
+  "updated_at": "2026-09-27T04:02:31.227788+08:00"
+}
