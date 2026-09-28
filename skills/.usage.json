@@ -556,13 +556,13 @@
     "created_by": null,
     "last_patched_at": "2026-07-15T01:33:57.455190+00:00",
     "last_reused_patch_generation": 0,
-    "last_used_at": "2026-09-27T01:00:18.434050+00:00",
+    "last_used_at": "2026-09-28T01:00:05.815299+00:00",
     "last_viewed_at": "2026-09-25T01:02:14.341999+00:00",
     "patch_count": 34,
     "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 195,
+    "use_count": 196,
     "view_count": 85
   },
   "frontend-design": {
@@ -670,13 +670,13 @@
     "created_by": null,
     "last_patched_at": "2026-09-24T19:01:52.512760+00:00",
     "last_reused_patch_generation": 4,
-    "last_used_at": "2026-09-27T19:00:08.457716+00:00",
+    "last_used_at": "2026-09-28T19:00:48.861275+00:00",
     "last_viewed_at": "2026-09-26T19:08:10.761985+00:00",
     "patch_count": 7,
     "patch_generation": 4,
     "pinned": false,
     "state": "active",
-    "use_count": 146,
+    "use_count": 147,
     "view_count": 37
   },
   "himalaya": {
@@ -846,7 +846,7 @@
     "patch_count": 0,
     "patch_generation": 0,
     "pinned": false,
-    "state": "active",
+    "state": "stale",
     "use_count": 0,
     "view_count": 0
   },
@@ -1543,13 +1543,13 @@
     "created_by": null,
     "last_patched_at": "2026-06-04T09:06:50.001283+00:00",
     "last_reused_patch_generation": 0,
-    "last_used_at": "2026-09-21T01:00:56.803009+00:00",
+    "last_used_at": "2026-09-28T01:00:05.813434+00:00",
     "last_viewed_at": "2026-09-01T06:30:34.634200+00:00",
     "patch_count": 3,
     "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 46,
+    "use_count": 47,
     "view_count": 34
   },
   "webapp-testing": {
@@ -1604,7 +1604,7 @@
     "patch_count": 1,
     "patch_generation": 1,
     "pinned": false,
-    "state": "active",
+    "state": "stale",
     "use_count": 3,
     "view_count": 3
   },
