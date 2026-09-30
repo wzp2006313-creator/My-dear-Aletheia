@@ -1,0 +1,88 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+写入成功并通过验证：表格新增 `2026-09-30` 行，digest 已追加到 Notion 页面（`VERIFY_TODAY_ROW=True`、`VERIFY_DIGEST_HEADER=True`）。
+
+以下是今日完整摘要：
+
+---
+
+## AI Builders Digest — 2026-09-30
+
+### 📌 今日概览
+Anthropic 正式发布 Sonnet 5.5（写作与代码能力大幅跃升、Claude Code 中约 30% 更快/更省 token），与 OpenAI DevDay 前夜的密集预告正面对撞——GPT-6 Sol/Luna 降价 50%、Pro $200 重新开放，Sam Altman 预告"找到了新东西"。两大前沿厂商在同一天同步交火。
+
+### 🔥 重点 Highlights
+1. **Sonnet 5.5 发布** — Anthropic 大版本更新，Claude Code 用户比 Sonnet 5 多完成约 30% 任务、30% 更快、token 用量更少；多位 builder 认可其为快速迭代首选。→ https://x.com/_catwu/status/2104639552170377399
+2. **OpenAI DevDay 前夜预告** — GPT-6 Sol/Luna 以 50% 价格推出，Pro $200 订阅明日重开且用量计算方式改变（净效果 API 花费减半），承诺不重新引入 5h 限制。→ https://x.com/thsottiaux/status/2104823812042940713
+3. **Box 企业级评测数据出炉** — Sonnet 5.5 整体 +4pt、2.4× 更快、12% 更少 token，垂直领域大幅提升（金融 +18pt、法律 +7pt、生命科学 +8pt、公共部门 +7pt）。→ https://x.com/levie/status/2104648654074343480
+4. **Vercel 域名支持无认证搜索** — 对 agent 尤其友好；同时公开一次迁移的提速数据（约 70% 更快构建、75% 更快 paint）。→ https://x.com/rauchg/status/2104764419305796094
+5. **"展示 prompt 已基本不可能"** — Thariq 指出现在一切都关于 references/skills/examples，prompt 工程范式已变。→ https://x.com/trq212/status/2104608785696440510
+
+### 📝 详细摘要
+
+**Thibault Sottiaux（Codex & ChatGPT @OpenAI）** — 长文预告明日动作：重开 Pro $200 订阅并改变用量计算方式，净效果是 API 花费减半。四点理由：(a) 承诺不重新引入 5h 限制；(b) 模型更高效、价值持续提升；(c) 不人为抬高 API 标价，继续降价 + 提能力（本周 GPT-6 Sol/Luna 已 5 折）；(d) 明日还有不占用量的新增内容（暂不透露）。→ https://x.com/thsottiaux/status/2104823812042940713
+
+**Cat Wu（Claude Code + Cowork @Anthropic）** — Sonnet 5.5 上线：Claude Code 用户比 Sonnet 5 多完成约 30% 任务，模型更聪明所以更少 token；附"用工具调用耙院子落叶"的 demo，快 24 秒、省 6K token。→ https://x.com/_catwu/status/2104639552170377399
+
+**Boris Cherny（Claude Code @Anthropic）** — Sonnet 5.5 在 Claude Code 中修 bug：30% 更快、30% 更少用量。→ https://x.com/bcherny/status/2104638725317923228
+
+**Alex Albert（Research @Anthropic）** — Sonnet 5.5 有 Opus 5.5 的感觉：写清晰、非常快、能力大跳跃，是很好的迭代模型。→ https://x.com/alexalbert__/status/2104633937280811010
+
+**Aaron Levie（Box CEO）** — 在复杂工作 eval 上提前测试 Sonnet 5.5：整体 +4pt、2.4× 更快、12% 更少 token；金融 +18pt、法律 +7pt、生命科学 +8pt、公共部门 +7pt。具体用例：金融尽调 +48pt（抓到算错的利息总额和期权定价）、法律 +14pt（拒绝编造"标准"市场基准，诚实标注缺失项）、生命科学 +22pt（样本标准差全对，Sonnet 5 几乎全错）。Box AI Studio 很快将支持 Sonnet 5.5。→ https://x.com/levie/status/2104648654074343480
+
+**Thariq（Claude Code @Anthropic）** — ① 让 Claude 帮忙逐步思考；② 谈高级抽象的 token 成本担忧，建议做 workflow 时试 Sonnet 5.5；③ "展示 prompt 已基本不可能"，现在一切都关于 references/skills/examples。→ https://x.com/trq212/status/2104702728270471594
+
+**Dan Shipper（Every CEO）** — ① 自 2023 年以来每届 DevDay 都参加，这是 OpenAI 有史以来发布最多的一届；② SONNET 5.5 发布，写作大幅提升（甚至超 Opus 5.5），更快更便宜。→ https://x.com/danshipper/status/2104662907716050988
+
+**Peter Yang（AI 教程作者）** — ① 讽刺 X 上"OpenAI 被 Claude 5.5 打趴 / Anthropic 被 Codex 打残"的反复无常；② 明天第一次参加 OpenAI DevDay；③ 用 Sonnet 5.5 建了可玩的星际争霸关卡。→ https://x.com/petergyang/status/2104809410040336784
+
+**Guillermo Rauch（Vercel CEO）** — ① Vercel 域名可无认证搜索，对 agent 友好；② 迁移实测约 70% 更快构建、75% 更快 paint，并提炼出两个 AI skills。→ https://x.com/rauchg/status/2104764419305796094
+
+**Nikunj Kothari（FPV Ventures 合伙人）** — ① Opus 5.5 一次性生成视频；② 长文反思"distribution 是护城河所以要融很多钱"——要回到第一性原理：找不公平优势、做高留存产品、资本是武器而非宿命、搞清如何自给自足。→ https://x.com/nikunj/status/2104566122549063756
+
+**Garry Tan（YC CEO）** — ① "Codegen 结合 WhatsApp 其实很有意义"；② Karma 是当下可做的选择。→ https://x.com/garrytan/status/2104771351009702168
+
+**Zara Zhang（Builder / Follow Builders 作者）** — 寻找 followers 聊天：用 AI 做前端难做得好看/避免 AI slop 的人、看了 demo 不知怎么复现的人、愿意分享创作过程的人。→ https://x.com/zarazhangrui/status/2104689580045979811
+
+**Sam Altman（OpenAI CEO）** — "对明天的 DevDay 相当兴奋。我们找到了新东西。" → https://x.com/sama/status/2104661956879913457
+
+**Claude（Anthropic 官方）** — ① 问大家用 Sonnet 5.5 探索什么；② 同 prompt 下 Sonnet 5 vs 5.5 弹跳球物理测试；③ 每帧用代码画的像素艺术森林生物。→ https://x.com/claudeai/status/2104675005090923000
+
+**Swyx（smol.ai / DX tips / Latent Space）** — "OpenAI 设计师是在逗我们玩吧"。→ https://x.com/swyx/status/2104741800393253322
+
+**Peter Steinberger（OpenClaw / OpenAI）** — "See ya there!"（指向 DevDay）。→ https://x.com/steipete/status/2104702088626557384
+
+**Josh Woodward（Google Labs VP）** — 刚从 Yosemite 回来，大赞某内容。→ https://x.com/joshwoodward/status/2104616392297451882
+
+**Ryo Lu（前 Cursor/Notion/Stripe 设计师）** — YouBike（台湾共享单车）相关日常动态，内容较轻。→ https://x.com/ryolu_/status/2104546903807660224
+
+**🎙 播客** — 今日 feed 无新增播客，内容全部来自 𝕏 / Twitter 推文。
+
+### 💡 我的分析
+*（以下为基于上述事实的归纳与推断，非 feed 原文。）*
+
+**今天最让我意外的，是 Box 那组"拒绝编造"的数据。** Aaron Levie 明确提到 Sonnet 5.5 在商业租赁审查里"拒绝编造一个'标准'市场基准，转而诚实标注租约真正缺失什么"。这比"更强/更快"更耐人寻味——模型开始在"知道自己不知道"这件事上产生商业价值，而这恰恰是企业场景里比"更聪明"更难买到的东西。（事实：Levie 推文；分析：我的解读）
+
+**趋势加速 vs 降温：**
+- **加速——"单位智能成本"成为核心卖点**：Sonnet 5.5 的"30% 更快 / 30% 更省 token"、GPT-6 Sol/Luna 的"降价 50%"，都在把"每单位智能的成本/延迟"抬到与"能力分数"同等甚至更高的位置。竞争焦点从"谁更聪明"转向"谁更便宜更快"。（事实：Cat Wu/Boris/Thibault 推文；分析：归纳）
+- **加速——prompt 工程范式迁移到"上下文工程"**：Thariq 说的"展示 prompt 已不可能"，和 Boris/Cat Wu 展示的"让 agent 先看 repo、搜参考、调 API"，指向同一方向——agent 的能力来源从"一条精心构造的 prompt"变成"references + skills + examples"的整套上下文装配。（事实：Thariq 推文；分析：归纳）
+- **降温——"mid-tier 模型"的存在空间被质疑**：Dan Shipper 提到两位队友"觉得栈里已没有 mid-tier 模型的位置"，这是模型层级快速收敛的信号——当旗舰模型的效率/成本逼近中端，中间档可能被挤压。（事实：Dan Shipper 推文；分析：归纳）
+
+**给创业者/开发者的 actionable 启发：**
+1. **重新评估"模型选型 + 路由"的经济账**：Sonnet 5.5 省 30% token、GPT-6 Sol/Luna 降 50%，加上 Box 展示的垂直领域收益（金融 +18pt），成本/延迟差距已大到能改变产品毛利。别默认用最贵的前沿模型，把"便宜 + 够用 + 按场景路由"当成产品策略而非工程优化。（事实 + 建议）
+2. **把"诚实标注不知道"纳入 agent 的评估维度**：Levie 的租赁审查用例说明，企业真正付费的是"不编造"而非"编得快"。如果你的 agent 面向金融/法律/合规，把"拒绝编造 + 标注缺失"作为可度量的 eval 指标，是差异化切入点。（事实 + 建议）
+3. **投资"上下文工程"而非单条 prompt**：既然"展示 prompt 已不可能"，就把精力放在构建可复用的 references/skills/examples 资产上——这是 agent 时代真正可累积、可迁移的护城河。（事实 + 建议）
+4. **Nikunj 的第一性原理提醒值得抄下来**：找不公平优势、做高留存（最好有网络效应）的产品、把资本当武器而非宿命、搞清如何自给自足——在融资环境收紧、前沿模型成本下行的今天，这套纪律比任何时候都重要。（事实 + 建议）
+
+*注：今日概览 / 重点 Highlights / 详细摘要均为事实（源自 feed JSON，每条附原文 URL）；"我的分析"为基于事实的合理推断。*
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+
+⚠️ File-mutation verifier: 1 file(s) were NOT modified this turn despite any wording above that may suggest otherwise. Run `git status` or `read_file` to confirm.
+  • `/tmp/fb-notion-write.py` — [write_file] Refusing to overwrite `/tmp/fb-notion-write.py`: `/private/tmp/fb-notion-write.py` was modified by sibling subagent 'cron:c8e25d6e74a3:7de1a0367ba246eeb4b5de0f7baa065d' but this agent…
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1790711571.8007119,
+"ts":1790798183.441976,
 "caps":{
 "openai/gpt-6.1-sol-pro":{
 "supports_reasoning":true,
