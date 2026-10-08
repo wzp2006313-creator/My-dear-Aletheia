@@ -1,0 +1,120 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+已完成写入 Notion（每日归档表格新增 2026-10-02 行，完整摘要已追加，验证通过）。以下是今日完整摘要：
+
+---
+
+## AI Builders Digest — 2026-10-02
+
+### 📌 今日概览
+OpenAI DevDay 余波持续发酵——GPT-6.1 Sol 被 Thibault Sottiaux 称为「史上需求最高的模型」、ChatGPT 内可直接构建并部署 MCP server；同日 Google 发布 Gemini 4 Argon 并把 Gemini App 的 Skills 推向全球（Opal 实验定于 11/17 关停）。Sam Altman 则在 Every 播客里首次系统阐释 Dots 背后的世界观：「文艺复兴」而非「工业革命」。
+
+### 🔥 重点 Highlights
+1. **GPT-6.1 Sol 需求空前** — OpenAI 的 Thibault Sottiaux 称它是「有史以来需求最高的模型」，ChatGPT/Codex 一度过载，扩容后速度将接近昨日两倍（8735 赞、358 转推）。→ https://x.com/thsottiaux/status/2105464274747527543
+2. **ChatGPT 内可直接构建并部署 MCP server** — 可限制访问权限或向全世界开放（2082 赞）。→ https://x.com/thsottiaux/status/2105519215092584786
+3. **Google 发布 Gemini 4 Argon** — Google Labs VP Josh Woodward 宣布（1319 赞）；同时 Gemini App 的 Skills 全球上线，Opal 实验 11/17 关停、其能力沉淀进 Skills。→ https://x.com/joshwoodward/status/2105396307250782446 ｜ https://x.com/GoogleLabs/status/2105352889665564838
+4. **Sam Altman 播客谈 Dots** — 在 Every Podcast 阐释「文艺复兴 vs 工业革命」，称 Dots 帮他要回了早晨与注意力。→ https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+5. **Box CEO：AI 部署层是巨大机会** — Aaron Levie 指出「把 AI 部署进经济」需要大量脏活累活，将催生 FDE 公司与新服务商（853 赞）。→ https://x.com/levie/status/2105354449795621179
+
+### 📝 详细摘要
+
+#### 𝕏 / Twitter（按 builder 分组）
+
+**Thibault Sottiaux（@thsottiaux — Codex & ChatGPT @OpenAI）**
+三条 DevDay 后续：① GPT-6.1 Sol 是「有史以来需求最高的模型」，ChatGPT/Codex 一度过载、已扩容，未来几小时速度接近昨日两倍；② 现在可以直接在 ChatGPT 里构建并部署 MCP server，并自主决定访问权限或向世界开放；③ 让他的 dot 给他画像——先给了卡通版，让它「再努力点、去网上找张我近照」后效果更好，并附了点击操作 dot 云电脑的视频。→ https://x.com/thsottiaux/status/2105464274747527543 ｜ https://x.com/thsottiaux/status/2105519215092584786 ｜ https://x.com/thsottiaux/status/2105395200248156556
+
+**Josh Woodward（@joshwoodward — Google Labs / GeminiApp / AIStudio VP）**
+「Gemini 4 Argon！」——Google 新一代模型发布宣告。→ https://x.com/joshwoodward/status/2105396307250782446
+
+**Google Labs（@GoogleLabs — 官方）**
+Opal 实验升级为 Gemini App 的 Skills 全球上线：Skills 是「在对话里自动化重复任务、保存自定义指令」的更快方式，源自 Opal 的学习。Opal 实验将于 11/17 关停，「Opal 会活在你们接下来构建的每一个 skill 里」。→ https://x.com/GoogleLabs/status/2105352889665564838
+
+**Guillermo Rauch（@rauchg — Vercel CEO）**
+① 直言多数 token 聚合器充满噪声——来自「拿你数据训练的供应商的 token 促销」或「自称 ZDR（零数据留存）的厂商」；Vercel AI Gateway 是最大的可信全球 token 流量数据源（40 万+ 付费客户、数千企业、零加价），每周都会拒绝来历可疑的「免费 token」促销。② Connect：面向 2000 万+ 开发者和他们即将发布的数十亿 agent，解决「给每个 agent 配静态密钥」的 DX 地狱与安全风险。→ https://x.com/rauchg/status/2105476587756138942 ｜ https://x.com/rauchg/status/2105390544096841942
+
+**Aaron Levie（@levie — Box CEO）**
+把 AI 部署进经济的「部署层」是当下巨大机会：企业改造工作流的工作量远超想象，涉及上云、数据治理、软件与 agent 连接、工作流重造、HITL、evals 及随模型迭代的持续更新。AI 不是「部署软件」，而是「交付工作产出」，实现/使能过程完全不同，会催生大量按行业/规模/问题切入的新公司，是「FDE 公司」的黄金时代。→ https://x.com/levie/status/2105354449795621179
+
+**Garry Tan（@garrytan — YC 总裁）**
+① 盛赞 Capy：其他编辑器是「自上而下协调子 agent」，Capy 的 agent swarm 则是「彼此平等对话、自我协调」，让你能有机探索空间而非预先编排。② 分享与交通部长 Sean Duffy 的对话：空中交通管制仍靠纸笔 + 六块屏，SMART（Air Space Intelligence）工具能把 2.5 小时地面停场预测压缩到 45 分钟——「这是笨 AI 不是聪明 AI，管制员仍做每个决定」，缺的不是技术突破而是「接受 AI 增强的意愿」。→ https://x.com/garrytan/status/2105449821645480046 ｜ https://x.com/garrytan/status/2105395957357588561
+
+**Matt Turck（@mattturck — FirstMark VC）**
+「SaaS 公司正眼睁睁看着 Anthropic 的 ARR 增长停滞」——一条指向 Anthropic 商业化增速放缓的观察。→ https://x.com/mattturck/status/2105261211906384132
+
+**Nan Yu（@thenanyu — Codex @OpenAI，前 Linear 产品负责人）**
+入职 OpenAI 约一周，最突出的是「高到离谱的行动偏向」：随口讨论一个功能，回到工位 PR 已摆在面前；Slack 上约「下周吃午饭」，五分钟内会议邀请已进日历。有副作用（一切都像上了发条、随时变化），但「这种能量教不出来，一旦失去就极难找回」——OpenAI 已不是小公司，仍保持这股劲令人印象深刻。→ https://x.com/thenanyu/status/2105316751802348005
+
+**Peter Yang（@petergyang — 实用 AI 教程/访谈）**
+① DevDay 现场 vs YouTube 评论的割裂：现场人说「我爱你的频道」，评论区骂「AI 走狗」。② 赞「Google 在 Gemini 4 上真能打」，但还需在 coding harness（Antigravity）和个人 agent（Spark）上更激进。→ https://x.com/petergyang/status/2105486915147645063 ｜ https://x.com/petergyang/status/2105393240392585359
+
+**Swyx（@swyx — smol.ai / DX tips / Latent Space）**
+「Flow 对硬件工程做的事，就是 Git+GitHub 对软件工程做的事」——在汽车到火箭这类复杂、不可逆、高价值的流程里对齐数千利益相关方，用过 Flow 就再也回不去 spreadsheet_final_FINAL_v23。并自嘲「没做任何 Apple Podcasts 优化（还讨厌 Spotify）却登上榜单、甚至超过 MKBHD」。→ https://x.com/swyx/status/2105348724331606411 ｜ https://x.com/swyx/status/2105419486383964544
+
+**Amjad Masad（@amasad — Replit CEO）**
+「Make 并一键发布 Meta VR 应用」——Replit 与 Meta VR 的发布集成。→ https://x.com/amasad/status/2105321112389443805
+
+**Thariq（@trq212 — Claude Code @Anthropic）**
+分享自己用 Claude 做游戏角色原型的进展：想要「大跳跃」但还没调好操控方案，试了 2-3 个变体；图形手感还不达可玩水准，理想是 2-3 人小团队 + 专家打磨。→ https://x.com/trq212/status/2105333506226503710
+
+**Nikunj Kothari（@nikunj — FPV Ventures，种子/A 轮）**
+① 已自动化掉大部分工作，剩下的坚持手做：写 outbound 邮件（深信技术帮不上）、当面见创始人（Zoom 不行）、手写 pass notes（最难的部分）。② 仍在找一个「好到爆的多人在线体验」，求 demo。→ https://x.com/nikunj/status/2105532229866942772 ｜ https://x.com/nikunj/status/2105397656994652178
+
+**Peter Steinberger（@steipete — OpenClaw + OpenAI）**
+① 聊天流里 agent 间通信越来越烦，把 OC harness 里的可见性改成一键展开的单行，断言「其他人会跟上」。② CI 和 GitHub 正「激烈争夺谁更拖慢我」，是时候重新思考工作方式。→ https://x.com/steipete/status/2105362785534361996 ｜ https://x.com/steipete/status/2105341288958869952
+
+**Aditya Agarwal（@adityaag — SPC GP，前 Dropbox CTO / Facebook 早期工程师）**
+一直追问团队：「这家公司的『最大主义版本』是什么？」——今天创业唯一的路就是做最大胆、最激进、能改变未来弧线的版本；起点太小，融不到钱、招不到人、也撬不动未来。「AI 的悖论：让构建变容易，却大幅抬高了伟大创业公司的地板」。→ https://x.com/adityaag/status/2105339569139056776
+
+**Dan Shipper（@danshipper — Every CEO）**
+「我们准备好 vibe check 了！」——指向与 Sundar Pichai 或 Gemini 4 相关的动态。→ https://x.com/danshipper/status/2105443942330503416
+
+**Claude（@claudeai — Anthropic 官方）**
+Claude Founder House 将于 SF Tech Week（10/6–8）与斯德哥尔摩（10/14）举办：创始团队 talks、workshops、office hours，无论创始人/CEO/builder 都有对应场次。→ https://x.com/claudeai/status/2105370680485417401
+
+#### 🎙️ 播客
+
+**「How Sam Altman Uses Dots to Take Back His Time」— Every Podcast（原 AI & I，Dan Shipper 主持）**
+（注：本期为 Every 品牌升级后的首期，DevDay 现场录制。feed 中另有一条播客转录失败——「Why Dwarkesh is Wrong about Computer Use」因 HTTP 404 无法获取，故本期为唯一可用播客。）
+
+核心观点：
+- **文艺复兴 vs 工业革命**：Altman 用这个类比定义 AI 时代的方向——工业革命以机器为中心（人变成「机器上的齿轮」），文艺复兴以人为中心；他明确反对「AI 自动化一切、人类退化成被 AI 喂养的家猫」的叙事，希望 AI 是「新一波科学发现、艺术、创业潮」，让人重新掌控时间。
+- **为什么始终以人为中心**：我们「从不真正关心机器做了什么」，只痴迷于其他人——艺术、公司、产品背后的那个人；Navier-Stokes 用 1 万个 agent 算 4 天，公众讨论的却不是「问题被解决了」而是背后的人与解读。
+- **Dots 给了他早晨**：他的 dot 名叫「Dottie」（之前叫 Alfred）。过去 CEO 起床先看手机、被各种信息污染大脑、毁掉深度工作时段；现在信任 dot 判断「什么该现在处理、什么帮我挡掉」，重新拿回创造力与陪孩子的时间。例证：DevDay 直播前 5 分钟，Tebow 的 dot 主动提示「这个改动可能让 demo 失效，要修吗？」；另一次 dot 通宵帮他找到一条他以为「自己梦见的」Slack 截图。
+- **Space（办公套件）**：现有多人 + 多 AI 协作的抽象正在崩塌，Space 押注「人机协作」；最惊艳的是「活文档」——自动随人与世界变化更新，7 个人的 dot 能协作生成「在所有人脑中、但尚未成型」的新东西。
+- **Decisions API（「偷偷最重要」）**：受竞品 JEV（又快又便宜的新模型）回应刺激，OpenAI 要把「超快、超低成本」推给常见用例；Luna 的第一需求也是「更便宜更快」。
+- **Codex Native apps + 插件扩展 + 自带订阅**：允许开发者把 ChatGPT 订阅「带进任何 app」，解掉「让用户多用 AI 会不会让我破产」的顾虑。
+- **Ultrafast（极速推理）**：速度是继「智商降价」之后的新向量，自研芯片将把高速推理带给所有人，不远的未来「8X 好价」、再往后 100X。
+- **想再当投资人**：称这是创业者的「黄金时代」，他永远是「创始人驱动型」投资者；「OpenAI 又杀了某 startup」的推文永远不兑现——因为他们真心想赋能 builder，而非当垄断巨企。
+
+→ https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+
+### 💡 我的分析
+*（以下为基于上述事实的归纳与推断，非 feed 原文。）*
+
+**今天最让我意外的，是 Sam Altman 把「Dots 的价值」落在「拿回早晨」这种极其个人的体验上。** 一个发布 22 项产品的 CEO，在播客里最动情的不是模型 benchmark，而是「睡前语音丢想法、醒来发现东西已经做好、还能再走七步」。这暗示 agent 的产品叙事正从「更强更快」转向「还你时间与注意力」——一个更难量化、但更有情感黏性的卖点。（事实：播客转录；分析：我的解读）
+
+**趋势在加速：**
+- **「把 MCP / 连接能力内置进产品」成为一线标配** — OpenAI 在 ChatGPT 里直接建/部署 MCP server，Vercel 推 Connect 解决「静态密钥地狱」，两边同时指向「agent 与外部系统的连接」是下一层基础设施战场。（事实：Thibault / Rauch 推文）
+- **agent swarm 的「自协调」范式升温** — Garry Tan 盛赞 Capy「agent 彼此平等对话、自我协调」，与 Steinberger 抱怨「agent 间通信太吵」形成对照：多 agent 协作正从「自上而下编排」走向「对等自组织」，但 UX/可见性还没跟上。（事实：Garry Tan / Steinberger 推文）
+- **AI 与「存量现实世界系统」的融合** — 空中交通管制（Duffy）、企业工作流改造（Levie）——重心从「造新应用」滑向「用 AI 增强既有复杂系统」，且「缺的不是技术突破而是采纳意愿」。（事实：Garry Tan / Levie 推文）
+
+**趋势在降温 / 被质疑：**
+- **单一护城河叙事** — Aditya 的「最大主义版本」与 Nikunj「护城河是千件小事 + 创始人速度」形成张力：在「什么都能被快速复刻」的世界里，「做大做大胆」与「把细节做对」哪个是真正的壁垒，市场没有共识。（事实：两条推文）
+- **「agent 万灵药」的乐观预期被回调** — Thariq 坦承游戏原型「还没到能玩的水准」，Nikunj 坚持「当面见创始人、手写 pass notes 不可替代」——都在提醒：agent 再强，仍有一批「靠人与人」的活无法自动化。（事实：Thariq / Nikunj 推文）
+
+**给创业者/开发者的 actionable 启发：**
+1. **把「连接」当成产品的一等公民，而非事后集成**：OpenAI 内建 MCP、Vercel 推 Connect 都在抢「agent 怎么安全地连上你的服务」。现在就把产品做成「agent 友好」——干净 API/CLI/MCP、显式权限、无静态密钥——是进入下一轮采购清单的入场券。（事实：Thibault / Rauch；分析：建议）
+2. **重估「部署/改造存量企业」的市场**：Levie 把「AI 部署层」说成 FDE 公司黄金时代，与上一期 77 亿美元 Baldwin 私有化互为印证——「AI 改造在位企业」是比「造新 app」更深的池子，且模型越强、这层「桥」越值钱。（事实：Levie 推文 + 前序 feed；分析：推论）
+3. **别再用 benchmark 卖 agent，改用「还你时间」**：Altman 的 Dottie 叙事证明，最打动人的不是分数，而是「我不用再盯着手机」。面向知识工作者的产品，把「省下的注意力」做成可感知的体验，比堆能力更有说服力。（事实：播客；分析：建议）
+4. **留意 Anthropic 的 ARR 增速信号**：Matt Turck 转发的「Anthropic ARR 增长停滞」若持续，可能意味着「闭源旗舰按量订阅」的定价天花板正在逼近，对押注单一闭源模型的成本结构是个风险提示。（事实：Matt Turck 推文；分析：推论）
+
+*注：今日概览 / 重点 Highlights / 详细摘要均为事实（源自 feed JSON，每条附原文 URL）；「我的分析」为基于事实的合理推断。*
+---
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+
+⚠️ File-mutation verifier: 1 file(s) were NOT modified this turn despite any wording above that may suggest otherwise. Run `git status` or `read_file` to confirm.
+  • `/tmp/fb-notion-write.py` — [write_file] Refusing to overwrite `/tmp/fb-notion-write.py`: `/private/tmp/fb-notion-write.py` was modified by sibling subagent 'cron:c8e25d6e74a3:d23e47e9efce40bd8db2dc1c8ab8d509' but this agent…
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").
