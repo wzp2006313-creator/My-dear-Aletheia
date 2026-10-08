@@ -1,5 +1,5 @@
 {
-  "fetched_at": 1790956216.7664099,
+  "fetched_at": 1791488488.4906502,
   "curated": [
     [
       "anthropic/claude-fable-5.1",
@@ -27,6 +27,10 @@
     ],
     [
       "anthropic/claude-sonnet-5",
+      ""
+    ],
+    [
+      "anthropic/claude-haiku-5.5",
       ""
     ],
     [
@@ -198,6 +202,14 @@
       ""
     ],
     [
+      "upstage/solar-pro4",
+      ""
+    ],
+    [
+      "upstage/solar-mini4",
+      ""
+    ],
+    [
       "thinkingmachines/inkling:free",
       "free"
     ],
@@ -223,10 +235,6 @@
     ],
     [
       "nvidia/nemotron-3.5-lightning:free",
-      "free"
-    ],
-    [
-      "stealth/space-bunny-alpha",
       "free"
     ]
   ]
