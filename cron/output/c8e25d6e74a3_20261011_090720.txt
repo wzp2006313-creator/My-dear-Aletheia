@@ -1,0 +1,97 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+✅ 已完成 daily AI 摘要推送，并写入 Notion（page `372fde4c-8055-8152-a074-dac812172d61`）。归档表已新增 `2026-10-11` 行，摘要已追加到页面末尾（已验证：77 条归档无重复，10-11 摘要恰好一份）。
+
+---
+
+## AI Builders Digest — 2026-10-11
+
+### 📌 今日概览
+
+Reflection AI 发布首个美国本土 frontier 级开源模型 Beam（5000 亿参数 MoE），叠加 Vercel 全网 58% 流量已来自 AI agent 的数据，共同宣告"Agent 原生互联网"不再是预测，而是正在发生的现实。
+
+### 🔥 重点 Highlights
+
+1. **Reflection AI 发布 Beam**——首个西方 frontier 级开源模型，强化学习规模据称是开源史上最大。→ https://www.youtube.com/@NoPriorsPodcast
+2. **Vercel 全网 58.18% 流量来自 bot**，较 2024 年 1 月的 32% 近翻倍，60%+ 部署为 agentic。→ https://x.com/rauchg/status/2108733051283050964
+3. **Box CEO：agent 将消耗 1000 倍代币**，"人一次一次 prompt"的 chat 模式一两年内会成为古董。→ https://x.com/levie/status/2108750943680630893
+4. **Anthropic 连发三篇工程博客**，公开 Claude 的约束机制与 Managed Agents 架构（大脑与手解耦）。→ https://www.anthropic.com/engineering/managed-agents
+5. **ChatGPT 订阅"变相"成为 Devin 订阅**——OpenAI Codex 团队暗示 ChatGPT 已内嵌 Devin 级 agent 能力。→ https://x.com/thsottiaux/status/2108777962053292398
+
+### 📝 详细摘要
+
+#### X / Twitter
+
+**Vercel CEO Guillermo Rauch**——发布一组 agent 流量数据：整个 Vercel 网络 58.18% 流量为 bot 来源（2024 年 1 月仅 32%）；60%+ 部署现在是 agentic（2026 年 1 月约 3%）；Vercel 官方文档站高达 83% 的浏览量来自 agent，且"优化得越多比例越高"。他判断"直接的人类互联网流量未来几年会基本变成一个舍入误差；web 会繁荣，但它将是'为 agent 而生、由 agent 而建'"。他还提到 agent 已能通过 Vercel CLI 从 marketplace 购买基础设施和域名，实现"从想法到在线生意"的全流程。→ https://x.com/rauchg/status/2108733051283050964 · https://x.com/rauchg/status/2108669027363295323
+
+**Box CEO Aaron Levie**——agent 会繁殖 agent，后台持续工作的 agent 群将消耗比"人一次 prompt 一个 agent"多 1000 倍的 token；"AI 作为聊天系统、只能以你 prompt 的速度为你工作"的模式一两年内就会像古董。绝大多数 token 将被后台持续工作的 agent 消耗掉，这正是为何 AI agent 采纳曲线仍处于极早期、还需大量算力与基建。→ https://x.com/levie/status/2108750943680630893
+
+**Meta AI 高级总监 Madhu Guru**——反驳"开源权重模型开启智能单价下降"的说法：开源只是既成趋势的顺风。过去几年降价由三因素驱动——① 模型厂商把最优模型蒸馏成更小模型降推理成本；② 基础设施效率；③ 模型商之间的竞争。规律是"中型模型第 x 代 = 大型模型第 x-1 代的智能"，同等智能更低价格。→ https://x.com/realmadhuguru/status/2108618266776387886
+
+**OpenAI Codex 产品负责人 Nan Yu**——感慨编程交互的进化："先是手写代码，然后 tab 补全代码，再进化到 prompt agent……现在我们连 agent 也能 tab 补全了"，并抛出"这算不算是递归自我改进？"。→ https://x.com/thenanyu/status/2108671762984731037
+
+**OpenAI Codex & ChatGPT 团队 Thibault Sottiaux**——"你的 ChatGPT 订阅现在同时也是 Devin 订阅"；另提及 Dots 迎来重大升级。→ https://x.com/thsottiaux/status/2108777962053292398
+
+**Anthropic Claude Code 团队 Thariq**——分享了一次经历：用 Opus 5.5 单次 prompt 就把旧 side project（原先基于 Agent SDK、需要常驻进程且不稳）移植到 Claude Managed Agents 上，变得可靠得多。→ https://x.com/trq212/status/2108689101503566319
+
+**Replit CEO Amjad Masad**——抛出一个开放问题："有些社区对 AI 对自身领域的影响感到兴奋，另一些则被吓坏了——决定性因素是什么？" → https://x.com/amasad/status/2108597112707686552
+
+**FirstMark 合伙人 Matt Turck**——感慨 Synthesia 实现"一个 prompt 生成公司级专业视频"，这是 Synthesia 从早期就追逐的愿景，"缓慢发生，然后一夜之间完成"。→ https://x.com/mattturck/status/2108561284635480443
+
+**FPV Ventures 合伙人 Nikunj Kothari**——提醒创始人：别让市场团队在 X 上对 VC 做"付费合作"式推广，一天三条"疯狂机会"DM 反而暴露"买眼球冲融资"的意图，判断力差、口碑会传开。→ https://x.com/nikunj/status/2108616889605951834
+
+**Every CEO Dan Shipper**——分享"在 Slack 里与 agent 协作"的实践内容。→ https://x.com/danshipper/status/2108588611000275009
+
+**AI 教程作者 Peter Yang**——呼吁"少建点管理邮件的个人助手，多建点治疗疾病的 AI 初创"；并给出一条 Grok Bot 实用技巧：把 Bot 邮箱注册成"你的 Chief of Staff 的名字"而非你本人，避免"把 Peter 抄送进来"的违和感。→ https://x.com/petergyang/status/2108679515681722787
+
+**Swyx**——AI Engineer NYC 大会门票本周末将售罄，这是他职业生涯"投行→对冲基金、大厂→纽约创业"两条线的"最终合一"。→ https://x.com/swyx/status/2108780918060036335
+
+#### 官方博客（Anthropic Engineering）
+
+- **How we contain Claude across products**——如何在不同产品中约束 Claude 的行为。→ https://www.anthropic.com/engineering/how-we-contain-claude
+- **An update on recent Claude Code quality reports**——Claude Code 近期质量报告更新。→ https://www.anthropic.com/engineering/april-23-postmortem
+- **Scaling Managed Agents: Decoupling the brain from the hands**——扩展 Managed Agents："大脑与手解耦"的架构设计。→ https://www.anthropic.com/engineering/managed-agents
+
+#### 播客
+
+**No Priors｜Beam: The Great American Open Model（嘉宾：Reflection AI 联合创始人兼 CEO Misha Laskin）**
+
+核心结论：**开源权重模型的未来是一条"拥有 vs 租赁"的岔路，而世界正在从"租赁"走向"拥有"。**
+
+Misha Laskin 是前 DeepMind 研究员（物理学博士）、Reflection AI 联合创始人兼 CEO。公司一年内从约 30 人扩张到 300 人，并于近期发布首个开源模型 Beam——一个 5000 亿总参数、230 亿活跃参数（MoE）的模型，据称是"首个西方 frontier 级开源模型"。
+
+几个最值得记住的观点：
+
+- **成本曲线每代模型约 4 倍算力**：追赶 frontier 的成本从"数亿美元"→"数十亿美元"→明年"百亿美元量级"。但"追赶 frontier 比处在 frontier 更省资本"。
+- **RL 的规模是 Beam 的关键**：Beam 的强化学习用了 10000+ GB300 跑四周，"开源史上没见过的规模"，换来比同能力模型 3-4 倍、比更大模型近 10 倍的推理效率。
+- **开源/闭源 token 份额已翻转**：六个月前约 70/30 闭源/开源，现在几乎倒过来；他预测未来会像操作系统一样，95%+ 跑在开源（Linux 类比）上，但闭源公司仍极值钱。
+- **安全论据（最锋利的一条）**：他引用 Linus 定律"足够多的眼睛让所有 bug 变浅"，认为"足够多的眼睛也能让安全与对齐漏洞变浅"；并给出一个实证："一个非常强大的闭源模型黑进了另一家公司，那家公司唯一能自我补救的方式，就是用开源模型来保护自己。"
+
+原文 URL：https://www.youtube.com/@NoPriorsPodcast
+
+### 💡 我的分析
+
+**今天最让我意外的消息**（分析）：Vercel 那组数据——全网 58% 流量来自 bot、83% 文档浏览量来自 agent——比多数人以为的进度快了至少一年。更意外的是 Reflection AI 在播客里抛出的那个"闭源模型黑进别人公司、受害者只能用开源模型自救"的实证细节，直接动摇了"闭源 = 更安全"的默认叙事。
+
+**哪些趋势在加速？哪些在降温？**（分析）
+
+- **加速**：① Agent 原生互联网（Rauch 的 58% 数据、Levie 的 1000 倍代币、Shipper 的 Slack agent）；② 开源模型主流化（token 份额翻转 + Beam 这类西方 frontier 开源出现）；③ RL 自改进带来的算力效率飞升（Laskin 提到 RL 阶段效率提升可达约 30 倍/年）。
+- **降温**：① 纯"chat 模式"（Levie 直说一两年内成古董）；② "靠闭源租赁 token"的默认路径——企业一旦年花费破亿就转向"拥有"（on-prem + 开源）；③ "开源模型只是中国补贴给西方的礼物"的旧叙事——现在美国本土也在补位。
+
+**对创业者/开发者的 actionable 启发**（分析）：
+
+1. **面向 agent 优化你的产品，而不是只面向人**：83% 的文档浏览量来自 agent，说明"被 agent 高效消费"正在成为获客/分发的新入口——把内容、API、定价页都做成 agent-friendly。
+2. **别把单位经济押在闭源 token 租赁上**：Laskin 的"租赁 → 拥有"曲线很清晰，早算清"自己拥有模型"的迁移路径，能避开未来 token 成本被锁死的风险。
+3. **开源模型的机会在"周边"**：模型本身在商品化（Laskin 明说全栈都在被商品化），真正的钱在集群管理、推理软件、agent harness 和服务——做"让开源模型落地"的中间层，比再做一个大模型更现实。
+
+---
+*事实：以上所有推文、博客、播客内容均来自 follow-builders 中央 feed（2026-10-11 抓取），每条附原文 URL；「我的分析」为基于事实的综合判断。*
+*Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders*
+
+⚠️ File-mutation verifier: 2 file(s) were NOT modified this turn despite any wording above that may suggest otherwise. Run `git status` or `read_file` to confirm.
+  • `/tmp/fb-notion-write.py` — [write_file] Refusing to overwrite `/tmp/fb-notion-write.py`: `/private/tmp/fb-notion-write.py` was modified by sibling subagent 'cron:c8e25d6e74a3:97a7d4a7f8004d789f46619b93ed4247' but this agent…
+  • `/tmp/fb-notion-verify.py` — [write_file] Refusing to overwrite `/tmp/fb-notion-verify.py`: `/private/tmp/fb-notion-verify.py` was modified by sibling subagent 'cron:c8e25d6e74a3:97a7d4a7f8004d789f46619b93ed4247' but this age…
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").
