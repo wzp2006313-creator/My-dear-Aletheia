@@ -1,0 +1,108 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+已完成。Notion 已成功写入（"每日归档"表格新增 2026-10-13 行 + 全文追加到页面末尾，均已验证）。以下是今日完整摘要：
+
+---
+
+## AI Builders Digest — 2026-10-13
+
+### 📌 今日概览
+Andrej Karpathy 重发"LLM 能力认知漏斗"推文，指出对 AI 能力的认知差距正在"扩大"而非缩小——全球仅约 5000 人真正接触过前沿系统，这条推文引爆了从 Box CEO Aaron Levie 到 YC 总裁 Garry Tan 关于"AI 普及还处于多早期"的集体讨论。
+
+### 🔥 重点 Highlights
+1. **Karpathy 重发"能力认知漏斗"**：约 60 亿人（75%）几乎没接触过 LLM，仅约 5000 人（0.00006%）接触前沿系统，且认知差距正在扩大。→ https://x.com/karpathy/status/2109361546505966046
+2. **Box CEO Aaron Levie 长文回应**：agent swarm 可能是 agent 的"终极形态"，AI 普及远未开始，企业应用层是最大机会。→ https://x.com/levie/status/2109467575025578330
+3. **OpenAI GPT-6.1 Sol 默认上下文扩到 500k**：从 272k 提升到 500k（约 +80%），上限 1M，且订阅内不再收长上下文费。→ https://x.com/thsottiaux/status/2109430343346581527
+4. **Garry Tan 呼应"5000 人"**："今天成为 5000 人之一"，称这是"人类史上最大的 alpha 喷泉"。→ https://x.com/garrytan/status/2109418482953814026
+5. **Fractile CEO 播客**：AI 推理芯片的真正瓶颈是内存带宽（20 年算力涨百万倍、带宽仅涨 40 倍），其高带宽芯片平台明年下半年量产。→ https://www.youtube.com/watch?v=OpeCP4wCxkA
+
+### 📝 详细摘要
+
+#### 𝕏 / TWITTER（按 builder 分组）
+
+**Andrej Karpathy（OpenAI 联合创始人 / AI 教育家）**
+重发 4 月的"能力认知漏斗"推文，因为 LLM 能力认知差距正在"扩大"。四层估算：约 60 亿人（75%）几乎没接触过 LLM；约 10-20 亿人（20%）是免费版 ChatGPT 类产品的轻度用户，把 LLM 当"更高级的搜索/写作辅助"；约 2000 万人（0.2%）在数学/编程领域专业使用前沿模型，亲眼见证"几周/几个月的大项目被一个 prompt 完成"；仅约 5000 人（0.00006%）能接触内部前沿系统，看到的是"数千个 agent 协作数周完成软件巨型项目"——挖零日漏洞、以机器速度攻防、发现新科学，而人类的审查与理解正开始跟不上。差距由三因素驱动：①影响随野心、问题规模、时间尺度放大；②系统能力"锯齿状"分布；③访问权限分层。
+→ https://x.com/karpathy/status/2109361546505966046
+
+**Aaron Levie（Box CEO）**
+长文回应漏斗图，指出这正说明"AI 普及还处于极早期"。绝大多数人把 AI 当聊天机器人用，严重低估其能力；另一端，agent swarm 可能是 agent 的"终极形态"——数学、网络安全、生物、材料科学、软件工程、金融等领域都适用。目前只有"极小比例中的极小比例"的人这样用 AI，受制于模型能力、成本、harness、前沿模型可得性。要让软件/AI 之外的工作受益，需要大量"变革管理"。但这正是当下的机会——AI 应用层会因领域特异性在企业端大放异彩。
+→ https://x.com/levie/status/2109467575025578330
+
+**Thibault Sottiaux（OpenAI Codex & ChatGPT）**
+三连发：①Day 7 宣布 GPT-6.1 Sol 在 Codex & Work 中默认上下文从 272k 提升到 500k（约 +80%），上限 1M，旨在减少 compaction；②订阅内使用不再收长上下文费；③对"2X 定价 + 恢复 5 小时限制"的投票结果感到困惑。
+→ https://x.com/thsottiaux/status/2109430343346581527 · https://x.com/thsottiaux/status/2109430894604026039 · https://x.com/thsottiaux/status/2109439315570999598
+
+**Peter Yang（AI 教程作者）**
+转述 Micky（@Rasmic，教过 10 万+人用 AI 构建）："我还没到信任 agent 的程度"。核心是"证据驱动测试"——让 agent 呈现证据（"做了什么 + 为什么好"），人工审查作为最后一步建立信任。另两条：YouTube 评论区调侃、和女儿用 Codex 做 modretro 游戏。
+→ https://x.com/petergyang/status/2109433961223180517
+
+**Thariq（Claude Code @Anthropic）**
+认同陶哲轩（Terrence Tao）的方向：不该满足于"不透明的超级智能"——智能的关键信号是"沟通"，产品应追求"与人类建立理解"而非"绕过人类"。
+→ https://x.com/trq212/status/2109329495341867391
+
+**Garry Tan（YC 总裁 & CEO）**
+①呼应 Karpathy——"今天成为 5000 人之一……这是人类史上最大的 alpha 喷泉"；②一条关于旧金山公共银行的政治吐槽；③"用确定性代码替代 LLM 调用是无脑之选，还能得到更贴合用户需求的更好代码"。
+→ https://x.com/garrytan/status/2109418482953814026 · https://x.com/garrytan/status/2109410082769482174
+
+**Guillermo Rauch（Vercel CEO）**
+"太酷了，这就是学习的未来。"
+→ https://x.com/rauchg/status/2109297685392175488
+
+**Matt Turck（FirstMark 合伙人）**
+"人们曾是打孔卡操作员，然后是 Lotus Notes 管理员、Flash 开发者、DevOps 和 Tableau 分析师，现在正变成 agent 管理者和 harness 工程师——一切都会好起来的。"
+→ https://x.com/mattturck/status/2109345191010472332
+
+**Dan Shipper（Every CEO）**
+做了一个自动追踪"我正在读的书"（可回溯到 2012 年）的 feed，提出"也许每个人都该有这样一个 feed"。
+→ https://x.com/danshipper/status/2109331798282915907
+
+**Zara Zhang（Builder / Follow Builders 作者）**
+"如今我唯一还用 Gemini 的地方是 Chrome。"
+→ https://x.com/zarazhangrui/status/2109483079106740500
+
+**Nan Yu（OpenAI Codex 产品，前 Linear 产品负责人）**
+"谁来告诉他"（调侃性质）。
+→ https://x.com/thenanyu/status/2109538550421262552
+
+**Swyx（Latent Space / DX tips / Cognition）**
+重发演讲技巧贴，为 AI Engineer NYC 演讲者晚宴预热。
+→ https://x.com/swyx/status/2109365419937239158
+
+**Nikunj Kothari（FPV Ventures 合伙人）**
+"🔵👼"（简短 emoji 回复）。
+→ https://x.com/nikunj/status/2109428362171305984
+
+#### 🎙️ 播客
+**《Frontier Chips for Frontier AI Labs》— Walter Goodwin（Fractile 创始人兼 CEO），No Priors**
+→ https://www.youtube.com/watch?v=OpeCP4wCxkA
+
+核心要点：
+- Fractile 是"全栈"AI 芯片公司，约 150 人，自研前端设计、物理设计、后端实现、先进封装，专为全球最大模型造"极快推理芯片"。
+- **核心赌注是内存带宽**：20 年算力（FLOPs）涨约 100 万倍，内存带宽只涨约 40 倍——带宽成为推理速度的真正瓶颈。Fractile 从 SRAM 转向"高带宽 DRAM"路线，目标单芯片带宽达 HBM 芯片约 25 倍。
+- **平台明年下半年量产**，定位"数千 token/s 跑通数万亿参数模型"，把长期 agent 任务做到根本性加速。
+- **芯片市场结构**：NVIDIA、AMD、各家自研（Google TPU、Meta MTIA、Microsoft Maya、OpenAI "Jalapeno"）背后是 Broadcom 等少数 ASIC 交付方，大量芯片"同质化"；前沿实验室需要"3-6 个月速度优势 = 赢得所有部署"。
+- **AI 改变芯片设计**："架构师意图 → 可用 GDS2 文件"十年太保守（时间估算除以 4），但最终 sign-off 仍依赖 Cadence/Synopsys 的 DRC/LVS 校验。
+- **前沿实验室不该"all in"自有硬件**：押错一次架构赌注，可能 9 个月内被对手 5 倍计算效率反超；第三方前沿芯片玩家会长期存在。
+
+### 💡 我的分析
+
+**今天最意外的消息**：Karpathy 的"5000 人"数字 + "差距在扩大"的判断。多数人以为 AI 普及在加速收敛，但 Karpathy 认为认知差距反而在拉大——20M 专业用户的"眩晕感"与 60 亿人的"无感"同时并存，这个漏斗不是"正在合拢"，而是"正在变成尖锐的漏斗"。（事实：来自 Karpathy 推文）
+
+**哪些趋势在加速？哪些在降温？**（分析）
+- **加速**：①上下文长度竞赛（GPT-6.1 Sol 一天内 +80% 到 500k）；②推理芯片的"内存带宽"叙事（Fractile、Groq、Cerebras 都押注"速度=能力"）；③"确定性代码替代 LLM 调用"（工程化成熟的标志）。
+- **降温/失效**：①"把 LLM 当高级搜索"的浅层用法——会被 agent 化吞噬；②"不透明超级智能"——陶哲轩/Thariq 的"沟通即智能"论调，暗示纯黑箱方向开始被质疑。
+
+**对创业者/开发者的 actionable 启发**（分析）：
+1. **看清漏斗位置，选对市场**：20M 专业用户层是"确定性需求"，60 亿人层是"想象力市场"。做产品先问：我的用户在哪一层？
+2. **证据驱动信任是 agent 产品的护城河**（Rasmic 观点）：让 agent 输出"做了什么 + 为什么好"的证据链，把"人工审查"从负担变成最后一道安心锁。
+3. **能确定化的逻辑别用 LLM**（Garry Tan）：确定性代码更快、更便宜、更可控、更贴合需求——把 LLM 用在它真正擅长的不确定/开放问题上。
+
+---
+*事实：以上推文、播客内容均来自 follow-builders 中央 feed（2026-10-13 抓取），每条附原文 URL；「我的分析」为基于事实的综合判断。*
+
+⚠️ File-mutation verifier: 1 file(s) were NOT modified this turn despite any wording above that may suggest otherwise. Run `git status` or `read_file` to confirm.
+  • `/tmp/fb-notion-write.py` — [write_file] Refusing to overwrite `/tmp/fb-notion-write.py`: `/private/tmp/fb-notion-write.py` was modified by sibling subagent 'cron:c8e25d6e74a3:a689ea97f6b34075b87f1b181913d9e3' but this agent…
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

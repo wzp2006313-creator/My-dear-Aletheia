@@ -23,18 +23,18 @@
       "schedule_display": "0 9 * * *",
       "repeat": {
         "times": null,
-        "completed": 119
+        "completed": 120
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-01T20:23:47.163344+08:00",
-      "next_run_at": "2026-10-13T09:00:00+08:00",
-      "last_run_at": "2026-10-12T09:17:03.922199+08:00",
-      "last_status": "error",
-      "last_error": "RuntimeError: Connection error.",
-      "last_delivery_error": "live adapter send failed: HTTPSConnectionPool(host='open.feishu.cn', port=443): Max retries exceeded with url: /open-apis/auth/v3/tenant_access_token/internal (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Service Unavailable'))); live adapter delivery to feishu:oc_9e19fd780d3617c2c6fbac770909d0f7 failed: HTTPSConnectionPool(host='open.feishu.cn', port=443): Max retries exceeded with url: /open-apis/auth/v3/tenant_access_token/internal (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Service Unavailable'))); delivery error: Feishu send failed: HTTPSConnectionPool(host='open.feishu.cn', port=443): Max retries exceeded with url: /open-apis/auth/v3/tenant_access_token/internal (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Service Unavailable'))) (target feishu:oc_9e19fd780d3617c2c6fbac770909d0f7)",
+      "next_run_at": "2026-10-14T09:00:00+08:00",
+      "last_run_at": "2026-10-13T09:10:17.161189+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
       "deliver": "origin",
       "origin": {
         "platform": "feishu",
@@ -46,11 +46,11 @@
       "workdir": null,
       "profile": null,
       "fire_claim": null,
-      "failure_streak": 1,
+      "failure_streak": 0,
       "last_dispatch": {
-        "scheduled_at": "2026-10-12T09:00:00+08:00",
-        "dispatched_at": "2026-10-12T09:00:11.080093+08:00",
-        "lateness_seconds": 11.1,
+        "scheduled_at": "2026-10-13T09:00:00+08:00",
+        "dispatched_at": "2026-10-13T09:00:52.256527+08:00",
+        "lateness_seconds": 52.3,
         "kind": "on_time"
       }
     },
@@ -76,15 +76,15 @@
       "schedule_display": "0 3 * * *",
       "repeat": {
         "times": null,
-        "completed": 119
+        "completed": 120
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-01T20:44:35.495762+08:00",
-      "next_run_at": "2026-10-14T03:00:00+08:00",
-      "last_run_at": "2026-10-13T03:02:04.872662+08:00",
+      "next_run_at": "2026-10-15T03:00:00+08:00",
+      "last_run_at": "2026-10-14T03:02:07.438102+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -101,9 +101,9 @@
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
-        "scheduled_at": "2026-10-13T03:00:00+08:00",
-        "dispatched_at": "2026-10-13T03:00:54.353245+08:00",
-        "lateness_seconds": 54.4,
+        "scheduled_at": "2026-10-14T03:00:00+08:00",
+        "dispatched_at": "2026-10-14T03:00:39.266206+08:00",
+        "lateness_seconds": 39.3,
         "kind": "on_time"
       }
     },
@@ -127,15 +127,15 @@
       "schedule_display": "0 4 * * *",
       "repeat": {
         "times": null,
-        "completed": 121
+        "completed": 122
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-03T11:39:46.582888+08:00",
-      "next_run_at": "2026-10-14T04:00:00+08:00",
-      "last_run_at": "2026-10-12T04:00:55.884015+08:00",
+      "next_run_at": "2026-10-15T04:00:00+08:00",
+      "last_run_at": "2026-10-13T04:00:28.780415+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -147,14 +147,14 @@
       "workdir": null,
       "profile": null,
       "fire_claim": {
-        "at": "2026-10-13T04:00:03.848096+08:00",
-        "by": "wangzhanpengdeMacBook-Pro.local:1250:c0ee1d87bf4745558269f7cae2e1a511"
+        "at": "2026-10-14T04:00:48.892916+08:00",
+        "by": "wangzhanpengdeMacBook-Pro.local:1250:faf4ba11dea649f28333e58982f2d726"
       },
       "failure_streak": 0,
       "last_dispatch": {
-        "scheduled_at": "2026-10-13T04:00:00+08:00",
-        "dispatched_at": "2026-10-13T04:00:03.800402+08:00",
-        "lateness_seconds": 3.8,
+        "scheduled_at": "2026-10-14T04:00:00+08:00",
+        "dispatched_at": "2026-10-14T04:00:48.840594+08:00",
+        "lateness_seconds": 48.8,
         "kind": "on_time"
       }
     },
@@ -234,15 +234,15 @@
       "schedule_display": "0 4 * * *",
       "repeat": {
         "times": null,
-        "completed": 69
+        "completed": 70
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-07-21T13:50:21.247752+08:00",
-      "next_run_at": "2026-10-14T04:00:00+08:00",
-      "last_run_at": "2026-10-12T04:01:42.335678+08:00",
+      "next_run_at": "2026-10-15T04:00:00+08:00",
+      "last_run_at": "2026-10-13T04:01:09.241440+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -252,17 +252,17 @@
       "workdir": null,
       "profile": null,
       "fire_claim": {
-        "at": "2026-10-13T04:00:03.863218+08:00",
-        "by": "wangzhanpengdeMacBook-Pro.local:1250:892b29c92a4b4ec8af9861636549fa87"
+        "at": "2026-10-14T04:00:48.902381+08:00",
+        "by": "wangzhanpengdeMacBook-Pro.local:1250:da262fd058e84cb4896df6c11791215a"
       },
       "failure_streak": 0,
       "last_dispatch": {
-        "scheduled_at": "2026-10-13T04:00:00+08:00",
-        "dispatched_at": "2026-10-13T04:00:03.800402+08:00",
-        "lateness_seconds": 3.8,
+        "scheduled_at": "2026-10-14T04:00:00+08:00",
+        "dispatched_at": "2026-10-14T04:00:48.840594+08:00",
+        "lateness_seconds": 48.8,
         "kind": "on_time"
       }
     }
   ],
-  "updated_at": "2026-10-13T04:00:03.865632+08:00"
+  "updated_at": "2026-10-14T04:00:48.902899+08:00"
 }
