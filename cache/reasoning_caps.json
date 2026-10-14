@@ -1,7 +1,13 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1791920964.704104,
+"ts":1792007940.303007,
 "caps":{
+"~unbiased/pareto-latest":{
+"supports_reasoning":false
+},
+"unbiased/pareto-26.9":{
+"supports_reasoning":false
+},
 "liquid/lfm-2.5-24b-a2b":{
 "supports_reasoning":true,
 "supported_efforts":null,
@@ -412,9 +418,6 @@
 "low"
 ],
 "mandatory":true
-},
-"unbiased/pareto":{
-"supports_reasoning":false
 },
 "~deepseek/deepseek-pro-latest":{
 "supports_reasoning":true,
@@ -1740,7 +1743,9 @@
 "mandatory":true
 },
 "openrouter/pareto-code":{
-"supports_reasoning":false
+"supports_reasoning":true,
+"supported_efforts":null,
+"mandatory":false
 },
 "moonshotai/kimi-k2.6":{
 "supports_reasoning":true,

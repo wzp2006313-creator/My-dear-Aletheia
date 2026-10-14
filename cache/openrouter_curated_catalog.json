@@ -1,5 +1,5 @@
 {
-  "fetched_at": 1791920964.709973,
+  "fetched_at": 1792007940.307327,
   "curated": [
     [
       "anthropic/claude-fable-5.1",
@@ -211,6 +211,10 @@
     ],
     [
       "upstage/solar-mini4",
+      ""
+    ],
+    [
+      "openrouter/pareto-code",
       ""
     ],
     [
