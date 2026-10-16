@@ -19,12 +19,6 @@
       2376997,
       1780310811686817449
     ],
-    "research/social-sentiment-research/SKILL.md": [
-      1788166402679907464,
-      4668,
-      31486609,
-      1788166402680302961
-    ],
     "research/blogwatcher/SKILL.md": [
       1780310488976435234,
       5111,
@@ -42,12 +36,6 @@
       11707,
       41062349,
       1790239447089965507
-    ],
-    "research/xiaohongshu-research/SKILL.md": [
-      1786894380000567868,
-      4479,
-      26847640,
-      1786894380001264531
     ],
     "research/polymarket/SKILL.md": [
       1780310488976624106,
@@ -192,12 +180,6 @@
       2863,
       2828844,
       1780315851287509839
-    ],
-    "software-development/github/SKILL.md": [
-      1788120030691742465,
-      2446,
-      31349041,
-      1788120059865247023
     ],
     "software-development/writing-plans/SKILL.md": [
       1780919098307911628,
@@ -655,12 +637,6 @@
       2783486,
       1780314697882510765
     ],
-    "macos-proxy-diagnostics/SKILL.md": [
-      1788920937093236051,
-      3629,
-      33623713,
-      1788920937093438259
-    ],
     "frontend-design/SKILL.md": [
       1780314640561519609,
       4439,
@@ -840,12 +816,6 @@
       114,
       2377025,
       1780310811694435988
-    ],
-    "productivity/fund-portfolio-monitor/SKILL.md": [
-      1787240045821002705,
-      10810,
-      27305978,
-      1787240045821164539
     ],
     "productivity/session-librarian/SKILL.md": [
       1786651283808415987,
@@ -1715,20 +1685,6 @@
       }
     },
     {
-      "skill_name": "macos-proxy-diagnostics",
-      "category": "macos-proxy-diagnostics",
-      "frontmatter_name": "macos-proxy-diagnostics",
-      "description": "Diagnose macOS proxy/VPN traffic hijack via fake-ip/TUN.",
-      "platforms": [],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": [],
-        "session_platforms": []
-      }
-    },
-    {
       "skill_name": "mcp-builder",
       "category": "mcp",
       "frontmatter_name": "mcp-builder",
@@ -1966,20 +1922,6 @@
       }
     },
     {
-      "skill_name": "fund-portfolio-monitor",
-      "category": "productivity",
-      "frontmatter_name": "fund-portfolio-monitor",
-      "description": "Daily fund portfolio monitoring — fetch real-time NAV est...",
-      "platforms": [],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": [],
-        "session_platforms": []
-      }
-    },
-    {
       "skill_name": "notion-classic-api",
       "category": "productivity",
       "frontmatter_name": "notion-classic-api",
@@ -2183,37 +2125,6 @@
           "terminal",
           "files"
         ],
-        "fallback_for_tools": [],
-        "requires_tools": [],
-        "session_platforms": []
-      }
-    },
-    {
-      "skill_name": "social-sentiment-research",
-      "category": "research",
-      "frontmatter_name": "social-sentiment-research",
-      "description": "社交媒体舆情研究：抓取小红书等平台，分析用户痛点、口碑与趋势。",
-      "platforms": [],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": [],
-        "session_platforms": []
-      }
-    },
-    {
-      "skill_name": "xiaohongshu-research",
-      "category": "research",
-      "frontmatter_name": "xiaohongshu-research",
-      "description": "小红书用户舆情研究：抓搜索页笔记做痛点/趋势分析。触发：调研某产品在小红书的用户反馈。",
-      "platforms": [
-        "macos",
-        "linux"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
         "fallback_for_tools": [],
         "requires_tools": [],
         "session_platforms": []
@@ -2644,24 +2555,6 @@
       "category": "smart-home",
       "frontmatter_name": "openhue",
       "description": "Control Philips Hue lights, scenes, rooms via OpenHue CLI.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": [],
-        "session_platforms": []
-      }
-    },
-    {
-      "skill_name": "github",
-      "category": "software-development",
-      "frontmatter_name": "github",
-      "description": "GitHub via gh CLI: PRs, issues, reviews, repos, auth.",
       "platforms": [
         "linux",
         "macos",

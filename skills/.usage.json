@@ -10,7 +10,7 @@
     "patch_count": 36,
     "patch_generation": 7,
     "pinned": false,
-    "state": "active",
+    "state": "stale",
     "use_count": 43,
     "view_count": 43
   },
@@ -556,13 +556,13 @@
     "created_by": null,
     "last_patched_at": "2026-07-15T01:33:57.455190+00:00",
     "last_reused_patch_generation": 0,
-    "last_used_at": "2026-10-14T01:03:11.131448+00:00",
+    "last_used_at": "2026-10-16T06:18:23.273470+00:00",
     "last_viewed_at": "2026-10-14T01:03:11.128847+00:00",
     "patch_count": 34,
     "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 215,
+    "use_count": 217,
     "view_count": 93
   },
   "frontend-design": {
@@ -655,14 +655,14 @@
     "created_by": null,
     "last_patched_at": "2026-06-29T12:10:29.930762+00:00",
     "last_reused_patch_generation": 0,
-    "last_used_at": "2026-10-13T20:01:23.048079+00:00",
-    "last_viewed_at": "2026-10-13T20:01:23.046066+00:00",
+    "last_used_at": "2026-10-14T20:01:01.005226+00:00",
+    "last_viewed_at": "2026-10-14T20:01:00.993161+00:00",
     "patch_count": 8,
     "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 38,
-    "view_count": 38
+    "use_count": 39,
+    "view_count": 39
   },
   "hermes-security-matrix": {
     "archived_at": null,
@@ -670,13 +670,13 @@
     "created_by": null,
     "last_patched_at": "2026-09-24T19:01:52.512760+00:00",
     "last_reused_patch_generation": 4,
-    "last_used_at": "2026-10-14T19:00:28.920971+00:00",
+    "last_used_at": "2026-10-16T06:18:23.270067+00:00",
     "last_viewed_at": "2026-09-26T19:08:10.761985+00:00",
     "patch_count": 7,
     "patch_generation": 4,
     "pinned": false,
     "state": "active",
-    "use_count": 158,
+    "use_count": 159,
     "view_count": 37
   },
   "himalaya": {
@@ -836,7 +836,7 @@
     "view_count": 1
   },
   "macos-proxy-diagnostics": {
-    "archived_at": null,
+    "archived_at": "2026-10-15T03:42:27.633296+00:00",
     "created_at": "2026-09-09T02:28:57.105623+00:00",
     "created_by": "agent",
     "last_patched_at": null,
@@ -846,7 +846,7 @@
     "patch_count": 0,
     "patch_generation": 0,
     "pinned": false,
-    "state": "stale",
+    "state": "archived",
     "use_count": 0,
     "view_count": 0
   },
@@ -1131,7 +1131,7 @@
     "patch_count": 0,
     "patch_generation": 0,
     "pinned": false,
-    "state": "active",
+    "state": "stale",
     "use_count": 2,
     "view_count": 2
   },
@@ -1594,7 +1594,7 @@
     "view_count": 7
   },
   "xiaohongshu-research": {
-    "archived_at": null,
+    "archived_at": "2026-10-15T03:42:28.030590+00:00",
     "created_at": "2026-08-16T15:33:00.008212+00:00",
     "created_by": "agent",
     "last_patched_at": "2026-08-16T15:33:06.533167+00:00",
@@ -1604,7 +1604,7 @@
     "patch_count": 1,
     "patch_generation": 1,
     "pinned": false,
-    "state": "stale",
+    "state": "archived",
     "use_count": 3,
     "view_count": 3
   },
