@@ -1,0 +1,93 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+✅ 已完成每日 AI 摘要并写入 Notion（验证通过：每日归档表格已新增「2026-10-17 ✅ 完成」行，摘要正文已追加到页面末尾）。
+
+---
+
+# AI Builders Digest — 2026-10-17
+
+（来源：follow-builders 每日 AI 摘要 · 2026-10-17 · 共 30 条推文 + 1 期播客）
+
+### 📌 今日概览
+
+Meta 开源了 Muse 开放权重模型、开放权重阵营再度升温，同时 TypeSafe 的 Jev——一个"做决策、不生成文本"的新模型——以 8.7 亿美元 A 轮、75 亿美元估值成为当下最热话题，AI 圈主线正从"和 AI 聊天"转向"后台可信任、可规模化复制的智能"。
+
+### 🔥 重点 Highlights
+
+1. **Meta 发布 Muse 开放权重模型**——Box CEO Aaron Levie 称这是"美国开源（OSS）的重大进步"，企业可混合前沿性能与低成本定制后训练模型，将大幅推高 token 消耗。 https://x.com/levie/status/2110787013809222141
+2. **Jev / TypeSafe 引爆"机器原生 AI"**——1 个月从 0 到"最被抄袭的模型"，$8.7 亿 A 轮 @ $75 亿估值；核心是输出"决策/概率"而非文本。 https://x.com/mattturck/status/2110799882952831302
+3. **Aaron Levie 的"agent swarm"预言**——从"聊天"到"后台派 agent 干活"是 100X–1000X 的 token 消耗，且多为净新增工作而非替代。 https://x.com/levie/status/2110622982762803449
+4. **可解释性/对齐成为工程问题**——SPC 的 Goodfire 被寄予厚望，Anthropic 联手 Gray Swan 办 prompt injection 竞赛。 https://x.com/adityaag/status/2110779602453066224
+
+### 📝 详细摘要
+
+#### X / Twitter 推文（按 builder 分组）
+
+**Aaron Levie（Box CEO）**
+- Meta 做出 Muse 开放权重模型，"美国 OSS 的巨大进步"：企业能混合前沿性能（编排/高端任务）+ 低成本定制后训练模型（重复工作流），会加速 AI 扩散并提升全栈 token 消耗。 https://x.com/levie/status/2110787013809222141
+- 长文核心：知识工作长期受限于"信息处理速度"，AI 是巨大解锁；下一步是"agent swarm"——把任意数量 agent 派到一个问题上、"搞定再回来汇报"，这些大多是净新增工作；前提是模型持续变好 + 成本下降，唯一瓶颈是"算力够不够"。 https://x.com/levie/status/2110622982762803449
+- 乐观清单：机器人、飞行汽车、超级智能、机上高速网络、太空旅行/殖民地、轨道数据中心、无限能源、治愈多数疾病——"都在我们有生之年"。 https://x.com/levie/status/2110975373219688624
+
+**Boris Cherny（Claude @ Anthropic）**
+- 过去几年 Claude 在提示注入（prompt injection）防御上取得重大进展，agent 越普及越紧迫；与 Gray Swan 合作办竞赛。 https://x.com/bcherny/status/2110791698611855624
+
+**Garry Tan（YC 总裁兼 CEO）**
+- "Open weight models rising"（开放权重模型正在崛起）；联合 Metis 主办活动。 https://x.com/garrytan/status/2110838867213668587
+
+**Guillermo Rauch（Vercel CEO）**
+- "我们在 GTA6 之前就搞出了 Vercel 飞艇和飞行汽车"；另对某发布连发惊叹（"What a SHIP!"）。 https://x.com/rauchg/status/2110957024934858815
+
+**Aditya Agarwal（SPC GP）**
+- Goodfire 可能是 SPC 孵化的最重要公司之一——证明"可解释性与对齐"可以被当作工程问题来解决。 https://x.com/adityaag/status/2110779602453066224
+
+**Dan Shipper（Every CEO）**
+- 一段《心灵捕手》式独白，讽刺"把可解释性=解开 superposition"的过度自信："知道它认得出埃菲尔铁塔，不代表你知道它到底在盘算什么。" https://x.com/danshipper/status/2110831666587713810
+
+**Nan Yu（Codex 产品 @ OpenAI）**
+- "品味（taste）不等于审美品味——那是最肤浅的定义，也是无趣的，因为太常见了。" https://x.com/thenanyu/status/2110730151222980849
+
+**Thibault Sottiaux（Codex & ChatGPT @ OpenAI）**
+- "要么我们没想法了，要么我们在憋大招，时间会证明。" https://x.com/thsottiaux/status/2110971985417441512
+
+**Zara Zhang（Builder）**
+- 做了哈利·波特风格的"活报纸"《The Toddler Times》，图片会动；引用 Ezra Klein："永远别低估受众的智力，也别高估他们的先验知识。" https://x.com/zarazhangrui/status/2110984552743309530
+
+**Matt Turck（FirstMark VC / MAD Podcast 主持）**
+- 发布 Jev 专题播客全集并附完整章节时间轴（Jev 是什么、System 1 vs 2、RLHF 的代价、RLCD、开放权重权衡等）。 https://x.com/mattturck/status/2110799882952831302
+
+**Peter Steinberger（OpenClaw / OpenAI）**
+- "crabbox 被低估了。" https://x.com/steipete/status/2110795475075084471
+
+**一句话带过（低信号）**：Peter Yang 为 8 岁女儿征集 T 恤设计反馈（https://x.com/petergyang/status/2110882341812134186）；Amanda Askell 一条关于《Don't Look Up》和红发的玩笑（https://x.com/AmandaAskell/status/2110737494119710896）；Nikunj Kothari（FPV）的 "gm nyc" 与一条回复（https://x.com/nikunj/status/2110684213796048918）。
+
+#### 播客
+
+**《Jev：会做决策、而非生成文本的 AI》（Diogo Almeida，TypeSafe CEO；主持 Matt Turck）**
+https://www.youtube.com/@DataDrivenNYC/videos
+
+关键内容（事实）：
+- **定位**：Jev 是"机器原生 AI"（machine-native AI），输入数据/指令后输出决策/概率（如"是否紧急、是否升级"），而非生成文本；"classification is AI-complete"（分类本身即是 AI 完备问题）。
+- **规模**：$8.7 亿 A 轮 @ $75 亿估值；Matt Turck 引述市场数据——发布视频 4000 万播放、约百万日活、每天万亿 token、覆盖约 1/3 财富 500 强。
+- **核心哲学**："95% Einstein, 5% Mr. Bean"——模型极聪明，但偶尔犯蠢且不告诉你它何时在犯蠢，就无法自动化。
+- **框架**：System 1（快、直觉决策，AI 擅长）vs System 2（慢、推理，LLM 脆弱且"锯齿状"）；主张用可靠的小决策"积木"组合出更大的能力。
+- **对 RLHF 的批评**：训练出"讨好人类"的模型（谄媚、拒绝回答），提出 RLCD（优化机器原生智能）；"benchmark 涨分 ≠ 可靠自动化"。
+- **技术路线**：从开放权重模型构建；"Build prod, not God"（做生产环境，别造神）。
+- **经济观**：Jevons 悖论——智能越便宜，机器智能市场越大；"intelligence per dollar"才是未来；Diogo 怀疑递归式自我改进，认为"pre-training 是巨大资源浪费"、"OpenAI 对 AGI 的门槛定义很低，我们去年就能有 AGI"。
+- **营销观**：是产品本身在承载营销，而非营销天才；copycat 只复制了界面而非智能。
+
+### 💡 我的分析
+
+**最让我意外的（分析）**：Meta 开放 Muse 权重本身是事实，但 Box 的 Aaron Levie——一位企业级 SaaS CEO——公开为"开源会加速 AI 扩散"站台，并直接把它与"全栈 token 消耗增加"挂钩，是这轮开源叙事的标志性信号（"美国 OSS 重大进步""进一步加速 AI 扩散"均为其原话）。
+
+**趋势在加速（分析，基于多源事实归纳）**：① 开放权重模型崛起——Garry Tan（"Open weight models rising"）、Levie、以及用开放权重训练的 Jev 三方共振；② agent 从"聊天"走向"后台 swarm"，token 消耗量级跃升（Levie 长文）；③ 可解释性/对齐被当作工程问题落地（Goodfire + Anthropic/Gray Swan 竞赛）。
+
+**在降温（分析）**：纯 benchmark 竞赛的公信力继续下滑——Diogo 的"benchmark 涨分 ≠ 可靠自动化"与前几期反复出现的"刷分 vs 真实能力"分化形成呼应。
+
+**对创业者/开发者的 actionable 启发（分析）**：① 关注"决策型/分类型"模型 + 开放权重，作为低成本、可控、可后台长期运行的基础设施，而非事事套聊天模型；② agent 安全（prompt injection、可解释性、容器隔离）是明确的创业窗口；③ 若认可"token 消耗 100X–1000X"的叙事，底层推理算力/基础设施仍是最大的确定性机会——Levie 的原话是"下一个前沿只是算力够不够"。
+
+⚠️ File-mutation verifier: 1 file(s) were NOT modified this turn despite any wording above that may suggest otherwise. Run `git status` or `read_file` to confirm.
+  • `/tmp/fb-notion-write.py` — [write_file] Refusing to overwrite `/tmp/fb-notion-write.py`: `/private/tmp/fb-notion-write.py` was modified by sibling subagent 'cron:c8e25d6e74a3:482570a952e7491c99243c4c82412e77' but this agent…
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").
