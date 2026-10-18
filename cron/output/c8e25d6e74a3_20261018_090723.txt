@@ -1,0 +1,102 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+Notion 写入已验证成功（表格新增 2026-10-18 行 + 摘要已追加，页面长度 591,842 → 598,184 字符）。以下是完整每日摘要。
+
+---
+
+# AI Builders Digest — 2026-10-18
+
+## 📌 今日概览
+今天最重磅的主线是 OpenAI：Greg Brockman 在 No Priors 播客深度访谈中明确提出「AI 已能确定性地生成新知识」——数学里程碑（Navier-Stokes 等百年难题被解出），并首次抛出一个极具争议的判断：**网络安全支出终将远超软件支出**。
+
+## 🔥 重点 Highlights
+
+1. **Greg Brockman：AI 已能"确定性地"生成新知识** —— OpenAI 本周数学成果被定义为"里程碑"，已解出约 400 个开放难题，数学界正在从中挖掘洞见而非仅仅验证证明。（播客 + Sam Altman 推文）
+2. **幻灯片之战正式打响** —— Anthropic 的 Claude Slides 与 OpenAI 的 ChatGPT/Codex Slides 几乎同时上线，两家都在把「生成式演示文稿」变成默认工作流。（Boris Cherny / Thibault Sottiaux 推文）
+3. **Aaron Levie 预言"递归自我改进"飞轮** —— 模型能力已超越多数人类工程师，加上长时运行 Agent 的基建与并行化能力，模型进度将以前所未有的速度加速。（Aaron Levie 推文）
+4. **Replit 主攻高安全环境** —— Amjad Masad 宣布可将 Replit 部署到用户自有云，"数据永不离开本地"，瞄准政府、金融、医疗。（Amjad Masad 推文）
+5. **Dan Shipper：能力瓶颈已从"生成"转向"编辑与监督"** —— 生成既便宜又高质量之后，真正要补的是编辑、审校与 oversight。（Dan Shipper 推文）
+
+## 📝 详细摘要
+
+### X / Twitter 推文（按 builder 分组）
+
+**Boris Cherny（@bcherny — Claude @Anthropic）**
+- 力荐 Claude Slides："别小看 Claude Slides，我现在就这么做幻灯片了，再也不用 Google 搜 iPhone 边框 SVG 了。" → https://x.com/bcherny/status/2111158659971699136
+- 盛赞 Claude Code Review："我无法想象没有它还能保持高效，它跑在我所有 PR 上，几乎在 bug 上线前就能抓住。" → https://x.com/bcherny/status/2111158313463525518
+
+**Thibault Sottiaux（@thsottiaux — Codex & ChatGPT @OpenAI）**
+- 宣布 Codex 昨天刚上线 slides 支持，目前面向 Pro / Business / Enterprise 灰度，边学边调。 → https://x.com/thsottiaux/status/2111249810502353152
+- 介绍 ChatGPT Space 并征集反馈："什么是 ChatGPT Space，这是个好问题……因为做它的就是真正的团队本身。" → https://x.com/thsottiaux/status/2111249534072529256
+
+**Amjad Masad（@amasad — CEO @Replit）**
+- 发布 Replit 私有化部署："你的数据属于你！我们把 Replit 部署到你的云，数据永不离开本地。为政府、金融、医疗等高安全环境设计。" → https://x.com/amasad/status/2111267314012496121
+- 观察数学家群体心态："看着数学家们在极短的时间窗口里走完悲伤五阶段——否认、愤怒、讨价还价、抑郁、接受，很有意思。我们正处在抑郁的尾声、即将进入接受。" → https://x.com/amasad/status/2111206044416500159
+
+**Guillermo Rauch（@rauchg — CEO @Vercel）**
+- TypeScript 原生编译器进展："TypeScript 就是新的 TypeScript 😂，scriptc 编译后性能比 tsgo 快 2–4 倍。" → https://x.com/rauchg/status/2111274408706965898
+- 用模拟重建了特斯拉 Roadster 演示（可玩、高精度还原现实细节）。 → https://x.com/rauchg/status/2111313462987231519
+
+**Aaron Levie（@levie — CEO @Box）**
+- 长文谈递归自我改进（RSI）：模型能力终于超越多数人类工程师、长时运行 Agent 的 harness/基础设施、不断增长的数据、以及并行化 Agent 的协同，共同构成"不可思议的飞轮"，模型进度将以超乎以往的速度加速——"如果你没有把 RSI 带来的影响计入定价，那可能是错误的。" → https://x.com/levie/status/2111312141609586862
+
+**Dan Shipper（@danshipper — CEO @Every）**
+- 能力瓶颈转移："生成现在已经又便宜又高质量了，我们真正需要的能力大跃迁是编辑和监督（editing and oversight）。" → https://x.com/danshipper/status/2111174407637139668
+
+**Sam Altman（@sama — OpenAI）**
+- 透露 Navier-Stokes 里程碑纪念衫背面印的是解题思维链（chain-of-thought）的最后一行。 → https://x.com/sama/status/2111139227761266699
+- 夸赞特斯拉新 Roadster（"看起来相当惊艳，@elonmusk 干得漂亮"）。 → https://x.com/sama/status/2111131677351432197
+
+**Garry Tan（@garrytan — President & CEO @Y Combinator）**
+- 开工新项目的心得："用 @capydotai + @AsideAI，我的 Agent 既能写出第一版代码，也能一次性把 DevOps 全部搭好。" → https://x.com/garrytan/status/2111235500568969451
+
+**Claude（@claudeai — Anthropic 官方账号）**
+- 展示用例：Haiku 5.5 先写了二十首俳句，再用 JavaScript 逐帧画出来。 → https://x.com/claudeai/status/2111177845846495646
+- 展示用例：一位心内科进修医生用 Claude 建了 3D 工具，帮学员学习读冠脉造影。 → https://x.com/claudeai/status/2111177843413807120
+
+**Nikunj Kothari（@nikunj — Partner @FPV Ventures）**
+- 7 个月前写下"预测"，见了约 50 家该赛道初创，最终找到并领投了那家公司的 A 轮："大胆出手，你永远不知道宇宙会如何帮你。" → https://x.com/nikunj/status/2111292452414103892
+
+**Aditya Agarwal（@adityaag — GP @SPC）**
+- 预告 Sriram Krishnan 下周到 SPC 做炉边对话：他参与打造了 Azure、规模化过 Meta 移动广告、领导过 a16z 国际扩张，之后去白宫参与撰写美国 AI 行动计划。 → https://x.com/adityaag/status/2111162109933535673
+
+### 🎙️ 播客
+
+**No Priors —《The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman》**
+→ https://www.youtube.com/@NoPriorsPodcast
+
+核心要点（Greg Brockman 观点）：
+- **数学里程碑 = 新知识的证据**：OpenAI 本周数学成果被其视为"真实里程碑"，AI 已"确定性地"能生成新知识——解出约 400 个开放难题，且数学界专家在解出的证明里发现了"出乎意料的想法迁移"（为什么在这里用这个结论），这与历史上"四色定理"那种机器穷举、无美感的证明截然不同。
+- **药物发现是第一优先应用**：从第一性原理看，人类极不擅长生物/药物发现（自然语言是人类的"母语"，但生物对我们完全陌生），而神经网络没有理由在自然语言上比在生物上更强——所以"破解生物的语言"应当可行。真正瓶颈是**数据**而非能力，此外监管申报（写临床试验材料耗时一年）也是巨大瓶颈。
+- **DOTS 与"无 UI"**：DOTS 是"主动型、永远在线"的 Agent——改变的是形态因子（form factor）而非能力。他主张"最好的 UI 就是没有 UI"，ChatGPT 从文本框起步，最终走向"连文本框都没有"。
+- **网络安全的物理学正在改变**：当前处于"防守者窗口期"——前沿 AI 能力可帮助防守方，但尚未广泛扩散；而广泛扩散的攻击能力正在逐版爬升。他提出**网络安全支出应"远超"软件支出**（软件本身正变得越来越便宜，可靠、可信的软件才是价值所在）。OpenAI 承诺 10 亿美元支持一线防守者（Daybreak 计划），并主张用 AI 做软件的形式化验证。
+- **消费级与企业级边界将模糊**：ChatGPT 有 12 亿消费者，同时有领先的编码与企业业务，"没有人同时拥有两者"，OpenAI 的策略是统一二者，而非在两个战线上竞争。他预言"创业者的复兴"——有人因为有了可依赖的 AI 才敢辞职创业。
+- **人类始终在驾驶座**：借用 Steve Jobs 给 iMac 加把手的典故（让你感觉能掌控机器），强调即便模型在能力上超越人类，人类判断与价值仍应主导。
+
+## 💡 我的分析
+
+> 以下为分析/综合推论，非 JSON 中的事实。
+
+**今天最让我意外的消息**：不是数学里程碑本身（此前已有预告），而是 Greg Brockman 那句"安全支出终将远超软件支出"。这是一个 OpenAI 总裁级别的、反直觉的产业判断——它隐含着对"软件边际成本趋零后，护城河转向可信度与安全"这一趋势的押注。
+
+**在加速的趋势**：
+- **"幻灯片/文档"成为 AI 原生工作流**：Anthropic（Claude Slides）与 OpenAI（Codex/ChatGPT Slides）几乎同日发力，且多位 builder（Boris Cherny、Amjad Masad"Frontier Slides"）都在推。生成式办公演示正在从玩具走向默认工具。
+- **Agent 从"能力"转向"形态"**：Brockman 明确 DOTS 的突破在 form factor 而非 capability，Garry Tan 也在用多 Agent 协作（代码+DevOps 一次搞定）——这是 Agent 进入"日常工作流"的信号。
+- **递归自我改进叙事升温**：Aaron Levie 的长文与 Brockman 的"新知识"论述相互印证，RSI 从科幻话题变成产业共识级的讨论。
+
+**在降温/被纠偏的**：
+- **"生成即壁垒"的旧认知**：Dan Shipper 一针见血——生成已经又便宜又好，瓶颈转向"编辑与监督"。这给"纯靠堆生成能力"的创业故事敲了警钟。
+- **"AI 写代码不安全"的单一叙事**：Brockman 反过来论证——AI 可以从头训练出"安全代码"，用形式化验证还技术债，防守方有机会反超攻击方。
+
+**给创业者/开发者的 actionable 启发**：
+1. 如果你在做 Agent/工具，别再只拼"生成质量"，把资源投到**编辑、审校、可监督性**上——这是 Dan Shipper 与 Brockman 访谈共同指向的下一个差异化点。
+2. **安全是新的价值高地**：当软件变便宜，可信、可验证、可私有部署（如 Replit 的"数据不出本地"）会成为付费理由，尤其是政企、金融、医疗客户。
+3. **"无 UI"是终局方向**：别把精力耗在复杂前端，优先让产品能被"说话/消息"驱动，把 UI 变成按需即时生成。
+
+⚠️ File-mutation verifier: 2 file(s) were NOT modified this turn despite any wording above that may suggest otherwise. Run `git status` or `read_file` to confirm.
+  • `/tmp/fb-notion-read.py` — [write_file] Refusing to overwrite `/tmp/fb-notion-read.py`: `/private/tmp/fb-notion-read.py` was modified by sibling subagent 'cron:c8e25d6e74a3:e1bbf4711a4445e29249a968e291e0e2' but this agent n…
+  • `/tmp/fb-notion-write2.py` — [write_file] Refusing to overwrite `/tmp/fb-notion-write2.py`: `/private/tmp/fb-notion-write2.py` was modified by sibling subagent 'cron:c8e25d6e74a3:e1bbf4711a4445e29249a968e291e0e2' but this age…
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").
