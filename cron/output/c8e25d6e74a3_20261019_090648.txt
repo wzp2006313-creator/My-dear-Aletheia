@@ -1,0 +1,117 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+已完整执行 follow-builders 每日摘要工作流，并成功写入 Notion（page_id `372fde4c-8055-8152-a074-dac812172d61`）。已核验：归档表新增 `2026-10-19` 行（✅），摘要正文追加成功（无重复）。以下为完整摘要。
+
+---
+
+# AI Builders Digest — 2026-10-19
+
+## 📌 今日概览
+
+AI agent 正从"回答问题"走向"自主协作、读写真实世界"：OpenAI 的 dots（工作/个人智能体）已能互相发邮件、再联系 CPA 完成报税，而 CMU 数据库教授 Andy Pavlo 在同日播客中预警——agent 时代数据库将承受 10–100 倍的查询量冲击，但"agent 负载是否本质不同"仍是待解之谜。
+
+## 🔥 重点 Highlights
+
+1. **OpenAI dots 智能体互相协作报税**：Thibault Sottiaux（OpenAI Codex/ChatGPT）的工作 dot "Burger" 与个人 dot "Dorito" 通过邮件协调、再联系其 CPA，20 分钟完成报税——"We're still so early."
+   → https://x.com/thsottiaux/status/2111495392559067199
+
+2. **Andy Pavlo 谈 agent 时代的数据库**：预测 agent 带来的数据库查询量将增长 10–100 倍；核心不是新架构，而是 guardrails（把 agent 当"幼儿"设护栏）+ 语义层。
+   → https://www.youtube.com/@DataDrivenNYC/videos
+
+3. **Aaron Levie（Box CEO）反驳"软件工程终结论"**：恰恰相反，几乎一切都在变成软件，工程在经济中的重要性不降反升。
+   → https://x.com/levie/status/2111525362446520466
+
+4. **Replit 明确模型策略**：保持模型中立，但 OpenAI 成为其 Agent 的"首选合作伙伴"（性能 + 成本 + 合作深度）。
+   → https://x.com/amasad/status/2111494912562888939
+
+5. **Peter Yang 实测 Claude Code App**：比 ChatGPT 更简洁、更快，仍缺 browser/computer use、全线程远程控制、实时语音。
+   → https://x.com/petergyang/status/2111496600522805624
+
+## 📝 详细摘要
+
+### 𝕏 / TWITTER
+
+**Swyx（DX tips / smol_ai / dxtipshq / Cognition / Latent Space）**
+- 其播客频道自 5 月（AIE EU 之后）起持续月均 >100 万独立观众，58% 是新增观众、68% 未订阅；观看高峰在工作日 7–11am PT，下午 5 点后几乎无人。
+  → https://x.com/swyx/status/2111350966419411070
+- 目标是"和名单上每一位创作者都合作一次"（channel affinity），并附频道推荐曲线图（前两年几乎无推荐，之后靠浏览推荐起量，CTR 偏低）。
+  → https://x.com/swyx/status/2111351354409300230 · https://x.com/swyx/status/2111353401363902573
+
+**Thibault Sottiaux（OpenAI，Codex & ChatGPT）**
+- 工作 dot "Burger" 应个人 dot "Dorito" 请求、通过邮件协调，再联系 CPA 完成报税，全程 20 分钟；"We're still so early."
+  → https://x.com/thsottiaux/status/2111495392559067199
+- 另两条为发布预告：一句 "Done"，及 "Landing sometime today by EOD PST"（暗示今天有产品落地）。
+  → https://x.com/thsottiaux/status/2111566005684289735 · https://x.com/thsottiaux/status/2111492738025959922
+
+**Peter Yang（实用 AI 教程 / 访谈作者）**
+- 认可 Tim 的观点，希望《星际争霸 3》开发者拥抱 AI、赶在 2030 年前上线。
+  → https://x.com/petergyang/status/2111663267995361287
+- 分享一条 Google 账号连接的审计 prompt：区分"基础登录"与"读取 Gmail/Drive/Calendar 数据"的权限，建议保留/断开，并标注广权限、陌生提供方与重复项（他本人连了 45 个 app/agent）。
+  → https://x.com/petergyang/status/2111508293818671449
+- 实测 Claude Code App 更快、比 ChatGPT 更简洁，仍缺 browser/computer use、全线程远程控制、实时语音。
+  → https://x.com/petergyang/status/2111496600522805624
+
+**Nan Yu（OpenAI Codex 产品，前 Linear 产品负责人）**
+- 团队 offsite 上的怀旧："在有 AI 之前我们关注什么？——前端 JavaScript 框架 😅"
+  → https://x.com/thenanyu/status/2111597172840083574
+
+**Amjad Masad（Replit CEO）**
+- 澄清：Replit 保持模型中立（用户可选 Anthropic 等多种模型）；在 TC Disrupt 说的"OpenAI 成为首选合作伙伴"是指 Agent 产品基于性能、成本与合作深度选型，同时仍给用户模型选择权。
+  → https://x.com/amasad/status/2111494912562888939
+
+**Guillermo Rauch（Vercel CEO）**
+- 转评："重要的是最终产品，无论是游戏还是引擎。"——关注交付结果而非中间工具。
+  → https://x.com/rauchg/status/2111643672274165938
+
+**Aaron Levie（Box CEO）**
+- 长文反驳"软件工程终结"论：因为 agent 能用工具、写软件、像人一样（但更快地）处理数据，我们可以把"软件"套用到以前根本无法数字化的问题上；银行新交易、生命科学研发、制造业供应链自动化……越来越多的工作形态都成了软件问题。"未来我们不再手工写代码，但几乎所有东西都会是代码，懂代码的人处于绝佳位置。"
+  → https://x.com/levie/status/2111525362446520466
+
+**Nikunj Kothari（FPV Ventures 合伙人，投资 seed/A）**
+- 调侃式"2026 现代 VC 融资栈"：pre-pre-seed → pre-seed → post-pre-seed → mid-seed → pre-post-seed → post-seed → post-post-seed(?)
+  → https://x.com/nikunj/status/2111558586421920134
+- "nyc ily 👋"
+  → https://x.com/nikunj/status/2111415330622820739
+
+### 🎙️ 播客
+
+**《What Happens When Billions of AI Agents Hit Your Database?》—— MAD Podcast × Andy Pavlo（CMU 数据库教授，加盟 ClickHouse 创立 ClickHouse Labs）**
+→ https://www.youtube.com/@DataDrivenNYC/videos
+
+关键要点（事实，摘自节目实录）：
+- **agent 正在创建 / 分支 / 删除数据库**：Databricks 收购 Neon 时披露，agent 创建分支（branching，写时复制快照）的比例从 30% 升到 80%——用于让 coding agent 在沙箱里验证改动、跑 CI/测试，避免动生产库。
+- **guardrails 是当务之急**：把 agent 比作"幼儿"，需要权限/护栏；"每个月都有人因为 agent 误删生产数据库而翻车"——这些防护机制在商业数据库里早已存在，只是大家在重造轮子。
+- **text-to-SQL 已可行，但靠的是语义层**：一家大型银行把 text-to-SQL 从 60% 准确率做到 99.5%，靠的是多年、数百万美元投入建设的语义/上下文层，而非换模型。
+- **MCP 不会消失**：本质是 REST 接口（Anthropic 发起、已被广泛采纳），足够好用；安全护栏对 SQL 与 MCP 一视同仁。
+- **agent 正在写数据库系统**：超过 60% 的开源数据库系统已有 agent 提交（来自他维护的 dbdb.io 追踪）。
+- **自愈 / 自调优数据库**：LLM 能把调优做到 85% 的程度、15 分钟出结果（传统 ML 要训练数小时）；传统 DBA 角色会被"抬高"到数据建模等更高阶工作。
+- **数据库市场判断**：向量数据库不会消失（TurboPuffer 靠极致性价比活得很好），会演化为通用型或"类 Elasticsearch"型；图数据库"是个糟糕的主意"（SQL 2023 标准已支持属性图查询）；GPU 数据库因 NVIDIA 收购 Voltron/HeavyDB 而升温，但经济性存疑。
+- **未来 5 年**：关系模型不会推倒重来，能量会集中在 Postgres；"agentic 负载是否本质不同"仍是他最想研究的问题，但答案尚不清楚。
+
+## 💡 我的分析
+
+> 以下为分析 / 综合推论，非 JSON 中的事实。
+
+**今天最让我意外的消息**：不是 agent 能力本身，而是 OpenAI 内部人员（Thibault Sottiaux）用自己的工作 dot "Burger" 和个人 dot "Dorito" 互相发邮件、再联动 CPA 完成真实报税——这是第一手的、可复现的 agent-to-agent 协作，而非发布会 demo。配合"Landing today EOD PST"，OpenAI 的 dots 明显在加速落地。
+
+**在加速的趋势**：
+- **agent 自主协作**：从"单 agent 执行任务"走向"多 agent 互相调用（邮件/工具链）"，工作与个人身份开始融合。
+- **数据库重新成为关键基础设施**：Andy Pavlo 加盟 ClickHouse 建 Labs、Databricks/Neon、Snowflake/Crunchy 的 OLTP+OLAP 收敛，都在印证"agent 读写世界"需要更强、更受控的数据层。
+- **text-to-SQL 从玩具到生产**：99.5% 准确率证明瓶颈在语义层建设，而非模型——这是企业可复制的路径。
+
+**在降温 / 被纠偏的**：
+- **向量数据库与图数据库的叙事**：Andy Pavlo 明确"向量索引已成 table stakes"、"图数据库是糟糕的主意"，纯靠单点能力的数据库创业故事被泼冷水。
+- **"软件工程终结"论**：Aaron Levie 与多方声音在纠偏——自动化不是减少软件需求，而是把更多问题变成软件问题。
+
+**给创业者 / 开发者的 actionable 启发**：
+1. 做 agent 产品时，先把 **guardrails / 沙箱 / 权限** 做进数据访问层——"agent 误删生产库"是每月都在发生的真实事故，这本身就是可产品化的刚需。
+2. 别只拼模型：**语义层 / 上下文层** 是把 text-to-SQL 从 60% 拉到 99.5% 的关键，也是企业付费的护城河。
+3. agent 会生成海量 telemetry——**agent 可观测性 / 日志分析** 是快速成长的新 niche（ClickHouse 已把 LLM observability 纳入版图）。
+4. 对个人开发者：像 Peter Yang 那样定期 **审计 agent / app 的连接权限**（区分"基础登录"与"读取 Gmail/Drive/Calendar 数据"），是 agent 时代的新安全习惯。
+
+⚠️ File-mutation verifier: 1 file(s) were NOT modified this turn despite any wording above that may suggest otherwise. Run `git status` or `read_file` to confirm.
+  • `/tmp/fb-notion-write.py` — [write_file] Refusing to overwrite `/tmp/fb-notion-write.py`: `/private/tmp/fb-notion-write.py` was modified by sibling subagent 'cron:c8e25d6e74a3:482570a952e7491c99243c4c82412e77' but this agent…
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").
