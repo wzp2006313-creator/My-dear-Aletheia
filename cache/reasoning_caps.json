@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1792525468.505973,
+"ts":1792611945.3644109,
 "caps":{
 "minimax/minimax-m3.1-flash:free":{
 "supports_reasoning":true,
