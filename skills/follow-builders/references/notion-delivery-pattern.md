@@ -207,6 +207,16 @@ subprocess.run(["ntn", "api", f"v1/pages/{page_id}/markdown", "-X", "PATCH", "--
 
 The `insert_content` approach (append-only, no table update) is the simplest option when the page doesn't have a table to maintain.
 
+## Pitfall: locating the last table row by date string is fragile
+
+The digest page's markdown contains the date string in TWO places — the archive table row AND the digest section titles (`## AI Builders Digest — 2026-10-22`). `md.rfind('2026-10-22')` returns the digest-title occurrence, which has no `</table>` after it. Anchor on the `</table>` tag instead (there is only one HTML table, the archive table):
+
+```python
+table_end = md.find('</table>')
+row_start = md.rfind('<tr>', 0, table_end)
+old_str = md[row_start:table_end + len('</table>')]
+```
+
 ## Pitfall: `execute_code` blocked in cron mode
 
 When the agent runs as a scheduled cron job, `execute_code` is BLOCKED with:
