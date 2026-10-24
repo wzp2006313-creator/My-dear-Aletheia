@@ -1,6 +1,6 @@
 {
 "https://openrouter.ai/api/v1/models":{
-"ts":1792784697.899557,
+"ts":1792871301.42024,
 "caps":{
 "moonshotai/kimi-k3.1-pro":{
 "supports_reasoning":true,
@@ -3160,9 +3160,6 @@
 "supported_efforts":null,
 "mandatory":false
 },
-"openai/gpt-3.5-turbo-instruct":{
-"supports_reasoning":false
-},
 "openai/gpt-3.5-turbo-16k":{
 "supports_reasoning":false
 },
@@ -3173,12 +3170,6 @@
 "supports_reasoning":false
 },
 "gryphe/mythomax-l2-13b":{
-"supports_reasoning":false
-},
-"openai/gpt-3.5-turbo":{
-"supports_reasoning":false
-},
-"openai/gpt-3.5-turbo:batch":{
 "supports_reasoning":false
 },
 "openai/gpt-4":{

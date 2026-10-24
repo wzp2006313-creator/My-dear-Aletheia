@@ -1,0 +1,118 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+已完成 follow-builders 每日 AI 摘要，并成功写入 Notion（每日归档表格新增 2026-10-24 行 + 全文追加，均已验证）。以下是完整摘要：
+
+---
+
+## AI Builders Digest — 2026-10-24
+
+### 📌 今日概览
+AI 圈今天被两条主线贯穿：一是「静态凭证/安全靠隐晦」时代的终结宣言——Vercel CEO 曝出互联网加密密钥的密码竟是一位数字「4」、Box CEO 断言「security through obscurity 彻底完了」，安全议题集中升温；二是 Agent 基建的标准化提速——Anthropic 把 Agent Skills 捐赠给 AgenticAI 基金会（与 MCP 并列）、Claude 全平台默认 auto mode，OpenAI Codex 则以「Day 18」收官并预告次日「reset」。
+
+### 🔥 重点 Highlights
+1. **互联网加密密钥密码竟是「4」** —— Vercel CEO 披露「互联网加密守护者的密码只有一位数字 4」，该密钥可解密「几乎所有东西」，行业仍在清理残余风险。→ https://x.com/rauchg/status/2113462657059639505
+2. **Anthropic 将 Agent Skills 捐赠给 AgenticAI 基金会** —— Agent Skills 始于 Claude Code 的实验，现被行业广泛采纳，Anthropic 决定将其捐给基金会、与 MCP 并列。→ https://x.com/bcherny/status/2113333859907747871
+3. **Claude 下周起全平台默认 auto mode** —— 下周起 Pro/Max/Team 计划的 web、桌面、移动端会话默认自动执行，风险操作由自动检查拦截，可随时切回手动。→ https://x.com/claudeai/status/2113360845409583307
+4. **OpenAI Codex「Day 18」收官 + 次日 reset 预告** —— Decisions API 正式 GA、OpenResponses 加入 Linux 基金会、Uber all-in Codex，并预告「明天 10am PST 前」会有新动作。→ https://x.com/thsottiaux/status/2113492187770175603
+5. **Aaron Levie：安全靠隐晦彻底终结** —— 自主系统会遍历每个缝隙、尝试每种攻击，多年遗留的企业基础设施需大规模升级，agent 可同时加速防御并模拟风险向量。→ https://x.com/levie/status/2113499900399034689
+6. **David Silver（AlphaGo 之父）新播客：放弃人类数据、逼近超级智能** —— 新公司 Ineffable Intelligence 用「超级学习者 + 坩埚环境」路线，预测 3 年内达成超级智能。→ https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+
+### 📝 详细摘要
+
+#### X / Twitter 推文（按 builder 分组）
+
+**Swyx（@swyx，@smol_ai / @cognition / @temporalio / @latentspacepod）**
+- 称 Opus 5.5 是他用过「最好的工作量估算模型」——「别告诉我需要 2-3 个工作日（人类的说法），对一个热情、不知疲倦、可无限并行的 AGI 来说，2-3 小时就能搞定」；随着我们委托越来越多工作，这种校准越来越重要。→ https://x.com/swyx/status/2113283272130412684
+- 「别怪 AI 帮你找到 bug，就他妈赶紧把 bug 全清了」的务实态度。→ https://x.com/swyx/status/2113359027682050352
+- 关于 pipeline 中「估算自身 pipeline 修复的 ETA 同时继续跑 pipeline」的重要性。→ https://x.com/swyx/status/2113509413537693703
+
+**Boris Cherny（@bcherny，Claude @Anthropic）**
+- Agent Skills 始于 Claude Code 的一次实验，行业多方已采纳，Anthropic 认为把它捐给 AgenticAI 基金会（与 MCP 并列）更合适。→ https://x.com/bcherny/status/2113333859907747871
+
+**Thibault Sottiaux（@thsottiaux，Codex & ChatGPT @OpenAI）**
+- Day 18 盘点：Decisions API 正式 GA、OpenResponses 加入 Linux 基金会、上线一些性能改进、Uber 全面拥抱 Codex & work；「但没错……这是一次 reset！」→ https://x.com/thsottiaux/status/2113492187770175603
+- 「明天 10am PST 前落地，附带一个 small ship」的预告。→ https://x.com/thsottiaux/status/2113492502355562875 / https://x.com/thsottiaux/status/2113162413008884099
+
+**Peter Yang（@petergyang，实用 AI 教程与访谈）**
+- 分享离开产品岗后的生活访谈（陪 8 岁女儿走路、靠和 ChatGPT 对话做游戏、夹心一代）。→ https://x.com/petergyang/status/2113442789367435735
+- 陪妈妈抗癌的「对立体验」：一边读着 AI 突破，一边还在传真文件、用 CD-ROM 递影像。→ https://x.com/petergyang/status/2113420357726257335
+- 账户安全 6 步法，配一个 prompt 让 AI 生成个性化安全报告。→ https://x.com/petergyang/status/2113405131106742406
+
+**Madhu Guru（@realmadhuguru，Sr Director AI @Meta）**
+- 别等清晰，用行动创造清晰：在 AI 快速改变角色时感到卡住的 PM，靠「建点什么、自动化一个流程、连接激励你的人」来打破惯性。→ https://x.com/realmadhuguru/status/2113437016818057641
+
+**Amjad Masad（@amasad，CEO @replit）**
+- 分享 Replit 如何保护你的 app 免受近期一系列漏洞影响。→ https://x.com/amasad/status/2113474587166171560
+
+**Guillermo Rauch（@rauchg，Vercel CEO）**
+- 本周 TL;DR：「你姑妈的密码是 P4ssword!（贴在厨房便利贴上）；而互联网加密守护者的密码是『4』。对，就一位数字 4。这把密钥可用来解密几乎所有东西，我们还在清理残余风险。」→ https://x.com/rauchg/status/2113462657059639505
+- 称「是时候杀死静态凭证了」，行业应像当年一起推 TLS「绿锁」一样，为 OIDC 再干一次。→ https://x.com/rauchg/status/2113399539227136084
+- 展示一个 Generative UI 的酷实例，并夸 AI Gateway 本身是「工具市场」——给 @aisdk 加一个工具（1 行代码）就得到「Google」。→ https://x.com/rauchg/status/2113451268316205515
+
+**Alex Albert（@alexalbert__，Research @Anthropic）**
+- 现在最想试的 side quest 是「用 AI 帮你运营一批本地小企业」，认为 Claude Duet 这类产品对小企业的意义可能比 Square 或 Google Maps 更大；想听听小企业主用 Claude 的案例。→ https://x.com/alexalbert__/status/2113386454907007444
+
+**Aaron Levie（@levie，CEO @box）**
+- 「任何形式的 security through obscurity 都彻底结束了」：在自主系统会遍历每个缝隙、尝试每种攻击排列的世界里，多年遗留的企业基础设施需要升级、安全实践现代化、数据管道清理、访问控制更好管理；agent 会在防御侧帮忙（既加速这些工作、又能模拟风险向量），但前路漫长，这也是 diffusion 时间线比一些人预想更长的部分原因。→ https://x.com/levie/status/2113499900399034689
+
+**Garry Tan（@garrytan，President & CEO @ycombinator）**
+- 称 Aside Browser 是「让 agent 真正擅长用 web」的真实解决方案。→ https://x.com/garrytan/status/2113367007567794563
+- 「AI 正在改造大量强大的 SaaS 业务，这是它『真正击中』时的样子」。→ https://x.com/garrytan/status/2113353678895919196
+
+**Matt Turck（@mattturck，VC @FirstMarkCap）**
+- 发布与 Mistral 研究负责人 Pierre Stock 的对话「Le Chonk：西方最大的开源模型」。→ https://x.com/mattturck/status/2113311361639829673
+- 金句：AI 圈里「所有人都在和所有人竞争」——芯片厂 vs 推理商、推理商 vs 新云、模型 vs 应用、应用 vs 模型，「只有 NVIDIA 卖给所有人」。→ https://x.com/mattturck/status/2113263905950568730
+
+**Zara Zhang（@zarazhangrui，Builder）**
+- 「懂工具这件事一直是设计师和开发者的事，现在扩展到所有人」。→ https://x.com/zarazhangrui/status/2113510486834921598
+
+**Nikunj Kothari（@nikunj，Partner @fpvventures）**
+- 「seed → Series A 的挤压正处于历史最高点，且不会很快缓解。从未如此容易做梦，从未如此难以规模化」；预告下周出新随笔。→ https://x.com/nikunj/status/2113405034826477910
+
+**Dan Shipper（@danshipper，CEO @every）**
+- 「我们活在前所未有的时代」。→ https://x.com/danshipper/status/2113269180279751078
+
+**Aditya Agarwal（@adityaag，GP @SPC）**
+- 「机器人正经历 LLM 同样的范式转移：从 fine-tuning → prompting → 直接告诉模型你想要什么」；π0.7 从自然语言教练中学习新技能。→ https://x.com/adityaag/status/2113385971844518124
+
+**Claude（@claudeai，Anthropic 官方账号）**
+- 新功能和 beta 当天上线原生 Claude 平台：Opus 5.5 的 Fast mode、代码执行、Skills API 等今天即可用。→ https://x.com/claudeai/status/2113380126561800305
+- Claude Models on Google Cloud（Anthropic 托管）正式 GA，可用 Google Cloud IAM 凭证、计费和承诺消费。→ https://x.com/claudeai/status/2113380122468454765
+- 下周起，Claude web/桌面/移动端的会话将在 Pro/Max/Team 计划默认运行 auto mode（自动执行 + 风险操作自动拦截），可随时切回手动。→ https://x.com/claudeai/status/2113360845409583307
+
+#### 播客
+
+**David Silver & Lasse Espeholt（Ineffable Intelligence 联合创始人）——《A Superlearner for the Age of Experience》**
+AlphaGo/AlphaZero 之父 David Silver 携新公司 Ineffable Intelligence 罕见长谈，核心观点：
+- **「超级学习者」**：目标不是 LLM，而是能「从零开始、自主发现超越人类知识的系统」，可被丢进任意经验流（仿真/数字/物理世界）持续学习。
+- **放弃人类数据/语言先验**：认为语言未必是推理的正确范式，人类数据反而可能「拖后腿」。回看 AlphaGo（两年人肉调优）→ AlphaZero（放弃人类数据后几小时就超越）的经历，论证「必须主动放弃先验才能走得更远」。
+- **「坩埚（crucibles）」环境**：构建有海量涌现复杂度的仿真环境（物理引擎、百万交互 agent），让 agent 自由发现语言、数学、科技、经济，而非用奖励函数「牵着鼻子走」。
+- **计算**：GCP 上最大 Ironwood 集群的首批客户（NVIDIA GPU，Vera Rubin 架构，单机架高带宽对 RL 快速迭代至关重要）；团队仅 20 人，保持「人均算力」极高。
+- **对齐**：主张在仿真里加速做「超级智能的科学」，用证据 gate 真实世界动作；支持「现实世界放缓、仿真里加速」的节奏。
+- **预测**：一年内看到「路线正确」的强证据；把超级智能时间线从 3-5 年提前到 **3 年**（因 coding agent 加速）。
+→ https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+
+### 💡 我的分析
+
+**今天最让我意外的是什么？**
+David Silver 把超级智能时间线从 3-5 年缩短到 3 年，且公开宣称「语言可能不是推理的正确范式、人类数据可能拖后腿」——AlphaGo 之父对当前主流 LLM 路线给出了最明确的哲学挑战。（事实：播客原话；分析：这与他「放弃先验」的一贯立场一脉相承，但对业界主流的否定力度超预期）
+
+**哪些趋势在加速？**
+- **Agent 基础设施标准化**：Agent Skills 进基金会（与 MCP 并列）、OpenAI 把 OpenResponses 捐给 Linux 基金会、Vercel 呼吁行业像推 TLS 一样推 OIDC——「开放标准」正在成为巨头竞争之外的共识主线。（事实：bcherny / thsottiaux / rauchg 推文）
+- **安全从边缘议题变成 AI 基建核心叙事**：从「密钥密码是 4」到「security through obscurity 终结」到「企业基础设施需大规模升级」，一天内多方共振，且都指向「agent 会同时跑在攻防两端」。（事实：rauchg / levie / amasad 推文）
+
+**哪些在降温/遇阻？**
+- **纯「生成能力」叙事**：Swyx 强调的已经是「工作量校准」「pipeline 自估 ETA」这类工程化能力，而非炫技式生成；Levie 更直指「diffusion 时间线会比预想更长」——光会生成已经不够，可信、可控、可规模化才是新门槛。（事实+分析）
+
+**对创业者/开发者的 actionable 启发**
+1. **安全是当下最确定的窗口**：AI 同时武装攻防两端，而「防御者能力尚未广泛扩散」的窗口期意味着现在做 agent 安全、漏洞扫描、可观测性、权限护栏能吃到第一波红利。（事实：Levie/Rauch/Replit 推文；分析：窗口期推论）
+2. **尽快拥抱 Agent 新标准**：Agent Skills、MCP、OIDC、OpenResponses 正在被「捐给基金会」级别地标准化，开发者应优先在这些标准上构建，避免被私有生态锁死。（事实：bcherny / thsottiaux 推文）
+3. **把「估算与校准」当作 agent 的核心能力来做**：Swyx 点出的「别按人类工时、按 AGI 工时来估算」是真实的产品机会——任务时长预测、pipeline ETA 自估都可产品化。（事实：swyx 推文）
+4. **seed 阶段就把规模化路径想清楚**：Nikunj 提示 seed→A 挤压创历史新高，「容易做梦、难规模化」，早期融资要更早证明可复制的增长路径。（事实：nikunj 推文）
+
+⚠️ File-mutation verifier: 1 file(s) were NOT modified this turn despite any wording above that may suggest otherwise. Run `git status` or `read_file` to confirm.
+  • `/tmp/fb-notion-write.py` — [write_file] Refusing to overwrite `/tmp/fb-notion-write.py`: `/private/tmp/fb-notion-write.py` was modified by sibling subagent 'cron:c8e25d6e74a3:71ebc43e09794852bbc71eceb9614b82' but this agent…
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").
