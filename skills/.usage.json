@@ -556,14 +556,14 @@
     "created_by": null,
     "last_patched_at": "2026-10-23T01:05:25.189109+00:00",
     "last_reused_patch_generation": 1,
-    "last_used_at": "2026-10-24T01:00:04.346909+00:00",
-    "last_viewed_at": "2026-10-22T01:01:17.869652+00:00",
+    "last_used_at": "2026-10-25T01:03:16.029741+00:00",
+    "last_viewed_at": "2026-10-25T01:03:16.028066+00:00",
     "patch_count": 35,
     "patch_generation": 1,
     "pinned": false,
     "state": "active",
-    "use_count": 233,
-    "view_count": 101
+    "use_count": 235,
+    "view_count": 102
   },
   "frontend-design": {
     "archived_at": null,
@@ -670,13 +670,13 @@
     "created_by": null,
     "last_patched_at": "2026-09-24T19:01:52.512760+00:00",
     "last_reused_patch_generation": 4,
-    "last_used_at": "2026-10-24T19:00:54.401873+00:00",
+    "last_used_at": "2026-10-25T19:00:41.382391+00:00",
     "last_viewed_at": "2026-10-22T19:01:39.510834+00:00",
     "patch_count": 7,
     "patch_generation": 4,
     "pinned": false,
     "state": "active",
-    "use_count": 169,
+    "use_count": 170,
     "view_count": 38
   },
   "himalaya": {
