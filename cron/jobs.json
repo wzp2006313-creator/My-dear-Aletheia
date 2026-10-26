@@ -23,15 +23,15 @@
       "schedule_display": "0 9 * * *",
       "repeat": {
         "times": null,
-        "completed": 132
+        "completed": 133
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-01T20:23:47.163344+08:00",
-      "next_run_at": "2026-10-26T09:00:00+08:00",
-      "last_run_at": "2026-10-25T09:05:37.070848+08:00",
+      "next_run_at": "2026-10-27T09:00:00+08:00",
+      "last_run_at": "2026-10-26T09:05:39.519013+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -48,9 +48,9 @@
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
-        "scheduled_at": "2026-10-25T09:00:00+08:00",
-        "dispatched_at": "2026-10-25T09:00:50.673282+08:00",
-        "lateness_seconds": 50.7,
+        "scheduled_at": "2026-10-26T09:00:00+08:00",
+        "dispatched_at": "2026-10-26T09:00:37.609310+08:00",
+        "lateness_seconds": 37.6,
         "kind": "on_time"
       }
     },
@@ -76,15 +76,15 @@
       "schedule_display": "0 3 * * *",
       "repeat": {
         "times": null,
-        "completed": 132
+        "completed": 133
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-01T20:44:35.495762+08:00",
-      "next_run_at": "2026-10-27T03:00:00+08:00",
-      "last_run_at": "2026-10-26T03:01:46.172672+08:00",
+      "next_run_at": "2026-10-28T03:00:00+08:00",
+      "last_run_at": "2026-10-27T03:01:53.845811+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -101,9 +101,9 @@
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
-        "scheduled_at": "2026-10-26T03:00:00+08:00",
-        "dispatched_at": "2026-10-26T03:00:41.230148+08:00",
-        "lateness_seconds": 41.2,
+        "scheduled_at": "2026-10-27T03:00:00+08:00",
+        "dispatched_at": "2026-10-27T03:00:26.412958+08:00",
+        "lateness_seconds": 26.4,
         "kind": "on_time"
       }
     },
@@ -127,15 +127,15 @@
       "schedule_display": "0 4 * * *",
       "repeat": {
         "times": null,
-        "completed": 134
+        "completed": 135
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-03T11:39:46.582888+08:00",
-      "next_run_at": "2026-10-27T04:00:00+08:00",
-      "last_run_at": "2026-10-25T04:00:40.721388+08:00",
+      "next_run_at": "2026-10-28T04:00:00+08:00",
+      "last_run_at": "2026-10-26T04:01:13.279940+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -147,14 +147,14 @@
       "workdir": null,
       "profile": null,
       "fire_claim": {
-        "at": "2026-10-26T04:00:50.459440+08:00",
-        "by": "wangzhanpengdeMacBook-Pro.local:1141:53ccc45ad544420dbae16ef0046e3048"
+        "at": "2026-10-27T04:00:36.057154+08:00",
+        "by": "wangzhanpengdeMacBook-Pro.local:1141:f42aabcec827431e9de5ff2a8664b490"
       },
       "failure_streak": 0,
       "last_dispatch": {
-        "scheduled_at": "2026-10-26T04:00:00+08:00",
-        "dispatched_at": "2026-10-26T04:00:50.413048+08:00",
-        "lateness_seconds": 50.4,
+        "scheduled_at": "2026-10-27T04:00:00+08:00",
+        "dispatched_at": "2026-10-27T04:00:36.012141+08:00",
+        "lateness_seconds": 36.0,
         "kind": "on_time"
       }
     },
@@ -180,18 +180,18 @@
       "schedule_display": "0 9 * * 1",
       "repeat": {
         "times": null,
-        "completed": 16
+        "completed": 17
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-07-04T16:40:07.593150+08:00",
-      "next_run_at": "2026-10-26T09:00:00+08:00",
-      "last_run_at": "2026-10-19T09:25:22.805199+08:00",
-      "last_status": "error",
-      "last_error": "RuntimeError: Connection error.",
-      "last_delivery_error": "live adapter send failed: HTTPSConnectionPool(host='open.feishu.cn', port=443): Max retries exceeded with url: /open-apis/im/v1/messages?receive_id_type=chat_id (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Service Unavailable'))); live adapter delivery to feishu:oc_9e19fd780d3617c2c6fbac770909d0f7 failed: HTTPSConnectionPool(host='open.feishu.cn', port=443): Max retries exceeded with url: /open-apis/im/v1/messages?receive_id_type=chat_id (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Service Unavailable'))); delivery error: Feishu send failed: HTTPSConnectionPool(host='open.feishu.cn', port=443): Max retries exceeded with url: /open-apis/im/v1/messages?receive_id_type=chat_id (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Service Unavailable'))) (target feishu:oc_9e19fd780d3617c2c6fbac770909d0f7)",
+      "next_run_at": "2026-11-02T09:00:00+08:00",
+      "last_run_at": "2026-10-26T09:17:00.707491+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
       "deliver": "origin",
       "origin": {
         "platform": "feishu",
@@ -206,11 +206,11 @@
       "workdir": null,
       "profile": null,
       "fire_claim": null,
-      "failure_streak": 2,
+      "failure_streak": 0,
       "last_dispatch": {
-        "scheduled_at": "2026-10-19T09:00:00+08:00",
-        "dispatched_at": "2026-10-19T09:00:34.898512+08:00",
-        "lateness_seconds": 34.9,
+        "scheduled_at": "2026-10-26T09:00:00+08:00",
+        "dispatched_at": "2026-10-26T09:00:37.609310+08:00",
+        "lateness_seconds": 37.6,
         "kind": "on_time"
       }
     },
@@ -234,15 +234,15 @@
       "schedule_display": "0 4 * * *",
       "repeat": {
         "times": null,
-        "completed": 82
+        "completed": 83
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-07-21T13:50:21.247752+08:00",
-      "next_run_at": "2026-10-27T04:00:00+08:00",
-      "last_run_at": "2026-10-25T04:01:27.871373+08:00",
+      "next_run_at": "2026-10-28T04:00:00+08:00",
+      "last_run_at": "2026-10-26T04:01:09.009053+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -252,17 +252,17 @@
       "workdir": null,
       "profile": null,
       "fire_claim": {
-        "at": "2026-10-26T04:00:50.470297+08:00",
-        "by": "wangzhanpengdeMacBook-Pro.local:1141:1619a867c6084c5d9acc87752ee4dd18"
+        "at": "2026-10-27T04:00:36.067355+08:00",
+        "by": "wangzhanpengdeMacBook-Pro.local:1141:9c64594ab38d4c2290f1d63e7d42faeb"
       },
       "failure_streak": 0,
       "last_dispatch": {
-        "scheduled_at": "2026-10-26T04:00:00+08:00",
-        "dispatched_at": "2026-10-26T04:00:50.413048+08:00",
-        "lateness_seconds": 50.4,
+        "scheduled_at": "2026-10-27T04:00:00+08:00",
+        "dispatched_at": "2026-10-27T04:00:36.012141+08:00",
+        "lateness_seconds": 36.0,
         "kind": "on_time"
       }
     }
   ],
-  "updated_at": "2026-10-26T04:00:50.470923+08:00"
+  "updated_at": "2026-10-27T04:00:36.068133+08:00"
 }

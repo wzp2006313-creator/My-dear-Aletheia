@@ -1,0 +1,80 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+✅ 已完成：Notion 归档表新增 2026-10-26 行（唯一、无重复），摘要已追加（头部 `AI Builders Digest — 2026-10-26` 确认落地）。以下是完整每日摘要：
+
+---
+
+## AI Builders Digest — 2026-10-26
+
+### 📌 今日概览
+
+今天 AI 圈最重磅的动态，是「决策型模型」JEV 背后的 TypeSafe 完成 8.7 亿美元 A 轮、估值 75 亿美元——它不生成文本、而是输出「决策与概率」，一个月内从无人知晓变成被争相模仿的新模型范式。
+
+### 🔥 重点 Highlights
+
+1. **JEV（TypeSafe）成为当下最被热议的新模型**：CEO Diogo Almeida 在 MAD Podcast 深度拆解「做决策、而非生成文本」的模型哲学，$870M A 轮 / $7.5B 估值，发布视频 4000 万播放，日活约 100 万用户、每日 1 万亿 token。https://www.youtube.com/@DataDrivenNYC/videos
+2. **OpenAI Codex 新功能全量推送**：Codex 团队成员 Thibault Sottiaux 表示「It is all propagated，明天可以尽情 Codex 了」，并预告「有趣的周」。https://x.com/thsottiaux/status/2114237083652882932
+3. **Anthropic 密集召集 builder 测试 Claude Managed Agents / Duet**：研究员 Alex Albert 连续 @ 十余位一线开发者（addyosmani、lydiahallie、jarredsumner 等）参与内测。https://x.com/alexalbert__/status/2114145588686233612
+4. **Aaron Levie（Box CEO）：网络安全 agent 迎来爆发窗口**——「流经 cyber agent 的 token 很快会是现在的 1000 倍」，agent 蜂群可自主做攻防、日志分析、风险分级。https://x.com/levie/status/2114187326406766604
+5. **Guillermo Rauch（Vercel CEO）：管理 AI 的「引导」能力成为 #0 技能**——过度引导 vs 引导不足之间的拿捏，是他最看重的核心能力。https://x.com/rauchg/status/2114085432749347086
+
+### 📝 详细摘要
+
+#### 🐦 X/Twitter 推文（按 builder 分组）
+
+**Swyx**（AI 工程师，@smol_ai / @latentspacepod 创始人）
+- 正在为 Latent Space 播客组建编辑团队，招聘写手、审稿人、记者；同时欢迎兼职/一次性投稿。https://x.com/swyx/status/2114145315196711194
+
+**Thibault Sottiaux**（OpenAI，Codex & ChatGPT 团队）
+- Codex 新功能「已全部 propagate」，预告明天可以尽情 Codex，接下来是有趣的一周。https://x.com/thsottiaux/status/2114237083652882932
+
+**Peter Yang**（AI 教程作者）
+- 真情推荐儿童阅读 app「Once」：他 4 岁女儿唯一坚持了数月的学习应用，靠「每日亲子共学习惯 + 轻量游戏化 + 30 课后送实体书」让孩子爱上阅读。https://x.com/petergyang/status/2114042708105060501
+- 转发一条让 Claude 用户失望的消息：Anthony 和 Thariq 是「最擅长倾听用户」的两位（暗示其离开 Claude 团队）。https://x.com/petergyang/status/2114001125636768121
+
+**Guillermo Rauch**（@vercel CEO）
+- 欣赏模型的「工程术语」（gate / evidence / culprit / durable / provenance / contract），它们源于调试与审计思维；好奇「最小可用英语」的词汇量到底需要多少。https://x.com/rauchg/status/2114164830403989880
+- 核心观点：AI 比你更聪明，有时你会「过度引导」它，有时又「引导不足」；如何驾驭这种超能力，是他面试时最看重的 #0 技能。https://x.com/rauchg/status/2114085432749347086
+
+**Alex Albert**（@AnthropicAI 研究员）
+- 连续三条 @ 十余位开发者（addyosmani、lydiahallie、jarredsumner、gcemaj、karbon0x 等），为 Claude Managed Agents 和 Duet 功能召集内测用户。https://x.com/alexalbert__/status/2114145588686233612
+
+**Aaron Levie**（@box CEO）
+- 长文判断网络安全 agent 的拐点：cyber agent 流经的 token 很快将增长 1000 倍，风险面扩大后靠人力已无法跟上；agent 蜂群可调用任意安全工具、模拟攻击、读日志、做风险分级。这一能力近几个月才出现（长时运行 agent + computer use + 深度网络安全训练的模型），是身份、防火墙、网络、代码扫描、数据保护等各层安全栈的巨大机会。https://x.com/levie/status/2114187326406766604
+
+**Ryo Lu**（曾设计 @Cursor_ai / @NotionHQ / @Stripe）
+- 长文「struggle together」：他靠不断试错学会编程和设计，但当 AI 移除了「困难」，我们可能还没理解困难教会了我们什么就失去了它。他担忧「每个人和各自的 agent 待在各自的小世界里」，呼吁工具应帮我们「多走进世界、与人一起分享未完成的东西」，像一支爵士乐队一样共同 struggle。https://x.com/ryolu_/status/2114187405251219954
+
+**Garry Tan**（@ycombinator CEO）
+- 更新 Gstack 新功能。https://x.com/garrytan/status/2114090740217499854
+
+**Zara Zhang**（Builder，哈佛 17 届）
+- 「给别人建议比把建议用在自己身上容易得多」；并分享了一串鼓舞人心的案例。https://x.com/zarazhangrui/status/2114225607022412049
+
+**Nikunj Kothari**（@fpvventures 合伙人）
+- 寻找愿意投资 infra 系列 A 的天使投资人；将「context → harnesses → judgement」的演化讲得更透彻，欢迎做这一方向产品的人一起 brainstorm。https://x.com/nikunj/status/2114095315271942176
+
+**Aditya Agarwal**（@SPC GP，前 Dropbox CTO）
+- 「被 AI 重度洗脑后，我反而开始珍惜和家人的线下时光」——放点 techno、和朋友跳舞、带孩子去公园，让 agent 去干活，但请务必「庆祝人类」。https://x.com/adityaag/status/2114135237806760097
+
+#### 🎙️ 播客：JEV — The AI That Makes Decisions, Not Text（Diogo Almeida，MAD Podcast）
+
+- **JEV 是什么**：不是「生成文本」的 LLM，而是输出「决策与概率」的模型——例如判断一封邮件「是否紧急 / 是否升级 / 发给哪个部门」。开发者拿到的是概率分数（0.85），自己设定阈值触发动作。
+- **为什么快且便宜**：抛弃了自回归文本生成的慢速环节，改为并行的「渐进式发现」，核心是「intelligence per dollar」（每美元智能）数量级下降。
+- **对 LLM 的批评**：LLM 天然「讨好」（people-pleasing / sycophancy），风格准确但常做错决策；复杂系统靠堆 system prompt 编程，复杂度越高错误率越高。
+- **composability（可组合性）**：Diogo 认为 AI 至今「只和 AI 玩得来、和别的都不兼容」，而 JEV 目标是做「可靠到能被继续搭建」的积木式模块，用代码（而非自然语言）把行为逐层拆解到底层决策。
+- **RLHF 反思**：作为 RLHF 联合发明人，他承认 RLHF 优化了大量「风格化」的东西，而非真正榨取模型深层的事实能力。
+- **惊人的表态**：他曾写下一份 OpenAI 文档——「我们去年本就能做出 AGI」，并称「预训练是一场巨大的资源浪费」；模型是「95% 爱因斯坦 + 5% 憨豆先生」，而它不会告诉你何时是憨豆。
+
+### 💡 我的分析
+
+**（以下为分析/综合，非 JSON 事实）**
+
+- **最让我意外的消息**：JEV 用一个月从「无人知晓」到 75 亿美元估值、发布视频 4000 万播放。它验证了一个判断——市场对「决策型模型」这个新品类有极强的饥渴，而这套叙事（intelligence per dollar、composability、legible）恰好打在 LLM 的软肋上。
+- **在加速的趋势**：①「从生成文本 → 输出决策」的模型形态分化，JEV 是代表；② agent 的安全/治理基础设施（Levie 的 cyber agent 论）；③ 头部实验室（OpenAI Codex、Anthropic Managed Agents/Duet）同步加快 agent 产品落地。
+- **在降温/被反思的**：① 对 LLM「讨好式输出」和 RLHF 风格化优化的批判正在浮出水面；② Ryo Lu、Aditya Agarwal 等一线 builder 不约而同地反思「过度依赖 AI 会让我们失去什么」——人文与「struggle」的价值被重新提起。
+- **对创业者和开发者的 actionable 启发**：① 选型时新增一个维度：这个任务是「生成文本」还是「做决策」——决策/分类场景值得评估 JEV 这类新模型；② 招聘与自我修炼时，把「引导 AI 的拿捏感」（Rauch 的 #0 技能）当作硬技能培养；③ 如果做 agent 安全 / 可观测 / 治理，当前正是抢第一波红利的窗口期（Levie 判断）。
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

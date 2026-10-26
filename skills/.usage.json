@@ -556,13 +556,13 @@
     "created_by": null,
     "last_patched_at": "2026-10-23T01:05:25.189109+00:00",
     "last_reused_patch_generation": 1,
-    "last_used_at": "2026-10-25T01:03:16.029741+00:00",
+    "last_used_at": "2026-10-26T01:00:37.829940+00:00",
     "last_viewed_at": "2026-10-25T01:03:16.028066+00:00",
     "patch_count": 35,
     "patch_generation": 1,
     "pinned": false,
     "state": "active",
-    "use_count": 235,
+    "use_count": 236,
     "view_count": 102
   },
   "frontend-design": {
@@ -655,14 +655,14 @@
     "created_by": null,
     "last_patched_at": "2026-06-29T12:10:29.930762+00:00",
     "last_reused_patch_generation": 0,
-    "last_used_at": "2026-10-22T20:00:35.506857+00:00",
-    "last_viewed_at": "2026-10-22T20:00:35.505835+00:00",
+    "last_used_at": "2026-10-26T20:00:41.818287+00:00",
+    "last_viewed_at": "2026-10-26T20:00:41.817234+00:00",
     "patch_count": 8,
     "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 45,
-    "view_count": 45
+    "use_count": 46,
+    "view_count": 46
   },
   "hermes-security-matrix": {
     "archived_at": null,
@@ -670,13 +670,13 @@
     "created_by": null,
     "last_patched_at": "2026-09-24T19:01:52.512760+00:00",
     "last_reused_patch_generation": 4,
-    "last_used_at": "2026-10-25T19:00:41.382391+00:00",
+    "last_used_at": "2026-10-26T19:00:26.564275+00:00",
     "last_viewed_at": "2026-10-22T19:01:39.510834+00:00",
     "patch_count": 7,
     "patch_generation": 4,
     "pinned": false,
     "state": "active",
-    "use_count": 170,
+    "use_count": 171,
     "view_count": 38
   },
   "himalaya": {
@@ -1543,13 +1543,13 @@
     "created_by": null,
     "last_patched_at": "2026-06-04T09:06:50.001283+00:00",
     "last_reused_patch_generation": 0,
-    "last_used_at": "2026-10-19T01:00:35.109516+00:00",
+    "last_used_at": "2026-10-26T01:00:37.828114+00:00",
     "last_viewed_at": "2026-09-01T06:30:34.634200+00:00",
     "patch_count": 3,
     "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 50,
+    "use_count": 51,
     "view_count": 34
   },
   "webapp-testing": {
