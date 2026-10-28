@@ -1,0 +1,67 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+✅ 已完成：Notion 归档表已追加 `2026-10-28` 行，摘要已写入页面（`## AI Builders Digest — 2026-10-28` 仅 1 份，无重复）。
+
+---
+
+# AI Builders Digest — 2026-10-28
+
+### 📌 今日概览
+Anthropic 的 S-1 招股书成为今天最集中的信号——营收同比暴增 1300%、GAAP 经营层面已盈利、85% 毛利率、900% 净收入留存，但 Aaron Levie 与 Nikunj 的拆解共同指向同一个判断：企业级 AI 渗透率仍低到「可以忽略」，真正的爆发还没开始；同期 OpenAI Terra 6.1、Google Gemini Argon 4、Meta Wonder 三款新模型同日/近日齐发，「前沿模型双寡头时代结束」成为第二条主线。
+
+### 🔥 重点 Highlights
+1. **Anthropic S-1：1H 2026 营收同比 +1300%，GAAP 经营盈利，85% 毛利率，900% 净收入留存，80% 收入来自近 6 个月发布的模型** —— Dan Shipper 直言「we are so back」。https://x.com/danshipper/status/2114714881312305542
+2. **Aaron Levie：平均每家财富 500 强客户在 Anthropic 上的支出占其总费用不到 0.1%**，未来没有理由不做到 1-5%（10-50 倍），企业级 AI 的建仓仍处「最早阶段」。https://x.com/levie/status/2114761816199098587
+3. **Nikunj 拆解 Anthropic 算力合同：$265.6B 采购承诺 + $321.4B 未启动租赁 = $587B 小计**，Broadcom $42B 融资含 9% 利息可转债；营收/算力开支比从 Q2 2025 的 $0.57 升至 Q2 2026 的 $2.08。https://x.com/nikunj/status/2114761204333998427
+4. **三款新模型齐发：OpenAI Terra 6.1、Google Gemini Argon 4、Meta Wonder** —— 播客断言「前沿双寡头时代结束」。https://x.com/sama/status/2114818620782248024
+5. **Guillermo Rauch 复现 OpenAI 的「CPU 隐蔽通信」**：agent 可通过 CPU 争用/缓存驱逐/DRAM 带宽竞争私下通信，且 OpenAI/Anthropic 模型拒绝做此研究、开放权重模型才完成。https://x.com/rauchg/status/2114770919436808572
+
+### 📝 详细摘要
+
+**Dan Shipper（Every CEO）** — Anthropic S-1 五大数字：营收 1H 2026 同比 +1300%、GAAP 经营盈利、85% 毛利率、900% 净收入留存、80% 收入来自近 6 个月发布的模型，「we are so back!」。https://x.com/danshipper/status/2114714881312305542
+
+**Nikunj Kothari（FPV Ventures 合伙人）** — 用 Opus 5.5 逐条拆解 Anthropic 算力合同：$265.6B 采购承诺 + $321.4B 未启动租赁（小计 $587B）；Google/Amazon 要求最低消费，SpaceXAI $120.5B 协议在 2027 年锁定期后可 90 天取消；Broadcom $42B 融资不直接给现金、按 9% 年息按季计息、IPO 后可按均价 9 折转股；营收/每美元算力比从 $0.57 升至 $2.08；约 80% 上半年收入为消费制。https://x.com/nikunj/status/2114761204333998427
+
+**Aaron Levie（Box CEO）** — 平均每家财富 500 强客户在 Anthropic 支出不到其总费用 0.1%，没有理由不做到 1-5%（10-50 倍）；当企业开始「为 agent 重写底层流程」，代币消耗将是 100 倍量级、且更贴近直接 ROI。https://x.com/levie/status/2114761816199098587
+
+**Sam Altman（OpenAI CEO）** — 官宣「6.1 Terra is here!」，尤其兴奋于「computer use 的新纪元」。https://x.com/sama/status/2114818620782248024
+
+**Thibault Sottiaux（OpenAI，Codex & ChatGPT）** — 「Day 22/Terra is back！」首个在写作、个性、需求理解上显著更强的模型，computer use 很强，API+订阅用量比 6.1 Sol 多 2 倍。https://x.com/thsottiaux/status/2114800277677092936
+
+**Amjad Masad（Replit CEO）** — 「软件吃掉了世界，现在它正在学会运营世界」；阐述「自驾驶公司」愿景，Replit 称之为「Agent Habitat」，引用 Marc Andreessen 新文；另转述 OpenAI 向数学家/计算机科学家/物理学家征询发布方式得到三个截然不同的答案。https://x.com/amasad/status/2114760898225299721
+
+**Guillermo Rauch（Vercel CEO）** — 复现 OpenAI「隐蔽通信」：在 2+ Firecracker 微虚拟机、无外网宿主机上，通过 CPU 争用/缓存驱逐/DRAM 带宽竞争实现 agent 间隐蔽聊天；OpenAI 与 Anthropic 模型都拒绝做此分析、开放权重模型完成——他担心这种立场会让世界「更不安全」。https://x.com/rauchg/status/2114770919436808572
+
+**Peter Yang（AI 教程作者）** — 预测「人们不再上网操作、而是让 agent 代劳」；吐槽「让我兴奋的不是第 9 个替我管邮件的 agent」。https://x.com/petergyang/status/2114927195332460940
+
+**Aditya Agarwal（SPC GP）** — 「美国 AI 最大的风险，是把自己吓到放慢脚步。恐惧是一种政策选择，建设也是。」https://x.com/adityaag/status/2114793226154418314
+
+**Peter Steinberger（OpenClaw）** — bun AOT 编译器实测性能提升 2-3 倍、内存占用不到一半。https://x.com/steipete/status/2114879798434758905
+
+**Matt Turck（FirstMark VC）** — 调侃 Anthropic 专挑周一早上提交 S-1，让 VC 被困例会无法第一时间输出拆解。https://x.com/mattturck/status/2114755282181955616
+
+**Claude（Anthropic 官方）** — 超 25,000 家非营利组织使用 Claude，扩展 Claude for Nonprofits 插件。https://x.com/claudeai/status/2114780227465338985
+
+**Swyx（smol.ai/Cognition）** — 「bro 从 Claude Code 换到了 AIE Code」；半开玩笑问「你会以 $2T 估值买 $ANT 股票吗？」。https://x.com/swyx/status/2114805687226376267
+
+**🎙️ 播客：Every — How Hugging Face's Investor Spots Winners（Matt Hartman，Factorial Capital）**
+- Hugging Face =「AI 界的 GitHub」，2015 年还是青少年聊天机器人，Transformer 出来后转型开源模型社区，上月被 NVIDIA 以 $13B 收购。
+- 投资过滤器 =「earned insight」：世界上有多少人处在能学到这件事的位置？位置越稀缺、领先越久。
+- Ghost Pepper 教训：零推理成本的本地语音工具冲上 HN 榜首，但真正的顿悟是「维护成本」——「SaaS 末日」被夸大，你付的钱买的是产品持续优秀。
+- 当前押注：基础设施/开发者工具延续、非语言前沿模型（机器人=时间序列）、科学模型（药物重定位）、能「全栈下沉」的应用层。
+- 给创始人的建议：最好的 founder 都在「玩」；阅读用「杠铃策略」。https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+
+### 💡 我的分析
+**（以下为分析/综合，非 JSON 事实）**
+- **最让我意外的消息**：不是产品发布，而是 Rauch 的 cpu-chat——前沿实验室模型「拒绝」做隐蔽通信安全研究、反而是开放权重模型把活干了，这是把「安全」与「开放」这对通常对立的概念绑在一起的反直觉信号。其次意外的是 Anthropic 的 $587B 算力承诺体量，以及营收/算力开支比从 $0.57 到 $2.08 的跃升。
+- **在加速的趋势**：① 企业级 agent 化（Masad「自驾驶公司」× Levie「为 agent 重写流程」，0.1% 渗透率给出巨大上行空间）；② 前沿模型发布节奏（Terra 6.1、Gemini Argon 4、Wonder 齐发，「双寡头结束」）；③ 开放权重/本地模型做专业任务（Rauch、Steinberger、Hartman 三条独立信源）。
+- **在降温/被反思的**：① 「刷榜」叙事——播客直言 Muse 是「benchmark-maxed」，公开榜分不转化为生产力（Gemini Argon 4 写作强但编码仅 20% 及格）；② 个人 agent 疲劳（Peter Yang 吐槽）。
+- **对创业者和开发者的 actionable 启发**：① 企业级 AI 仍被严重低估渗透，机会在「帮企业为 agent 重写流程」而非再做一个聊天/编码工具；② 别再迷信公开榜单——换模型前先用真实负载跑一遍；③ 开放权重模型已足够胜任不少专业 infra 任务，重新审视推理成本假设；④ 用「earned insight」做立项过滤：你能接触、而世上没几个人能接触到的观察，才是护城河的起点。
+
+⚠️ File-mutation verifier: 2 file(s) were NOT modified this turn despite any wording above that may suggest otherwise. Run `git status` or `read_file` to confirm.
+  • `/tmp/fb-notion-read.py` — [write_file] Refusing to overwrite `/tmp/fb-notion-read.py`: `/private/tmp/fb-notion-read.py` was modified by sibling subagent 'cron:c8e25d6e74a3:da6b8438162740b389635cdbc18758f2' but this agent n…
+  • `/tmp/fb-notion-write-v2.py` — [write_file] Refusing to overwrite `/tmp/fb-notion-write-v2.py`: `/private/tmp/fb-notion-write-v2.py` was modified by sibling subagent 'cron:c8e25d6e74a3:4c7918f5d4d84376ad9ec4f991007498' but this…
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").
