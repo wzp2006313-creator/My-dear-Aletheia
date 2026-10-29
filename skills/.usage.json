@@ -1,6 +1,6 @@
 {
   "a-share-research": {
-    "archived_at": null,
+    "archived_at": "2026-10-29T05:02:55.294186+00:00",
     "created_at": "2026-07-10T11:00:56.227917+00:00",
     "created_by": "agent",
     "last_patched_at": "2026-09-24T08:44:07.095040+00:00",
@@ -10,7 +10,7 @@
     "patch_count": 36,
     "patch_generation": 7,
     "pinned": false,
-    "state": "stale",
+    "state": "archived",
     "use_count": 43,
     "view_count": 43
   },
@@ -556,14 +556,14 @@
     "created_by": null,
     "last_patched_at": "2026-10-23T01:05:25.189109+00:00",
     "last_reused_patch_generation": 1,
-    "last_used_at": "2026-10-28T01:02:41.298923+00:00",
-    "last_viewed_at": "2026-10-28T01:02:41.296400+00:00",
+    "last_used_at": "2026-10-29T01:02:04.768600+00:00",
+    "last_viewed_at": "2026-10-29T01:02:04.766989+00:00",
     "patch_count": 35,
     "patch_generation": 1,
     "pinned": false,
     "state": "active",
-    "use_count": 239,
-    "view_count": 103
+    "use_count": 241,
+    "view_count": 104
   },
   "frontend-design": {
     "archived_at": null,
@@ -655,14 +655,14 @@
     "created_by": null,
     "last_patched_at": "2026-06-29T12:10:29.930762+00:00",
     "last_reused_patch_generation": 0,
-    "last_used_at": "2026-10-27T20:01:06.624259+00:00",
-    "last_viewed_at": "2026-10-27T20:01:06.622271+00:00",
+    "last_used_at": "2026-10-29T20:00:49.105361+00:00",
+    "last_viewed_at": "2026-10-29T20:00:49.104167+00:00",
     "patch_count": 8,
     "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 47,
-    "view_count": 47
+    "use_count": 49,
+    "view_count": 49
   },
   "hermes-security-matrix": {
     "archived_at": null,
@@ -670,13 +670,13 @@
     "created_by": null,
     "last_patched_at": "2026-09-24T19:01:52.512760+00:00",
     "last_reused_patch_generation": 4,
-    "last_used_at": "2026-10-28T19:00:55.377898+00:00",
+    "last_used_at": "2026-10-29T19:00:34.681049+00:00",
     "last_viewed_at": "2026-10-22T19:01:39.510834+00:00",
     "patch_count": 7,
     "patch_generation": 4,
     "pinned": false,
     "state": "active",
-    "use_count": 173,
+    "use_count": 174,
     "view_count": 38
   },
   "himalaya": {
@@ -1121,7 +1121,7 @@
     "view_count": 5
   },
   "pdf": {
-    "archived_at": null,
+    "archived_at": "2026-10-29T05:02:55.664294+00:00",
     "created_at": "2026-07-27T15:04:37.818648+00:00",
     "created_by": null,
     "last_patched_at": null,
@@ -1131,7 +1131,7 @@
     "patch_count": 0,
     "patch_generation": 0,
     "pinned": false,
-    "state": "stale",
+    "state": "archived",
     "use_count": 2,
     "view_count": 2
   },
