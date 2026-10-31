@@ -200,17 +200,13 @@
         },
         {
           "modelName": "poolside/laguna-s-2.1:free",
-          "displayName": "Poolside: Laguna S 2.1 (free)",
-          "source": "openrouter",
-          "href": "https://openrouter.ai/poolside/laguna-s-2.1-20260720",
+          "displayName": "poolside/laguna-s-2.1:free",
+          "source": "local",
+          "href": null,
           "tokenPrice": "$0.00/1M",
-          "contextLength": 262144,
-          "inputModalities": [
-            "text"
-          ],
-          "outputModalities": [
-            "text"
-          ],
+          "contextLength": null,
+          "inputModalities": [],
+          "outputModalities": [],
           "position": 11,
           "isVisionModel": false,
           "isCompactionModel": false,
@@ -232,17 +228,13 @@
         },
         {
           "modelName": "poolside/laguna-xs-2.1:free",
-          "displayName": "Poolside: Laguna XS 2.1 (free)",
-          "source": "openrouter",
-          "href": "https://openrouter.ai/poolside/laguna-xs-2.1-20260625",
+          "displayName": "poolside/laguna-xs-2.1:free",
+          "source": "local",
+          "href": null,
           "tokenPrice": "$0.00/1M",
-          "contextLength": 262144,
-          "inputModalities": [
-            "text"
-          ],
-          "outputModalities": [
-            "text"
-          ],
+          "contextLength": null,
+          "inputModalities": [],
+          "outputModalities": [],
           "position": 13,
           "isVisionModel": false,
           "isCompactionModel": false,
@@ -334,17 +326,13 @@
         },
         {
           "modelName": "poolside/laguna-xs-2.1:free",
-          "displayName": "Poolside: Laguna XS 2.1 (free)",
-          "source": "openrouter",
-          "href": "https://openrouter.ai/poolside/laguna-xs-2.1-20260625",
+          "displayName": "poolside/laguna-xs-2.1:free",
+          "source": "local",
+          "href": null,
           "tokenPrice": "$0.00/1M",
-          "contextLength": 262144,
-          "inputModalities": [
-            "text"
-          ],
-          "outputModalities": [
-            "text"
-          ],
+          "contextLength": null,
+          "inputModalities": [],
+          "outputModalities": [],
           "position": 1,
           "isVisionModel": false,
           "isCompactionModel": false,
@@ -352,17 +340,13 @@
         },
         {
           "modelName": "poolside/laguna-s-2.1:free",
-          "displayName": "Poolside: Laguna S 2.1 (free)",
-          "source": "openrouter",
-          "href": "https://openrouter.ai/poolside/laguna-s-2.1-20260720",
+          "displayName": "poolside/laguna-s-2.1:free",
+          "source": "local",
+          "href": null,
           "tokenPrice": "$0.00/1M",
-          "contextLength": 262144,
-          "inputModalities": [
-            "text"
-          ],
-          "outputModalities": [
-            "text"
-          ],
+          "contextLength": null,
+          "inputModalities": [],
+          "outputModalities": [],
           "position": 2,
           "isVisionModel": false,
           "isCompactionModel": false,
@@ -442,6 +426,6 @@
         "updatedAt": "2026-10-29T21:40:28.806Z"
       }
     },
-    "ts": 1793389390.553478
+    "ts": 1793476300.894797
   }
 }
