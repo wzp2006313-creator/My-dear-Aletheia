@@ -23,15 +23,15 @@
       "schedule_display": "0 9 * * *",
       "repeat": {
         "times": null,
-        "completed": 139
+        "completed": 140
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-01T20:23:47.163344+08:00",
-      "next_run_at": "2026-11-02T09:00:00+08:00",
-      "last_run_at": "2026-11-01T09:07:21.176739+08:00",
+      "next_run_at": "2026-11-03T09:00:00+08:00",
+      "last_run_at": "2026-11-02T09:05:33.826231+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -48,9 +48,9 @@
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
-        "scheduled_at": "2026-11-01T09:00:00+08:00",
-        "dispatched_at": "2026-11-01T09:00:44.071867+08:00",
-        "lateness_seconds": 44.1,
+        "scheduled_at": "2026-11-02T09:00:00+08:00",
+        "dispatched_at": "2026-11-02T09:00:33.022735+08:00",
+        "lateness_seconds": 33.0,
         "kind": "on_time"
       }
     },
@@ -76,15 +76,15 @@
       "schedule_display": "0 3 * * *",
       "repeat": {
         "times": null,
-        "completed": 139
+        "completed": 140
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-01T20:44:35.495762+08:00",
-      "next_run_at": "2026-11-03T03:00:00+08:00",
-      "last_run_at": "2026-11-02T03:02:02.123219+08:00",
+      "next_run_at": "2026-11-04T03:00:00+08:00",
+      "last_run_at": "2026-11-03T03:02:18.271157+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -101,9 +101,9 @@
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
-        "scheduled_at": "2026-11-02T03:00:00+08:00",
-        "dispatched_at": "2026-11-02T03:00:35.196020+08:00",
-        "lateness_seconds": 35.2,
+        "scheduled_at": "2026-11-03T03:00:00+08:00",
+        "dispatched_at": "2026-11-03T03:00:26.086577+08:00",
+        "lateness_seconds": 26.1,
         "kind": "on_time"
       }
     },
@@ -127,15 +127,15 @@
       "schedule_display": "0 4 * * *",
       "repeat": {
         "times": null,
-        "completed": 141
+        "completed": 142
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-03T11:39:46.582888+08:00",
-      "next_run_at": "2026-11-03T04:00:00+08:00",
-      "last_run_at": "2026-11-01T04:01:23.154493+08:00",
+      "next_run_at": "2026-11-04T04:00:00+08:00",
+      "last_run_at": "2026-11-02T04:01:14.504770+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -147,14 +147,14 @@
       "workdir": null,
       "profile": null,
       "fire_claim": {
-        "at": "2026-11-02T04:00:45.041922+08:00",
-        "by": "wangzhanpengdeMacBook-Pro.local:1141:09e22205dc5f48f3954d7a4fdb0ec3f5"
+        "at": "2026-11-03T04:00:35.847626+08:00",
+        "by": "wangzhanpengdeMacBook-Pro.local:1141:a576373b500c4d5090c5b617cea6e48d"
       },
       "failure_streak": 0,
       "last_dispatch": {
-        "scheduled_at": "2026-11-02T04:00:00+08:00",
-        "dispatched_at": "2026-11-02T04:00:44.994665+08:00",
-        "lateness_seconds": 45.0,
+        "scheduled_at": "2026-11-03T04:00:00+08:00",
+        "dispatched_at": "2026-11-03T04:00:35.805069+08:00",
+        "lateness_seconds": 35.8,
         "kind": "on_time"
       }
     },
@@ -180,15 +180,15 @@
       "schedule_display": "0 9 * * 1",
       "repeat": {
         "times": null,
-        "completed": 17
+        "completed": 18
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-07-04T16:40:07.593150+08:00",
-      "next_run_at": "2026-11-02T09:00:00+08:00",
-      "last_run_at": "2026-10-26T09:17:00.707491+08:00",
+      "next_run_at": "2026-11-09T09:00:00+08:00",
+      "last_run_at": "2026-11-02T09:13:04.445206+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -208,9 +208,9 @@
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
-        "scheduled_at": "2026-10-26T09:00:00+08:00",
-        "dispatched_at": "2026-10-26T09:00:37.609310+08:00",
-        "lateness_seconds": 37.6,
+        "scheduled_at": "2026-11-02T09:00:00+08:00",
+        "dispatched_at": "2026-11-02T09:00:33.022735+08:00",
+        "lateness_seconds": 33.0,
         "kind": "on_time"
       }
     },
@@ -234,15 +234,15 @@
       "schedule_display": "0 4 * * *",
       "repeat": {
         "times": null,
-        "completed": 89
+        "completed": 90
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-07-21T13:50:21.247752+08:00",
-      "next_run_at": "2026-11-03T04:00:00+08:00",
-      "last_run_at": "2026-11-01T04:01:40.681455+08:00",
+      "next_run_at": "2026-11-04T04:00:00+08:00",
+      "last_run_at": "2026-11-02T04:02:00.396309+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -252,17 +252,17 @@
       "workdir": null,
       "profile": null,
       "fire_claim": {
-        "at": "2026-11-02T04:00:45.062152+08:00",
-        "by": "wangzhanpengdeMacBook-Pro.local:1141:eac09b649d2c4a89ac9f4eadf0962cf7"
+        "at": "2026-11-03T04:00:35.861988+08:00",
+        "by": "wangzhanpengdeMacBook-Pro.local:1141:cf3bf6dd1a8e4a71a785fb528282df3b"
       },
       "failure_streak": 0,
       "last_dispatch": {
-        "scheduled_at": "2026-11-02T04:00:00+08:00",
-        "dispatched_at": "2026-11-02T04:00:44.994665+08:00",
-        "lateness_seconds": 45.0,
+        "scheduled_at": "2026-11-03T04:00:00+08:00",
+        "dispatched_at": "2026-11-03T04:00:35.805069+08:00",
+        "lateness_seconds": 35.8,
         "kind": "on_time"
       }
     }
   ],
-  "updated_at": "2026-11-02T04:00:45.064654+08:00"
+  "updated_at": "2026-11-03T04:00:35.864646+08:00"
 }
