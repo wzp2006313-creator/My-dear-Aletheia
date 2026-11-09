@@ -31,12 +31,6 @@
       3947285,
       1780368399752223290
     ],
-    "research/a-share-research/SKILL.md": [
-      1790239447089470753,
-      11707,
-      41062349,
-      1790239447089965507
-    ],
     "research/polymarket/SKILL.md": [
       1780310488976624106,
       2985,
@@ -828,12 +822,6 @@
       3885,
       31486615,
       1788166402713902423
-    ],
-    "productivity/pdf/SKILL.md": [
-      1788120030690507510,
-      12489,
-      31349084,
-      1788120059907602906
     ],
     "productivity/ocr-and-documents/SKILL.md": [
       1782130148336742996,
@@ -1958,24 +1946,6 @@
       }
     },
     {
-      "skill_name": "pdf",
-      "category": "productivity",
-      "frontmatter_name": "pdf",
-      "description": "PDF files: create, read, merge, fill, OCR, edit text.",
-      "platforms": [
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": [],
-        "session_platforms": []
-      }
-    },
-    {
       "skill_name": "petdex",
       "category": "productivity",
       "frontmatter_name": "petdex",
@@ -2035,20 +2005,6 @@
         "macos",
         "windows"
       ],
-      "conditions": {
-        "fallback_for_toolsets": [],
-        "requires_toolsets": [],
-        "fallback_for_tools": [],
-        "requires_tools": [],
-        "session_platforms": []
-      }
-    },
-    {
-      "skill_name": "a-share-research",
-      "category": "research",
-      "frontmatter_name": "a-share-research",
-      "description": "A-share equity research with iFinD MCP — company deep div...",
-      "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
