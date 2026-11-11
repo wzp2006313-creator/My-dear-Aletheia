@@ -1,0 +1,228 @@
+==========================================
+ Hermes Agent 夜间安全审计报告
+ 时间: 2026-11-12 03:00:44
+==========================================
+
+=== [1] Hermes 平台审计 ===
+Hermes CLI: Hermes Agent v0.21.3 (2026.9.14) · upstream c7da41dd
+Install directory: /Users/eason/.hermes/hermes-agent
+Install method: git
+Python: 3.11.15
+OpenAI SDK: 2.24.0
+Update available: 31820 commits behind — run 'hermes update'
+Status: 
+┌─────────────────────────────────────────────────────────┐
+│                 ☤ Hermes Agent Status                  │
+└─────────────────────────────────────────────────────────┘
+✅ Hermes 平台状态正常
+
+=== [2] 进程与网络审计 ===
+--- 监听端口 (TCP+UDP) ---
+COMMAND     PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+rapportd    694 eason   10u  IPv4 0xa2dfc9791fc1b137      0t0  TCP *:49152 (LISTEN)
+rapportd    694 eason   11u  IPv6 0x976f893c89dd81bf      0t0  TCP *:49152 (LISTEN)
+ControlCe   790 eason    9u  IPv4 0x5389600e9753e6aa      0t0  TCP *:7000 (LISTEN)
+ControlCe   790 eason   10u  IPv6 0xd03d870627884324      0t0  TCP *:7000 (LISTEN)
+ControlCe   790 eason   11u  IPv4 0x2861a024e42b4cee      0t0  TCP *:5000 (LISTEN)
+ControlCe   790 eason   12u  IPv6 0x2b71c4210e0a68dc      0t0  TCP *:5000 (LISTEN)
+netdisk_s   901 eason   11u  IPv4  0xd496649b688bac5      0t0  TCP 127.0.0.1:10000 (LISTEN)
+netdisk_s  1236 eason    7u  IPv4 0x7e4588bc17c6374d      0t0  TCP 127.0.0.1:10001 (LISTEN)
+MacPacket 23751 eason   12u  IPv4 0xe6f064c48536a8e5      0t0  TCP 192.168.100.209:1082 (LISTEN)
+MacPacket 23751 eason   13u  IPv4  0xe44018c24fc96b3      0t0  TCP 127.0.0.1:1082 (LISTEN)
+MacPacket 23751 eason   14u  IPv6 0xd85a7dddaf414d55      0t0  TCP [::1]:1082 (LISTEN)
+Notion    24057 eason   15u  IPv4 0x3823f38186c1351e      0t0  TCP 127.0.0.1:59242 (LISTEN)
+BaiduNetd 24415 eason  173u  IPv4 0xb1e37ffc0307c70b      0t0  TCP 127.0.0.1:7475 (LISTEN)
+wpsclouds 30501 eason   31u  IPv6   0x618928cbdcd292      0t0  TCP *:50531 (LISTEN)
+wpsclouds 30501 eason  281u  IPv4 0xd59779ad560dacdd      0t0  TCP 127.0.0.1:4709 (LISTEN)
+COMMAND     PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+identitys   726 eason    7u  IPv4 0x20b702121644b120      0t0  UDP *:*
+identitys   726 eason   18u  IPv4 0x2d1cfdec830d4344      0t0  UDP *:*
+identitys   726 eason   23u  IPv4 0x9eedc4c1e8b854c6      0t0  UDP *:*
+identitys   726 eason   49u  IPv4 0x9cb531586b3bce8b      0t0  UDP *:*
+identitys   726 eason   52u  IPv4 0xa2e5408e587b31d8      0t0  UDP *:*
+identitys   726 eason   56u  IPv4  0x15e80604d443ffc      0t0  UDP *:*
+identitys   726 eason   60u  IPv4 0x7fa2895b6f8e60fb      0t0  UDP *:*
+replicato   763 eason    8u  IPv6  0x248392d56a11707      0t0  UDP *:56275
+sharingd    770 eason    9u  IPv6 0xc977afc04cd91a04      0t0  UDP *:64432
+
+--- Top 15 高资源消耗进程 ---
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+_windowserver      431  99.4  0.4 36259860496  88192   ??  Rs    6Apr76 2193:54.61 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+root               549  10.7  0.2 442210816  62320   ??  Ss    3Nov26   4:02.08 /usr/libexec/syspolicyd
+eason            24422   7.5  0.3 7648903156  81148   ??  S    Tue03PM 185:51.53 /Applications/BaiduNetdisk_mac.app/Contents/Frameworks/BaiduNetdisk_mac Helper (GPU).app/Contents/MacOS/BaiduNetdisk_mac Helper (GPU) --type=gpu-process --user-data-dir=/Users/eason/Library/Application Support/baidunetdisk --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACgFAAAAAAAAKAUAAAAAAAC4AQAANgAAALABAAAAAAAAuAEAAAAAAADAAQAAAAAAAMgBAAAAAAAA0AEAAAAAAADYAQAAAAAAAOABAAAAAAAA6AEAAAAAAADwAQAAAAAAAPgBAAAAAAAAAAIAAAAAAAAIAgAAAAAAABACAAAAAAAAGAIAAAAAAAAgAgAAAAAAACgCAAAAAAAAMAIAAAAAAAA4AgAAAAAAAEACAAAAAAAASAIAAAAAAABQAgAAAAAAAFgCAAAAAAAAYAIAAAAAAABoAgAAAAAAAHACAAAAAAAAeAIAAAAAAACAAgAAAAAAAIgCAAAAAAAAkAIAAAAAAACYAgAAAAAAAKACAAAAAAAAqAIAAAAAAACwAgAAAAAAALgCAAAAAAAAwAIAAAAAAADIAgAAAAAAANACAAAAAAAA2AIAAAAAAADgAgAAAAAAAOgCAAAAAAAA8AIAAAAAAAD4AgAAAAAAAAADAAAAAAAACAMAAAAAAAAQAwAAAAAAABgDAAAAAAAAIAMAAAAAAAAoAwAAAAAAADADAAAAAAAAOAMAAAAAAABAAwAAAAAAAEgDAAAAAAAAUAMAAAAAAABYAwAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAGAAAAEAAAAAAAAAAAAAAABwAAABAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAAAAJAAAAEAAAAAAAAAAAAAAACwAAABAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAAAAAAADwAAABAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAEAAAAGAAAAEAAAAAAAAAABAAAABwAAABAAAAAAAAAAAQAAAAgAAAAQAAAAAAAAAAEAAAAJAAAAEAAAAAAAAAABAAAACwAAABAAAAAAAAAAAQAAAAwAAAAQAAAAAAAAAAEAAAAOAAAAEAAAAAAAAAABAAAADwAAABAAAAAAAAAABAAAAAAAAAAQAAAAAAAAAAQAAAAGAAAAEAAAAAAAAAAEAAAABwAAABAAAAAAAAAABAAAAAgAAAAQAAAAAAAAAAQAAAAJAAAAEAAAAAAAAAAEAAAACwAAABAAAAAAAAAABAAAAAwAAAAQAAAAAAAAAAQAAAAOAAAAEAAAAAAAAAAEAAAADwAAABAAAAAAAAAABwAAAAAAAAAQAAAAAAAAAAcAAAAGAAAAEAAAAAAAAAAHAAAABwAAABAAAAAAAAAABwAAAAgAAAAQAAAAAAAAAAcAAAAJAAAAEAAAAAAAAAAHAAAACwAAABAAAAAAAAAABwAAAAwAAAAQAAAAAAAAAAcAAAAOAAAAEAAAAAAAAAAHAAAADwAAABAAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAgAAAAGAAAAEAAAAAAAAAAIAAAABwAAABAAAAAAAAAACAAAAAgAAAAQAAAAAAAAAAgAAAAJAAAAEAAAAAAAAAAIAAAACwAAABAAAAAAAAAACAAAAAwAAAAQAAAAAAAAAAgAAAAOAAAAEAAAAAAAAAAIAAAADwAAABAAAAAAAAAACgAAAAAAAAAQAAAAAAAAAAoAAAAGAAAAEAAAAAAAAAAKAAAABwAAABAAAAAAAAAACgAAAAgAAAAQAAAAAAAAAAoAAAAJAAAAEAAAAAAAAAAKAAAACwAAABAAAAAAAAAACgAAAAwAAAAQAAAAAAAAAAoAAAAOAAAAEAAAAAAAAAAKAAAADwAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --field-trial-handle=1718379636,r,3388215343100714539,10495575397115873838,131072 --disable-features=SpareRendererForSitePerProcess --seatbelt-client=43
+eason             1679   5.2  0.5 2428579024 118624   ??  Ss   Mon01PM 168:23.96 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+eason             1684   4.9  0.1 567752672  30912   ??  Ss   Mon01PM  88:35.87 /System/Library/ExtensionKit/Extensions/WallpaperAerialsExtension.appex/Contents/MacOS/WallpaperAerialsExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwidHlwZSI6MSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUud2FsbHBhcGVyLmV4dGVuc2lvbi5hZXJpYWxzIn0=
+root               358   4.8  0.2 449780016  62016   ??  Ss    6Apr76  86:49.77 /usr/libexec/logd
+_coreaudiod        443   4.3  0.2 442303424  58032   ??  Ss    6Apr76 167:27.41 /usr/sbin/coreaudiod
+eason             1307   3.4  0.3 2230418912  85056   ??  S    Mon01PM 145:38.18 /Applications/Wallspace.app/Contents/MacOS/Wallspace
+eason             5993   2.7  1.5 480552960 388672   ??  S    Mon02PM  72:15.80 /Applications/wpsoffice.app/Contents/MacOS/wpsoffice
+eason            24539   2.2  1.2 1257392376 305908   ??  S    Tue03PM  27:17.17 /Applications/BaiduNetdisk_mac.app/Contents/Frameworks/BaiduNetdisk_mac Helper (Renderer).app/Contents/MacOS/BaiduNetdisk_mac Helper (Renderer) --type=renderer --user-data-dir=/Users/eason/Library/Application Support/baidunetdisk --standard-schemes --secure-schemes=sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=sentry-ipc --service-worker-schemes --streaming-schemes --app-path=/Applications/BaiduNetdisk_mac.app/Contents/Resources/app.asar --enable-sandbox --enable-blink-features --disable-blink-features --lang=zh-CN --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=23 --time-ticks-at-unix-epoch=-1794203450252243 --launch-time-ticks=91071628584 --shared-files --field-trial-handle=1718379636,r,3388215343100714539,10495575397115873838,131072 --disable-features=SpareRendererForSitePerProcess --seatbelt-client=286
+eason             5562   1.4  0.3 590803328  66640   ??  Ss   Mon02PM  28:00.78 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+eason            24415   1.2  0.9 1248189980 236068   ??  S    Tue03PM  73:41.33 /Applications/BaiduNetdisk_mac.app/Contents/MacOS/BaiduNetdisk_mac
+eason             1236   1.2  0.0 68379068   1452   ??  S    Mon01PM  36:15.18 /Applications/BaiduNetdisk_mac.app/Contents/Frameworks/netdisk_service --hidden
+eason            30501   1.1  0.8 443273456 205488   ??  S     3:21AM  14:03.69 /Applications/wpsoffice.app/Contents/SharedSupport/wpscloudsvr.app/Contents/MacOS/wpscloudsvr Run /InstanceId:WpsCloudSvr wpscloudsvrimpunix.dll /qingbangong /run_plugin /plugin_name=qing /plugin_entry=qingbangong.dll /start_from=qingipc autologin
+eason            24692   1.0  0.6 443060880 140000   ??  S    Tue03PM  19:13.87 /Applications/wpsoffice.app/Contents/SharedSupport/wpsbackend.app/Contents/MacOS/wpsbackend Run '/Applications/wpsoffice.app/Contents/Frameworks/office6/addons/kpromotionstrategy/kpromotionstrategy.framework' /src=kpromotionstrategy
+
+--- 出站连接 ---
+COMMAND     PID  USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+identitys   726 eason   53u  IPv6 0x65b54880c46d3caa      0t0  TCP [fe80:16::5476:32ce:88fc:8ca6]:1024->[fe80:16::c4ed:1e01:7ea1:a625]:1024 (ESTABLISHED)
+identitys   726 eason   57u  IPv6 0xbfe75ac080a5296b      0t0  TCP [fe80:17::89eb:a76:2309:1bcc]:1024->[fe80:17::1550:ad41:b79d:ad86]:1024 (ESTABLISHED)
+identitys   726 eason   61u  IPv6 0x426c6de5293ab92f      0t0  TCP [fe80:16::5476:32ce:88fc:8ca6]:1026->[fe80:16::c4ed:1e01:7ea1:a625]:1025 (ESTABLISHED)
+identitys   726 eason   62u  IPv6 0x426c6de5293ab92f      0t0  TCP [fe80:16::5476:32ce:88fc:8ca6]:1026->[fe80:16::c4ed:1e01:7ea1:a625]:1025 (ESTABLISHED)
+identitys   726 eason   64u  IPv6  0xe0b5ee998edf658      0t0  TCP [fe80:17::89eb:a76:2309:1bcc]:1025->[fe80:17::1550:ad41:b79d:ad86]:1027 (ESTABLISHED)
+identitys   726 eason   65u  IPv6  0xe0b5ee998edf658      0t0  TCP [fe80:17::89eb:a76:2309:1bcc]:1025->[fe80:17::1550:ad41:b79d:ad86]:1027 (ESTABLISHED)
+TencentMe   736 eason  148u  IPv4 0xa6f3084237994c57      0t0  TCP 198.18.0.1:59076->221.229.52.217:8080 (ESTABLISHED)
+ChatGPT     739 eason    8u  IPv4 0xebf1eeb9745bad62      0t0  TCP 127.0.0.1:65164->127.0.0.1:1082 (ESTABLISHED)
+ChatGPT     739 eason   15u  IPv4 0xf12a2c765fd1a2c1      0t0  TCP 127.0.0.1:55785->127.0.0.1:1082 (ESTABLISHED)
+Claude     1084 eason   25u  IPv4 0x57b6edc0f8ef4d68      0t0  TCP 127.0.0.1:55017->127.0.0.1:1082 (ESTABLISHED)
+Claude     1084 eason   28u  IPv4 0xb9dc228cbab58971      0t0  TCP 127.0.0.1:54497->127.0.0.1:1082 (ESTABLISHED)
+python     1234 eason   25u  IPv4 0x5ad5d2bc422add1c      0t0  TCP 198.18.0.1:55775->198.18.0.30:8643 (ESTABLISHED)
+python     1234 eason   34u  IPv4 0xe8f8930bdf33df84      0t0  TCP 198.18.0.1:55772->198.18.0.30:8643 (ESTABLISHED)
+python     1234 eason   42u  IPv4 0xe9c0209581710e0e      0t0  TCP 198.18.0.1:55777->198.18.0.30:8643 (ESTABLISHED)
+python     1234 eason   44u  IPv4 0xd03aed35b38b22d7      0t0  TCP 198.18.0.1:55781->198.18.0.30:8643 (ESTABLISHED)
+python     1234 eason   45u  IPv4 0xabf5ffa40d051a9b      0t0  TCP 198.18.0.1:55783->198.18.0.30:8643 (ESTABLISHED)
+python     1234 eason   46u  IPv4 0x268997198ed0b35a      0t0  TCP 198.18.0.1:55787->198.18.0.30:8643 (ESTABLISHED)
+python     1234 eason   47u  IPv4 0x6ee2c7567b05caa6      0t0  TCP 198.18.0.1:55771->198.18.0.30:8643 (ESTABLISHED)
+python     1234 eason   51u  IPv4 0x7d1efa35b0a1605f      0t0  TCP 198.18.0.1:59768->198.18.0.166:443 (ESTABLISHED)
+✅ 进程与网络审计完成
+
+=== [3] 敏感目录变更 ===
+--- ~/.hermes/ 24h 内修改 ---
+/Users/eason/.hermes
+/Users/eason/.hermes/cache
+/Users/eason/.hermes/models_dev_cache.etag
+/Users/eason/.hermes/.update_check
+/Users/eason/.hermes/state.db
+/Users/eason/.hermes/.mcp-discovery.lock
+/Users/eason/.hermes/models_dev_cache.json
+/Users/eason/.hermes/state
+/Users/eason/.hermes/state/gateway.heartbeat
+/Users/eason/.hermes/kanban.db-shm
+/Users/eason/.hermes/channel_directory.json
+/Users/eason/.hermes/sessions
+/Users/eason/.hermes/sessions/request_dump_cron_8086dba17168_20261111_040010_20261111_040011_932938.json
+/Users/eason/.hermes/sessions/request_dump_cron_c8e25d6e74a3_20261111_090055_20261111_090056_120637.json
+/Users/eason/.hermes/sessions/request_dump_cron_302a8db2bf0d_20261111_040010_20261111_040011_795814.json
+/Users/eason/.hermes/logs
+/Users/eason/.hermes/logs/gateway.log
+/Users/eason/.hermes/logs/agent.log.1
+/Users/eason/.hermes/logs/gateway.error.log
+/Users/eason/.hermes/logs/errors.log
+/Users/eason/.hermes/logs/agent.log
+/Users/eason/.hermes/kanban.db-wal
+/Users/eason/.hermes/auth.json
+/Users/eason/.hermes/skills
+/Users/eason/.hermes/skills/.usage.json
+/Users/eason/.hermes/security-reports
+/Users/eason/.hermes/state.db-wal
+/Users/eason/.hermes/cron
+/Users/eason/.hermes/cron/ticker_last_success
+/Users/eason/.hermes/cron/ticker_heartbeat
+/Users/eason/.hermes/cron/.tick.lock
+/Users/eason/.hermes/cron/usage_audit.jsonl
+/Users/eason/.hermes/cron/output/c8e25d6e74a3
+/Users/eason/.hermes/cron/output/302a8db2bf0d
+/Users/eason/.hermes/cron/output/8086dba17168
+/Users/eason/.hermes/cron/executions.db
+/Users/eason/.hermes/cron/jobs.json
+
+--- ~/.ssh/ 24h 内修改 ---
+✅ 敏感目录变更检查完成
+
+=== [4] 系统定时任务 ===
+--- 用户 crontab ---
+无用户 crontab
+
+--- launchd agents ---
+ai.hermes.gateway.plist
+com.macpaw.zh.CleanMyMac4.Updater.plist
+netdisk_service.plist
+✅ 系统定时任务检查完成
+
+=== [5] Hermes Cron 任务 ===
+Hermes cron 任务列表需要手动检查: 'cronjob list'
+⚠️ 请在 Hermes 会话中手动运行 cronjob 检查
+✅ Hermes Cron 任务检查完成
+
+=== [6] 登录与 SSH ===
+--- 最近登录 ---
+eason      ttys000                         Tue Nov  3 07:27   still logged in
+eason      console                         Tue Nov  3 07:27   still logged in
+eason      ttys000                         Thu Oct 15 14:44 - 07:27 (18+16:42)
+eason      console                         Thu Oct 15 14:44 - 07:27 (18+16:42)
+eason      ttys000                         Fri Oct  2 23:27 - 14:44 (12+15:17)
+eason      console                         Fri Oct  2 23:27 - 14:44 (12+15:17)
+eason      ttys000                         Sat Sep 26 07:36 - 23:27 (6+15:50)
+eason      console                         Sat Sep 26 07:36 - 23:27 (6+15:50)
+eason      ttys000                         Wed Sep  9 10:20 - 07:36 (16+21:16)
+eason      ttys000                         Tue Sep  8 17:01 - 17:01  (00:00)
+
+--- SSH 失败尝试 ---
+无 SSH 失败记录或无系统日志访问权限
+✅ 登录审计完成
+
+=== [7] 核心文件完整性 ===
+sha256sum:  .env: No such file or directory
+sha256sum:  config.yaml: No such file or directory
+⚠️ 文件完整性检查发现不匹配！
+
+--- 权限检查 ---
+/Users/eason/.hermes/.env → 权限 600
+/Users/eason/.hermes/config.yaml → 权限 600
+✅ 核心文件完整性检查完成
+
+=== [8] 黄线操作交叉验证 ===
+--- sudo 记录 (24h) ---
+Timestamp                       Thread     Type        Activity             PID    TTL  
+✅ 黄线操作交叉验证完成
+
+=== [9] 磁盘使用率 ===
+根磁盘使用率: 3%
+
+--- 24h 内大文件 (>100MB) ---
+/Users/eason/Pictures/Photos Library.photoslibrary/database/Photos.sqlite
+/Users/eason/Library/Caches/notion-updater/update.zip
+/Users/eason/Library/Caches/notion-updater/pending/Notion-arm64-7.43.0.zip
+/Users/eason/.hermes/state.db
+未发现大文件
+✅ 磁盘检查完成
+
+=== [10] 环境变量审计 ===
+--- 含敏感字样的环境变量 ---
+NOTION_API_TOKEN=***6815
+NOTION_KEYRING=***
+HERMES_SESSION_KEY=***
+TERMINAL_DOCKER_SHARED_CONTAINER_KEY=***
+NOTION_API_KEY=***6815
+HERMES_REDACT_SECRETS=***true
+✅ 环境变量审计完成
+
+=== [11] DLP 私钥/凭据泄露扫描 ===
+--- 扫描 Ethereum/BTC 私钥格式 ---
+✅ 未发现明文私钥泄露
+
+--- 扫描助记词格式 ---
+/Users/eason/.hermes/memories/MEMORY.md:iFinD MCP：get_stock_financials双层JSON(content[0].text再json.loads→inner['data']['answer']才是表格文本)，用股票代码(603110.SH)非中文简称，批量上限8-10只；高管持股get_stock_shareholders按职务汇总(2023年度口径)；偶发断连token过期先curl测API，需用户刷新config.yaml换token。
+/Users/eason/.hermes/memories/MEMORY.md:web_search/web_extract不可用(FIRECRAWL_API_KEY空)。联网:firecrawl-cli(免费额度有限易耗尽,英文好)/360搜索curl可用(so.com/s?q=)/curl直连权威源(SEC带UA);百度Bing触发验证码反爬。agent-browser截图:open&&wait networkidle&&screenshot。cninfo年报:static.cninfo.com.cn/finalpage/YYYY-MM-DD/数字.PDF。财务数据唯一用iFinD。
+/Users/eason/.hermes/memories/USER.md:Prefers Chinese communication. Proactive about extending agent capabilities — likes discovering and installing skills from major repositories (anthropics/skills, vercel-labs/skills, microsoft/skills). Decisive — trusts recommendations and says "都下载吧" when the batch is presented clearly.
+/Users/eason/.hermes/memories/USER.md:Name: 宋瀚清（展鹏）. Equity research analyst at 中泰证券 (songhq01@zts.com.cn). Chinese-speaking user. Timezone: Asia/Shanghai (UTC+8). Prefers concise, natural responses without excessive markdown formatting.
+⚠️ 发现可能的助记词，请人工确认
+
+=== [12] Skill/MCP 完整性 ===
+--- 已安装 Skills ---
+Skills 数量: 71
+
+--- Skill 哈希基线 (待生成) ---
+检查基线...
+⚠️ Skill 文件发生变更！
+
+=== [13] Git 灾难恢复备份 ===
+⚠️ 未初始化 Git 仓库，灾难恢复未启用
+
+==========================================
+ 审计完成
+ 时间: 2026-11-12 03:00:59
+==========================================
+
+Summary: 0
+0 critical · 5 warn · 13 metrics checked

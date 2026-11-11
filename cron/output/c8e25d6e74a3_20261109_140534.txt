@@ -1,0 +1,91 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+✅ 已成功写入 Notion（归档表新增 2026-11-09 行 + 完整摘要追加到页面底部，双重校验通过）。
+
+---
+
+## AI Builders Digest — 2026-11-09
+
+### 📌 今日概览
+
+Robinhood CEO Vlad Tenev 在 No Priors 播客中披露：Agentic Trading 上线数月已获 15 万用户开户、日工具调用达 3000 万次——这是"AI agent 进入真实受监管金融交易"最强的一次产品-市场契合（PMF）实证。
+
+### 🔥 重点 Highlights
+
+1. **Robinhood Agentic Trading 爆发**：15 万客户开户、3000 万次日工具调用（平滑指数增长），并在 Hood Summit 发布内置完整 harness 的"Robinhood Agents"。[No Priors 播客](https://www.youtube.com/@NoPriorsPodcast)
+2. **Aaron Levie（Box CEO）"AI 工厂"论**：AI agent 的推理不必贴近用户，长时运行的 agent 可以把任务甩到远端"AI 工厂"，因任务经济价值远高于延迟敏感度。[推文](https://x.com/levie/status/2118953909524050288)
+3. **Levie 再谈生产力跃迁**：越来越多案例显示生产力比 AI 前高 1-2 个数量级，且这个差距"没有随时间缩小、反而在复利扩大"。[推文](https://x.com/levie/status/2119111328099168409)
+4. **OpenAI Pro 档位澄清**：Pro 100/200/500 分别对应 10X/20X/50X 用量、无 5 小时上限，且 Thibault Sottiaux 公开征询"要不要出 Pro 50"。[推文](https://x.com/thsottiaux/status/2119296267545419987)
+5. **Aditya Agarwal（SPC 合伙人）论算力瓶颈**：若建数据中心变难，应重仓现有产能持有者（hyperscaler），"香料持有者"将大赢，但新模型训练速度会受损。[推文](https://x.com/adityaag/status/2119157297167372646)
+
+### 📝 详细摘要
+
+#### 🐦 X/Twitter 推文（19 条，10 位 builder）
+
+**Aaron Levie（@levie，Box CEO）** — 今日信息密度最高。
+- 谈 AI 生产力跃迁：只要有正确的 harness、对想构建领域的深刻理解、同时驾驭多个 agent 的能力、低摩擦的测试部署环境，产出达到"AI 前的 1-2 个数量级以上"是现实的；这个差距不随时间收敛，模型越强、能接更大的活，杠杆越复利。🔗 https://x.com/levie/status/2119111328099168409
+- 谈"AI 工厂"：agent 的推理在理论上可以在任何地方运行，AI 是少数对回传用户延迟不那么敏感的技术；长时运行 agent 将成为常态，数据可加密传入、被 agent 处理后再丢弃，无需长期存储敏感数据。🔗 https://x.com/levie/status/2118953909524050288
+
+**Thibault Sottiaux（@thsottiaux，Codex & ChatGPT @OpenAI）**
+- 澄清 Pro 档位：所有 Pro 计划均无 5 小时限制，Pro 100 = 10X、Pro 200 = 20X、Pro 500 = 50X 用量，并开放 ultrafast 访问。🔗 https://x.com/thsottiaux/status/2119296267545419987
+- 公开征询："出一个 Pro 50 会不会更合理？"🔗 https://x.com/thsottiaux/status/2119305294291612140
+- 发布"Cyber"相关动态。🔗 https://x.com/thsottiaux/status/2118953362725159104
+
+**Aditya Agarwal（@adityaag，General Partner @SPC）**
+- 若建数据中心变难，应超配任何拥有现存算力的人（即 hyperscaler）；对"香料"（算力）的需求只会继续上升，持有者将大赢；受损的是新模型训练速度——"看来我们终究会为前沿能力踩刹车"。🔗 https://x.com/adityaag/status/2119157297167372646
+
+**Garry Tan（@garrytan，YC President & CEO）**
+- "我们本可以拥有富足"——未来十年最关键的议题：能否通过超级智能实现科学、医学、工程的进步，还是选择黑暗。🔗 https://x.com/garrytan/status/2119146939514278238
+- "WIRED 已是昔日之影。"🔗 https://x.com/garrytan/status/2119172824271360124
+- "别把这篇文章给 NIMBY 看。"🔗 https://x.com/garrytan/status/2119142686422859899
+
+**Andrej Karpathy（@karpathy）**
+- 把 Tristan 整理的 YouTube 优质频道清单改造成"TristanTube"——4.7 万个超硬核视频 + 躺看模式，用 Claude Code 三分钟 one-shot 完成。🔗 https://x.com/karpathy/status/2119114537442189652
+
+**Amjad Masad（@amasad，Replit CEO）**
+- "The Better Lesson"（更好的教训）。🔗 https://x.com/amasad/status/2119217304953053419
+- "非常喜欢哈萨克斯坦——政府对 AI 极度上头，也是 Network School 的好地方。"🔗 https://x.com/amasad/status/2119126064815608270
+
+**Nikunj Kothari（@nikunj，Partner @fpvventures）**
+- 下周三（11 月 11 日）IRL 对谈 Arcanum Labs 联创 Daniel Rupawalla，聊数据生意：实验室在买什么、谁在卖、如何入行、市场能否持续。🔗 https://x.com/nikunj/status/2119229917019971879
+- 讽刺长文"如何让投资人 FOMO 你的 A 轮、拿到 7 张 term sheet"：含糊晒营收/客户、坐标轴不留刻度、让投资人转发认领、买"权威媒体"软文、甚至针对投资人定向投广告。🔗 https://x.com/nikunj/status/2119162212044742938
+
+**Peter Steinberger（@steipete，OpenClaw + OpenAI）**
+- "Asahi 项目的本质是把封闭受限的东西打开。加上让其他项目更难在其上构建的新限制，不是正道；那种对 AI 的排斥也很可笑。"🔗 https://x.com/steipete/status/2119264334627090514
+
+**Zara Zhang（@zarazhangrui，Builder）**
+- "太多人把创业讲成命中注定……但创业的命运是'做出来'的，不是预设的。同一个 idea 有一千种执行方式，一百个人有一百种打法。"🔗 https://x.com/zarazhangrui/status/2118968862557475298
+
+**Swyx（@swyx，smol.ai / Cognition / Latent Space 等）**
+- 主要分享活动 swag/sticker 战利品与"下周有好戏"的预告，信号偏弱。🔗 https://x.com/swyx/status/2119210582654210255
+
+#### 🎙️ 播客
+
+**No Priors：Tokenization, Agentic Trading, Harmonic — Robinhood CEO Vlad Tenev**
+🔗 https://www.youtube.com/@NoPriorsPodcast
+
+- **Agentic Trading（PMF 实锤）**：年初推出 Robinhood MCP，已获 15 万+ 客户开户、日工具调用 3000 万次（平滑指数）；Hood Summit 上发布"Robinhood Agents"，把整个 harness + UI 内置进 Robinhood 账户，可跑循环策略、自动再平衡、找机会。
+- **预测市场 = 新闻的进化**：宣布推出 KPI 合约，可直接交易 EPS、营收等财报指标；"未来新闻的形态不是 NYT，而是像报纸版面的概率看板"。
+- **Tokenization = 所有权的全球化**：让 120+ 国家、甚至没有正常银行系统的人接入经济网络。
+- **Harmonic（数学超级智能）**：联创的 Harmonic 去年做出 Aristotle 模型——全球仅三个拿到国际数学奥林匹克金牌的模型之一，被用于解决 Erdős 问题；他不认同"最新一波 AI 解数学题过于中心化"，主张把工具交到个人手里做分布式发现。
+- **个人底色**：生于东欧、童年经历保加利亚 2000% 年化通胀，祖父把工资换成铜锅储值——这塑造了他对"所有权"的执念。
+
+### 💡 我的分析
+
+> 以下为分析与综合，非播客/推文原文事实。
+
+**今天最让我意外的是什么？**
+Robinhood 的 Agentic Trading 数据：15 万开户 + 3000 万次/日的工具调用。这是"AI agent 代替人做金融交易"第一次被一家主流券商用硬数据背书——它不再是 demo，而是在"钱、合规、客户信任"三条高压线下跑起来的真实业务。（分析）
+
+**哪些趋势在加速？哪些在降温？**
+- **加速**：① agent 进入真实受监管业务（Robinhood 交易 + Levie 的"AI 工厂"推理就近性弱化，两者指向同一个方向——agent 成为长时、远端、高价值的常态进程）；② 算力瓶颈叙事升温（Aditya 的"香料持有者"、Garry Tan 的"超级智能 vs 黑暗"都在讨论算力/能力供给的政治经济约束）。（分析）
+- **降温**：对"前沿模型无限狂奔"的线性预期。Aditya 明言"我们会为前沿踩刹车"，Thibault 在调 Pro 档位而非无限堆量——注意力从"谁能更快"转向"谁能把现有能力高效地产品化、分发、变现"。（分析）
+
+**对创业者 / 开发者的 actionable 启发**
+1. **把 agent 当"长时进程"而非"即时问答"来设计**：Levie 的 AI 工厂论说明，如果你还在为"降低单次回复延迟"优化，可能押错了题。真正的杠杆在"让它跑几个小时、几十次工具调用后交回高质量结果"。（分析，源于 Levie 推文）
+2. **有分发/执行能力的人，比有算力的人更稀缺**：Karpathy 三分钟 one-shot 出产品、Robinhood 用 MCP + harness 把 agent 装进已有账户体系——赢家是把模型能力"装进用户已有习惯"的人，而不是只堆模型的人。（分析，源于 Karpathy 推文 + 播客）
+3. **审慎对待"中心化 vs 分布式"的选择**：Vlad 和 Steinberger 从两个角度都点到了"把封闭的东西打开"——无论做数学工具还是开源项目，封闭限制会在生态里积累反感，开放的路径更容易形成网络效应。（分析，源于播客 + Steinberger 推文）
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").
