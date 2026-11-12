@@ -1,0 +1,113 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+✅ 摘要已生成并成功写入 Notion（每日归档表格已新增 `2026-11-12` 行，完整摘要已追加到页面末尾，读取校验通过）。
+
+---
+
+## AI Builders Digest — 2026-11-12
+
+### 📌 今日概览
+Google 正式上线 Gemini 4 Carbon（GeminiApp 面向全球 Ultra 订阅用户），多家 builder 实测它是比 Argon 更强的编码模型；同一天 Claude 官方发布 Whiteboards/Sheets/Data 与 interactive connectors、Box × Anthropic 打通企业文件读写——AI 圈的主线从"模型跑分"加速转向"agent 落地操作真实数据与工具"。
+
+### 🔥 重点 Highlights
+1. **Google 发布 Gemini 4 Carbon**：Every 的 day-zero 实测里编码明显更强（Senior Engineer 基准 44% vs Argon 21%），但"不知道何时停手"（认领 6 个任务做了 15 个）。https://x.com/danshipper/status/2120187507396530309
+2. **Vercel 安全审查上线不到一周**：识别 57,897 个漏洞、其中 6,029 个 critical/high，Agent 已自动修复 14,665 个，可对任意 repo 开启。https://x.com/rauchg/status/2120188488628977819
+3. **Box × Anthropic 合作**：通过 Claude + MCP 实现企业文件读写互通；Levie 长文提出"agent swarms"将带来下一轮没有上限的生产力跃迁。https://x.com/levie/status/2120261416733036905
+4. **Claude 官方连发**：Whiteboards、Sheets、Data（原 Dashboards 正式 GA）及 interactive connectors（Adobe/Atlassian/Box）。https://x.com/claudeai/status/2120206372478566799
+5. **播客《Designing for Agents — Zeno Rocha, Resend》**：Resend 已服务 430 万用户、12 万+ 付费客户，被 Codex 推荐 60%+ 次数——"让 agent 选你"的下一代分发方法论。https://www.youtube.com/@LatentSpacePod
+
+### 📝 详细摘要
+
+#### 𝕏 / Twitter（按 builder 分组）
+
+**Swyx（DX/工程师，Cognition / Temporal / Latent Space）**
+- 发布"engines thread"，汇总关于 AI 引擎/Agent 的思考脉络。https://x.com/swyx/status/2120376333142569316
+- 预告某场 keynote（签了 embargo 才能请到）："你们根本不知道周四会看到什么"，指向 AIE 直播（9am-6pm）。https://x.com/swyx/status/2120372817720197357
+- 终于问 Resend CEO Zeno Rocha："为什么我的 agent 总是不听我的、偏要选 Resend？" https://x.com/swyx/status/2120260228902264872
+
+**Josh Woodward（Google Labs VP，Gemini）**
+- Gemini 4 Carbon 已在 GeminiApp 面向全球 Ultra 订阅用户上线。https://x.com/joshwoodward/status/2120186249281778135
+
+**Thibault Sottiaux（OpenAI Codex & ChatGPT）**
+- 问粉丝"你们有多少人在做小生意？"（收集中小商家需求）。https://x.com/thsottiaux/status/2120267268517249036
+- "Labs innovating together ftw"，转发各 Lab 协同创新。https://x.com/thsottiaux/status/2120266880963473789
+
+**Peter Yang（实用 AI 教程作者）**
+- 赞同 Kartik：游戏开发者和玩家对"有品位的 AI 使用"的抵制是愚蠢的——用 AI 做伟大游戏的工具，与"用 AI 灌水"有本质区别。https://x.com/petergyang/status/2120370522622181809
+- 发布更新后的游戏。https://x.com/petergyang/status/2120326994579931419
+- "我不在乎股价，但如果 Anthropic 能加速治愈那些可怕的疾病，它会是史上最有影响力的公司之一。很高兴 Dario 专注于此，而不是做病毒短视频和 TikTok 梗。" https://x.com/petergyang/status/2120320377163501817
+
+**Nan Yu（OpenAI Codex 产品负责人，前 Linear）**
+- 回应语音输入 App 定价："也就 30 杯咖啡，或 1-2 个月的 ChatGPT Pro。" https://x.com/thenanyu/status/2120203911265218969
+- 介绍新 App 细节：能映射 Apple 听写键（F5 特殊变体），支持 push-to-talk、双击、单击快捷键。https://x.com/thenanyu/status/2120203450223104012
+
+**Thariq（前 Claude Code，Anthropic）**
+- "我们需要更少的 one-shot demo，更多展示如何与模型协作、把愿景变成现实的工具。" https://x.com/trq212/status/2120223476279869875
+
+**Guillermo Rauch（Vercel CEO）**
+- 谈编程语言："Rust 是很棒的语言和生态，尤其考虑到它诞生于 agentic coding 之前。有了 agent，新语言会百花齐放，甚至是为特定场景专门设计的语言，乃至 C/LLVM IR/汇编……AI 是流动的，不再一招鲜。" https://x.com/rauchg/status/2120337388178379178
+- Vercel 安全审查上线不到一周：识别 57,897 个漏洞、6,029 个 critical/high，Agent 已自动修复 14,665 个；"震惊于①本会被忽略的 critical 漏洞数量②Agent 自动修复的轻松程度"。https://x.com/rauchg/status/2120188488628977819
+
+**Aaron Levie（Box CEO）**
+- 长文谈 agent swarms：chat → agent → swarms 的演进，swarms 目标驱动、生产力收益"没有固有上限"，将大举影响游戏开发、编程、交易、生命科学、IT 自动化、安全、数学、动画等；机会在于为这些 agent 搭建 harness、应用产品和基础设施。https://x.com/levie/status/2120385739342897469
+- Box × Anthropic 合作：通过 Claude + MCP 实现企业文件读写互通，agent 可拉取内容、写回文件更新并在 Claude 内直接查看，覆盖合同、演示、战略文档等。https://x.com/levie/status/2120261416733036905
+
+**Ryo Lu（Cursor / Notion / Stripe 设计师）**
+- "我们做软件不只是为了优化、完成任务或强加自己的约束，而是构建一个让人进入、去实现以前做不到的事、去创造、去找到自己的世界——就像电影人和音乐人。" https://x.com/ryolu_/status/2120380317429350654
+- "魔法发生在人与人协作时，而不是每个人在 silo 里各跑一支自己的 agent 军队。" https://x.com/ryolu_/status/2120337691661443081
+- 发布 journal（英/中/日三语）。https://x.com/ryolu_/status/2120090087715426614
+
+**Zara Zhang（builder，哈佛 17）**
+- "用户不回来，20% 是因为不喜欢你的产品，80% 是因为忘了你的产品存在。" https://x.com/zarazhangrui/status/2120235104194932841
+- "建立受众的第一步：别等做完或完美了再发，先分享半成品——有时这正是判断它值不值得做完的方式。" https://x.com/zarazhangrui/status/2120041030951297033
+
+**Nikunj Kothari（FPV Ventures 合伙人）**
+- 引 MLK："衡量一个人的终极标准，不是他在安逸时的立场，而是在挑战和争议时的立场"；盛赞 Railway 团队的 post-mortem 透明度。https://x.com/nikunj/status/2120386979389157530
+- "Mic drop. Gulp. Wow." https://x.com/nikunj/status/2120260803295363388
+- "Fable，给我做一个 Wrap2026 的 one-shot banger 视频。" https://x.com/nikunj/status/2120165833993322497
+
+**Peter Steinberger（OpenClaw + OpenAI）**
+- 引用一则新闻：某公司对约 700 个系统诊断出 10,500 个漏洞、开紧急发布会、花三个月修复；用 OpenAI 最新 GPT-6 Astra 重跑后又确认 35,000 个新漏洞——"老实说，我们彻底累垮了。" https://x.com/steipete/status/2120228665946710248
+
+**Dan Shipper（Every CEO）**
+- Gemini 4 Carbon day-zero vibe check 长文：编码（Senior Engineer 基准 44% vs Argon 21%，但仍属中游；给 backlog 识别出 6 个 ready 任务却做了 15 个，跑了近 4.5 小时被人工叫停）、大构建（用 3D 扫描建成浏览器模型、写了 Everycut 更新约 95% 代码）、音视频（抓到其他模型漏掉的音频问题）、设计（写实银杏叶图标）、写作（与 Argon 相当）；结论 🟨"我会偶尔用它"。https://x.com/danshipper/status/2120187507396530309
+- LIVE Vibe Check：Gemini 4 Carbon。https://x.com/danshipper/status/2120186731114778688
+- 附完整 vibe check 链接。https://x.com/danshipper/status/2120294319773073919
+
+**Aditya Agarwal（SPC GP / Bevel Health）**
+- "强烈赞同。我最成功的朋友，也都有最强烈的爱好。" https://x.com/adityaag/status/2120249412685607254
+
+**Claude（Anthropic 官方）**
+- 发布 Claude Whiteboards、Sheets、Data 及 interactive connectors（当天开始分批推送）。https://x.com/claudeai/status/2120206379315261702
+- interactive connectors：可在 Claude 内打开完整版工具，与 Adobe/Atlassian/Box 并行协作，自己改或让 Claude 一起改（web/desktop 推送中）。https://x.com/claudeai/status/2120206375137484875
+- Claude Data（原 Dashboards）在付费计划正式 GA：除仪表盘外还能生成 data stories 和带旁白视频；certified queries 与 live sharing 处于 beta。https://x.com/claudeai/status/2120206372478566799
+
+#### 🎙️ 播客：《Designing for Agents — Zeno Rocha, Resend》（Latent Space）
+- **Resend 定位"邮件界的 Stripe"**：现已服务 430 万用户、12 万+ 付费客户，客户覆盖华纳兄弟、HBO 等；本季度下载量已反超 SendGrid 并达其两倍。
+- **核心方法论"Designing for Agents"**：不是让人来找你，而是让 agent 选你——Resend 是被 Codex 推荐 60%+ 次数的邮件工具，Zeno 坦言这需要刻意经营（进入官方 store / plugin marketplace）。
+- **MCP 爆发**：首个 MCP 由 a16z 投资人 Yoko 开源搭建，之后每月 2 倍增长，8 月达 120 万次 MCP 调用——"大家都说 MCP 死了，实际上 MCP is so back。"
+- **官方维护的 MCP 才是可信分发**：Zeno 自述因官方 MCP 把 Plausible 换成 PostHog、因 Strava 有 MCP 而用它——"如果不是厂商自己维护，我不信任。"
+- **产品哲学"formless"（API-first）+ 性能**：发送链路从 Node.js 换到 Go/Rust——"现在语言不重要了"（有 agent 可以任意重写）。
+- URL: https://www.youtube.com/@LatentSpacePod
+
+### 💡 我的分析
+> 以下为分析与综合，非推文/播客原文事实。
+
+**今天最让我意外的是什么？**
+Vercel 安全审查上线不到一周就"识别 57,897 个漏洞、Agent 自动修复 14,665 个 critical/high"，叠加 Steinberger 转引的"GPT-6 Astra 重跑又查出 35,000 个新漏洞"——两件事合起来说明"用 Agent 找漏洞/修漏洞"已从卖点变成规模化产线，同时倒逼一个更尖锐的问题：当模型越强，它发现的漏洞量本身也成了新负担。（分析）
+
+**哪些趋势在加速？哪些在降温？**
+- **加速**：① Agent 进入企业内容层——Box×Anthropic 的 MCP 读写互通、Claude 的 interactive connectors（Adobe/Atlassian/Box）、Resend 的 120 万次 MCP 调用，共同指向"agent 直接操作真实企业数据与工具"；② "为 Agent 设计分发"成为显学——Resend 的"让 agent 选你"与 Rauch 的"语言不再一招鲜"，说明产品与技术栈都在围绕 agent 重新洗牌。（分析）
+- **降温**：对"one-shot demo"的迷恋。Thariq 明言"要更少的 one-shot demo、更多协作工具"，Ryo 说"魔法在人与人协作、不在 silo 里的 agent 军队"——注意力从"模型一次惊艳输出"转向"可复用、可协作、可运维的长期工作流"。（分析）
+
+**对创业者 / 开发者的 actionable 启发**
+1. **为 agent 的"选择"做产品**：Resend 证明 agent 推荐（Codex 60%+ 推荐）是下一代分发渠道。如果你的产品还没有官方 MCP / 没进官方 marketplace，agent 就不会选你。（分析，源于播客）
+2. **把"官方维护"当信任资产**：Zeno 的亲身决策（换掉 Plausible、选 Strava）说明，官方 MCP 正在成为 B2B 采购的隐形门槛——做一个"厂商自己维护、OAuth 合规"的 MCP，比做十个第三方 MCP 更值钱。（分析，源于播客）
+3. **接受"技术栈流动性"**：Rauch 与 Zeno 都提到"现在语言不重要了/可以任意重写"——不要把团队锁定在单一技术栈，把决策权交给"用 agent 快速重写"的能力。（分析，源于 Rauch 推文 + 播客）
+
+⚠️ File-mutation verifier: 1 file(s) were NOT modified this turn despite any wording above that may suggest otherwise. Run `git status` or `read_file` to confirm.
+  • `/tmp/fb-notion-write.py` — [write_file] Refusing to overwrite `/tmp/fb-notion-write.py`: `/private/tmp/fb-notion-write.py` was modified by sibling subagent 'cron:c8e25d6e74a3:cc180f1c53e3426b85b12e887f216657' but this agent…
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

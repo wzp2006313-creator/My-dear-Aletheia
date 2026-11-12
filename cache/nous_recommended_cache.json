@@ -251,7 +251,7 @@
           "displayName": "MoonshotAI: Kimi K3.1 Pro",
           "source": "openrouter",
           "href": "https://openrouter.ai/moonshotai/kimi-k3.1-pro-20261023",
-          "tokenPrice": "in $2.00 / out $10.00 per 1M",
+          "tokenPrice": "in $0.24 / out $8.79 per 1M",
           "contextLength": 1048576,
           "inputModalities": [
             "text",
@@ -362,6 +362,6 @@
         "updatedAt": "2026-11-10T14:56:37.604Z"
       }
     },
-    "ts": 1794426326.527456
+    "ts": 1794512131.7426188
   }
 }
