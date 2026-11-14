@@ -1,0 +1,80 @@
+Cronjob Response: AI Builders Digest 每日推送
+(job_id: c8e25d6e74a3)
+-------------
+
+Notion 写入已完成并验证通过（每日归档表格已新增 2026-11-13 行，摘要已追加，页面长度从 714,328 增至 721,307 字符）。
+
+下面是今日完整摘要：
+
+---
+
+## AI Builders Digest — 2026-11-13
+
+### 📌 今日概览
+NVIDIA 创始人兼 CEO 黄仁勋（Jensen Huang）深陷「出轨＋与间谍高管有染」丑闻、董事会或考虑罢免他，成为今天 AI 圈最重磅的话题——多位顶级 builder 就「该不该罢免、背后时机与利益」激烈交锋；同一天 Google Labs 上线协作新实验 Tabletop、Every 的 Thesis 2027 大会围绕「自动化之后的人类工作」给出系统性答案，AI 圈主线从「模型跑分」进一步转向「人机协作与 AI 落地科学」。
+
+### 🔥 重点 Highlights
+1. **黄仁勋丑闻震动 AI 圈**：从洗碗工到全球市值最高公司 CEO 的传奇人物被曝出轨并与「间谍＋NVIDIA 高管」有染，董事会或被推动罢免；Amjad Masad 直接质疑此事时机与「谁受益、为什么是现在」。 https://x.com/amasad/status/2120671838909194695
+2. **Google Labs 推出 Tabletop**：新实验，把团队从「应该做」推到「正在做」，支持互动路线图、晚餐转盘、匹克球分组、拖拽座位表、家务表＋存钱罐等自定义协作空间。 https://x.com/GoogleLabs/status/2120549258692882702
+3. **Dan Shipper / Every「Thesis 2027」闭幕演讲**：GDPval 上 AI 击败人类专家比例从 2024 年 12.4% 升至 2026 年约 83%；提出「allocation economy」，主张「聚合视角会误导、亲密视角才是未来」。 https://x.com/danshipper/status/2120539547620790424
+4. **Nikunj Kothari 盘点 AI 基础设施**：抓取 803 家 AI 公司 sub-processor 清单，44% 已用 2+ 模型供应商（Anthropic 增速是 OpenAI 两倍）、33% 列推理供应商、typesafeai 成爆款黑马。 https://x.com/nikunj/status/2120669243918418237
+5. **Aditya Agarwal 提出两类创业公司框架**：AI 扩散（vertical SaaS）vs AI 前沿（用 AI 加速科学发现），后者才是「真正有趣、少有人谈」的大回报来源。 https://x.com/adityaag/status/2120578134177464356
+
+### 📝 详细摘要
+
+**𝕏 / Twitter（按 builder 分组）**
+
+**Amjad Masad（Replit CEO）** — 质疑黄仁勋丑闻的时机：「为什么没怎么遮掩的旧故事突然变成国际地缘政治新闻？谁受益、为什么是现在？」若 Jensen（开源模型的首要拥护者）被搞掉，任何想要 AI 封闭、集中、受控的人都会受益；时机与中期选举、即将到来的 IPO 相关。 https://x.com/amasad/status/2120671838909194695
+
+**Garry Tan（Y Combinator CEO）** — 认为 NVIDIA 董事会罢免 Jensen Huang「不明智」——他的领导对「未来丰裕引擎」的日常运作至关重要，很难想象不伴随巨大市值崩塌的过渡。 https://x.com/garrytan/status/2120657462353330604
+
+**Peter Yang（AI 教程/访谈作者）** — 对 Jensen 深感失望：从洗碗工、服务员到全球市值最高公司 CEO、41 年婚姻的故事曾激励无数人。但区分「出轨可鄙」与「因此被解雇」是两回事，主张董事会先做适当调查、并让股东参与决策。 https://x.com/petergyang/status/2120726673452933269
+
+**Matt Turck（FirstMark VC）** — 转引「法国高管成为第二个 Jensen 故事」，暗示这类爆料仍在发酵。 https://x.com/mattturck/status/2120640868483006533
+
+**Google Labs（Google 官方）** — 上线新实验 Tabletop：把链接/文件丢进共享空间、加进团队、让 Tabletop 按需生成自定义空间。 https://x.com/GoogleLabs/status/2120549258692882702
+
+**Dan Shipper（Every CEO）** — 长文＋大会演讲：GDPval 上 AI 击败人类专家从 2024 年 12.4% → 2026 年约 83%；「聚合」视角看趋势线像要取代所有人，但「亲密」视角能看到「人类的视角与责任骑在模型之上」。团队里每个人对同一份数据得出完全不同的洞察；「生成廉价、排序困难」。 https://x.com/danshipper/status/2120539547620790424
+
+**Nikunj Kothari（FPV Ventures）** — 抓取 803 家公司 sub-processor：44% 列 2+ 模型供应商（Anthropic 增速是 OpenAI 两倍）；86 对互相列对方为 sub-processor；33% 列推理供应商（modal 领先）；中国模型主要通过视频（字节）进入；typesafeai 是爆款。 https://x.com/nikunj/status/2120669243918418237
+
+**Aditya Agarwal（SPC GP，前 Dropbox CTO）** — 两类公司：① AI 扩散（vertical SaaS，Profound/Cognition/Harvey）；② AI 前沿（用 AI 加速科学：Externa 蛋白质化学、Epana Bio 自免疫、VenomicsAI 毒液药物、Equivariant 半导体多物理场）——第②类外部少有人谈，却是「模型驱动回报」的大头。 https://x.com/adityaag/status/2120578134177464356
+
+**Guillermo Rauch（Vercel CEO）** — Beam by Reflection 在 11/12 前免费（美国开源权重、零数据留存）；并提醒「创造出色产品仍需要人类极度的专注、努力、动机、爱，以及注意力」。 https://x.com/rauchg/status/2120581196363268265
+
+**Swyx（Cognition / Temporal / Latent Space）** — 澄清一条伪造的前员工/邮件域名信息；宣布 AIE 大会直播与 @poteto 主题演讲爆满。 https://x.com/swyx/status/2120640864787841513
+
+**Thariq（前 Claude Code @Anthropic）** — 预告 AIE code 闭幕演讲「the sweet side of the bitter lesson」，谈明年 coding agent 使用体验会如何被塑造。 https://x.com/trq212/status/2120620900785820143
+
+**Aditya Agarwal（另一条）** — 分享与 Rox 从早期一路合作、并从 ishanmkh 学到「AI 节奏下运营公司」。 https://x.com/adityaag/status/2120623334555791504
+
+**Josh Woodward（Google Labs VP，Gemini）** — 表达对某 AI 工具的喜爱：「我们爱这个并日常用它构建，让应用更快更聪明」。 https://x.com/joshwoodward/status/2120622974277734716
+
+**Thibault Sottiaux（OpenAI Codex / ChatGPT）** — 「周四有种 codexy 的感觉」，暗示 Codex 相关发布在酝酿。 https://x.com/thsottiaux/status/2120410480204525936
+
+**Zara Zhang（Builder）** — 引用「技术只有等观众忘记技术本身，才完成最重要的工作」。 https://x.com/zarazhangrui/status/2120429971718156375
+
+**Peter Steinberger（OpenClaw / OpenAI）** — 对 OSS 被政治裹挟表示无奈：「OSS 本身就够难了，别再加政治。」 https://x.com/steipete/status/2120711266759258616
+
+**Claude（Anthropic 官方）** — 艺术家 Mariko Mori 用 Claude 写代码生成计算机动画，用于回顾展「All That Shines」的新影像装置。 https://x.com/claudeai/status/2120669165316915259
+
+**🎙️ 播客：《A New Vision for Human Work After Automation》（Every Podcast）** — Dan Shipper 在 Thesis 2027 的闭幕演讲全文。核心论点：预测未来有「聚合」（aggregate，收集数据外推趋势线）与「亲密」（intimate，zoom in 真实场景再外推）两条路径。聚合视角下 GDPval 曲线像要让人类工作归零，但亲密视角下能看到「人类的视角与责任骑在模型之上」。他一周内用 Claude 完成数据分析、做游戏、发现卖点、搭 CRM、发冷邮件（约等于 5 个人 + $200K 的工作）说明：当模型默认能力成为「地板」并分发给所有人，真正的 alpha 在于用独特的「视角＋责任」推动模型；「生成廉价、排序困难」，团队价值在于每个人负责世界的一小块、用各自视角排序筛选。他称之为 allocation economy，主张 AI 测评应从「共识问题做得好不好」转向「从我的视角做我的工作做得好不好」。 https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+
+### 💡 我的分析
+> 以下为分析与综合，非推文/播客原文事实。
+
+**今天最让我意外的是什么？** Amjad Masad 把黄仁勋的私人丑闻直接上升到「开源 vs 封闭 AI 控制权」的博弈框架——他质疑「为什么旧故事现在突然爆发、谁受益」，并点名「想推动 AI 封闭/集中/受控的人」以及中期选举、即将到来的 IPO。把一桩丑闻解读为「模型开源路线上的关键人物被定点清除」，这个视角比「名人翻车」本身更有冲击力。（分析，基于 Amjad 推文观点）
+
+**哪些趋势在加速？哪些在降温？**
+- **加速**：① AI 作为「科学加速器」——Aditya Agarwal 的 AI 前沿类公司（蛋白质工程、自免疫、毒液药物、半导体多物理场）正成为 SPC 等基金的关注重心，资本正从「让 AI 贴近工作」转向「让 AI 推进科学」；② 多模型供应商成为常态——Nikunj 数据显示 44% 公司列 2+ 模型商、Anthropic 增速两倍于 OpenAI，单一模型锁定正在瓦解。（分析，基于 Aditya/Nikunj 推文数据）
+- **降温**：单纯「模型能力曲线＝取代人类」的叙事。Dan Shipper 的「亲密 vs 聚合」、Rauch 的「仍需要人类专注与爱」，以及黄仁勋事件引发的「领导力与信任不可被模型替代」的讨论，都在把焦点从「跑分」拉回「人」。（分析，基于 Dan/Rauch 推文）
+
+**对创业者 / 开发者的 actionable 启发**
+1. **把「你的视角」当成护城河**：当默认模型输出成为地板，价值在于如何用独特视角和「对世界某一小块的责任」去推动模型、去排序筛选。别再只追求「接入更强模型」，要去定义「只有你能提出的那个问题」。（分析，源于 Dan 演讲）
+2. **做「模型无关」的推理/工具层**：Nikunj 的数据指向多供应商常态与推理层（modal 领先、typesafeai 爆款）。infra 侧的机会在「让任何模型都能被调度」的那一层，而非绑定单一模型。（分析，源于 Nikunj 数据）
+3. **别忽视「AI 前沿」赛道**：AI 加速科学发现（药物、材料、物理）才是模型驱动回报的大头，且外部关注度低、竞争不拥挤——对技术型创始人是被低估的机会窗口。（分析，源于 Aditya 推文）
+
+⚠️ File-mutation verifier: 1 file(s) were NOT modified this turn despite any wording above that may suggest otherwise. Run `git status` or `read_file` to confirm.
+  • `/tmp/fb-notion-write.py` — [write_file] Refusing to overwrite `/tmp/fb-notion-write.py`: `/private/tmp/fb-notion-write.py` was modified by sibling subagent 'cron:c8e25d6e74a3:cc180f1c53e3426b85b12e887f216657' but this agent…
+
+To stop or manage this job, send me a new message (e.g. "stop reminder AI Builders Digest 每日推送").

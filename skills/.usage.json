@@ -556,13 +556,13 @@
     "created_by": null,
     "last_patched_at": "2026-10-23T01:05:25.189109+00:00",
     "last_reused_patch_generation": 1,
-    "last_used_at": "2026-11-12T01:02:27.967637+00:00",
+    "last_used_at": "2026-11-14T15:56:47.266179+00:00",
     "last_viewed_at": "2026-11-12T01:02:27.966670+00:00",
     "patch_count": 35,
     "patch_generation": 1,
     "pinned": false,
     "state": "active",
-    "use_count": 256,
+    "use_count": 258,
     "view_count": 111
   },
   "frontend-design": {
@@ -655,14 +655,14 @@
     "created_by": null,
     "last_patched_at": "2026-06-29T12:10:29.930762+00:00",
     "last_reused_patch_generation": 0,
-    "last_used_at": "2026-11-11T20:01:23.558161+00:00",
-    "last_viewed_at": "2026-11-11T20:01:23.557062+00:00",
+    "last_used_at": "2026-11-14T15:56:52.758160+00:00",
+    "last_viewed_at": "2026-11-14T15:56:52.757115+00:00",
     "patch_count": 8,
     "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 52,
-    "view_count": 52
+    "use_count": 54,
+    "view_count": 54
   },
   "hermes-security-matrix": {
     "archived_at": null,
@@ -670,13 +670,13 @@
     "created_by": null,
     "last_patched_at": "2026-09-24T19:01:52.512760+00:00",
     "last_reused_patch_generation": 4,
-    "last_used_at": "2026-11-12T19:00:16.185851+00:00",
+    "last_used_at": "2026-11-14T15:56:47.264932+00:00",
     "last_viewed_at": "2026-10-22T19:01:39.510834+00:00",
     "patch_count": 7,
     "patch_generation": 4,
     "pinned": false,
     "state": "active",
-    "use_count": 183,
+    "use_count": 184,
     "view_count": 38
   },
   "himalaya": {
@@ -1070,14 +1070,14 @@
     "created_by": "agent",
     "last_patched_at": "2026-08-31T08:53:22.722753+00:00",
     "last_reused_patch_generation": 3,
-    "last_used_at": "2026-10-28T01:02:41.300208+00:00",
-    "last_viewed_at": "2026-10-28T01:02:41.297845+00:00",
+    "last_used_at": "2026-11-13T01:02:05.474651+00:00",
+    "last_viewed_at": "2026-11-13T01:02:05.473678+00:00",
     "patch_count": 3,
     "patch_generation": 3,
     "pinned": false,
     "state": "active",
-    "use_count": 25,
-    "view_count": 25
+    "use_count": 26,
+    "view_count": 26
   },
   "ocr-and-documents": {
     "archived_at": null,
